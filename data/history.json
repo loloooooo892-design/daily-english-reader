@@ -15,7 +15,11 @@
     "https://www.wired.com/story/all-the-ways-you-can-make-reading-easier-on-your-phone/",
     "https://www.newyorker.com/culture/photo-booth/a-celebrity-photographers-hidden-stash-of-polaroids",
     "https://www.eurogamer.net/marvel-tokon-fighting-souls-pc-beta-apology",
-    "https://reason.com/volokh/2026/07/21/ive-seen-fake-cites-on-both-sides-now-ii/"
+    "https://reason.com/volokh/2026/07/21/ive-seen-fake-cites-on-both-sides-now-ii/",
+    "https://longreads.com/2026/07/22/greece-rome-ancient-world/",
+    "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+    "https://reason.com/volokh/2026/07/22/odd-january-6-trial-follow-on-copying-experts-report-from-another-case-to-file-it-in-your-case-may-infringe-copyright/",
+    "https://www.eurogamer.net/what-sense-to-make-from-id-software-layoffs-microsoft-xbox"
   ],
   "categoryLog": [
     "fun",
@@ -24,7 +28,8 @@
     "law",
     "fun",
     "gaming",
-    "tech"
+    "tech",
+    "fun"
   ],
   "failures": {}
 }
