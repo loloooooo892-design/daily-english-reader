@@ -147,6 +147,11 @@ h1 {
   margin-bottom: 1.75rem;
 }
 
+.swap-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
 .swap-btn {
   font-family: inherit;
   font-size: 0.8125rem;
@@ -284,7 +289,10 @@ h1 {
   {{FEED_WARNING}}
 
   <div class="swap-bar" id="swap-bar" style="display:none">
-    <button class="swap-btn" id="swap-btn" onclick="nextArticle()">Next article</button>
+    <div class="swap-actions">
+      <button class="swap-btn" id="skip-btn" onclick="skipArticle()">Skip</button>
+      <button class="swap-btn swap-btn-next" id="swap-btn" onclick="nextArticle()">Next article →</button>
+    </div>
     <span class="swap-counter" id="swap-counter"></span>
   </div>
 
@@ -304,8 +312,8 @@ h1 {
 var articles = {{ARTICLES_JSON}};
 var currentIndex = 0;
 
-function render(idx) {
-  var a = articles[idx];
+function render() {
+  var a = articles[currentIndex];
   document.getElementById('category').textContent = a.categoryLabel;
   document.getElementById('source').textContent = a.source;
   document.getElementById('author-block').innerHTML = a.author
@@ -318,11 +326,12 @@ function render(idx) {
   document.getElementById('original-link').href = a.url;
   document.title = a.title + ' — Daily Reader';
 
-  var total = articles.length;
-  if (total > 1) {
-    document.getElementById('swap-bar').style.display = 'flex';
-    document.getElementById('swap-counter').textContent = (idx + 1) + ' / ' + total;
-    document.getElementById('swap-btn').disabled = (idx >= total - 1);
+  var hasMore = articles.length > 1;
+  document.getElementById('swap-bar').style.display = hasMore ? 'flex' : 'none';
+  if (hasMore) {
+    document.getElementById('swap-counter').textContent = (currentIndex + 1) + ' / ' + articles.length;
+    document.getElementById('swap-btn').disabled = (currentIndex >= articles.length - 1);
+    document.getElementById('skip-btn').disabled = (articles.length <= 1);
   }
   window.scrollTo(0, 0);
 }
@@ -330,8 +339,15 @@ function render(idx) {
 function nextArticle() {
   if (currentIndex < articles.length - 1) {
     currentIndex++;
-    render(currentIndex);
+    render();
   }
+}
+
+function skipArticle() {
+  if (articles.length <= 1) return;
+  articles.splice(currentIndex, 1);
+  if (currentIndex >= articles.length) currentIndex = articles.length - 1;
+  render();
 }
 
 function esc(s) {
@@ -340,7 +356,7 @@ function esc(s) {
   return d.innerHTML;
 }
 
-render(0);
+render();
 </script>
 </body>
 </html>

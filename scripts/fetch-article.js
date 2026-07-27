@@ -243,29 +243,18 @@ async function run() {
 
   console.log(`Primary category: ${primaryCategory}`);
 
-  // Collect from primary category
-  const primaryResults = await collectFromCategory(primaryCategory, feeds, history, articles, TARGET_ARTICLES);
-  articles.push(...primaryResults);
-  console.log(`\nGot ${primaryResults.length} from "${primaryCategory}"`);
+  // Collect 1 from primary, then 1 each from other categories
+  const categoryOrder = [primaryCategory, ...CATEGORIES.filter((c) => c !== primaryCategory).sort(() => Math.random() - 0.5)];
 
-  if (primaryResults.length === 0) {
-    failedCategories.push(primaryCategory);
-    history.failures[primaryCategory] = (history.failures[primaryCategory] || 0) + 1;
-  }
-
-  // Fill remaining slots from other categories
-  if (articles.length < TARGET_ARTICLES && !isTimedOut()) {
-    const others = CATEGORIES.filter((c) => c !== primaryCategory).sort(() => Math.random() - 0.5);
-    for (const cat of others) {
-      if (isTimedOut() || articles.length >= TARGET_ARTICLES) break;
-      console.log(`\nFilling from "${cat}"...`);
-      const more = await collectFromCategory(cat, feeds, history, articles, TARGET_ARTICLES - articles.length);
-      articles.push(...more);
-      console.log(`Got ${more.length} from "${cat}" (total: ${articles.length})`);
-      if (more.length === 0) {
-        failedCategories.push(cat);
-        history.failures[cat] = (history.failures[cat] || 0) + 1;
-      }
+  for (const cat of categoryOrder) {
+    if (isTimedOut() || articles.length >= TARGET_ARTICLES) break;
+    console.log(`\nCollecting from "${cat}"...`);
+    const results = await collectFromCategory(cat, feeds, history, articles, 1);
+    articles.push(...results);
+    console.log(`Got ${results.length} from "${cat}" (total: ${articles.length})`);
+    if (results.length === 0) {
+      failedCategories.push(cat);
+      history.failures[cat] = (history.failures[cat] || 0) + 1;
     }
   }
 
