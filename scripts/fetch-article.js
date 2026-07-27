@@ -156,11 +156,14 @@ function popFromBuffer(history) {
   return article;
 }
 
-async function tryCategory(category, feeds, history) {
+const TARGET_ARTICLES = 4;
+
+async function collectFromCategory(category, feeds, history, collected, max) {
   const categoryFeeds = feeds[category];
-  if (!categoryFeeds || categoryFeeds.length === 0) return null;
+  if (!categoryFeeds || categoryFeeds.length === 0) return [];
 
   const shuffled = [...categoryFeeds].sort(() => Math.random() - 0.5);
+  const collectedUrls = new Set(collected.map((a) => a.url));
 
   let allItems = [];
   for (const feed of shuffled) {
@@ -170,17 +173,15 @@ async function tryCategory(category, feeds, history) {
   }
 
   allItems = allItems
-    .filter((item) => !history.recent.includes(item.link))
+    .filter((item) => !history.recent.includes(item.link) && !collectedUrls.has(item.link))
     .sort(() => Math.random() - 0.5);
 
   console.log(`  Found ${allItems.length} candidates in "${category}"`);
 
+  const results = [];
   let relaxed = false;
   for (const item of allItems) {
-    if (isTimedOut()) {
-      console.log("  Approaching timeout, stopping search");
-      break;
-    }
+    if (isTimedOut() || results.length >= max) break;
 
     console.log(`  Trying: ${item.title} (${item.source})`);
     const article = await extractArticle(item.link);
@@ -195,7 +196,7 @@ async function tryCategory(category, feeds, history) {
       relaxed && article.wordCount >= MIN_WORDS * 0.6 && article.wordCount <= MAX_WORDS * 1.5;
 
     if (inRange || closeEnough) {
-      return {
+      results.push({
         title: article.title || item.title,
         source: item.source,
         author: article.author || null,
@@ -205,10 +206,11 @@ async function tryCategory(category, feeds, history) {
         wordCount: article.wordCount,
         content: article.content,
         fetchedAt: new Date().toISOString(),
-      };
+      });
+      collectedUrls.add(item.link);
+      continue;
     }
 
-    // Also buffer near-miss articles for later
     if (article.wordCount >= MIN_WORDS * 0.5 && article.wordCount <= MAX_WORDS * 2) {
       addToBuffer({
         title: article.title || item.title,
@@ -229,7 +231,7 @@ async function tryCategory(category, feeds, history) {
     }
   }
 
-  return null;
+  return results;
 }
 
 async function run() {
@@ -237,70 +239,74 @@ async function run() {
   const history = loadHistory();
   const primaryCategory = pickCategory(history);
   const failedCategories = [];
+  let articles = [];
 
   console.log(`Primary category: ${primaryCategory}`);
 
-  // Try primary category first
-  let result = await tryCategory(primaryCategory, feeds, history);
+  // Collect from primary category
+  const primaryResults = await collectFromCategory(primaryCategory, feeds, history, articles, TARGET_ARTICLES);
+  articles.push(...primaryResults);
+  console.log(`\nGot ${primaryResults.length} from "${primaryCategory}"`);
 
-  if (result) {
-    console.log(`\nSelected from primary: "${result.title}" (${result.wordCount} words)`);
-  } else {
-    console.log(`\nPrimary category "${primaryCategory}" failed, trying fallbacks...`);
+  if (primaryResults.length === 0) {
     failedCategories.push(primaryCategory);
     history.failures[primaryCategory] = (history.failures[primaryCategory] || 0) + 1;
+  }
 
-    // Record the attempt — counts toward the "at least once per week" rotation
-    history.categoryLog = [...history.categoryLog.slice(-13), primaryCategory];
-
-    // Try other categories
+  // Fill remaining slots from other categories
+  if (articles.length < TARGET_ARTICLES && !isTimedOut()) {
     const others = CATEGORIES.filter((c) => c !== primaryCategory).sort(() => Math.random() - 0.5);
-    for (const fallbackCat of others) {
-      if (isTimedOut()) break;
-      console.log(`Trying fallback category: ${fallbackCat}`);
-      result = await tryCategory(fallbackCat, feeds, history);
-      if (result) {
-        console.log(`\nSelected from fallback "${fallbackCat}": "${result.title}" (${result.wordCount} words)`);
-        break;
+    for (const cat of others) {
+      if (isTimedOut() || articles.length >= TARGET_ARTICLES) break;
+      console.log(`\nFilling from "${cat}"...`);
+      const more = await collectFromCategory(cat, feeds, history, articles, TARGET_ARTICLES - articles.length);
+      articles.push(...more);
+      console.log(`Got ${more.length} from "${cat}" (total: ${articles.length})`);
+      if (more.length === 0) {
+        failedCategories.push(cat);
+        history.failures[cat] = (history.failures[cat] || 0) + 1;
       }
-      failedCategories.push(fallbackCat);
-      history.failures[fallbackCat] = (history.failures[fallbackCat] || 0) + 1;
     }
   }
 
-  // If still nothing, use buffer
-  if (!result) {
-    console.log("\nAll categories failed, trying buffer...");
-    result = popFromBuffer(history);
-    if (result) {
-      result.fetchedAt = new Date().toISOString();
-      console.log(`\nUsed buffered article: "${result.title}"`);
+  // Supplement from buffer if still short
+  if (articles.length === 0) {
+    console.log("\nNo articles found, trying buffer...");
+    const buffered = popFromBuffer(history);
+    if (buffered) {
+      buffered.fetchedAt = new Date().toISOString();
+      articles.push(buffered);
+      console.log(`Used buffered: "${buffered.title}"`);
     }
   }
 
-  if (!result) {
+  if (articles.length === 0) {
     console.error("\nNo article found from any source or buffer.");
     process.exit(1);
   }
 
-  // Record failed categories for display
   if (failedCategories.length > 0) {
-    result.failedCategories = failedCategories;
+    articles[0].failedCategories = failedCategories;
   }
 
-  writeFileSync(ARTICLE_PATH, JSON.stringify(result, null, 2));
+  // Save all articles (array format)
+  writeFileSync(ARTICLE_PATH, JSON.stringify(articles, null, 2));
 
-  if (!failedCategories.includes(result.category)) {
-    history.categoryLog = [...history.categoryLog.slice(-13), result.category];
+  // Update history with all collected articles
+  history.categoryLog = [...history.categoryLog.slice(-13), primaryCategory];
+  for (const a of articles) {
+    history.recent = [...history.recent.slice(-50), a.url];
   }
-  history.recent = [...history.recent.slice(-30), result.url];
-  delete history.failures[result.category];
+  delete history.failures[primaryCategory];
   saveHistory(history);
 
-  // Fill buffer if it's low
+  console.log(`\nCollected ${articles.length} articles:`);
+  articles.forEach((a, i) => console.log(`  ${i + 1}. "${a.title}" (${a.wordCount}w, ${a.category})`));
+
+  // Fill buffer
   const currentBuffer = loadBuffer();
   if (currentBuffer.length < 3 && !isTimedOut()) {
-    console.log(`\nBuffer has ${currentBuffer.length} articles, filling...`);
+    console.log(`\nBuffer has ${currentBuffer.length}, filling...`);
     await fillBuffer(feeds, history);
   }
 

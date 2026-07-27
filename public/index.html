@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>South Korea urged to extend protections for women after appeal decision in abortion case exposes legal vacuum — Daily Reader</title>
+<title>Daily Reader</title>
 <style>
 :root {
   --bg: #F7F8FA;
@@ -17,6 +17,8 @@
   --warning-bg: #FFF8F0;
   --warning-border: #E8C88A;
   --warning-text: #8A6D3B;
+  --swap-bg: #EBEEF3;
+  --swap-bg-hover: #DDE2EA;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,6 +34,8 @@
     --warning-bg: #2A2518;
     --warning-border: #5C4A28;
     --warning-text: #D4B87A;
+    --swap-bg: #262B35;
+    --swap-bg-hover: #2F3543;
   }
 }
 
@@ -47,6 +51,8 @@
   --warning-bg: #2A2518;
   --warning-border: #5C4A28;
   --warning-text: #D4B87A;
+  --swap-bg: #262B35;
+  --swap-bg-hover: #2F3543;
 }
 
 :root[data-theme="light"] {
@@ -61,6 +67,8 @@
   --warning-bg: #FFF8F0;
   --warning-border: #E8C88A;
   --warning-text: #8A6D3B;
+  --swap-bg: #EBEEF3;
+  --swap-bg-hover: #DDE2EA;
 }
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -129,6 +137,44 @@ h1 {
   border-radius: 4px;
   padding: 0.6em 0.9em;
   margin-bottom: 1.75rem;
+}
+
+.swap-bar {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+}
+
+.swap-btn {
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--swap-bg);
+  border: none;
+  border-radius: 5px;
+  padding: 0.45em 0.9em;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  letter-spacing: 0.01em;
+}
+
+.swap-btn:hover {
+  background: var(--swap-bg-hover);
+  color: var(--text);
+}
+
+.swap-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.swap-counter {
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
 }
 
 .article-body p {
@@ -223,36 +269,78 @@ h1 {
 </head>
 <body>
 <main class="container">
-  <div class="meta">
-    <span class="category-tag">Law</span>
-    <span>Jurist</span>
-    
+  <div class="meta" id="meta">
+    <span class="category-tag" id="category"></span>
+    <span id="source"></span>
+    <span id="author-block"></span>
     <span class="sep">·</span>
-    <span>527 words</span>
+    <span id="word-count"></span>
     <span class="sep">·</span>
-    <span>3 min read</span>
+    <span id="reading-time"></span>
   </div>
 
-  <h1>South Korea urged to extend protections for women after appeal decision in abortion case exposes legal vacuum</h1>
+  <h1 id="title"></h1>
 
   
 
-  <article class="article-body">
-    <p>
-News</p>
-<strong>
-<a href="https://www.jurist.org/news/2026/07/south-korea-urged-to-extend-protections-for-women-after-appeal-decision-in-abortion-case-exposes-legal-vacuum/#" target="_blank" rel="noopener">South Korea urged to extend protections for women after appeal decision in abortion case exposes legal vacuum</a>
-</strong><p>On Thursday, Amnesty International <a href="https://www.amnesty.org/en/latest/news/2026/07/south-korea-appeal-decision-for-abortion-case-exposes-legal-vacuum/" target="_blank" rel="noopener">warned</a> that South Korea’s abortion framework did not go far enough to protect women’s reproductive health and rights. Amnesty International’s call for improved protections for women came in response to an appellate decision by the Seoul High Court that acquitted a 26-year-old woman who had been charged with murder, overturning an earlier conviction.</p><p>“While we welcome the court’s decision to acquit the woman who sought abortion, the court’s decision to uphold the convictions of medical staff exposes structural loopholes in access to essential healthcare in South Korea,” HeeKyong Cho, Amnesty International Korea’s executive director said in a statement.</p><p>The Seoul High Court’s decision acquitted Kwon, the 26-year-old woman charged with murder, <a href="https://en.sedaily.com/society/2026/07/23/mother-in-36-week-abortion-case-acquitted-on-appeal-doctors" target="_blank" rel="noopener">determining</a> that she did not know that a doctor would kill the fetus after it emerged alive from her body, and that she had only known that the fetus would be delivered stillborn from her womb. The overturned trial’s ruling, which had sentenced her to prison for three years, suspended for five years, had found that she had been willfully negligent regarding murder. <a href="https://www.straitstimes.com/asia/east-asia/south-korean-youtuber-indicted-with-murder-over-late-term-abortion-video?ref=more-on-this-topic" target="_blank" rel="noopener">According to prosecutors,</a> the fetus was allegedly born alive through a cesarean operation and later placed in a freezer, killing it. The director of the hospital and the operating surgeon were indicted for delivering the fetus and then killing it, and their sentences were reduced but not overturned. In June 2024, Kwon had documented her experience and hospitalization in a Youtube vlog which then went viral.</p><p>“The National Assembly’s failure to amend the abortion law has left pregnant people without clear legal protections and access to essential reproductive healthcare,” Cho said in a statement. Cho also called for the government to remove barriers to accessing safe abortion and amend the Mother and Child Health Act to “prioritize women’s sexual and reproductive health and rights.”</p><p>In 2019, South Korea’s Constitutional Court <a href="https://www.straitstimes.com/asia/east-asia/debate-reignites-in-south-korea-over-legalisation-of-abortion-pills" target="_blank" rel="noopener">overturned a ban on abortions</a>, ruling that criminalization of abortion was unconstitutional because it violated women’s right to bodily autonomy. The court ordered lawmakers to revise the law by the end of 2020. Though <a href="https://www.koreatimes.co.kr/southkorea/politics/20260719/abortion-legislation-returns-to-spotlight-after-7-year-limbo" target="_blank" rel="noopener">the government has yet to pass</a> replacement legislation defining when abortions are permitted, there are several bills pending in the National Assembly that seek to fill the legal vacuum left by the court’s 2019 ruling.</p><p>Amnesty International had <a href="https://www.amnesty.org/en/latest/news/2026/03/south-korea-conviction-of-woman-seeking-abortion-exposes-government-failure-to-guarantee-access-to-vital-healthcare/" target="_blank" rel="noopener">also commented on the case</a> when Kwon was initially convicted. In March, Sarah Brooks, Amnesty International’s Deputy Regional Director, said that the ruling had highlighted “the impossible position pregnant people and medical providers are placed in due to the ongoing legal vacuum surrounding abortion in South Korea.” Brooks had raised concerns that the lack of existing regulation may have restricted access to healthcare and pushed pregnant people towards exploitative and unregulated practices.</p><p>Abortion legislation also recently come into the public eye when President Lee Jae Myung <a href="https://www.koreatimes.co.kr/southkorea/politics/20260719/abortion-legislation-returns-to-spotlight-after-7-year-limbo" target="_blank" rel="noopener">called for loosened restrictions</a> on the abortion pill mifepristone. Without clear legislation, women seeking abortions often seek smuggled drugs on online forums or underground markets. In 2025, Myung’s government had included the legalization of abortion medication in its five-year national policy agenda.</p>
-  </article>
+  <div class="swap-bar" id="swap-bar" style="display:none">
+    <button class="swap-btn" id="swap-btn" onclick="nextArticle()">Next article</button>
+    <span class="swap-counter" id="swap-counter"></span>
+  </div>
+
+  <article class="article-body" id="article-body"></article>
 
   <footer class="footer">
     <span>Monday, July 27, 2026</span>
-    <a href="https://www.jurist.org/news/2026/07/south-korea-urged-to-extend-protections-for-women-after-appeal-decision-in-abortion-case-exposes-legal-vacuum/" target="_blank" rel="noopener">Read original ↗</a>
+    <a id="original-link" href="#" target="_blank" rel="noopener">Read original ↗</a>
   </footer>
 
   <div class="archive-link">
     <a href="archive.html">Archive</a>
   </div>
 </main>
+
+<script>
+var articles = [{"title":"Psychedelics Might Not Have Evolved to Get Humans High","source":"Nautilus","author":"","url":"https://nautil.us/psychedelics-might-not-have-evolved-to-get-humans-high-1283013/","category":"fun","categoryLabel":"Interesting Reads","wordCount":680,"readingTime":4,"content":"<p>Psychedelics get humans high. On this point, there is no question. For centuries, Indigenous shamans, the mystically inclined, and the neuro-curious have been ingesting the trippy stuff to incur strange visions and otherworldly flights. But why psychedelics evolved is less clear and remains the subject of strenuous debate.</p><p>Featured Video</p><p>Tiny amounts of DMT are naturally produced in the brains of humans and other mammals, which has led some neuroscientists and ethnobotanists to argue that hallucination may have some direct evolutionary or therapeutic benefit to humans, that the DMT is there to serve a special visionary or consciousness-related function, and that psychedelic plants may have co-evolved for human spiritual use.</p><p>But the authors of a <a href=\"https://www.pnas.org/doi/10.1073/pnas.2535785123\" target=\"_blank\" rel=\"noopener\">new study published</a> in <em>Proceedings of the National Academy of Sciences</em> argue that human hallucination is more likely just a side effect, and that psychedelics probably evolved as ecological tools, allowing various animals and plants to defend against predators and herbivores or to help manage symbiotic relationships. After all, hallucinogens like psilocybin, mescaline, and DMT are extremely common in the animal kingdom, appearing independently in numerous unrelated organisms such as mushrooms, cacti, toads, and sponges.</p><p>“Understanding why evolution produced these molecules doesn’t diminish their therapeutic value,” wrote study author Yibo Wang, a chemist at the Chinese Academy of Sciences, in an email. “Instead, it provides a deeper biological framework for discovering better medicines while promoting conservation and sustainable production.”</p><p><strong>Read more: “<a href=\"https://nautil.us/the-psychedelic-scientist-1254733\" target=\"_blank\" rel=\"noopener\">The Psychedelic Scientist</a>”</strong></p><p>Wang and his team propose that humans hallucinate when we ingest psychedelics because we share ancient brain chemistry with the creatures who were the original targets of the compounds, such as slugs, insects, and sea urchins. The receptors these compounds mess with—serotonin, opioid, and GABA receptors—are also found all over the animal kingdom. So the chemicals that scramble human perception may also deter snails from eating certain plants, the researchers suggest.</p><p>One known example of deterrence is the Sonoran desert toad, which pairs hallucinogenic tryptamines with heart-affecting steroids in their skin secretions to put off snakes, coyotes, owls, and hawks. The scientists also point out that examples of symbiosis by chemical manipulation exist in the plant kingdom: Caffeine is found in the nectar of many citrus flowers, for example, in doses sufficient to help the bees remember that flower better later.</p><p>Wang and his colleagues argue that the DMT found in the brains of humans and other mammals is likely there to help with stress response and cell protection rather than to support hallucination. “Psychedelic effects require much higher concentrations and exogenous administration, so they’re unlikely to represent DMT’s primary evolutionary function,” said Wang.</p><p>To test their hypothesis, they suggest experiments across genetic manipulation, field ecology, comparative neurobiology, and synthetic biology. One such experiment would involve knocking out genes that code for psilocybin compounds in certain fungi and comparing natural slug feeding in the knockout versus the wild mushrooms. “Advances in fungal genetics mean it’s now technically feasible, and we believe it should become one of the highest-priority experiments in the field,” said Wang.</p><p>If they’re correct, then therapeutic psychedelic research should focus on compounds that engage specific receptors already shown to have mental health benefits, rather than cast a wider net to look at all hallucinogenic compounds, said Wang and his colleagues. If psychedelic plants didn’t evolve in nature for human benefit, perhaps scientists could also shift their research focus from wild plants to synthetic production in a lab. Rising demand for some psychedelics like peyote is depleting slow-growing wild populations. Ethical sourcing and benefit-sharing with Indigenous communities could also help, the scientists write.</p><p>So are sea urchins hallucinating when they ingest psilocybin? “The hallucinogenic experience itself is probably a feature of relatively complex nervous systems,” said Wang.</p><p>He doesn’t rule it out, though. Sea urchin or shaman, the chemistry doesn’t care. Besides, even if tripping is just an evolutionary side effect, a lucky accident of human neurobiology, it will continue to leave its mark on our psyches and culture—and on our science. </p><p><em>Enjoying </em><a href=\"https://nautil.us/\" target=\"_blank\" rel=\"noopener\">Nautilus</a><em>? Subscribe to our free </em><a href=\"https://nautil.us/newsletter/?_sp=c43011db-6fcf-42f2-a38c-e033b87a4a1d.1759265717430\" target=\"_blank\" rel=\"noopener\"><em>newsletter</em></a>.</p><p><em>Lead image: Martina / Adobe Stock</em></p>"},{"title":"“The Window,” by Helen Phillips","source":"The New Yorker","author":"@NewYorker","url":"https://www.newyorker.com/books/flash-fiction/the-window","category":"fun","categoryLabel":"Interesting Reads","wordCount":1395,"readingTime":7,"content":"<p>When my daughter was on the cusp of the age when it was appropriate to leave her home alone, I left her home alone.</p><p>There were things I wanted to do. People I wanted to see. All that.</p><p>I had devoted so many years of my life to her.</p><p>She watched me put on my earrings. I remembered watching my mother put on her earrings.</p><p>I asked my daughter for advice about my outfit. She thought that the dress made my legs look short, but I decided to wear it anyway, and she shrugged, as though she weren’t wounded.</p><p>I asked to borrow her extra-glossy lip gloss. She ran downstairs to get it for me, placed it directly in my hand.</p><p>I left her with everything she could need, and more. I cut up fruits and vegetables and arranged them by color, like a rainbow. I left her bread, sliced cheese, cookies, nuts. There was ice cream in the freezer, and I told her that I trusted her to not make a mess, to give herself a reasonable portion. There was a tablet as well as a computer, and she had her special watch with which she could call and text me, and which I, in turn, could use to see precisely where she was, her coördinates on the globe. I had checked out a stack of books for her from the library. I had bought her favorite chips and placed them on the pillow of the single twin in her basement bedroom, a surprise for her to discover later. I had, undeniably, done so much.</p><p>I was also, undeniably, leaving her alone.</p><p>“How do you feel about being here alone?” I said.</p><p>“Fine,” she said, with her newfound inscrutability. I used to understand everything she said, but more and more I wasn’t sure. That “Fine” might have been an expression of vulnerability, a cry for help, or a stern judgment of me for abandoning her, or desperation for me to get out of her hair and aggravation that I hadn’t already left, or utter indifference to me, my presence or lack thereof. Or perhaps she was simply fine with the situation.</p><p>“You’ll be O.K.?” I said.</p><p>“Of course,” she said.</p><p>It was dusk when I closed the front door and locked it. I walked down the steps and looked back to check for her head. Whenever I left her with a babysitter, she would climb onto the couch in the living room so that she could watch me go, and I would be able to see the dark shape of her head all the way down the block until I turned at the graveyard. But, tonight, no head.</p><p>On the train, I felt radiant, untethered, my lips glossy enough to catch the light in the train car.</p><p>Only then did I remember that I had forgotten to pull down the window shade in her little basement bedroom, so, when the light beside her bed was on (she always fell asleep reading), she and all the objects in her room would be perfectly visible to anyone walking by. Her shelves, her forest-green comforter, her rug, her bowl of headbands. Her old cardboard fort, messy with duct tape and red marker, dismantled but still taking up space in the corner. (Whenever I tried to put it out with the recycling, she protested; she used to spend hours in that fort, scrawling on the walls, doodling monsters and other imaginary animals, communicating only by way of playing cards she slipped out to me between two flaps of cardboard—hearts equals water, spades equals Cheerios.)</p><p>Part of me wanted to go back to pull the shade, but that was irrational, I knew. Yes, pulling the shade was my nightly task, and she’d never think to do it, but already I was half an hour away from home. I would text her as soon as the train was above ground again and tell her to pull it herself.</p><p>The party was filled with heads. People I knew, or used to know. I talked to them. I said this and that. In one conversation, I presented myself with confidence and then worried that I had come off as boastful. In the next conversation, I presented myself with self-deprecation and then worried that I had come off as pathetic. My worries lessened as my alcohol intake increased. Eventually, I was hardly worried at all. I became gregarious and I felt that perhaps I had not given up so much with the choices I had made in my life. But then I went into the single-stall bathroom. There in the mirror was a woman with bloodshot eyes and a red-tipped nose, red-tipped ears. I realized, with a jolt, that I had forgotten to text her about pulling the shade.</p><p>In the park with my daughter two springs ago. An old picnic blanket. Midday, a pale April day, leaves emerging. A baby robin, literally. She lay down on the blanket, her head obscured by the brown paper bag I had used to carry the sandwiches, so that when she responded to my questions, I felt as though the brown paper bag was replying to me.</p><p>I stood at the sink and checked my phone. She was, of course, at home. The phone couldn’t tell me if she was scooping ice cream, or playing the bird game on the tablet, or getting ready for bed, but I knew her coördinates, which was enough. Stupidly, it took me a moment to note the time, well after midnight, and to realize that she was surely asleep. No use texting her now. Someone kept knocking on the bathroom door, so I dropped my phone into the bottom of my bag and stepped back out into the party, dizzy.</p><p>I felt quiet, subdued, as I walked the forgotten blocks back to my home. It was closer to dawn than to midnight. The streets slanted up toward the graveyard. It was one of those nights when the seasons make no sense, and I could have believed it was spring as easily as I could have believed it was fall, though in fact it was winter, a strangely warm nighttime breeze blowing scraps of litter and sheets of newspaper down the street.</p><p>I contained within myself certain conversations that I had experienced over the course of the evening, and I replayed them in my mind as I walked, wondering how accurately I recalled them, imagining edits that could have significantly improved my legibility to others.</p><p>But quickly I wearied of trying to conjure a better version of myself, and instead turned my imagination to the sight I knew awaited me at the top of the hill, across from the graveyard, a house all dark but for one window, a basement window radiating a golden rectangle out onto the sidewalk, and, within, the dazzling prize of my life, a child asleep in a small bed beneath a forest-green comforter, illuminated by a lamp balanced on a shelf, a book splayed open at her waist, a small bag of chips abandoned on the colorful rug, her slumber deep and ignorant of the strangers who could spy on it, strangers who might linger for a moment or longer, certain that there was an adult somewhere in the house yet unable to push away the distinct impression that this child was marooned here, alone, exposed in this little room on this windy street. When I reached her window, so soon now, I would pause outside, look tenderly on her, wonder if even my gaze on her sleep was a violation of sorts, before unlocking the door and going to the basement and pulling the shade.</p><p>I turned right onto our street, eager to see the golden rectangle.</p><p>But there was no golden rectangle.</p><p>So she had remembered to pull down her shade (thoughtful girl).</p><p>Or she had remembered to turn off her bedside lamp (as she never did).</p><p>Or.</p><p>Her room, dark. Our house, dark.</p><p>I broke into a run. I could have been mistaken for a thief.</p><p>I stopped in front of her window.</p><p>The window was blocked from the inside with a large piece of battered cardboard. On the cardboard, scrawled in red marker, a monster with jagged fangs and many eyes.</p><p>And, written in big red childish letters: <em>KEEP OUT</em>. ♦</p>"},{"title":"“Padam Padam” Separates the Party People from the Homebodies","source":"The New Yorker","author":"@NewYorker","url":"https://www.newyorker.com/culture/songs-of-summer/padam-padam-separates-the-party-people-from-the-homebodies","category":"fun","categoryLabel":"Interesting Reads","wordCount":635,"readingTime":4,"content":"<p>Are there two Americas, too many Americas, not enough? The plaint changes with the day. Identity is a serpentine target on the dance floor—a place where, in its most romantic evocation, how you catch a groove and to what says something about who you like to fuck and how. And if you haven’t danced lately (and, no, weddings don’t count) then <em>oof</em>.</p><p>Or maybe you’re straight—the kind of straight person who saw the club and its music as a means to the end we call marriage, coupledom. Some weeks ago, three married people and the pop singer Halsey, engaged since 2024, filmed themselves, for a podcast, having a depressing conversation about partying, during which the two men in the room—producer <a href=\"https://www.newyorker.com/magazine/2021/04/05/how-benny-blanco-cooks-up-good-vibes\" target=\"_blank\" rel=\"noopener\">Benny Blanco</a> and rapper <a href=\"https://www.newyorker.com/culture/on-television/the-vulgarity-and-vulnerability-of-dave\" target=\"_blank\" rel=\"noopener\">Lil Dicky</a>—confessed that their bygone participation in the activity was never in the interest of fun but in that of finding someone who would end their search for a partner to settle down with.</p><p>Last year, Blanco—credited with college-bar bangers such as 3OH!3’s “Want,” Katy Perry’s “Teenage Dream,” Kesha’s “Animal”-era catalogue, those Gym Class Heroes singles, “No Sleep” by Wiz Khalifa—married the artist and actress Selena Gomez. Blanco said that she asked him if he missed “the party life.” As relayed to the pod, Blanco answered in the negative. “The point of the party is to find you,” he said he told her. “The party’s over. I won the party.”</p><p>Not all straights agree, but I know my people. I live in the Midwest, a region that spawns homebodies aplenty. It’s that age-old aging-out adage: going out is for the immature and single, twinned conditions that can be escaped, if things go according to plan, before one’s twenties are out. Bemused pity is directed at those whose path deviates.</p><p>Seasonally, the internet bats around derision for party people of a certain age. “This is not your brat summer, you are 32, start a stretching routine,” the journalist Matthew Zeitlin posted on X a few years ago. It seems almost beyond remark that the author of said summer, Charli XCX, a self-described “365 party girl,” was turning thirty-two that August. On the same internet, a contingent crows about going “granny mode.” One America breaks off here. The comedian Jaboukie Young-White put it thusly in a recent interview he gave to the performer <a href=\"https://www.newyorker.com/magazine/2021/06/28/ziwe-is-trapped-in-an-interminable-dance-with-whiteness\" target=\"_blank\" rel=\"noopener\">Ziwe</a>: “I see straight discourse of people being, like, ‘Imagine being thirty-two in the club.’ And I’m, like, ‘Baby, we’re at the after afters.’ ”</p><p>Which explains those hits whose seeming ubiquity is only seeming—the solid, danceable pop music that barely penetrates the eardrums of those self-professed thirtysomething old folks. “Padam Padam,” from 2023, is one such hit, performed by Kylie Minogue, an Australian artist with lots of them. I feel a pang when discussion of an artist is led by their being slept on, but it must be said that Minogue, one of the most fabulous showgirls alive, beloved by the world at record-breaking levels, has never entirely caught on among Americans. (“Is it the relentlessly upbeat disco aesthetic that throws us off?” Sasha Frere-Jones <a href=\"https://www.newyorker.com/magazine/2009/10/12/minogue-nation\" target=\"_blank\" rel=\"noopener\">asked <em>New Yorker</em> readers</a> in 2009. “Is it the costume changes?”)</p><p>But not all Americans. There are grand pockets of this nation where merely knowing of Minogue is not enough, where the 2001 album “Fever,” whose nu-disco perfections did stick in the States, is just the shallow end. Minogue’s music “has become a hallmark of the gay club, even in its mass dilution in the 21st century as these spaces (justifiably) opened up to others,” the journalist Joan Summers wrote in <a href=\"https://www.jezebel.com/kylie-minogues-disco-yearns-for-the-touch-of-a-stranger-1845666471\" target=\"_blank\" rel=\"noopener\"><em>Jezebel</em></a>, in 2020. “Minogue understands that she rules over these club floors, and takes care in her position as dance commander to a legion of sweaty homosexuals.” Three summers ago, in 2023, the anthem on offer was “Padam Padam.”</p>"},{"title":"Sheila Heti on the Mystery of Lust","source":"The New Yorker","author":"@NewYorker","url":"https://www.newyorker.com/books/this-week-in-fiction/sheila-heti-08-03-26","category":"fun","categoryLabel":"Interesting Reads","wordCount":1284,"readingTime":7,"content":"<p><strong>The protagonist of this week’s story, “<a href=\"https://www.newyorker.com/magazine/2026/08/03/earthly-delights-fiction-sheila-heti\" target=\"_blank\" rel=\"noopener\">Earthly Delights</a>,” realizes, at the age of fifteen, that there’s a difference between wanting to be someone’s girlfriend and actually being that person’s girlfriend. Did you set out to explore that gulf in the story?</strong></p><p>No, the story was actually written for a magazine that commissioned me to write a piece for them about lust. They were doing a series on the seven deadly sins. I figured, since they wanted me to write a story about lust, they probably wanted a lot of sex in it, so I put in as much as I thought would fit the story. The editor replied with a very prim and terse e-mail, saying they were a “family publication” and were not interested in running the story as I had submitted it. I looked up the magazine—it turns out they were a Catholic publication, their board full of vicars and priests! You’d think they might have mentioned this in the e-mail they initially sent me. Or at least said they didn’t want me to depict sex in a story about lust.</p><p>Also, I think I maybe misread their e-mail and they actually wanted an essay.</p><p><strong>Some years later, at a New Year’s Eve party, the protagonist meets a man named Pier, with whom she feels an immediate connection—and it’s a connection that appears to be mutual—but nothing happens between them. In this case, her yearning for him seems as much carnal as romantic. How important was it to try to capture the corporeal quality of her desire?</strong></p><p>It was important! I think her desire for him is primarily physical, but bodies are mysterious; there’s a mystery in who we are attracted to, almost as much as there’s a mystery in why we love who we love. This morning, I was listening to a voice note a friend had left me last night, about how she was looking at this guy’s pictures on a dating app, and how much she loved looking at his face, and she said that if she liked looking at someone’s face for a long time she felt pretty sure she could have sex with him. That’s mysterious, too: why did she like <em>his</em> face, and not the hundreds of other ones? But, yes, of course, if you want to have sex with someone, the desire is at least somewhat a physical yearning. It’s funny to me that bodies are really who we are, and not just containers for who we are. So wanting someone’s body close is wanting <em>them</em> close.</p><p><strong>Eventually, the protagonist meets a man named Roy, with whom everything just feels right, and she spends the rest of her life with him. The story doesn’t delve into that happy relationship. Why did you want to make the description of it so fleeting?</strong></p><p>Well, I was trying to write a story about the onset of lust. The mystery of love and even lust in a long-term relationship is a completely different mystery than the mystery of a new and sudden lust, and deserves its own story. I didn’t want her lust to come out of any dissatisfaction in her long-term relationship, or even for any reason at all. It was a singular thing that had dropped into her life, seemingly from out of nowhere. The relationship also prevents her from acting on it, so I needed it in the story. I didn’t want the story to be a story of pursuit. I wanted to write about sublimation of lust. I think sublimation is one of the most interesting and most important things in life, at least if you’re trying to make art. To force an energy, that wants to go in one direction, into a completely other direction—I don’t know what life would be without this power.</p><p><strong>As we’re reading the story, we—and the protagonist—suddenly find that the setting has switched from Earth to Heaven and she’s now dead. It’s a surprise to the reader, but was it a decision you made before you started writing the story?</strong></p><p>It wasn’t. I think I just got bored of writing about her life on Earth, or didn’t have anything left to say about it. I was surprised when I wrote that line about God and the marble. I didn’t expect it, either.</p><p><strong>Soon afterward, Pier arrives in Heaven, too. Finally, the relationship is consummated. Did you have different scenarios in mind for how things might go? Or did you want any possible complications to arise because of the “pretty incredible” nature of this first encounter?</strong></p><p>I mean, I wrote the story pretty quickly (I always write quickly—I taught myself to write to the beat of a fast metronome), so I guess it was just intuitive: the sex would be good, because they were in Heaven. Complications are for Earth, not Heaven. And Heaven is Heaven, but it’s also a fantasy, and I think the point of fantasy is that it doesn’t have the complications of life.</p><p><strong>On Earth, the possibility of romance seems to go hand in hand with talk of it with friends. In Heaven, the only third parties appear to be a silent tidier-upper and God. What’s lost when there’s no one to gossip with? And is God any help?</strong></p><p>I think half the fun of anything in life is talking about it with one’s friends, so what’s lost is maybe half of the fun. God isn’t really a friend, or at least not a friend like a friend is a friend, because God has different experiences than a person, if God has experiences at all. The person who it’s fun to gossip with is the one who’s lived similar things as you, and, like you, is also trying to understand everything. It’s not fun to gossip with someone who’s not trying to understand anything, who doesn’t want to figure out everyone’s personality. I guess what’s lost is the fun game of trying to figure things out.</p><p><strong>Last year, we ran your story “<a href=\"https://www.newyorker.com/magazine/2025/01/27/the-st-alwynn-girls-at-sea-fiction-sheila-heti\" target=\"_blank\" rel=\"noopener\">The St. Alwynn Girls at Sea</a>,” about a girls’ school that had taken to the high seas at a time of war. You’ve now expanded this into <a href=\"https://www.amazon.com/dp/0374603979\" target=\"_blank\" rel=\"noopener\">a novel</a>, which will be published by F.S.G. next April. Were you expecting to do this when you first started work on the story? Does “Earthly Delights,” with its tracing of a teen-age girl’s mind, feel like a companion piece in any way to the novel?</strong></p><p>I didn’t think it was going to be a novel when I sent you the story. Maybe it was in my mind a little bit. I can’t remember. Anyway, it turned out there was more to the story, or I decided to make more of it. I’m not sure if “Earthly Delights” connects to that story in the way you suggest—because both contain teen-age experiences. However, I do think they’re connected, in that they seem to be coming from a new impulse in me, which is to use my imagination more and step away from the facts of my real life. I feel very free these days, in my writing. I don’t know how long it will last, but since abandoning (for now, anyway) my A.I. book (you published my story “<a href=\"https://www.newyorker.com/magazine/2023/11/20/according-to-alice-fiction-sheila-heti\" target=\"_blank\" rel=\"noopener\">According to Alice</a>,” which was part of that project), and since publishing my book “<a href=\"https://www.amazon.com/Alphabetical-Diaries-Sheila-Heti/dp/1250371732/\" target=\"_blank\" rel=\"noopener\">Alphabetical Diaries</a>” something has changed. Both of those books, which were very precise editing projects, didn’t allow me to write anything new—or, in the case of the A.I. book, anything at all. It feels like I was bottled up for years and years. So it’s been a nice time, lately, writing-wise. I hope it lasts forever. ♦</p>"}];
+var currentIndex = 0;
+
+function render(idx) {
+  var a = articles[idx];
+  document.getElementById('category').textContent = a.categoryLabel;
+  document.getElementById('source').textContent = a.source;
+  document.getElementById('author-block').innerHTML = a.author
+    ? '<span class="sep">·</span><span>' + esc(a.author) + '</span>'
+    : '';
+  document.getElementById('word-count').textContent = a.wordCount + ' words';
+  document.getElementById('reading-time').textContent = a.readingTime + ' min read';
+  document.getElementById('title').textContent = a.title;
+  document.getElementById('article-body').innerHTML = a.content;
+  document.getElementById('original-link').href = a.url;
+  document.title = a.title + ' — Daily Reader';
+
+  var total = articles.length;
+  if (total > 1) {
+    document.getElementById('swap-bar').style.display = 'flex';
+    document.getElementById('swap-counter').textContent = (idx + 1) + ' / ' + total;
+    document.getElementById('swap-btn').disabled = (idx >= total - 1);
+  }
+  window.scrollTo(0, 0);
+}
+
+function nextArticle() {
+  if (currentIndex < articles.length - 1) {
+    currentIndex++;
+    render(currentIndex);
+  }
+}
+
+function esc(s) {
+  var d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+render(0);
+</script>
 </body>
 </html>

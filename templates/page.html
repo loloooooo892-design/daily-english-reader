@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{TITLE}} — Daily Reader</title>
+<title>Daily Reader</title>
 <style>
 :root {
   --bg: #F7F8FA;
@@ -17,6 +17,8 @@
   --warning-bg: #FFF8F0;
   --warning-border: #E8C88A;
   --warning-text: #8A6D3B;
+  --swap-bg: #EBEEF3;
+  --swap-bg-hover: #DDE2EA;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,6 +34,8 @@
     --warning-bg: #2A2518;
     --warning-border: #5C4A28;
     --warning-text: #D4B87A;
+    --swap-bg: #262B35;
+    --swap-bg-hover: #2F3543;
   }
 }
 
@@ -47,6 +51,8 @@
   --warning-bg: #2A2518;
   --warning-border: #5C4A28;
   --warning-text: #D4B87A;
+  --swap-bg: #262B35;
+  --swap-bg-hover: #2F3543;
 }
 
 :root[data-theme="light"] {
@@ -61,6 +67,8 @@
   --warning-bg: #FFF8F0;
   --warning-border: #E8C88A;
   --warning-text: #8A6D3B;
+  --swap-bg: #EBEEF3;
+  --swap-bg-hover: #DDE2EA;
 }
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -129,6 +137,44 @@ h1 {
   border-radius: 4px;
   padding: 0.6em 0.9em;
   margin-bottom: 1.75rem;
+}
+
+.swap-bar {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+}
+
+.swap-btn {
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--swap-bg);
+  border: none;
+  border-radius: 5px;
+  padding: 0.45em 0.9em;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  letter-spacing: 0.01em;
+}
+
+.swap-btn:hover {
+  background: var(--swap-bg-hover);
+  color: var(--text);
+}
+
+.swap-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.swap-counter {
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
 }
 
 .article-body p {
@@ -223,32 +269,78 @@ h1 {
 </head>
 <body>
 <main class="container">
-  <div class="meta">
-    <span class="category-tag">{{CATEGORY}}</span>
-    <span>{{SOURCE}}</span>
-    {{AUTHOR_BLOCK}}
+  <div class="meta" id="meta">
+    <span class="category-tag" id="category"></span>
+    <span id="source"></span>
+    <span id="author-block"></span>
     <span class="sep">·</span>
-    <span>{{WORD_COUNT}} words</span>
+    <span id="word-count"></span>
     <span class="sep">·</span>
-    <span>{{READING_TIME}} min read</span>
+    <span id="reading-time"></span>
   </div>
 
-  <h1>{{TITLE}}</h1>
+  <h1 id="title"></h1>
 
   {{FEED_WARNING}}
 
-  <article class="article-body">
-    {{CONTENT}}
-  </article>
+  <div class="swap-bar" id="swap-bar" style="display:none">
+    <button class="swap-btn" id="swap-btn" onclick="nextArticle()">Next article</button>
+    <span class="swap-counter" id="swap-counter"></span>
+  </div>
+
+  <article class="article-body" id="article-body"></article>
 
   <footer class="footer">
     <span>{{DATE}}</span>
-    <a href="{{ORIGINAL_URL}}" target="_blank" rel="noopener">Read original ↗</a>
+    <a id="original-link" href="#" target="_blank" rel="noopener">Read original ↗</a>
   </footer>
 
   <div class="archive-link">
     <a href="archive.html">Archive</a>
   </div>
 </main>
+
+<script>
+var articles = {{ARTICLES_JSON}};
+var currentIndex = 0;
+
+function render(idx) {
+  var a = articles[idx];
+  document.getElementById('category').textContent = a.categoryLabel;
+  document.getElementById('source').textContent = a.source;
+  document.getElementById('author-block').innerHTML = a.author
+    ? '<span class="sep">·</span><span>' + esc(a.author) + '</span>'
+    : '';
+  document.getElementById('word-count').textContent = a.wordCount + ' words';
+  document.getElementById('reading-time').textContent = a.readingTime + ' min read';
+  document.getElementById('title').textContent = a.title;
+  document.getElementById('article-body').innerHTML = a.content;
+  document.getElementById('original-link').href = a.url;
+  document.title = a.title + ' — Daily Reader';
+
+  var total = articles.length;
+  if (total > 1) {
+    document.getElementById('swap-bar').style.display = 'flex';
+    document.getElementById('swap-counter').textContent = (idx + 1) + ' / ' + total;
+    document.getElementById('swap-btn').disabled = (idx >= total - 1);
+  }
+  window.scrollTo(0, 0);
+}
+
+function nextArticle() {
+  if (currentIndex < articles.length - 1) {
+    currentIndex++;
+    render(currentIndex);
+  }
+}
+
+function esc(s) {
+  var d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+render(0);
+</script>
 </body>
 </html>

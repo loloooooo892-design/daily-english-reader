@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>“The Window,” by Helen Phillips — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>1395 words</span>
+    <span class="sep">·</span>
+    <span>7 min read</span>
+  </div>
+
+  <h1>“The Window,” by Helen Phillips</h1>
+
+  <article class="article-body">
+    <p>When my daughter was on the cusp of the age when it was appropriate to leave her home alone, I left her home alone.</p><p>There were things I wanted to do. People I wanted to see. All that.</p><p>I had devoted so many years of my life to her.</p><p>She watched me put on my earrings. I remembered watching my mother put on her earrings.</p><p>I asked my daughter for advice about my outfit. She thought that the dress made my legs look short, but I decided to wear it anyway, and she shrugged, as though she weren’t wounded.</p><p>I asked to borrow her extra-glossy lip gloss. She ran downstairs to get it for me, placed it directly in my hand.</p><p>I left her with everything she could need, and more. I cut up fruits and vegetables and arranged them by color, like a rainbow. I left her bread, sliced cheese, cookies, nuts. There was ice cream in the freezer, and I told her that I trusted her to not make a mess, to give herself a reasonable portion. There was a tablet as well as a computer, and she had her special watch with which she could call and text me, and which I, in turn, could use to see precisely where she was, her coördinates on the globe. I had checked out a stack of books for her from the library. I had bought her favorite chips and placed them on the pillow of the single twin in her basement bedroom, a surprise for her to discover later. I had, undeniably, done so much.</p><p>I was also, undeniably, leaving her alone.</p><p>“How do you feel about being here alone?” I said.</p><p>“Fine,” she said, with her newfound inscrutability. I used to understand everything she said, but more and more I wasn’t sure. That “Fine” might have been an expression of vulnerability, a cry for help, or a stern judgment of me for abandoning her, or desperation for me to get out of her hair and aggravation that I hadn’t already left, or utter indifference to me, my presence or lack thereof. Or perhaps she was simply fine with the situation.</p><p>“You’ll be O.K.?” I said.</p><p>“Of course,” she said.</p><p>It was dusk when I closed the front door and locked it. I walked down the steps and looked back to check for her head. Whenever I left her with a babysitter, she would climb onto the couch in the living room so that she could watch me go, and I would be able to see the dark shape of her head all the way down the block until I turned at the graveyard. But, tonight, no head.</p><p>On the train, I felt radiant, untethered, my lips glossy enough to catch the light in the train car.</p><p>Only then did I remember that I had forgotten to pull down the window shade in her little basement bedroom, so, when the light beside her bed was on (she always fell asleep reading), she and all the objects in her room would be perfectly visible to anyone walking by. Her shelves, her forest-green comforter, her rug, her bowl of headbands. Her old cardboard fort, messy with duct tape and red marker, dismantled but still taking up space in the corner. (Whenever I tried to put it out with the recycling, she protested; she used to spend hours in that fort, scrawling on the walls, doodling monsters and other imaginary animals, communicating only by way of playing cards she slipped out to me between two flaps of cardboard—hearts equals water, spades equals Cheerios.)</p><p>Part of me wanted to go back to pull the shade, but that was irrational, I knew. Yes, pulling the shade was my nightly task, and she’d never think to do it, but already I was half an hour away from home. I would text her as soon as the train was above ground again and tell her to pull it herself.</p><p>The party was filled with heads. People I knew, or used to know. I talked to them. I said this and that. In one conversation, I presented myself with confidence and then worried that I had come off as boastful. In the next conversation, I presented myself with self-deprecation and then worried that I had come off as pathetic. My worries lessened as my alcohol intake increased. Eventually, I was hardly worried at all. I became gregarious and I felt that perhaps I had not given up so much with the choices I had made in my life. But then I went into the single-stall bathroom. There in the mirror was a woman with bloodshot eyes and a red-tipped nose, red-tipped ears. I realized, with a jolt, that I had forgotten to text her about pulling the shade.</p><p>In the park with my daughter two springs ago. An old picnic blanket. Midday, a pale April day, leaves emerging. A baby robin, literally. She lay down on the blanket, her head obscured by the brown paper bag I had used to carry the sandwiches, so that when she responded to my questions, I felt as though the brown paper bag was replying to me.</p><p>I stood at the sink and checked my phone. She was, of course, at home. The phone couldn’t tell me if she was scooping ice cream, or playing the bird game on the tablet, or getting ready for bed, but I knew her coördinates, which was enough. Stupidly, it took me a moment to note the time, well after midnight, and to realize that she was surely asleep. No use texting her now. Someone kept knocking on the bathroom door, so I dropped my phone into the bottom of my bag and stepped back out into the party, dizzy.</p><p>I felt quiet, subdued, as I walked the forgotten blocks back to my home. It was closer to dawn than to midnight. The streets slanted up toward the graveyard. It was one of those nights when the seasons make no sense, and I could have believed it was spring as easily as I could have believed it was fall, though in fact it was winter, a strangely warm nighttime breeze blowing scraps of litter and sheets of newspaper down the street.</p><p>I contained within myself certain conversations that I had experienced over the course of the evening, and I replayed them in my mind as I walked, wondering how accurately I recalled them, imagining edits that could have significantly improved my legibility to others.</p><p>But quickly I wearied of trying to conjure a better version of myself, and instead turned my imagination to the sight I knew awaited me at the top of the hill, across from the graveyard, a house all dark but for one window, a basement window radiating a golden rectangle out onto the sidewalk, and, within, the dazzling prize of my life, a child asleep in a small bed beneath a forest-green comforter, illuminated by a lamp balanced on a shelf, a book splayed open at her waist, a small bag of chips abandoned on the colorful rug, her slumber deep and ignorant of the strangers who could spy on it, strangers who might linger for a moment or longer, certain that there was an adult somewhere in the house yet unable to push away the distinct impression that this child was marooned here, alone, exposed in this little room on this windy street. When I reached her window, so soon now, I would pause outside, look tenderly on her, wonder if even my gaze on her sleep was a violation of sorts, before unlocking the door and going to the basement and pulling the shade.</p><p>I turned right onto our street, eager to see the golden rectangle.</p><p>But there was no golden rectangle.</p><p>So she had remembered to pull down her shade (thoughtful girl).</p><p>Or she had remembered to turn off her bedside lamp (as she never did).</p><p>Or.</p><p>Her room, dark. Our house, dark.</p><p>I broke into a run. I could have been mistaken for a thief.</p><p>I stopped in front of her window.</p><p>The window was blocked from the inside with a large piece of battered cardboard. On the cardboard, scrawled in red marker, a monster with jagged fangs and many eyes.</p><p>And, written in big red childish letters: <em>KEEP OUT</em>. ♦</p>
+  </article>
+
+  <footer class="footer">
+    <span>Monday, July 27, 2026</span>
+    <a href="https://www.newyorker.com/books/flash-fiction/the-window" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>

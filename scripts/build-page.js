@@ -15,18 +15,10 @@ if (!existsSync(ARTICLE_PATH)) {
   process.exit(1);
 }
 
-const article = JSON.parse(readFileSync(ARTICLE_PATH, "utf-8"));
+const raw = JSON.parse(readFileSync(ARTICLE_PATH, "utf-8"));
+const articles = Array.isArray(raw) ? raw : [raw];
 const pageTemplate = readFileSync(PAGE_TEMPLATE_PATH, "utf-8");
 const archiveTemplate = readFileSync(ARCHIVE_TEMPLATE_PATH, "utf-8");
-
-const date = new Date(article.fetchedAt);
-const dateStr = date.toLocaleDateString("en-US", {
-  weekday: "long",
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-});
-const dateSlug = date.toISOString().slice(0, 10);
 
 const categoryLabels = {
   tech: "Technology",
@@ -35,64 +27,96 @@ const categoryLabels = {
   fun: "Interesting Reads",
 };
 
-// Build feed warning HTML
+const date = new Date(articles[0].fetchedAt);
+const dateStr = date.toLocaleDateString("en-US", {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+const dateSlug = date.toISOString().slice(0, 10);
+
 let feedWarning = "";
-if (article.failedCategories && article.failedCategories.length > 0) {
-  const names = article.failedCategories.map((c) => categoryLabels[c] || c).join(", ");
-  feedWarning = `<div class="feed-warning">Some sources need attention: ${escapeHtml(names)} feeds failed to return articles. Consider checking the RSS sources.</div>`;
+if (articles[0].failedCategories && articles[0].failedCategories.length > 0) {
+  const names = articles[0].failedCategories.map((c) => categoryLabels[c] || c).join(", ");
+  feedWarning = `<div class="feed-warning">Some sources need attention: ${escapeHtml(names)} feeds failed to return articles.</div>`;
 }
 
-// Build main page
-const html = pageTemplate
-  .replaceAll("{{TITLE}}", escapeHtml(article.title))
-  .replaceAll("{{SOURCE}}", escapeHtml(article.source))
-  .replaceAll("{{AUTHOR}}", article.author ? escapeHtml(article.author) : "")
-  .replaceAll("{{AUTHOR_BLOCK}}", article.author ? `<span class="sep">·</span><span>${escapeHtml(article.author)}</span>` : "")
-  .replaceAll("{{DATE}}", dateStr)
-  .replaceAll("{{CATEGORY}}", categoryLabels[article.category] || article.category)
-  .replaceAll("{{WORD_COUNT}}", article.wordCount.toString())
-  .replaceAll("{{READING_TIME}}", Math.ceil(article.wordCount / 200).toString())
-  .replaceAll("{{CONTENT}}", article.content)
-  .replaceAll("{{ORIGINAL_URL}}", escapeHtml(article.url))
-  .replaceAll("{{FEED_WARNING}}", feedWarning);
+// Build article sections for embedding
+const articleDataForPage = articles.map((a) => ({
+  title: a.title,
+  source: a.source,
+  author: a.author || "",
+  url: a.url,
+  category: a.category,
+  categoryLabel: categoryLabels[a.category] || a.category,
+  wordCount: a.wordCount,
+  readingTime: Math.ceil(a.wordCount / 200),
+  content: a.content,
+}));
 
-// Write main index page
+const html = pageTemplate
+  .replaceAll("{{DATE}}", dateStr)
+  .replaceAll("{{FEED_WARNING}}", feedWarning)
+  .replaceAll("{{ARTICLES_JSON}}", JSON.stringify(articleDataForPage))
+  .replaceAll("{{TOTAL_ARTICLES}}", articles.length.toString());
+
 mkdirSync(PUBLIC_DIR, { recursive: true });
 writeFileSync(join(PUBLIC_DIR, "index.html"), html);
-console.log(`Built: public/index.html — "${article.title}"`);
+console.log(`Built: public/index.html — ${articles.length} articles`);
 
-// Write date-specific archive page
+// Write archive pages for each article
 const archiveDir = join(PUBLIC_DIR, "archive");
 mkdirSync(archiveDir, { recursive: true });
-const datePage = html
-  .replace('href="archive.html"', 'href="../archive.html"');
-writeFileSync(join(archiveDir, `${dateSlug}.html`), datePage);
-console.log(`Built: public/archive/${dateSlug}.html`);
 
-// Update archive index
-const archive = loadArchive();
-const entry = {
-  date: dateSlug,
-  title: article.title,
-  source: article.source,
-  category: article.category,
-  wordCount: article.wordCount,
-};
+const archive = loadArchive().map((e) => {
+  if (!e.slug) e.slug = e.date;
+  return e;
+});
 
-if (!archive.some((e) => e.date === dateSlug)) {
-  archive.push(entry);
-} else {
-  const idx = archive.findIndex((e) => e.date === dateSlug);
-  archive[idx] = entry;
+for (let i = 0; i < articles.length; i++) {
+  const a = articles[i];
+  const slug = i === 0 ? dateSlug : `${dateSlug}-${i + 1}`;
+  const singleHtml = buildSingleArticlePage(a);
+  const archivePage = singleHtml.replace('href="archive.html"', 'href="../archive.html"');
+  writeFileSync(join(archiveDir, `${slug}.html`), archivePage);
+
+  const entry = {
+    date: dateSlug,
+    slug,
+    title: a.title,
+    source: a.source,
+    category: a.category,
+    wordCount: a.wordCount,
+  };
+  const existingIdx = archive.findIndex((e) => e.slug === slug);
+  if (existingIdx >= 0) {
+    archive[existingIdx] = entry;
+  } else {
+    archive.push(entry);
+  }
 }
 
-archive.sort((a, b) => b.date.localeCompare(a.date));
+archive.sort((a, b) => b.slug.localeCompare(a.slug));
 saveArchive(archive);
 
-// Build archive HTML
 const archiveHtml = buildArchiveHtml(archive);
 writeFileSync(join(PUBLIC_DIR, "archive.html"), archiveHtml);
 console.log(`Built: public/archive.html (${archive.length} entries)`);
+
+function buildSingleArticlePage(article) {
+  const singleTemplate = readFileSync(join(ROOT, "templates", "single.html"), "utf-8");
+  return singleTemplate
+    .replaceAll("{{TITLE}}", escapeHtml(article.title))
+    .replaceAll("{{SOURCE}}", escapeHtml(article.source))
+    .replaceAll("{{AUTHOR_BLOCK}}", article.author ? `<span class="sep">·</span><span>${escapeHtml(article.author)}</span>` : "")
+    .replaceAll("{{DATE}}", dateStr)
+    .replaceAll("{{CATEGORY}}", categoryLabels[article.category] || article.category)
+    .replaceAll("{{WORD_COUNT}}", article.wordCount.toString())
+    .replaceAll("{{READING_TIME}}", Math.ceil(article.wordCount / 200).toString())
+    .replaceAll("{{CONTENT}}", article.content)
+    .replaceAll("{{ORIGINAL_URL}}", escapeHtml(article.url));
+}
 
 function loadArchive() {
   if (!existsSync(ARCHIVE_DATA_PATH)) return [];
@@ -127,8 +151,8 @@ function buildArchiveHtml(archive) {
     for (const entry of group.entries) {
       const day = new Date(entry.date + "T00:00:00").getDate();
       const cat = categoryLabels[entry.category] || entry.category;
-      entriesHtml += `  <a href="archive/${entry.date}.html" class="entry">\n`;
-      entriesHtml += `    <span class="entry-date">${String(day).padStart(2, " ")}</span>\n`;
+      entriesHtml += `  <a href="archive/${entry.slug}.html" class="entry">\n`;
+      entriesHtml += `    <span class="entry-date">${String(day).padStart(2, " ")}</span>\n`;
       entriesHtml += `    <span class="entry-title">${escapeHtml(entry.title)}</span>\n`;
       entriesHtml += `    <span class="entry-category">${escapeHtml(cat)}</span>\n`;
       entriesHtml += `    <span class="entry-source">${escapeHtml(entry.source)}</span>\n`;
