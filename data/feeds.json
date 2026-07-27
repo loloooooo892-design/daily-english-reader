@@ -1,0 +1,28 @@
+{
+  "tech": [
+    { "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/features" },
+    { "name": "The Verge", "url": "https://www.theverge.com/rss/index.xml" },
+    { "name": "Wired", "url": "https://www.wired.com/feed/rss" },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/feed/" },
+    { "name": "Hacker News Best", "url": "https://hnrss.org/best" }
+  ],
+  "law": [
+    { "name": "SCOTUSblog", "url": "https://www.scotusblog.com/feed/" },
+    { "name": "Harvard Law Review Blog", "url": "https://harvardlawreview.org/feed/" },
+    { "name": "Jurist", "url": "https://www.jurist.org/news/feed/" },
+    { "name": "The Volokh Conspiracy", "url": "https://reason.com/volokh/feed/" }
+  ],
+  "gaming": [
+    { "name": "PC Gamer", "url": "https://www.pcgamer.com/rss/" },
+    { "name": "Polygon", "url": "https://www.polygon.com/rss/index.xml" },
+    { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/feed" },
+    { "name": "Eurogamer", "url": "https://www.eurogamer.net/feed" }
+  ],
+  "fun": [
+    { "name": "Atlas Obscura", "url": "https://www.atlasobscura.com/feeds/latest" },
+    { "name": "Aeon", "url": "https://aeon.co/feed.rss" },
+    { "name": "Nautilus", "url": "https://nautil.us/feed/" },
+    { "name": "The New Yorker", "url": "https://www.newyorker.com/feed/everything" },
+    { "name": "Longreads", "url": "https://longreads.com/feed/" }
+  ]
+}

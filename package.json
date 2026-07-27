@@ -1,0 +1,15 @@
+{
+  "name": "daily-english-reader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-article.js",
+    "build": "node scripts/build-page.js",
+    "daily": "npm run fetch && npm run build"
+  },
+  "dependencies": {
+    "@extractus/article-extractor": "^8.0.0",
+    "rss-parser": "^3.13.0"
+  }
+}
