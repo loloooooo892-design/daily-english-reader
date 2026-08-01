@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/books/flash-fiction/the-window",
-    "https://www.newyorker.com/culture/songs-of-summer/padam-padam-separates-the-party-people-from-the-homebodies",
-    "https://www.newyorker.com/books/this-week-in-fiction/sheila-heti-08-03-26",
-    "https://www.pcgamer.com/games/action/tomb-raider-catalyst-delayed-to-2028/",
     "https://www.newyorker.com/magazine/2026/08/03/i-want-your-sex-movie-review",
     "https://reason.com/volokh/2026/07/21/cant-ban-parent-from-school-property-for-mean-and-demeaning-posts-about-opposing-student-athletes/",
     "https://www.wired.com/gallery/best-magsafe-wallets/",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
     "https://www.jurist.org/news/2026/07/hrw-report-says-oil-production-in-drc-poses-severe-environmental-health-risks/",
     "https://www.pcgamer.com/games/adventure/thimbleweed-park-2-is-not-really-a-sequel-not-really-a-prequel-but-it-is-finally-happening/",
-    "https://www.newyorker.com/news/postscript/glen-hansards-street-corner-stories"
+    "https://www.newyorker.com/news/postscript/glen-hansards-street-corner-stories",
+    "https://harvardlawreview.org/print/vol-139/aggregation-and-the-universal-injunction/",
+    "https://openai.com/index/ten-advances-in-mathematics/",
+    "https://www.polygon.com/halo-campaign-evolved-ending-explained-post-credits/",
+    "https://www.newyorker.com/humor/shouts-murmurs/bari-weiss-is-on-it"
   ],
   "categoryLog": [
-    "law",
     "fun",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "fun",
     "tech",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
