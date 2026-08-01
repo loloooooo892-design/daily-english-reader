@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/08/03/i-want-your-sex-movie-review",
-    "https://reason.com/volokh/2026/07/21/cant-ban-parent-from-school-property-for-mean-and-demeaning-posts-about-opposing-student-athletes/",
-    "https://www.wired.com/gallery/best-magsafe-wallets/",
-    "https://www.wired.com/story/all-the-ways-you-can-make-reading-easier-on-your-phone/",
     "https://www.newyorker.com/culture/photo-booth/a-celebrity-photographers-hidden-stash-of-polaroids",
     "https://www.eurogamer.net/marvel-tokon-fighting-souls-pc-beta-apology",
     "https://reason.com/volokh/2026/07/21/ive-seen-fake-cites-on-both-sides-now-ii/",
@@ -50,10 +46,13 @@
     "https://harvardlawreview.org/print/vol-139/aggregation-and-the-universal-injunction/",
     "https://openai.com/index/ten-advances-in-mathematics/",
     "https://www.polygon.com/halo-campaign-evolved-ending-explained-post-credits/",
-    "https://www.newyorker.com/humor/shouts-murmurs/bari-weiss-is-on-it"
+    "https://www.newyorker.com/humor/shouts-murmurs/bari-weiss-is-on-it",
+    "https://www.polygon.com/spider-man-trilogy-leaving-netflix-sam-raimi/",
+    "https://github.com/BurntSushi/ripgrep/issues/3494",
+    "https://www.jurist.org/news/2026/07/international-rights-group-calls-for-the-immediate-release-of-vietnam-political-activist/",
+    "https://www.newyorker.com/magazine/2026/08/10/teenage-sex-and-death-at-camp-miasma-movie-review"
   ],
   "categoryLog": [
-    "fun",
     "gaming",
     "tech",
     "fun",
@@ -66,7 +65,8 @@
     "fun",
     "tech",
     "tech",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }
