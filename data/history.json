@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.rockpapershotgun.com/built-for-that-world-doesnt-mean-built-to-require-it-unity-reveal-their-next-game-engine-while-walking-a-careful-line-around-generative-ai",
-    "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
-    "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
-    "https://nautil.us/psychedelics-might-not-have-evolved-to-get-humans-high-1283013/",
     "https://www.newyorker.com/books/flash-fiction/the-window",
     "https://www.newyorker.com/culture/songs-of-summer/padam-padam-separates-the-party-people-from-the-homebodies",
     "https://www.newyorker.com/books/this-week-in-fiction/sheila-heti-08-03-26",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
     "https://www.newyorker.com/culture/the-current-cinema/the-samurai-and-the-prisoner-fits-a-war-epic-into-an-elegant-puzzle-box",
     "https://reason.com/volokh/2026/07/27/justices-kagan-and-barrett-on-the-scotus-leaks/",
-    "https://www.rockpapershotgun.com/reported-lead-of-obsidians-new-fallout-game-wants-you-to-feel-a-sense-of-agony-when-playing-an-rpg-rather-than-being-an-all-powerful-god-splatterer"
+    "https://www.rockpapershotgun.com/reported-lead-of-obsidians-new-fallout-game-wants-you-to-feel-a-sense-of-agony-when-playing-an-rpg-rather-than-being-an-all-powerful-god-splatterer",
+    "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
+    "https://www.jurist.org/news/2026/07/hrw-report-says-oil-production-in-drc-poses-severe-environmental-health-risks/",
+    "https://www.pcgamer.com/games/adventure/thimbleweed-park-2-is-not-really-a-sequel-not-really-a-prequel-but-it-is-finally-happening/",
+    "https://www.newyorker.com/news/postscript/glen-hansards-street-corner-stories"
   ],
   "categoryLog": [
-    "tech",
     "law",
     "fun",
     "gaming",
@@ -66,6 +65,7 @@
     "fun",
     "tech",
     "fun",
+    "tech",
     "tech"
   ],
   "failures": {}
