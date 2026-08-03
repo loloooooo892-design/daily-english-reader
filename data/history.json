@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
-    "https://reason.com/volokh/2026/07/22/odd-january-6-trial-follow-on-copying-experts-report-from-another-case-to-file-it-in-your-case-may-infringe-copyright/",
-    "https://www.eurogamer.net/what-sense-to-make-from-id-software-layoffs-microsoft-xbox",
-    "https://www.wired.com/story/wellness-influencers-are-pushing-natural-and-unproven-alternatives-to-adderall/",
     "https://www.jurist.org/news/2026/07/un-agencies-warn-that-conflicts-and-climate-change-threaten-progress-against-global-hunger/",
     "https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/",
     "https://www.newyorker.com/magazine/2026/08/03/which-way-should-the-democratic-party-go-now",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/news/the-lede/trumps-isolationism-is-losing-the-great-ev-race",
     "https://reason.com/volokh/2026/07/29/a-free-exercise-challenge-to-nys-medically-assisted-suicide-law/",
     "https://www.rockpapershotgun.com/our-business-did-not-grow-with-our-audience-post-layoffs-xbox-execs-are-trying-to-sell-a-gaming-division-bounce-back-by-summer-2027",
-    "https://www.wired.com/story/squarespace-promo-code/"
+    "https://www.wired.com/story/squarespace-promo-code/",
+    "https://www.jurist.org/news/2026/08/european-commission-announces-ai-companies-to-face-tighter-eu-oversight-over-deepfakes-and-cyber-threats/",
+    "https://www.theverge.com/report/974226/angela-nissel-interview-good-grief-pass-the-bread-mom-is-dead",
+    "https://www.eurogamer.net/xbox-game-advertising-insider-affordability",
+    "https://www.newyorker.com/books/flash-fiction/one-and-no-one-gabriel-winslow-yost"
   ],
   "categoryLog": [
-    "tech",
     "fun",
     "tech",
     "law",
@@ -66,7 +65,8 @@
     "tech",
     "law",
     "gaming",
-    "fun"
+    "fun",
+    "law"
   ],
   "failures": {}
 }
