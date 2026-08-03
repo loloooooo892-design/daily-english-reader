@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Is memory the moat? | Wafer — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Technology</span>
+    <span>Hacker News Best</span>
+    
+    <span class="sep">·</span>
+    <span>1171 words</span>
+    <span class="sep">·</span>
+    <span>6 min read</span>
+  </div>
+
+  <h1>Is memory the moat? | Wafer</h1>
+
+  <article class="article-body">
+    <a href="https://www.wafer.ai/" target="_blank" rel="noopener"></a><ul><li>Product<ul><li><a href="https://www.wafer.ai/technology" target="_blank" rel="noopener">Technology</a></li><li><a href="https://www.wafer.ai/cases" target="_blank" rel="noopener">Cases</a></li></ul></li><li>Company<ul><li><a href="https://www.wafer.ai/team" target="_blank" rel="noopener">Team</a></li><li><a href="https://jobs.ashbyhq.com/wafer" target="_blank" rel="noopener">Careers</a></li><li><a href="https://www.wafer.ai/manifesto" target="_blank" rel="noopener">Manifesto</a></li></ul></li><li><a href="https://www.wafer.ai/blog" target="_blank" rel="noopener">Blog</a></li><li><a href="https://app.wafer.ai/login" target="_blank" rel="noopener">Log in</a></li></ul>
+  <ul><li><a href="https://www.wafer.ai/blog/kimi-k3-mi355x/#how-we-did-it" target="_blank" rel="noopener">How we did it</a></li><li><a href="https://www.wafer.ai/blog/kimi-k3-mi355x/#prefill-optimizations" target="_blank" rel="noopener">Prefill optimizations</a></li><li><a href="https://www.wafer.ai/blog/kimi-k3-mi355x/#takeaways" target="_blank" rel="noopener">Takeaways</a></li></ul>
+  <a href="https://www.wafer.ai/blog" target="_blank" rel="noopener"></a>July 31, 2026Ian Ye<h2>Is memory the moat?</h2><p>Running Kimi K3 at ~952 tok/s/node, AMD continues to prove its case as the winner in performance per dollar.</p><p>Over the past several months, we’ve seen an explosion in the capabilities of open source models. With DeepSeek V4-Pro and GLM5.2 reaching <a href="https://z.ai/blog/glm-5.2" target="_blank" rel="noopener">near-Opus</a> levels of intelligence, open source has emerged as a real, cost-efficient alternative to the closed source models we’ve been married to.</p>
+<p>But we have yet to see one like Kimi K3. Promising <a href="https://artificialanalysis.ai/models/kimi-k3" target="_blank" rel="noopener">Fable/Sol</a> levels of intelligence, Kimi K3 marks the start of a new era for open source.</p>
+<p>But a smarter model means a <strong>bigger</strong> model — and these models are expanding in size just as fast as they are in capabilities. GLM5.2 has 753B parameters, DeepSeek V4-Pro 1.6T, and Kimi K3 weighs in at 2.8T (!!) parameters. That’s over 1.5TB of VRAM <em>before</em> allocating a KV cache for 1M tokens of context. Not even a B200 node (8 GPUs) can fit Kimi K3. That leaves you with limited options: serve on a node of B300s, which have 288GB of VRAM per GPU, or commit two B200 nodes (TP16) to serving Kimi.</p>
+<p>But guess which other non-NVIDIA GPU has 288GB of VRAM? AMD’s MI355X. Can you tell we like these chips yet? At around <a href="https://gpus.io/" target="_blank" rel="noopener">~2.4× cheaper per GPU on average versus a B300</a> and ~1.7× cheaper than a B200, the MI355X is a cost-efficient alternative to Blackwells with comparable hardware specs. The only problem with AMD is software support — slower kernels and less day-0 support on inference frameworks make serving frontier models on AMD a real engineering effort. Our claim at Wafer is that agents are improving at kernel and model optimization, closing this gap as we speak. But with AMD shipping day-0 support for Kimi K3, most of the work was already done for us.</p>
+<p>The results are great: on a 1,024-token input / 400-token output benchmark, the MI355X reaches 952 tok/s/node and 118 tok/s single stream — over 3.8× the aggregate throughput per node and over 1.3× the single-stream decode of our TP16 B200 deployment (whose 498 tok/s is a 16-GPU, 2-node total — ~249/node). B300 nodes still win ~1.65× on aggregate throughput over the MI355X, but at 2.4× the price, the MI355X crushes the B300 on performance per dollar.</p>
+
+<strong>8× MI355X (TP8)</strong>
+2×8 B200 (TP16)
+B300 (TP8+DCP8)
+
+Decode tok/s per stream
+<strong>118 tok/s</strong>
+90 tok/s
+172 tok/s
+
+Peak aggregate
+<strong>952 tok/s</strong>
+498 tok/s
+1,568 tok/s
+
+Peak aggregate per GPU
+<strong>119 tok/s</strong>
+31 tok/s
+196 tok/s
+
+Peak aggregate per $/GPU-hr
+<strong>48 tok/s/$</strong>
+7 tok/s/$
+33 tok/s/$
+
+<p><em>Perf/dollar at <a href="https://gpus.io/" target="_blank" rel="noopener">$2.50/GPU-hr for the MI355X, $6.00 for the B300, and $4.25 for the B200</a>.</em></p>
+
+<p>To the B200’s defence, its numbers are somewhat deflated by the fact that it pays a cross-node all-reduce on the decode critical path (RoCE v2 at ~195 Gb/s) — it’s the only config here that spans two nodes, because Kimi K3 won’t fit weights plus a 1M-token KV pool on a single 8×192GB node. But that’s exactly the point: Kimi K3 at its size is one of the first models we’ve seen where the MI355X’s focus on HBM capacity gives it a practical, measurable edge over the B200.</p>
+<h2>How we did it</h2>
+<p>While Kimi K3 served out of the box, there was still work to be done to get it to its current throughput number.</p>
+<p>The main lever was speculative decode. K3 ships zero draft tensors — no MTP, no EAGLE — so the only speculative path is an external block-diffusion draft: RadixArk’s <a href="https://huggingface.co/RadixArk/Kimi-K3-DSpark" target="_blank" rel="noopener">Kimi-K3-DSpark</a>. On CUDA it just runs. On ROCm our first real request breaks the scheduler with this error:</p>
+NameError: name 'top_k_renorm_prob' is not defined. Did you mean: 'top_p_renorm_prob'?
+<p>sglang’s accept-sampling verifier has two ways to build the target distribution: a dense path that calls top_k_renorm_prob, and a sparse fast path that routes through torch.topk directly. The CUDA build imports top_k_renorm_prob from sgl_kernel; the ROCm build aliases only a Triton top-p kernel and leaves top_k_renorm_prob undefined — there’s no top-k renorm kernel for gfx950 to alias. So the moment a request lands on the dense path, the verifier hits that NameError and takes the scheduler down with it.</p>
+<p>The fix is a single PyTorch function. Top-k renorm is a small operation: take the model’s probability vector, keep the k highest entries, zero the rest, and rescale what’s left to sum to 1. A sort, a masked_fill, a divide — dropped straight into sglang’s ROCm sampling branch, the same computation the CUDA build gets from sgl_kernel. No custom kernel: the reflex on ROCm is to assume you need one, but here it was a missing definition, not a missing kernel.</p>
+<p>With spec dec fixed and hardened, we gained ~2.2× performance single-stream, ~1.7× per-stream at moderate load, and +18% peak aggregate. More importantly, our peak aggregate throughput landed on much higher concurrency (c64 vs c24 no-spec).</p>
+
+<h2>Prefill optimizations</h2>
+<p>Discussion around model performance tends to highlight decode tokens per second. But in many cases decode tok/s is fool’s gold — decode is over-glorified, while time-to-first-token, the number users <em>feel</em> the most, gets overlooked.</p>
+<p>The MI355X struggles here: an identical 172k-token cold prefill took ~51s on MI355X versus ~23s on a B300. On a 1M-context model, a lot of workloads have huge prefills (sometimes cold), and having GPUs spin on prefill for minutes can render entire fleets of nodes useless.</p>
+<p>The gap was almost entirely one kernel. K3 on ROCm was falling back to slow generic Triton attention because the fast AITER MLA prefill kernel wouldn’t load. The problem was a shape mismatch, not a missing kernel — K3 at TP8 gives 12 attention heads per rank, and AITER’s MLA path is built for 4, 8, or multiples of 16. The fix was trivially simple: zero-pad the head count 12→16, run the fast kernel, and extract the real 12 heads from the output.</p>
+<p>The result: on the same 172k cold prefill, the AITER MLA prefill ASM runs at ~13k tok/s steady-state vs the Triton fallback’s ~4–7k, speeding up prefill by ~2–3×. It’s a TTFT lever, not an aggregate-throughput one — decode is unchanged, so it doesn’t move the numbers above; it moves the number a user waits on before the first token appears.</p>
+<h2>Takeaways</h2>
+<p>Achieving the best performance-per-dollar ratio on the MI355X was relatively out of the box. There were some expected framework-related bugs — but fewer than <a href="https://www.wafer.ai/blog/glm52-amd" target="_blank" rel="noopener">GLM5.2</a>, and this time it <a href="https://www.wafer.ai/blog/kernels-are-still-the-moat" target="_blank" rel="noopener">certainly did not require custom kernels</a>.</p>
+<p>SOTA on AMD is imminent. Is the CUDA moat dead?</p>
+
+  <h2>Related articles</h2><ul><li><a href="https://www.wafer.ai/blog/wafer-integration-with-truefoundry-ai-gateway" target="_blank" rel="noopener">July 17, 2026Rishiraj Dutta Gupta and Wafer Team<h3>Wafer integration with TrueFoundry AI Gateway</h3><p>How Wafer's fast, OpenAI-compatible serverless inference integrates with TrueFoundry AI Gateway for unified routing, observability, and zero data retention.</p></a></li><li><a href="https://www.wafer.ai/blog/glm52-amd" target="_blank" rel="noopener">July 3, 2026Ian Ye<h3>Performance per dollar is getting faster and cheaper</h3><p>How we served GLM5.2 on AMD MI355X at 2626 tok/s/node and 213 tok/s single stream at over 2x lower cost than Blackwell.</p></a></li></ul>
+  </article>
+
+  <footer class="footer">
+    <span>Monday, August 3, 2026</span>
+    <a href="https://www.wafer.ai/blog/kimi-k3-mi355x" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>

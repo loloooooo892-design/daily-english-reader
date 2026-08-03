@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.jurist.org/news/2026/07/un-agencies-warn-that-conflicts-and-climate-change-threaten-progress-against-global-hunger/",
-    "https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/",
-    "https://www.newyorker.com/magazine/2026/08/03/which-way-should-the-democratic-party-go-now",
-    "https://www.jurist.org/news/2026/07/south-korea-urged-to-extend-protections-for-women-after-appeal-decision-in-abortion-case-exposes-legal-vacuum/",
     "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
     "https://www.eurogamer.net/microsoft-age-of-empires-3-dlc-uncancelled",
     "https://www.newyorker.com/culture/the-food-scene/a-greenwich-village-dining-room-that-feels-far-from-the-tiktoking-crowd",
@@ -50,10 +46,13 @@
     "https://www.jurist.org/news/2026/08/european-commission-announces-ai-companies-to-face-tighter-eu-oversight-over-deepfakes-and-cyber-threats/",
     "https://www.theverge.com/report/974226/angela-nissel-interview-good-grief-pass-the-bread-mom-is-dead",
     "https://www.eurogamer.net/xbox-game-advertising-insider-affordability",
-    "https://www.newyorker.com/books/flash-fiction/one-and-no-one-gabriel-winslow-yost"
+    "https://www.newyorker.com/books/flash-fiction/one-and-no-one-gabriel-winslow-yost",
+    "https://www.pcgamer.com/games/get-more-than-100-games-for-just-usd10-in-a-new-bundle-supporting-laid-off-game-devs/",
+    "https://www.jurist.org/news/2026/08/amnesty-international-calls-global-extreme-heat-a-human-rights-emergency/",
+    "https://www.wafer.ai/blog/kimi-k3-mi355x",
+    "https://www.newyorker.com/books/this-week-in-fiction/rachel-yoder-08-10-26"
   ],
   "categoryLog": [
-    "fun",
     "tech",
     "law",
     "law",
@@ -66,7 +65,8 @@
     "law",
     "gaming",
     "fun",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }
