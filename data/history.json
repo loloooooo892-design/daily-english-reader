@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/culture/photo-booth/the-white-house-press-corps-in-the-second-trump-era",
-    "https://www.eurogamer.net/steam-wishlists-gifting-big-updates",
-    "https://www.wired.com/story/airdoctor-coupon-code/",
-    "https://www.rockpapershotgun.com/toxic-yuri-story-kaschei-is-a-marvelous-free-visual-novel-that-turns-your-downloads-folder-into-a-little-labyrinth-of-mirrors",
     "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
     "https://reason.com/volokh/2026/07/24/liberty-justice-center-files-first-lawsuit-challenging-trumps-massive-new-section-301-tariffs/",
     "https://www.newyorker.com/culture/infinite-scroll/the-department-of-labored-content",
@@ -50,11 +46,14 @@
     "https://www.seangoedecke.com/llms-reward-expertise/",
     "https://www.pcgamer.com/games/rpg/dragon-ages-former-producer-had-envisioned-a-champions-edition-equivalent-to-mass-effects-legendary-edition-but-he-doesnt-think-it-will-happen-anymore-there-are-basically-no-companies-that-could-help-you/",
     "https://longreads.com/2026/07/28/spaceballs-rick-moranis-comic-con/",
-    "https://reason.com/volokh/2026/08/03/our-friend-with-the-attractive-busty-jewess-problem-drops-case-against-harvard-rather-than-naming-himself/"
+    "https://reason.com/volokh/2026/08/03/our-friend-with-the-attractive-busty-jewess-problem-drops-case-against-harvard-rather-than-naming-himself/",
+    "https://www.eurogamer.net/gears-of-war-e-day-horde-siege-impressions",
+    "https://www.newyorker.com/magazine/2026/08/10/extra-extra-read-all-about-it-again",
+    "https://reason.com/volokh/2026/08/03/schools-owe-no-legal-duty-to-former-students-to-investigate-allegations-of-past-abuse/",
+    "https://www.cnbc.com/2026/08/04/us-has-used-virtually-all-of-its-long-range-precision-missiles-report.html"
   ],
   "categoryLog": [
     "law",
-    "law",
     "gaming",
     "fun",
     "tech",
@@ -66,7 +65,8 @@
     "fun",
     "law",
     "gaming",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }
