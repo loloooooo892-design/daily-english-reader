@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.jurist.org/news/2026/07/hrw-report-says-oil-production-in-drc-poses-severe-environmental-health-risks/",
-    "https://www.pcgamer.com/games/adventure/thimbleweed-park-2-is-not-really-a-sequel-not-really-a-prequel-but-it-is-finally-happening/",
-    "https://www.newyorker.com/news/postscript/glen-hansards-street-corner-stories",
-    "https://harvardlawreview.org/print/vol-139/aggregation-and-the-universal-injunction/",
     "https://openai.com/index/ten-advances-in-mathematics/",
     "https://www.polygon.com/halo-campaign-evolved-ending-explained-post-credits/",
     "https://www.newyorker.com/humor/shouts-murmurs/bari-weiss-is-on-it",
@@ -50,11 +46,14 @@
     "https://longreads.com/2026/07/28/questionnaire-kimon-de-greef/",
     "https://www.eurogamer.net/call-of-duty-black-ops-2-prestige-hacks-account-banned-message",
     "https://reason.com/volokh/2026/08/06/theylied-defamation-suit-over-sexual-assault-claims-involving-high-school-special-ed-students-can-proceed/",
-    "https://www.wired.com/story/tempur-pedic-promo-code/"
+    "https://www.wired.com/story/tempur-pedic-promo-code/",
+    "https://www.pcgamer.com/games/life-sim/fields-of-mistria-officially-becomes-the-best-farm-sim-since-stardew-valley-now-that-its-launched-a-1-0-update-today/",
+    "https://www.newyorker.com/magazine/2026/08/10/eric-wareheim-plant-dad",
+    "https://reason.com/volokh/2026/08/07/posting-i-wish-someone-would-in-alive-him-about-federal-judge-isnt-punishable-threat/",
+    "https://www.wired.com/story/max-promo-code/"
   ],
   "categoryLog": [
     "tech",
-    "tech",
     "law",
     "gaming",
     "fun",
@@ -66,7 +65,8 @@
     "fun",
     "tech",
     "law",
-    "fun"
+    "fun",
+    "gaming"
   ],
   "failures": {}
 }
