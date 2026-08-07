@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/culture/the-current-cinema/the-samurai-and-the-prisoner-fits-a-war-epic-into-an-elegant-puzzle-box",
-    "https://reason.com/volokh/2026/07/27/justices-kagan-and-barrett-on-the-scotus-leaks/",
-    "https://www.rockpapershotgun.com/reported-lead-of-obsidians-new-fallout-game-wants-you-to-feel-a-sense-of-agony-when-playing-an-rpg-rather-than-being-an-all-powerful-god-splatterer",
-    "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
     "https://www.jurist.org/news/2026/07/hrw-report-says-oil-production-in-drc-poses-severe-environmental-health-risks/",
     "https://www.pcgamer.com/games/adventure/thimbleweed-park-2-is-not-really-a-sequel-not-really-a-prequel-but-it-is-finally-happening/",
     "https://www.newyorker.com/news/postscript/glen-hansards-street-corner-stories",
@@ -50,10 +46,13 @@
     "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
     "https://www.newyorker.com/books/flash-fiction/tributaries-kyle-edwards",
     "https://www.rockpapershotgun.com/all-the-rps-supporter-rewards-for-july-2026-space-battles-messy-desks-and-puzzling-dreams",
-    "https://www.wired.com/story/dhs-is-hiring-bounty-hunters-to-find-and-photograph-deported-peoples-homes-abroad/"
+    "https://www.wired.com/story/dhs-is-hiring-bounty-hunters-to-find-and-photograph-deported-peoples-homes-abroad/",
+    "https://longreads.com/2026/07/28/questionnaire-kimon-de-greef/",
+    "https://www.eurogamer.net/call-of-duty-black-ops-2-prestige-hacks-account-banned-message",
+    "https://reason.com/volokh/2026/08/06/theylied-defamation-suit-over-sexual-assault-claims-involving-high-school-special-ed-students-can-proceed/",
+    "https://www.wired.com/story/tempur-pedic-promo-code/"
   ],
   "categoryLog": [
-    "fun",
     "tech",
     "tech",
     "law",
@@ -66,7 +65,8 @@
     "gaming",
     "fun",
     "tech",
-    "law"
+    "law",
+    "fun"
   ],
   "failures": {}
 }
