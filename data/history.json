@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://openai.com/index/ten-advances-in-mathematics/",
-    "https://www.polygon.com/halo-campaign-evolved-ending-explained-post-credits/",
-    "https://www.newyorker.com/humor/shouts-murmurs/bari-weiss-is-on-it",
-    "https://www.polygon.com/spider-man-trilogy-leaving-netflix-sam-raimi/",
     "https://github.com/BurntSushi/ripgrep/issues/3494",
     "https://www.jurist.org/news/2026/07/international-rights-group-calls-for-the-immediate-release-of-vietnam-political-activist/",
     "https://www.newyorker.com/magazine/2026/08/10/teenage-sex-and-death-at-camp-miasma-movie-review",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/life-sim/fields-of-mistria-officially-becomes-the-best-farm-sim-since-stardew-valley-now-that-its-launched-a-1-0-update-today/",
     "https://www.newyorker.com/magazine/2026/08/10/eric-wareheim-plant-dad",
     "https://reason.com/volokh/2026/08/07/posting-i-wish-someone-would-in-alive-him-about-federal-judge-isnt-punishable-threat/",
-    "https://www.wired.com/story/max-promo-code/"
+    "https://www.wired.com/story/max-promo-code/",
+    "https://www.wired.com/review/samsung-g8-g80hs/",
+    "https://www.newyorker.com/magazine/2026/08/10/robb-moss-is-still-going-with-the-flow",
+    "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
+    "https://www.rockpapershotgun.com/repair-sick-robots-and-contemplate-the-role-of-healthcare-providers-in-the-deeply-textured-pixel-art-cyberpunk-visual-novel-all-our-broken-parts"
   ],
   "categoryLog": [
-    "tech",
     "law",
     "gaming",
     "fun",
@@ -66,7 +65,8 @@
     "tech",
     "law",
     "fun",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }
