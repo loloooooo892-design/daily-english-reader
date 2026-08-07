@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/best-ethernet-switches/",
-    "https://www.jurist.org/news/2026/07/south-africa-president-urges-cooperation-among-african-states-to-address-migration-challenges/",
-    "https://www.rockpapershotgun.com/dragon-age-origins-wasnt-the-most-attractive-game-biowares-old-series-producer-still-thinks-a-da-remaster-trilogy-is-worth-it-but-the-knowhow-isnt-there",
-    "https://www.wired.com/story/chinese-ai-researchers-are-finding-their-voice-on-x/",
     "https://www.newyorker.com/culture/the-current-cinema/the-samurai-and-the-prisoner-fits-a-war-epic-into-an-elegant-puzzle-box",
     "https://reason.com/volokh/2026/07/27/justices-kagan-and-barrett-on-the-scotus-leaks/",
     "https://www.rockpapershotgun.com/reported-lead-of-obsidians-new-fallout-game-wants-you-to-feel-a-sense-of-agony-when-playing-an-rpg-rather-than-being-an-all-powerful-god-splatterer",
@@ -50,10 +46,13 @@
     "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
     "https://www.newyorker.com/news/the-lede/max-millers-victim-mentality",
     "https://www.rockpapershotgun.com/the-sunday-papers-820",
-    "https://reason.com/volokh/2026/08/03/gordon-darby-renews-attempt-to-commandeer-new-hampshire-through-the-clean-air-act/"
+    "https://reason.com/volokh/2026/08/03/gordon-darby-renews-attempt-to-commandeer-new-hampshire-through-the-clean-air-act/",
+    "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
+    "https://www.newyorker.com/books/flash-fiction/tributaries-kyle-edwards",
+    "https://www.rockpapershotgun.com/all-the-rps-supporter-rewards-for-july-2026-space-battles-messy-desks-and-puzzling-dreams",
+    "https://www.wired.com/story/dhs-is-hiring-bounty-hunters-to-find-and-photograph-deported-peoples-homes-abroad/"
   ],
   "categoryLog": [
-    "tech",
     "fun",
     "tech",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "gaming",
     "fun",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
