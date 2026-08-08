@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://github.com/BurntSushi/ripgrep/issues/3494",
-    "https://www.jurist.org/news/2026/07/international-rights-group-calls-for-the-immediate-release-of-vietnam-political-activist/",
-    "https://www.newyorker.com/magazine/2026/08/10/teenage-sex-and-death-at-camp-miasma-movie-review",
-    "https://www.newyorker.com/news/the-lede/trumps-isolationism-is-losing-the-great-ev-race",
     "https://reason.com/volokh/2026/07/29/a-free-exercise-challenge-to-nys-medically-assisted-suicide-law/",
     "https://www.rockpapershotgun.com/our-business-did-not-grow-with-our-audience-post-layoffs-xbox-execs-are-trying-to-sell-a-gaming-division-bounce-back-by-summer-2027",
     "https://www.wired.com/story/squarespace-promo-code/",
@@ -50,10 +46,13 @@
     "https://www.wired.com/review/samsung-g8-g80hs/",
     "https://www.newyorker.com/magazine/2026/08/10/robb-moss-is-still-going-with-the-flow",
     "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
-    "https://www.rockpapershotgun.com/repair-sick-robots-and-contemplate-the-role-of-healthcare-providers-in-the-deeply-textured-pixel-art-cyberpunk-visual-novel-all-our-broken-parts"
+    "https://www.rockpapershotgun.com/repair-sick-robots-and-contemplate-the-role-of-healthcare-providers-in-the-deeply-textured-pixel-art-cyberpunk-visual-novel-all-our-broken-parts",
+    "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+    "https://reason.com/volokh/2026/08/07/divided-d-c-circuit-panel-upholds-injunction-against-white-house-ballroom-construction-next-stop-one-first-street/",
+    "https://www.pcgamer.com/games/roguelike/couples-dispute-over-playing-slay-the-spire-2-in-bed-gets-a-ruling-from-comedian-john-hodgman-pick-an-arbitrary-battle-and-stick-with-it/",
+    "https://www.newyorker.com/humor/shouts-murmurs/a-mostly-true-history-of-marco-rubio"
   ],
   "categoryLog": [
-    "law",
     "gaming",
     "fun",
     "law",
@@ -66,6 +65,7 @@
     "law",
     "fun",
     "gaming",
+    "tech",
     "tech"
   ],
   "failures": {}
