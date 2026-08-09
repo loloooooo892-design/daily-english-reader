@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.theverge.com/report/974226/angela-nissel-interview-good-grief-pass-the-bread-mom-is-dead",
-    "https://www.eurogamer.net/xbox-game-advertising-insider-affordability",
-    "https://www.newyorker.com/books/flash-fiction/one-and-no-one-gabriel-winslow-yost",
-    "https://www.pcgamer.com/games/get-more-than-100-games-for-just-usd10-in-a-new-bundle-supporting-laid-off-game-devs/",
     "https://www.jurist.org/news/2026/08/amnesty-international-calls-global-extreme-heat-a-human-rights-emergency/",
     "https://www.wafer.ai/blog/kimi-k3-mi355x",
     "https://www.newyorker.com/books/this-week-in-fiction/rachel-yoder-08-10-26",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/hp-coupon-code/",
     "https://www.newyorker.com/culture/critics-notebook/ariana-grande-and-the-disappointment-of-diagnosis",
     "https://www.pcgamer.com/hardware/controllers/the-humble-wii-nunchuck-has-been-turned-into-a-video-editing-tool-because-its-one-of-the-most-ergonomic-things-ever-made/",
-    "https://reason.com/volokh/2026/08/05/stop-talking-to-me-order-against-ex-landlord-who-kept-texting-ex-tenant-about-covid-vaccines/"
+    "https://reason.com/volokh/2026/08/05/stop-talking-to-me-order-against-ex-landlord-who-kept-texting-ex-tenant-about-covid-vaccines/",
+    "https://reason.com/volokh/2026/08/07/defendants-refusal-to-identify-herself-leads-to-recommended-default-judgment-against-her/",
+    "https://www.newyorker.com/news/election-2026/the-electability-of-abdul-el-sayed",
+    "https://www.pcgamer.com/games/survival-crafting/blocky-zombie-survival-sim-unturned-releases-its-source-code-so-players-can-build-a-lasting-legacy-for-the-game-regardless-of-the-changes-we-make/",
+    "https://www.wired.com/story/ulta-coupon/"
   ],
   "categoryLog": [
-    "fun",
     "law",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "tech",
     "tech",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
