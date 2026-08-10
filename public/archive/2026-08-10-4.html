@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Letters from Our Readers — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>940 words</span>
+    <span class="sep">·</span>
+    <span>5 min read</span>
+  </div>
+
+  <h1>Letters from Our Readers</h1>
+
+  <article class="article-body">
+    <h2>Call Her by Her Name</h2><p>In the beginning was the Word, and the Word was wrong. I was startled to find in Melanie Thernstrom’s profile of the concierge gynecologist Sally Greenwald—which extolls the joys, and pricey maintenance, of female-oligarch orgasms—just how far we have not come (“Billionaires’ Vagina Club,” July 6th &amp; 13th). Here, yet again, one of the few remaining publications of note reinforces, via repetition, the diminishment of female sexual anatomy by misidentifying it in both title and text.</p><p>The vagina is merely one of the many moving parts—mons pubis, labia majora and minora, clitoris, cervix, uterus, fallopian tubes, ovaries, numerous glands, endless nerves, and, yes, the adjoining vagina—that compose the vulva and her internal sisters. How would it fly if we all, including social-media influencers and other cultural leaders, conspired to call the penis the perineum? Or maybe the prostate? Oops! Wrong landmark; right neighborhood. So how did “vagina,” the nom du jour for decades now (with ten appearances in the piece, four of them incorrect, three of those introduced by the good doctor herself), come to represent the entire site? And, more interestingly, why?</p><p>When will we women stop our filial collaboration with Papa Freud in his denunciation of our sexual core—it is the wretched, much lost and found clitoris of which I speak—and refuse to repudiate our own central charge? We expect it of men, whose biology dictates their prime interest in the mostly insensate tube of the vagina, but when will we cease our complicity in the patriarchy and stop skirting ourselves?</p><p><em>Toni Bentley</em><em>Los Angeles, Calif.</em></p><h2>Reality Check</h2><p>Nikhil Krishnan’s review of “How to Kill a Language,” by Sophia Smith Galer, errs in the same way that the book does, when it treats as literal the “death” of language which, unlike that of the giant panda, is entirely metaphoric (Books, July 27th). The death of a language is like that of square dancing, or of doing algebra by pencil and paper, and mistaking metaphor for reality is one of the surest routes to woolly thinking.</p><p>Language, as Krishnan highlights at the top of the piece, is, first and foremost, a means of communication. So long as effective communication persists, the reflex to mourn the disuse of a language can be motivated only by something else—nostalgia or, perhaps, the loss of a group’s ability to easily demarcate itself. Krishnan rightly points out that actively suppressing language ought to be condemned, but that suppression and obsolescence are wholly different. No reasonable person would forbid the speaking or learning of any language, but surely no reasonable person should compel it if the only use of a language is its further teaching or translation.</p><p>The Bible is widely read and loved in spite of the fact that most people don’t speak any of the languages in which it was originally written. “The Odyssey” is one of the blockbusters of the year even though the language in which the story first appeared is long dead. The reanimation of Hebrew in Israel was less about preserving the language than about choosing a common tongue, one that wouldn’t favor one group of Jewish people over another. If Smith Galer wants to speak Emilian, no one is standing in her way. But to refer to the fact that few people seem to want to speak it as “killing” it, well, that’s killing language by misuse.</p><p><em>Kurt Tidmore</em><em>Carrigaline, Ireland</em></p><h2>Profane and Profound</h2><p>Louis Menand, in his examination of Andres Serrano’s “Piss Christ,” contends that the outrage the photograph elicited among American Christians in the nineteen-eighties was the opening salvo in the culture wars that rage to this day (Books, July 20th). I was not old enough to participate in the early debates, but speaking today, as a Christian minister, I would like to convince my fellow-believers that this indignation misses something fundamental about the central symbol of our faith. Indeed, Serrano’s image is, to me, comparable to an icon, worthy of sincere contemplation.</p><p>The cross represents the most sadistic and extreme form of mockery and humiliation, so if one considers dipping something in urine to be profane, doing this with the crucifix is actually redundant. The cross did much worse to the one whom Christians believe to be the human incarnation of God, yet Jesus’ followers believed that his very crucifixion was the key to unlocking the revelation of God’s grace. In the New Testament, Paul called the idea of a crucified Saviour “a scandal.”</p><p>But centuries of casual display has domesticated the image of the cross. For this reason, Serrano’s work, with its uncannily beatific admixture of the sacred and the profane, recovers something of the original impact of Paul’s scandalous proclamation. Serrano’s intentions, which he seems to wish to keep obscured, are beside the point. An understanding of the sacred in which the sacred collapses when it comes into contact with the profane is impoverished, falling short of the transcendence that is worthy of the word “God.”</p><p>A foundational insight of Christianity is that the sacred has the power to sanctify the profane. The social implications are crucial: Jesus concretely identified himself with “the least of these,” elevating as sacred the dignity of anyone whose humanity society wishes to piss on or flush away. This, rather than sanctimonious display, is what should motivate Christians.</p><p><em>The Reverend Nathaniel Mahlberg</em><em>Philadelphia, Pa.</em></p><p>•</p><p><em>Letters should be sent with the writer’s name, address, and daytime phone number via e-mail to <a href="mailto:themail@newyorker.com?Subject=Letters" target="_blank" rel="noopener">themail@newyorker.com</a>. Letters may be edited for length and clarity, and may be published in any medium. We regret that owing to the volume of correspondence we cannot reply to every letter.</em></p>
+  </article>
+
+  <footer class="footer">
+    <span>Monday, August 10, 2026</span>
+    <a href="https://www.newyorker.com/magazine/2026/08/17/letters-from-the-august-17-2026-issue" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
