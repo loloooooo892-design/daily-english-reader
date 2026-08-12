@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/books/flash-fiction/tributaries-kyle-edwards",
-    "https://www.rockpapershotgun.com/all-the-rps-supporter-rewards-for-july-2026-space-battles-messy-desks-and-puzzling-dreams",
-    "https://www.wired.com/story/dhs-is-hiring-bounty-hunters-to-find-and-photograph-deported-peoples-homes-abroad/",
-    "https://longreads.com/2026/07/28/questionnaire-kimon-de-greef/",
     "https://www.eurogamer.net/call-of-duty-black-ops-2-prestige-hacks-account-banned-message",
     "https://reason.com/volokh/2026/08/06/theylied-defamation-suit-over-sexual-assault-claims-involving-high-school-special-ed-students-can-proceed/",
     "https://www.wired.com/story/tempur-pedic-promo-code/",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/hoka-coupon-code/",
     "https://www.newyorker.com/magazine/2026/08/17/i-spy-with-my-little-eye-a-spy",
     "https://harvardlawreview.org/print/vol-139/aggregation-and-the-universal-injunction/",
-    "https://www.pcgamer.com/hardware/vr-hardware/yet-another-sign-the-steam-frame-is-approaching-launch-maybe-really-for-real-this-time-as-the-steamos-beta-adds-preliminary-support-for-its-wireless-adapter/"
+    "https://www.pcgamer.com/hardware/vr-hardware/yet-another-sign-the-steam-frame-is-approaching-launch-maybe-really-for-real-this-time-as-the-steamos-beta-adds-preliminary-support-for-its-wireless-adapter/",
+    "https://www.eurogamer.net/club-soko-impressions-cartoonishly-dark-sokoban-puzzle-game",
+    "https://www.wired.com/story/breville-promo-code/",
+    "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
+    "https://www.newyorker.com/books/this-week-in-fiction/emma-cline-08-17-26"
   ],
   "categoryLog": [
-    "tech",
     "law",
     "fun",
     "gaming",
@@ -66,7 +65,8 @@
     "gaming",
     "gaming",
     "gaming",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }
