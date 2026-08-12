@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I Spy with My Little Eye . . . a Spy  — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>736 words</span>
+    <span class="sep">·</span>
+    <span>4 min read</span>
+  </div>
+
+  <h1>I Spy with My Little Eye . . . a Spy </h1>
+
+  <article class="article-body">
+    <p>Austin Kral and Ed Vogel stood in a downtown Atlanta park the other day, preparing to lead what they’d advertised on flyers as a “spy hunt.” The spies were the surveillance cameras used by police and the government, “and the corporate vender ecosystem,” Vogel said. He had on a black ball cap and a T-shirt that read “<em>SILENCE</em> = <em>DEATH</em>.” According to the Atlanta <em>Journal-Constitution</em>, there are more surveillance cameras in Atlanta, per capita, than anywhere outside of China—more than sixty thousand of them. New York City has fewer per person but, Vogel said, “they do have some sort of Bluetooth technology thing for monitoring rats.”</p><p>Kral wore glasses and athletic shorts, and both young men had on masks, but not to conceal their identities. “Your brow is actually enough for most facial-recognition systems,” Kral said. Viruses.</p><p>Kral and Vogel are members of Southerners Against Surveillance Systems and Infrastructure (<em>SASSI</em>), an activist network opposed to what it calls “an ever-expanding surveillance apparatus” that offers “a mirage of ‘public safety’ that never materializes.” <em>SASSI</em>’s methods of opposition include conducting research and leading spy hunts around the country.</p><p>The first participant to arrive was a freshman at Georgia State University, who wore braces and said that he planned to study philosophy. His name was Gene. “I’m here for the hunt,” Gene said. “And discussion of socialist politics, generally.” Next came a tattooed geography professor named Carrie, and her four-year-old daughter.</p><p>“What do you think about the cops?” Carrie asked the child, who stuck out her tongue.</p><p>Time to tour the panopticon. Kral and Vogel pulled out their phones. Vogel’s had only two apps: Signal and a multi-factor-authentication app. Kral had more apps, including one called DeFlock, which allows users to locate and document surveillance tech, like Flock Safety security cameras. The C.E.O. of Flock recently apologized for calling the growing DeFlock movement a “terroristic organization.”</p><p>“He walked that one back a bit,” Vogel said. He and Kral discussed other Flock-related headlines.</p><p>“I read one this morning!” Kral said. An officer charged with illegally tracking people with Flock had investigated a former officer who had used Flock for the same purpose. They laughed.</p><p>The hunters didn’t need the DeFlock map in downtown Atlanta, where cameras seem to outnumber pigeons. “We’re actually working on a birding-type guide to surveillance cameras,” Kral said. “An illustrator is on board.” Rounding a block, he motioned toward P.T.Z.s (pan, tilt, zoom), A.L.P.R.s (automatic license-plate readers), and what looked like ShotSpotters (acoustic sensors).</p><p>“One thing that would be interesting to do in Atlanta is to map the places where you’re actually <em>not</em> within view of a camera,” Vogel mused.</p><p>Pausing to look at a P.T.Z., Kral said, “They typically have a blind spot facing the pole.” He stepped into it.</p><p>Gene pointed to a parking lot where he’d once seen a “robo-dog” patrolling for loiterers. He’d seen another one, “looking defeated, on its side, computers shattered,” he said. “Kind of sad.”</p><p>At the next crosswalk, at least seven cameras captured them, Vogel estimated, “including the police helicopter above us.” They passed a police precinct, which had matching P.T.Z.s at the entrance. (“Gratuitous,” Kral said.) A homeless man in a Jon Ossoff T-shirt introduced himself as Ronald and asked what the group was doing. Vogel explained.</p><p>“Cameras all over,” Ronald said. “We being surveilled.”</p><p>“Have you ever felt consequences of that?” Vogel asked.</p><p>“You go to midtown,” Ronald said. “Robots taking a picture of your ass.”</p><p>Kral gave him some money and the group continued, passing two students in hoodies. “Do you feel safer having a camera like this up?” Vogel asked, pointing to an A.L.P.R. overhead.</p><p>“I don’t know,” one replied.</p><p>“It takes a photo of every car that clearly passes,” Vogel went on. “All that data is uploaded to a database that thousands of police officers across the country can search. <em>ICE</em> can get it, too.”</p><p>“If it’s being used by <em>ICE</em>, it’s not safe,” the other student said.</p><p>They arrived at a surveillance trailer sitting in a parking lot. A pole with multiple cameras protruded from it. “Should we get it to talk?” Kral asked, noting that some setups are equipped with “live monitoring.”</p><p>“Come on, say hi!” Vogel begged the machine, which blinked back silently.</p><p>They stopped in the shade of a tree to drink some water. “Trees,” Vogel said. “They keep you safe.” ♦</p>
+  </article>
+
+  <footer class="footer">
+    <span>Wednesday, August 12, 2026</span>
+    <a href="https://www.newyorker.com/magazine/2026/08/17/i-spy-with-my-little-eye-a-spy" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>

@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/news/the-lede/max-millers-victim-mentality",
-    "https://www.rockpapershotgun.com/the-sunday-papers-820",
-    "https://reason.com/volokh/2026/08/03/gordon-darby-renews-attempt-to-commandeer-new-hampshire-through-the-clean-air-act/",
-    "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
     "https://www.newyorker.com/books/flash-fiction/tributaries-kyle-edwards",
     "https://www.rockpapershotgun.com/all-the-rps-supporter-rewards-for-july-2026-space-battles-messy-desks-and-puzzling-dreams",
     "https://www.wired.com/story/dhs-is-hiring-bounty-hunters-to-find-and-photograph-deported-peoples-homes-abroad/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/hardware/gaming-mice/mmo-heads-rejoice-razer-is-bringing-out-the-naga-v3-pro-with-upgraded-switches-loads-of-customizability-and-a-ridiculous-dpi/",
     "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/",
     "https://www.newyorker.com/news/the-financial-page/what-does-the-humbling-of-leopold-aschenbrenner-mean-for-the-ai-bubble",
-    "https://reason.com/volokh/2026/08/11/how-many-more-jason-ardays-are-there/"
+    "https://reason.com/volokh/2026/08/11/how-many-more-jason-ardays-are-there/",
+    "https://www.wired.com/story/hoka-coupon-code/",
+    "https://www.newyorker.com/magazine/2026/08/17/i-spy-with-my-little-eye-a-spy",
+    "https://harvardlawreview.org/print/vol-139/aggregation-and-the-universal-injunction/",
+    "https://www.pcgamer.com/hardware/vr-hardware/yet-another-sign-the-steam-frame-is-approaching-launch-maybe-really-for-real-this-time-as-the-steamos-beta-adds-preliminary-support-for-its-wireless-adapter/"
   ],
   "categoryLog": [
-    "fun",
     "tech",
     "law",
     "fun",
@@ -66,7 +65,8 @@
     "law",
     "gaming",
     "gaming",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }
