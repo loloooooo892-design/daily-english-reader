@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/08/10/eric-wareheim-plant-dad",
-    "https://reason.com/volokh/2026/08/07/posting-i-wish-someone-would-in-alive-him-about-federal-judge-isnt-punishable-threat/",
-    "https://www.wired.com/story/max-promo-code/",
-    "https://www.wired.com/review/samsung-g8-g80hs/",
     "https://www.newyorker.com/magazine/2026/08/10/robb-moss-is-still-going-with-the-flow",
     "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
     "https://www.rockpapershotgun.com/repair-sick-robots-and-contemplate-the-role-of-healthcare-providers-in-the-deeply-textured-pixel-art-cyberpunk-visual-novel-all-our-broken-parts",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/books/what-were-reading/what-to-read-after-lonesome-dove",
     "https://reason.com/volokh/2026/08/13/justice-elena-kagan-on-the-late-great-prof-richard-fallon/",
     "https://www.eurogamer.net/xbox-game-pass-lineup-august-2026",
-    "https://www.wired.com/review/ego-1300-electric-lawn-mower/"
+    "https://www.wired.com/review/ego-1300-electric-lawn-mower/",
+    "https://reason.com/volokh/2026/08/11/klein-and-thompsons-abudance-shows-abundant-lack-of-introspection/",
+    "https://www.pcgamer.com/games/action/a-long-lost-lord-of-the-rings-action-rpg-makes-a-surprise-return-to-steam/",
+    "https://nautil.us/the-quest-to-understand-the-forgotten-psychedelic-1283763/",
+    "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/"
   ],
   "categoryLog": [
-    "fun",
     "gaming",
     "tech",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "tech",
     "gaming",
-    "fun"
+    "fun",
+    "law"
   ],
   "failures": {}
 }
