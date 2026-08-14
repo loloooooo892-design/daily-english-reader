@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/08/10/robb-moss-is-still-going-with-the-flow",
-    "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
-    "https://www.rockpapershotgun.com/repair-sick-robots-and-contemplate-the-role-of-healthcare-providers-in-the-deeply-textured-pixel-art-cyberpunk-visual-novel-all-our-broken-parts",
-    "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
     "https://reason.com/volokh/2026/08/07/divided-d-c-circuit-panel-upholds-injunction-against-white-house-ballroom-construction-next-stop-one-first-street/",
     "https://www.pcgamer.com/games/roguelike/couples-dispute-over-playing-slay-the-spire-2-in-bed-gets-a-ruling-from-comedian-john-hodgman-pick-an-arbitrary-battle-and-stick-with-it/",
     "https://www.newyorker.com/humor/shouts-murmurs/a-mostly-true-history-of-marco-rubio",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/08/11/klein-and-thompsons-abudance-shows-abundant-lack-of-introspection/",
     "https://www.pcgamer.com/games/action/a-long-lost-lord-of-the-rings-action-rpg-makes-a-surprise-return-to-steam/",
     "https://nautil.us/the-quest-to-understand-the-forgotten-psychedelic-1283763/",
-    "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/"
+    "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/",
+    "https://reason.com/volokh/2026/08/12/second-amendment-roundup-the-militia-of-the-sea/",
+    "https://www.newyorker.com/humor/shouts-murmurs/instructions-for-pet-sitting-my-dog-cerberus",
+    "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
+    "https://www.eurogamer.net/pokemon-pokopia-version-bubbly-basin-patch-notes"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "tech",
     "tech",
@@ -66,6 +65,7 @@
     "tech",
     "gaming",
     "fun",
+    "law",
     "law"
   ],
   "failures": {}
