@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/news/election-2026/the-electability-of-abdul-el-sayed",
-    "https://www.pcgamer.com/games/survival-crafting/blocky-zombie-survival-sim-unturned-releases-its-source-code-so-players-can-build-a-lasting-legacy-for-the-game-regardless-of-the-changes-we-make/",
-    "https://www.wired.com/story/ulta-coupon/",
-    "https://nautil.us/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-1283501/",
     "https://www.wired.com/story/bh-photo-coupon/",
     "https://reason.com/volokh/2026/08/06/supreme-court-term-to-start-hot/",
     "https://www.pcgamer.com/games/fps/john-romero-says-id-software-once-sold-empty-doom-boxes-to-taiwanese-pirates-so-fans-there-could-have-legit-copies-for-us-it-was-distribution/",
@@ -50,10 +46,13 @@
     "https://nautil.us/the-conditions-on-a-us-aircraft-carrier-sound-concerning-1283806/",
     "https://www.eurogamer.net/sam-barlow-immortality-precognition-brandon-cronenberg",
     "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
-    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/"
+    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+    "https://www.bbc.com/news/articles/ce97mm3vvemo",
+    "https://harvardlawreview.org/print/vol-139/remedies-for-a-constitutional-crisis/",
+    "https://www.eurogamer.net/fire-emblem-fortunes-weave-preview",
+    "https://www.newyorker.com/humor/shouts-murmurs/help-im-a-narrator-stuck-in-the-calm-dot-com-meditation-app"
   ],
   "categoryLog": [
-    "tech",
     "law",
     "fun",
     "law",
@@ -66,7 +65,8 @@
     "law",
     "law",
     "tech",
-    "fun"
+    "fun",
+    "tech"
   ],
   "failures": {}
 }
