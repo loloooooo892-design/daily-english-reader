@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/culture/critics-notebook/ariana-grande-and-the-disappointment-of-diagnosis",
-    "https://www.pcgamer.com/hardware/controllers/the-humble-wii-nunchuck-has-been-turned-into-a-video-editing-tool-because-its-one-of-the-most-ergonomic-things-ever-made/",
-    "https://reason.com/volokh/2026/08/05/stop-talking-to-me-order-against-ex-landlord-who-kept-texting-ex-tenant-about-covid-vaccines/",
-    "https://reason.com/volokh/2026/08/07/defendants-refusal-to-identify-herself-leads-to-recommended-default-judgment-against-her/",
     "https://www.newyorker.com/news/election-2026/the-electability-of-abdul-el-sayed",
     "https://www.pcgamer.com/games/survival-crafting/blocky-zombie-survival-sim-unturned-releases-its-source-code-so-players-can-build-a-lasting-legacy-for-the-game-regardless-of-the-changes-we-make/",
     "https://www.wired.com/story/ulta-coupon/",
@@ -50,11 +46,14 @@
     "https://www.wired.com/story/acer-promo-code/",
     "https://www.jurist.org/news/2026/08/india-dispatch-supreme-court-clarifies-student-protest-order-exposing-ad-hoc-policing-of-dissent/",
     "https://www.newyorker.com/magazine/2026/08/17/the-many-masks-of-dan-hoyle",
-    "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-next-major-update-will-present-players-with-a-new-high-level-challenge-with-a-frozen-map-and-arcs-which-will-challenge-the-ways-youve-learned-to-move/"
+    "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-next-major-update-will-present-players-with-a-new-high-level-challenge-with-a-frozen-map-and-arcs-which-will-challenge-the-ways-youve-learned-to-move/",
+    "https://nautil.us/the-conditions-on-a-us-aircraft-carrier-sound-concerning-1283806/",
+    "https://www.eurogamer.net/sam-barlow-immortality-precognition-brandon-cronenberg",
+    "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
+    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/"
   ],
   "categoryLog": [
     "tech",
-    "tech",
     "law",
     "fun",
     "law",
@@ -66,7 +65,8 @@
     "fun",
     "law",
     "law",
-    "tech"
+    "tech",
+    "fun"
   ],
   "failures": {}
 }
