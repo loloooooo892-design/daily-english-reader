@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.pcgamer.com/games/thank-you-so-much-for-the-best-weekend-ever-the-id-software-gang-got-together-at-quakecon-and-it-sure-looks-like-everyone-had-a-great-time/",
-    "https://www.wired.com/story/the-7-best-shows-to-stream-right-now/",
-    "https://www.newyorker.com/magazine/2026/08/17/letters-from-the-august-17-2026-issue",
-    "https://www.eurogamer.net/marvel-tokon-fighting-souls-pc-problems-stuttering-lag",
     "https://reason.com/volokh/2026/08/06/no-religious-exemption-from-forum-selection-clause-in-employment-agreement/",
     "https://www.wired.com/story/nike-promo-code/",
     "https://www.newyorker.com/magazine/2026/08/17/the-worlds-borough-gets-a-new-slogan",
@@ -50,10 +46,13 @@
     "https://www.rockpapershotgun.com/even-10-years-on-sean-murray-feels-like-he-could-work-on-no-mans-sky-forever-even-if-he-knows-there-probably-is-some-end-date-for-it",
     "https://littlelearner-ll.github.io/",
     "https://reason.com/volokh/2026/08/14/plaintiffs-contesting-tren-de-aragua-membership-claims-alien-enemies-act-application-cant-sue-pseudonymously/",
-    "https://www.newyorker.com/culture/infinite-scroll/perez-hilton-and-our-live-streaming-nightmare"
+    "https://www.newyorker.com/culture/infinite-scroll/perez-hilton-and-our-live-streaming-nightmare",
+    "https://reason.com/volokh/2026/08/15/israeli-settler-terrorists-unjustly-expel-west-bank-palestinians-from-their-land/",
+    "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
+    "https://www.pcgamer.com/hardware/graphics-cards/weve-been-tracking-graphics-card-prices-for-exactly-one-year-and-its-never-been-worse-than-this/",
+    "https://www.newyorker.com/culture/pop-music/phoebe-bridgers-comes-back-to-earth"
   ],
   "categoryLog": [
-    "fun",
     "law",
     "gaming",
     "gaming",
@@ -66,7 +65,8 @@
     "tech",
     "fun",
     "tech",
-    "gaming"
+    "gaming",
+    "law"
   ],
   "failures": {}
 }

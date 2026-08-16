@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LittleLearner: Language Models Under Pedagogically-Controlled Knowledge Exposure — Daily Reader</title>
+<title>The Next Big Influencer Is This 4-Foot-Tall Robot From China — Daily Reader</title>
 <style>
 :root {
   --bg: #F7F8FA;
@@ -151,169 +151,23 @@ h1 {
 <main class="container">
   <div class="meta">
     <span class="category-tag">Technology</span>
-    <span>Hacker News Best</span>
-    
+    <span>Wired</span>
+    <span class="sep">·</span><span>@wired</span>
     <span class="sep">·</span>
-    <span>561 words</span>
+    <span>769 words</span>
     <span class="sep">·</span>
-    <span>3 min read</span>
+    <span>4 min read</span>
   </div>
 
-  <h1>LittleLearner: Language Models Under Pedagogically-Controlled Knowledge Exposure</h1>
+  <h1>The Next Big Influencer Is This 4-Foot-Tall Robot From China</h1>
 
   <article class="article-body">
-    <h2>Talk to LittleLearner</h2>
-      <p>The hosted 5B model, live in your browser.
-      <a href="https://zueri-monstro.rufous-hamlet.ts.net/ll-demo-chat/?theme=light" target="_blank" rel="noopener">Open in a new tab ↗</a>
-      if the chat doesn’t load below.</p>
-    
-  
-    
-      <h2>A controlled sandbox for studying how models acquire knowledge</h2>
-      <p>Modern LMs are trained on everything at once, so it is hard to tell whether a new skill
-      was learned or merely elicited. We constrain the training distribution itself: an 88B-token
-      corpus filtered to the U.S. elementary-school curriculum, with models trained from scratch on it and
-      matched unfiltered controls.</p>
-    
-    
-      
-        <p>Dataset</p>
-        <h3>LittleCurriculum</h3>
-        <p>An 88B-token corpus distilled from FineWeb-Edu through a five-stage filtering pipeline aligned with Common Core standards (K–5).
-        Concepts, facts, and vocabulary taught above Grade 5 are explicitly excluded.</p>
-      
-      
-        <p>Models</p>
-        <h3>LittleLearner</h3>
-        <p>Three scales (0.6B / 1.3B / 5B) trained from scratch on LittleCurriculum: chattable models
-        with an interpretable knowledge boundary. Each ships with a matched Unfiltered control
-        for clean comparison.</p>
-      
-      
-        <p>Findings</p>
-        <h3>Elicitation, not acquisition</h3>
-        <p>In our experiments, scaling, SFT+GRPO post-training, and in-context learning amplify what the
-        curriculum taught, but none meaningfully improves out-of-scope performance, indicating that the
-        pretraining filter sets the effective capability ceiling.</p>
-      
-  
-  
-    
-      <h2>Model checkpoints</h2>
-      <p>LittleLearner at three scales (0.6B / 1.3B / 5B), each with a matched Unfiltered control
-      sharing its architecture, tokens, and recipe.</p>
-      <p>
-        <strong>Base</strong>: the pretrained model.
-        <strong>GRPO</strong>: math specialists post-trained on MathCAMPS; responses may exhibit a tendency toward math-oriented output.
-        <strong>Chatty</strong>: variants tuned for general chat behavior.
-      </p>
-    
-    
-      
-        
-          
-            Scale
-            LittleLearner · K–5
-            chatty
-            Matched control · unfiltered
-          
-        
-        
-      
-    
-  
-  
-    
-      <h2>Capability stays inside the curriculum</h2>
-      <p>Can standard interventions push a model past what its pretraining data taught it?
-      With the boundary under experimental control, we can ask cleanly. In our experiments, each
-      intervention amplifies in-scope ability; none of them meaningfully improves out-of-scope
-      performance.</p>
-    
-    
-      
-        <h3>Scaling</h3>
-        <p>Scaling model size improves performance within the model’s controlled knowledge exposure and
-        extends modestly to problems along the same learning trajectory, but yields little improvement on
-        problems requiring more advanced capabilities outside the exposure.</p>
-      
-      
-        <p>MathCAMPS accuracy by grade, across model size</p>
-      
-    
-    
-      
-        <h3>Post-training</h3>
-        <p>Post-training through GRPO significantly boosts in-scope K–5 capabilities, but fails to
-        recover out-of-scope beyond-K–5 capabilities, even when training with out-of-scope data.</p>
-      
-      
-        <p>Post-training amplifies K–5, not the beyond-K–5 gap</p>
-      
-    
-    
-      
-        <h3>In-context learning</h3>
-        <p>In-context learning with the prompts we test does not unlock new reasoning capabilities in
-        beyond-K–5 for our trained 5B LittleLearner.</p>
-      
-      
-        <p>Accuracy by prompting condition</p>
-      
-    
-  
-  
-    
-      <h2>What will you teach it?</h2>
-      <p>Because LittleLearner’s training exposure is explicitly specified, behavioral and
-      representational changes can be related directly to the concepts you introduce. Three directions
-      we’re excited about:</p>
-    
-    
-      
-        <p>01</p><p>RL &amp; discovery</p>
-        <h3>Can RL create capability?</h3>
-        <p>The prior is restricted to K–5, so capabilities that emerge under RL can be attributed to
-        the RL process itself. A tractable proxy for reward-driven discovery.</p>
-      
-      
-        <p>02</p><p>Continual learning</p>
-        <h3>Watch a concept being learned</h3>
-        <p>Introduce negative numbers and measure sample efficiency, retention, and interference. Or
-        probe behavior near the boundary: does it answer, abstain, or hallucinate?</p>
-      
-      
-        <p>03</p><p>Educational science</p>
-        <h3>Machine vs. child learners</h3>
-        <p>Specified exposure enables controlled human-model comparison. Do models and children need
-        similar exposure to learn fractions, or make similar errors on word problems?</p>
-      
-      
-        <p>＋</p><p>Your turn</p>
-        <h3>Bring your own question</h3>
-        <p>A known boundary turns your idea into a clean experiment!</p>
-      
-    
-  
-  
-    
-      <h2>If you find this work useful</h2>
-      <p>Please cite our paper:</p>
-    
-    @misc{littlelearner2026,
-      title={LittleLearner: Language Models Under Pedagogically-Controlled Knowledge Exposure},
-      author={Fanfei Li and Jana Zeller and Manuel Prada-Corral and Thaddäus Wiedemer and Prasanna Mayilvahanan and Ryan Cotterell and Wieland Brendel},
-      year={2026},
-      eprint={2608.13545},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2608.13545}
-}
+    <p>When Edward Warchocki speaks with you, he sounds like a regular guy. “Not super intelligent, but very emotional, very easy to make friends with,” says Bartosz Idzik, the person who created him. But when he doesn’t talk, it’s harder to forget what Warchocki really is: a 4-foot-tall <a href="https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion/" target="_blank" rel="noopener">humanoid robot</a> that’s wandering the city streets of Poland.</p><p>Six months ago, Idzik and his friend Radosław Grzelaczyk had the idea of buying a humanoid robot from China. They named it “Edward Warchocki” after Grzelaczyk’s dog Eddie and the Polish word for growling, “warczeć,” but also because it sounds like a passable name for a Pole. The first few days they took Edward out, it couldn’t speak, and people were clearly scared of it. Then Idzik, a software developer, wired Edward to a large language model that made it capable of having live conversations in Polish.</p><p>“When he started to talk, people loved him. Without talking, it’s just a 40-kilogram machine,” Idzik says.</p><p>Edward soon made lots of friends. It visited the Polish parliament and talked to politicians, hiked up mountains and waded in the lake, and was jokingly arrested by the police. In April, a video of it chasing away wild boars in Warsaw, armed with a backpack and a Rolex, <a href="https://www.wired.com/video/watch/backpack-wearing-humanoid-robot-celebrates-after-chasing-wild-boars-into-forest" target="_blank" rel="noopener">went viral worldwide</a>. By now, Edward has over 1 million followers and 4 billion views across social media.</p><p>In 2026, you must have seen at least one of these humanoid influencers vibing around the world. There’s “<a href="https://www.instagram.com/rizzbot_official/?hl=en" target="_blank" rel="noopener">Rizzbot</a>,” which wears a cowboy hat and flirts with passersby on the streets of Austin; “<a href="https://www.instagram.com/bartrobot_/" target="_blank" rel="noopener">Bart Robot</a>,” which was breakdancing with Knicks fans in New York, celebrating the team’s historic championship; and the “<a href="https://www.instagram.com/brickellclanker/" target="_blank" rel="noopener">Brickell Clanker</a>,” which changed into different jerseys to party with World Cup fans after each game.</p><p>But unless you’ve been paying close attention, you probably haven’t realized these robots are all the same model: <a href="https://www.wired.com/story/nvidia-unitree-humanoid-robot-h2-plus/" target="_blank" rel="noopener">Unitree</a> G1, one of the most available and affordable humanoid robots on the global market today, made by <a href="https://www.wired.com/story/china-humanoid-robot-coworkers/" target="_blank" rel="noopener">a Chinese company that’s leading the robotics industry</a>. The G1 is about the size of a child, with a hollowed-out face with a ring of blue light and light-gray limbs made of aluminum. It’s <a href="https://www.youtube.com/watch?v=y7ojRmPxqNg" target="_blank" rel="noopener">going on <em>America’s Got Talent</em></a>, <a href="https://www.youtube.com/watch?v=NwOXRGDstXg" target="_blank" rel="noopener">showing off kung fu</a>, <a href="https://www.youtube.com/watch?v=5ygzQL74KaI" target="_blank" rel="noopener">having boxing matches</a>, <a href="https://x.com/BrianRoemmele/status/2031725321721163789?s=20" target="_blank" rel="noopener">parkouring</a>, <a href="https://x.com/xiaohu/status/2002260970798760362?s=20" target="_blank" rel="noopener">dancing at concerts</a>, <a href="https://x.com/TheHumanoidHub/status/2037626679041130949?s=20" target="_blank" rel="noopener">running with kids</a>, <a href="https://www.instagram.com/reels/DQj4oiWEtlT/" target="_blank" rel="noopener">cooking (but failing)</a>, <a href="https://www.youtube.com/watch?v=s_MSRtmYBB4" target="_blank" rel="noopener">streaming with Kai Cenat</a>, <a href="https://x.com/wulian_anitalk/status/2069790146682405373?s=20" target="_blank" rel="noopener">begging for money</a>, <a href="https://x.com/Ne_zaha/status/2069817869840359625?s=20" target="_blank" rel="noopener">dating itself</a>, being ordained as a monk in <a href="https://x.com/AFP/status/2026938985474310421?s=20" target="_blank" rel="noopener">Japan</a> and <a href="https://www.youtube.com/watch?v=1KYF0weUV4Y" target="_blank" rel="noopener">Korea</a>, and <a href="https://x.com/Reuters/status/2067400650473013565?s=20" target="_blank" rel="noopener">praying at a mosque in Dubai</a>.</p><p><a href="https://x.com/DimzRacks/status/2063004994312253833?s=20" target="_blank" rel="noopener">An anonymous shitposter on X</a> put it: “This clanker is lit as fuck!”</p><p>Unitree will go public on the Chinese stock market in about two weeks. Its financial disclosure tells how popular the company’s products are: Unlike most robot companies whose products are still being tested in labs, more than half of Unitree’s 2025 revenue came from delivering humanoid robots to real customers. It shipped 5,511 humanoids in 2025 at an average price of less than $25,000 each. And 43 percent of all sales came from outside China. The company also became profitable for the first time last year.</p><p>“We tested a lot of humanoids, and the G1 was the best for its purpose,” Idzik says. “We are used to China copying other countries, but from the perspective of humanoids, other people should copy China. ”</p><p>Despite its commercial success, the company and its robots are often the subject of intense doubts. Sure, they can perform clout-seeking, crowd-pleasing tasks, but can they hold down a traditional job contributing to the economy, like working on an assembly line or cleaning a house? When will Unitree G1 get a real job?</p><h2>Buying It in the US</h2><p>Jake Cooperstein, a 24-year-old who lives in Miami, says he was inspired by Edward and other accounts to create a humanoid influencer of his own. In January, he visited the warehouse of a robotics shop in New York and tested the Unitree G1 robot. He was impressed by how easy it was to operate. The next day, he secured an order and paid the deposit.</p><p>On Unitree’s website, a basic G1 robot is priced at $13,500, but that’s before any tariff, shipping, and taxes. A US distributor lists the robot at about $19,000 instead. Cooperstein was not satisfied with that, though. The most basic version doesn’t come with more sophisticated parts like <a href="https://www.wired.com/story/made-in-china-the-dollar6-billion-chinese-startup-making-hands-for-humanoids/" target="_blank" rel="noopener">dextrous hands</a> and is prohibited from modification. He instead chose the U5 variation that’s designed for educational buyers. It has more parts and better customization but sits at the price of $66,000.</p>
   </article>
 
   <footer class="footer">
     <span>Sunday, August 16, 2026</span>
-    <a href="https://littlelearner-ll.github.io/" target="_blank" rel="noopener">Read original ↗</a>
+    <a href="https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/" target="_blank" rel="noopener">Read original ↗</a>
   </footer>
 
   <div class="archive-link">
