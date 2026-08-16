@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perez Hilton and Our Live-Streaming Nightmare — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>873 words</span>
+    <span class="sep">·</span>
+    <span>5 min read</span>
+  </div>
+
+  <h1>Perez Hilton and Our Live-Streaming Nightmare</h1>
+
+  <article class="article-body">
+    <p>Last week, the celebrity-gossip blogger Perez Hilton went live on TikTok and, for about fifteen minutes, appeared to cut himself. Naked and bleeding, he moaned as he moved a knife across his body, swaying unsteadily before the camera. (TikTok’s A.I. and human moderators failed to end the recording in a timely fashion—technical difficulties, apparently.) At one point, he added three people to his live stream, who, mortified, begged him to stop. He told his viewers that this was what they wanted, and said that he was doing this for his young children, who had apparently fled the house with Hilton’s sister during what his family, in a statement, called a “severe mental health crisis.”</p><p>As footage of the live stream spread online, the initial response was disbelief: suspicions arose that the video was an elaborate ruse, a staged performance. This was Perez Hilton, after all, a man who had earned fame in the mid-two-thousands for his salacious, sarcastic, and often sadistic coverage of celebrity suffering. Before “troll” became commonplace in the internet lexicon, Hilton embodied the definition: a prurient, prolific shitposter who drew dicks and semen on paparazzi photos, called Adam Sandler’s two-year-old daughter “ugly,” and, after Heath Ledger’s accidental overdose, sold T-shirts with the slogan “Why couldn’t it be Britney?” On his website, which at its peak, around 2007, received as many as eight million hits a day, he outed celebrities, picked apart stars’ appearances, and mocked their addictions. He cloaked his cruelty in camp, suffusing his blog posts with exclamation points and cheap puns. But his latest live stream had no such cover. Hilton, whose real name is Mario Lavandeira, Jr., had become the kind of celebrity in crisis that he’d once made a career denigrating.</p><p>Though the twenty-four-hour news cycle was already a fixture of public life when he launched his blog, in 2004, Hilton helped to revolutionize tabloid coverage by making even the smallest scraps of gossip immediately available online, sharing grainy pap shots and crude commentary with startling alacrity. It was no longer enough to read a long print exposé about Britney Spears’s mental-health episodes and subsequent rehab stints; Hilton offered the opportunity to follow the drama in real time, updating his blog whenever a new photograph or anonymous report entered his orbit. To call his coverage prescient, or pioneering, is perhaps too generous, but Hilton was certainly on the cutting edge of the cyber-surveillance panopticon in which we currently live. The camera is now always rolling, not only for the rich and famous but for the average person walking the streets, who on any given day may be accosted by a phone-wielding maven asking: How much money do you make in a year? How much do you pay for rent? What’s your body count? How did you meet your partner? Would you rather have a gay son or a thot daughter? As engagement-farming social-media accounts like Pop Base and celebrity-gossip accounts such as Deuxmoi still post frequent updates of celebrity sightings and speculation, the type of blanketing gossip press that Hilton introduced now spares no one. Whether it’s a lawyer making out with his junior associate in Central Park or colleagues caught extramaritally <a href="https://www.newyorker.com/culture/infinite-scroll/coldplaygate-is-a-reminder-that-theres-no-escaping-going-viral" target="_blank" rel="noopener">cuddling at a Coldplay concert</a>, the modern internet has made it so that we can all, at any moment, become a viral, scandalized sensation, observed by a roving army of eyeballs.</p><p>There is nothing that speaks more to our perma-tabloid social environment than the advent of the live stream, which has allowed ordinary people to become both the celebrity and the paparazzi of their own lives. Anyone can now broadcast real-time video from wherever they are, offering an unfiltered glimpse into the intimate, mundane, and occasionally horrifying experiences that were once witnessed only by those present. Until recently, live streaming was seen as a niche technology and a scrappy alternative to mainstream media, meant mostly for video-game players and fringe political pundits. Since the <em>COVID</em>-19 pandemic, however, the medium has become a major form of mass entertainment and a foundational way in which many people experience and interpret reality. The live stream promises boundless access and constant visibility, collapsing the boundary between the real and the performed, the private and the public, until living a life and broadcasting one become virtually indistinguishable. We can now watch people from around the world put on makeup, eat lunch, shop at the mall, ride in taxis, hang out with friends, smoke weed, work out, read bedtime stories to their children, record music, clean their kitchens, mow their lawns—you name it. And even though access to such banalities may sound brain-deadening, and at best dull, some of the most famous people in the world are now live-streamers. Tabloid coverage—even constantly running tabloid coverage, like Hilton’s—offered only glimpses of celebrity life, seen through a photographer’s lens, but live streaming offers something far more powerful: an endless portal into the lives of everyone, where the minutiae of human experience can be dramatized, observed, studied, critiqued, ironized, theorized about, and commented on. Some streamers participate in what is known as a subathon, a lucrative broadcast whose duration is extended whenever viewers subscribe or donate to the streamer’s channel; the longest have lasted for more than a thousand consecutive days.</p>
+  </article>
+
+  <footer class="footer">
+    <span>Sunday, August 16, 2026</span>
+    <a href="https://www.newyorker.com/culture/infinite-scroll/perez-hilton-and-our-live-streaming-nightmare" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>

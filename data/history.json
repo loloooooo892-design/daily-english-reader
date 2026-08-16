@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/bh-photo-coupon/",
-    "https://reason.com/volokh/2026/08/06/supreme-court-term-to-start-hot/",
-    "https://www.pcgamer.com/games/fps/john-romero-says-id-software-once-sold-empty-doom-boxes-to-taiwanese-pirates-so-fans-there-could-have-legit-copies-for-us-it-was-distribution/",
-    "https://www.jurist.org/news/2026/08/un-warns-of-rising-food-prices-due-to-climate-change-and-energy-price-hikes/",
     "https://www.pcgamer.com/games/thank-you-so-much-for-the-best-weekend-ever-the-id-software-gang-got-together-at-quakecon-and-it-sure-looks-like-everyone-had-a-great-time/",
     "https://www.wired.com/story/the-7-best-shows-to-stream-right-now/",
     "https://www.newyorker.com/magazine/2026/08/17/letters-from-the-august-17-2026-issue",
@@ -50,10 +46,13 @@
     "https://www.bbc.com/news/articles/ce97mm3vvemo",
     "https://harvardlawreview.org/print/vol-139/remedies-for-a-constitutional-crisis/",
     "https://www.eurogamer.net/fire-emblem-fortunes-weave-preview",
-    "https://www.newyorker.com/humor/shouts-murmurs/help-im-a-narrator-stuck-in-the-calm-dot-com-meditation-app"
+    "https://www.newyorker.com/humor/shouts-murmurs/help-im-a-narrator-stuck-in-the-calm-dot-com-meditation-app",
+    "https://www.rockpapershotgun.com/even-10-years-on-sean-murray-feels-like-he-could-work-on-no-mans-sky-forever-even-if-he-knows-there-probably-is-some-end-date-for-it",
+    "https://littlelearner-ll.github.io/",
+    "https://reason.com/volokh/2026/08/14/plaintiffs-contesting-tren-de-aragua-membership-claims-alien-enemies-act-application-cant-sue-pseudonymously/",
+    "https://www.newyorker.com/culture/infinite-scroll/perez-hilton-and-our-live-streaming-nightmare"
   ],
   "categoryLog": [
-    "law",
     "fun",
     "law",
     "gaming",
@@ -66,7 +65,8 @@
     "law",
     "tech",
     "fun",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }
