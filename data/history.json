@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/california-group-buy-bringing-down-heat-pump-costs/",
-    "https://reason.com/volokh/2026/08/09/second-amendment-roundup-0-tax-left-nfa-with-no-constitutional-basis/",
-    "https://www.newyorker.com/magazine/2026/08/17/pope-ls-pleasing-refusal-to-be-interpreted",
-    "https://www.pcgamer.com/hardware/gaming-mice/mmo-heads-rejoice-razer-is-bringing-out-the-naga-v3-pro-with-upgraded-switches-loads-of-customizability-and-a-ridiculous-dpi/",
     "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/",
     "https://www.newyorker.com/news/the-financial-page/what-does-the-humbling-of-leopold-aschenbrenner-mean-for-the-ai-bubble",
     "https://reason.com/volokh/2026/08/11/how-many-more-jason-ardays-are-there/",
@@ -50,12 +46,15 @@
     "https://www.newyorker.com/magazine/2026/08/24/admissions-tour-being-a-person",
     "https://www.rockpapershotgun.com/credible-military-storytelling-ubisoft-announce-playtests-for-new-ghost-recon-game-alongside-a-sizeable-wildlands-update-and-a-future-soldier-giveaway",
     "https://reason.com/volokh/2026/08/14/fraud-claim-over-no-blowback-assurance-by-private-school-to-complaining-parents-followed-by-childrens-expulsions-can-go-forward/",
-    "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose"
+    "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+    "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+    "https://www.newyorker.com/magazine/2026/08/24/move-over-aaron-judge-the-real-yankees-mvp-is-george-costanza",
+    "https://www.eurogamer.net/marvel-tokon-pc-problems-strange-fixes",
+    "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/"
   ],
   "categoryLog": [
     "gaming",
     "gaming",
-    "gaming",
     "tech",
     "gaming",
     "fun",
@@ -66,7 +65,8 @@
     "tech",
     "gaming",
     "law",
-    "fun"
+    "fun",
+    "tech"
   ],
   "failures": {}
 }
