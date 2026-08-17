@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://reason.com/volokh/2026/08/06/no-religious-exemption-from-forum-selection-clause-in-employment-agreement/",
-    "https://www.wired.com/story/nike-promo-code/",
-    "https://www.newyorker.com/magazine/2026/08/17/the-worlds-borough-gets-a-new-slogan",
-    "https://www.rockpapershotgun.com/just-in-time-for-pre-songs-of-the-past-dlc-refreshers-witcher-3-modders-have-restored-a-cut-menu-which-lets-you-watch-story-recaps-at-any-time",
     "https://www.wired.com/story/california-group-buy-bringing-down-heat-pump-costs/",
     "https://reason.com/volokh/2026/08/09/second-amendment-roundup-0-tax-left-nfa-with-no-constitutional-basis/",
     "https://www.newyorker.com/magazine/2026/08/17/pope-ls-pleasing-refusal-to-be-interpreted",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/08/15/israeli-settler-terrorists-unjustly-expel-west-bank-palestinians-from-their-land/",
     "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
     "https://www.pcgamer.com/hardware/graphics-cards/weve-been-tracking-graphics-card-prices-for-exactly-one-year-and-its-never-been-worse-than-this/",
-    "https://www.newyorker.com/culture/pop-music/phoebe-bridgers-comes-back-to-earth"
+    "https://www.newyorker.com/culture/pop-music/phoebe-bridgers-comes-back-to-earth",
+    "https://www.newyorker.com/magazine/2026/08/24/admissions-tour-being-a-person",
+    "https://www.rockpapershotgun.com/credible-military-storytelling-ubisoft-announce-playtests-for-new-ghost-recon-game-alongside-a-sizeable-wildlands-update-and-a-future-soldier-giveaway",
+    "https://reason.com/volokh/2026/08/14/fraud-claim-over-no-blowback-assurance-by-private-school-to-complaining-parents-followed-by-childrens-expulsions-can-go-forward/",
+    "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose"
   ],
   "categoryLog": [
-    "law",
     "gaming",
     "gaming",
     "gaming",
@@ -66,7 +65,8 @@
     "fun",
     "tech",
     "gaming",
-    "law"
+    "law",
+    "fun"
   ],
   "failures": {}
 }
