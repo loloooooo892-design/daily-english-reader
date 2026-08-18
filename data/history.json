@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/",
-    "https://www.newyorker.com/news/the-financial-page/what-does-the-humbling-of-leopold-aschenbrenner-mean-for-the-ai-bubble",
-    "https://reason.com/volokh/2026/08/11/how-many-more-jason-ardays-are-there/",
-    "https://www.wired.com/story/hoka-coupon-code/",
     "https://www.newyorker.com/magazine/2026/08/17/i-spy-with-my-little-eye-a-spy",
     "https://harvardlawreview.org/print/vol-139/aggregation-and-the-universal-injunction/",
     "https://www.pcgamer.com/hardware/vr-hardware/yet-another-sign-the-steam-frame-is-approaching-launch-maybe-really-for-real-this-time-as-the-steamos-beta-adds-preliminary-support-for-its-wireless-adapter/",
@@ -50,11 +46,14 @@
     "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
     "https://www.newyorker.com/magazine/2026/08/24/move-over-aaron-judge-the-real-yankees-mvp-is-george-costanza",
     "https://www.eurogamer.net/marvel-tokon-pc-problems-strange-fixes",
-    "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/"
+    "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
+    "https://www.rockpapershotgun.com/stop-killing-games-join-lawsuit-against-the-playstation-stores-sony-tax-in-latest-venture-beyond-game-preservation",
+    "https://www.newyorker.com/magazine/2026/08/24/rachel-bell-curator-of-high-art",
+    "https://reason.com/volokh/2026/08/18/suicides-and-public-humiliation-recalling-some-past-incidents/",
+    "https://techcrunch.com/2026/08/18/detroit-startup-grounded-raises-5m-to-customize-electric-and-gas-powered-vans/"
   ],
   "categoryLog": [
     "gaming",
-    "gaming",
     "tech",
     "gaming",
     "fun",
@@ -66,7 +65,8 @@
     "gaming",
     "law",
     "fun",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }
