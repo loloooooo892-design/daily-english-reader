@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/08/17/i-spy-with-my-little-eye-a-spy",
-    "https://harvardlawreview.org/print/vol-139/aggregation-and-the-universal-injunction/",
-    "https://www.pcgamer.com/hardware/vr-hardware/yet-another-sign-the-steam-frame-is-approaching-launch-maybe-really-for-real-this-time-as-the-steamos-beta-adds-preliminary-support-for-its-wireless-adapter/",
-    "https://www.eurogamer.net/club-soko-impressions-cartoonishly-dark-sokoban-puzzle-game",
     "https://www.wired.com/story/breville-promo-code/",
     "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
     "https://www.newyorker.com/books/this-week-in-fiction/emma-cline-08-17-26",
@@ -50,10 +46,13 @@
     "https://www.rockpapershotgun.com/stop-killing-games-join-lawsuit-against-the-playstation-stores-sony-tax-in-latest-venture-beyond-game-preservation",
     "https://www.newyorker.com/magazine/2026/08/24/rachel-bell-curator-of-high-art",
     "https://reason.com/volokh/2026/08/18/suicides-and-public-humiliation-recalling-some-past-incidents/",
-    "https://techcrunch.com/2026/08/18/detroit-startup-grounded-raises-5m-to-customize-electric-and-gas-powered-vans/"
+    "https://techcrunch.com/2026/08/18/detroit-startup-grounded-raises-5m-to-customize-electric-and-gas-powered-vans/",
+    "https://www.newyorker.com/culture/critics-notebook/the-wealth-and-glam-of-the-hamptons-looks-almost-quaint",
+    "https://www.eurogamer.net/the-king-is-watching-impressions",
+    "https://www.scotusblog.com/2026/08/once-upon-a-time-storytelling-in-learning-resources-v-trump/",
+    "https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "gaming",
     "fun",
@@ -66,7 +65,8 @@
     "law",
     "fun",
     "tech",
-    "gaming"
+    "gaming",
+    "fun"
   ],
   "failures": {}
 }
