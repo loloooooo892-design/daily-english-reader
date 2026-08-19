@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/breville-promo-code/",
-    "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
-    "https://www.newyorker.com/books/this-week-in-fiction/emma-cline-08-17-26",
-    "https://www.newyorker.com/books/what-were-reading/what-to-read-after-lonesome-dove",
     "https://reason.com/volokh/2026/08/13/justice-elena-kagan-on-the-late-great-prof-richard-fallon/",
     "https://www.eurogamer.net/xbox-game-pass-lineup-august-2026",
     "https://www.wired.com/review/ego-1300-electric-lawn-mower/",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/culture/critics-notebook/the-wealth-and-glam-of-the-hamptons-looks-almost-quaint",
     "https://www.eurogamer.net/the-king-is-watching-impressions",
     "https://www.scotusblog.com/2026/08/once-upon-a-time-storytelling-in-learning-resources-v-trump/",
-    "https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more"
+    "https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more",
+    "https://www.scotusblog.com/2026/08/scotus-litigator-floyd-abrams-at-90/",
+    "https://www.rockpapershotgun.com/obvious-tells-and-subtle-hints-alien-isolations-lead-designer-on-the-lethal-variety-of-the-lost-wilds-dinosaurs",
+    "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+    "https://nautil.us/why-it-might-be-time-to-rethink-the-human-family-tree-1283985/"
   ],
   "categoryLog": [
-    "tech",
     "gaming",
     "fun",
     "law",
@@ -66,7 +65,8 @@
     "fun",
     "tech",
     "gaming",
-    "fun"
+    "fun",
+    "law"
   ],
   "failures": {}
 }
