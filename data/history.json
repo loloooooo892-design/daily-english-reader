@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/humor/shouts-murmurs/instructions-for-pet-sitting-my-dog-cerberus",
-    "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
-    "https://www.eurogamer.net/pokemon-pokopia-version-bubbly-basin-patch-notes",
-    "https://www.wired.com/story/acer-promo-code/",
     "https://www.jurist.org/news/2026/08/india-dispatch-supreme-court-clarifies-student-protest-order-exposing-ad-hoc-policing-of-dissent/",
     "https://www.newyorker.com/magazine/2026/08/17/the-many-masks-of-dan-hoyle",
     "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-next-major-update-will-present-players-with-a-new-high-level-challenge-with-a-frozen-map-and-arcs-which-will-challenge-the-ways-youve-learned-to-move/",
@@ -50,11 +46,14 @@
     "https://techcrunch.com/2026/08/20/there-are-less-than-48-hours-to-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket/",
     "https://www.newyorker.com/books/what-were-reading/three-books-that-will-transport-you",
     "https://www.pcgamer.com/games/survival-crafting/palworld-chromite/",
-    "https://www.jurist.org/news/2026/08/malaysia-dispatch-revisiting-the-to-kill-a-movement-exhibition/"
+    "https://www.jurist.org/news/2026/08/malaysia-dispatch-revisiting-the-to-kill-a-movement-exhibition/",
+    "https://www.newyorker.com/magazine/2026/08/24/where-theres-smoke-theres-fire-towers",
+    "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+    "https://www.scotusblog.com/2026/08/understanding-the-courts-next-major-case-on-asylum-seekers-wassily-v-blanche/",
+    "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/"
   ],
   "categoryLog": [
     "law",
-    "law",
     "tech",
     "fun",
     "tech",
@@ -66,7 +65,8 @@
     "fun",
     "law",
     "law",
-    "tech"
+    "tech",
+    "fun"
   ],
   "failures": {}
 }
