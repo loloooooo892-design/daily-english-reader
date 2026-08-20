@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.pcgamer.com/games/action/a-long-lost-lord-of-the-rings-action-rpg-makes-a-surprise-return-to-steam/",
-    "https://nautil.us/the-quest-to-understand-the-forgotten-psychedelic-1283763/",
-    "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/",
-    "https://reason.com/volokh/2026/08/12/second-amendment-roundup-the-militia-of-the-sea/",
     "https://www.newyorker.com/humor/shouts-murmurs/instructions-for-pet-sitting-my-dog-cerberus",
     "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/",
     "https://www.eurogamer.net/pokemon-pokopia-version-bubbly-basin-patch-notes",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/08/18/voter-ignorance-and-confusion-caused-by-candidates-with-similar-names/",
     "https://www.wired.com/review/google-pixel-watch-5/",
     "https://www.rockpapershotgun.com/gta-6-footage-once-again-appears-to-leak-online-this-time-because-of-a-group-that-wants-games-like-the-crew-to-have-offline-modes-and-the-end-of-digital-preorders",
-    "https://www.newyorker.com/magazine/2026/08/24/new-yorks-hottest-club-is-the-jacob-riis-bathhouse"
+    "https://www.newyorker.com/magazine/2026/08/24/new-yorks-hottest-club-is-the-jacob-riis-bathhouse",
+    "https://techcrunch.com/2026/08/20/there-are-less-than-48-hours-to-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket/",
+    "https://www.newyorker.com/books/what-were-reading/three-books-that-will-transport-you",
+    "https://www.pcgamer.com/games/survival-crafting/palworld-chromite/",
+    "https://www.jurist.org/news/2026/08/malaysia-dispatch-revisiting-the-to-kill-a-movement-exhibition/"
   ],
   "categoryLog": [
-    "fun",
     "law",
     "law",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "fun",
     "law",
-    "law"
+    "law",
+    "tech"
   ],
   "failures": {}
 }
