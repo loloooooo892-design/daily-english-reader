@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.eurogamer.net/sam-barlow-immortality-precognition-brandon-cronenberg",
-    "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
-    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-    "https://www.bbc.com/news/articles/ce97mm3vvemo",
     "https://harvardlawreview.org/print/vol-139/remedies-for-a-constitutional-crisis/",
     "https://www.eurogamer.net/fire-emblem-fortunes-weave-preview",
     "https://www.newyorker.com/humor/shouts-murmurs/help-im-a-narrator-stuck-in-the-calm-dot-com-meditation-app",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/08/21/9-25m-verdict-against-n-y-times-in-libel-case-brought-by-alabama-basketball-player/",
     "https://www.wired.com/story/squarespace-promo-code/",
     "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-remake-rpg-focus-crafting",
-    "https://www.newyorker.com/culture/goings-on/late-summertime-idylls-by-the-water"
+    "https://www.newyorker.com/culture/goings-on/late-summertime-idylls-by-the-water",
+    "https://www.rockpapershotgun.com/fallout-4-and-skyrim-updates-are-imminent-just-as-ive-modded-up-the-latter-for-the-first-time-in-ages",
+    "https://longreads.com/2026/08/14/romance-dating-decline/",
+    "https://annas-archive.gl/blog/physical-destruction.html",
+    "https://www.scotusblog.com/2026/08/florida-republicans-bring-census-bureau-challenge-to-the-supreme-court/"
   ],
   "categoryLog": [
-    "tech",
     "fun",
     "tech",
     "gaming",
@@ -66,7 +65,8 @@
     "law",
     "tech",
     "fun",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }
