@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.jurist.org/news/2026/08/india-dispatch-supreme-court-clarifies-student-protest-order-exposing-ad-hoc-policing-of-dissent/",
-    "https://www.newyorker.com/magazine/2026/08/17/the-many-masks-of-dan-hoyle",
-    "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-next-major-update-will-present-players-with-a-new-high-level-challenge-with-a-frozen-map-and-arcs-which-will-challenge-the-ways-youve-learned-to-move/",
-    "https://nautil.us/the-conditions-on-a-us-aircraft-carrier-sound-concerning-1283806/",
     "https://www.eurogamer.net/sam-barlow-immortality-precognition-brandon-cronenberg",
     "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
     "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/magazine/2026/08/24/where-theres-smoke-theres-fire-towers",
     "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
     "https://www.scotusblog.com/2026/08/understanding-the-courts-next-major-case-on-asylum-seekers-wassily-v-blanche/",
-    "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/"
+    "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/",
+    "https://reason.com/volokh/2026/08/21/9-25m-verdict-against-n-y-times-in-libel-case-brought-by-alabama-basketball-player/",
+    "https://www.wired.com/story/squarespace-promo-code/",
+    "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-remake-rpg-focus-crafting",
+    "https://www.newyorker.com/culture/goings-on/late-summertime-idylls-by-the-water"
   ],
   "categoryLog": [
-    "law",
     "tech",
     "fun",
     "tech",
@@ -66,7 +65,8 @@
     "law",
     "law",
     "tech",
-    "fun"
+    "fun",
+    "law"
   ],
   "failures": {}
 }
