@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://harvardlawreview.org/print/vol-139/remedies-for-a-constitutional-crisis/",
-    "https://www.eurogamer.net/fire-emblem-fortunes-weave-preview",
-    "https://www.newyorker.com/humor/shouts-murmurs/help-im-a-narrator-stuck-in-the-calm-dot-com-meditation-app",
-    "https://www.rockpapershotgun.com/even-10-years-on-sean-murray-feels-like-he-could-work-on-no-mans-sky-forever-even-if-he-knows-there-probably-is-some-end-date-for-it",
     "https://littlelearner-ll.github.io/",
     "https://reason.com/volokh/2026/08/14/plaintiffs-contesting-tren-de-aragua-membership-claims-alien-enemies-act-application-cant-sue-pseudonymously/",
     "https://www.newyorker.com/culture/infinite-scroll/perez-hilton-and-our-live-streaming-nightmare",
@@ -50,10 +46,13 @@
     "https://www.rockpapershotgun.com/fallout-4-and-skyrim-updates-are-imminent-just-as-ive-modded-up-the-latter-for-the-first-time-in-ages",
     "https://longreads.com/2026/08/14/romance-dating-decline/",
     "https://annas-archive.gl/blog/physical-destruction.html",
-    "https://www.scotusblog.com/2026/08/florida-republicans-bring-census-bureau-challenge-to-the-supreme-court/"
+    "https://www.scotusblog.com/2026/08/florida-republicans-bring-census-bureau-challenge-to-the-supreme-court/",
+    "https://www.newyorker.com/news/global-notes/after-six-months-of-war-trump-is-still-losing-to-iran",
+    "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+    "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
+    "https://www.pcgamer.com/hardware/robot-olympics-runner-bravely-sprints-headfirst-into-wall-and-collapses-in-shower-of-sparks-is-not-a-metaphor/"
   ],
   "categoryLog": [
-    "fun",
     "tech",
     "gaming",
     "law",
@@ -66,7 +65,8 @@
     "tech",
     "fun",
     "law",
-    "gaming"
+    "gaming",
+    "fun"
   ],
   "failures": {}
 }

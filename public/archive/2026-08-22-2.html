@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>nobuzz/README.md at main · adnanakil/nobuzz — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Technology</span>
+    <span>Hacker News Best</span>
+    
+    <span class="sep">·</span>
+    <span>576 words</span>
+    <span class="sep">·</span>
+    <span>3 min read</span>
+  </div>
+
+  <h1>nobuzz/README.md at main · adnanakil/nobuzz</h1>
+
+  <article class="article-body">
+    <p>Obviously it's common knowledge by now that Anthropic has solely trained claude on old Buzzfeed articles (explaining its love for 90s nostalgia). So Claude and I built a <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a> skill (/debuzz) that takes Claude's last response and runs it through the Antigravity CLI (agy) to translate it from talking like a millennial clickbait to regular English. We're thinking of calling it "Claudette" but Cat Wu is famously litigious so it's definitely absolutely not called "Claudette".</p>
+<h2>The problem</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#the-problem" target="_blank" rel="noopener"></a>
+<p>Claudette is our solution to Claude being a great engineer with one incurable condition: it talks like it's delivering a TED talk about its own pull request. You ask why a test is flaky and you get a "load-bearing assumption," three numbered revelations, and a solemn note that the third one is <em>the most instructive yet</em>. Nothing is ever just a bug. There is always a kicker.</p>
+<p>This skill accepts that no amount of prompting fully cures this, and does the honest thing instead: it hands the response to a different model, Gemini (remember gemini from last summer?) via Google's Antigravity CLI, whose only job is to say it like a human person. Claudette has pinky promised to print Antigravity's translation verbatim, because letting Claude "tidy up" the translation reintroduces exactly the voice being removed.</p>
+<h2>Before / after</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#before--after" target="_blank" rel="noopener"></a>
+<p><strong>Before (Claude):</strong></p>
+<blockquote>
+<p>Here's where it gets interesting: the retry logic isn't just a nice-to-have — it's - the - load-bearing - assumption - of - the - entire - sync - pipeline. Three things jumped out at me, and the third one is the most instructive yet. [...] And third — and this is the kicker — the dedupe key includes a timestamp, which means retries are never actually deduplicated.</p>
+</blockquote>
+<p><strong>After (/debuzz, colleague mode):</strong></p>
+<blockquote>
+<p>The sync pipeline's retry logic has three bugs. syncQueue.ts:142 swallows ETIMEDOUT instead of re-queuing the job. The backoff caps at 2 seconds, which is too low for mobile networks. And the dedupe key includes a timestamp, so retries are never deduplicated. Fix: strip the timestamp from the key, raise the cap to 30 seconds, and re-throw the timeout error.</p>
+</blockquote>
+<h2>Install</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#install" target="_blank" rel="noopener"></a>
+git clone https://github.com/adnanakil/nobuzz
+mkdir -p ~/.claude/skills
+cp -r nobuzz/debuzz ~/.claude/skills/
+<p>Requirements:</p>
+<ul>
+<li>Claude Code</li>
+<li>The <a href="https://antigravity.google/docs/cli/install/" target="_blank" rel="noopener">Antigravity CLI</a> (agy) — install with curl -fsSL https://antigravity.google/cli/install.sh | bash (macOS/Linux) or irm https://antigravity.google/cli/install.ps1 | iex (Windows), then run agy once to complete the Google Sign-In flow.</li>
+</ul>
+<h2>Usage</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#usage" target="_blank" rel="noopener"></a>
+/debuzz [mode] [text]
+
+Mode
+Audience
+What you get
+
+colleague (default)
+An engineer
+Same content, every file path and code block intact, zero theatrics
+
+manager
+A technical-adjacent manager
+What happened, why it matters, what's next — about a third the length, no code
+
+director
+An executive
+Three to five sentences: outcome, impact, ask. Assumes thirty seconds of attention
+
+<p>With no text argument it translates Claude's previous reply. Paste text after the mode to translate that instead. It also triggers on natural phrases like "say that in normal english."</p>
+<h2>How it works</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#how-it-works" target="_blank" rel="noopener"></a>
+<p>No magic. Claudette writes its previous reply to a temp file and runs agy -p "$(cat &lt;file&gt;) &lt;plain-English style instructions&gt;" — agy's headless mode doesn't read stdin and won't read files outside the project, so the text goes straight into the prompt — then prints Antigravity's output verbatim. If agy errors (usually auth), you see the actual error — Claude only offers its own rewrite as a clearly labeled fallback, because a debuzzer that quietly asks the buzzer to debuzz itself is how you end up with a load-bearing translation.</p>
+<h2>License</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#license" target="_blank" rel="noopener"></a>
+<p>MIT</p>
+  </article>
+
+  <footer class="footer">
+    <span>Saturday, August 22, 2026</span>
+    <a href="https://github.com/adnanakil/nobuzz/blob/main/README.md" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
