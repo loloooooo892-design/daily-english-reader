@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>nobuzz/README.md at main · adnanakil/nobuzz — Daily Reader</title>
+<title>Briefly Noted Book Reviews — Daily Reader</title>
 <style>
 :root {
   --bg: #F7F8FA;
@@ -150,69 +150,24 @@ h1 {
 <body>
 <main class="container">
   <div class="meta">
-    <span class="category-tag">Technology</span>
-    <span>Hacker News Best</span>
-    
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
     <span class="sep">·</span>
-    <span>576 words</span>
+    <span>509 words</span>
     <span class="sep">·</span>
     <span>3 min read</span>
   </div>
 
-  <h1>nobuzz/README.md at main · adnanakil/nobuzz</h1>
+  <h1>Briefly Noted Book Reviews</h1>
 
   <article class="article-body">
-    <p>Obviously it's common knowledge by now that Anthropic has solely trained claude on old Buzzfeed articles (explaining its love for 90s nostalgia). So Claude and I built a <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a> skill (/debuzz) that takes Claude's last response and runs it through the Antigravity CLI (agy) to translate it from talking like a millennial clickbait to regular English. We're thinking of calling it "Claudette" but Cat Wu is famously litigious so it's definitely absolutely not called "Claudette".</p>
-<h2>The problem</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#the-problem" target="_blank" rel="noopener"></a>
-<p>Claudette is our solution to Claude being a great engineer with one incurable condition: it talks like it's delivering a TED talk about its own pull request. You ask why a test is flaky and you get a "load-bearing assumption," three numbered revelations, and a solemn note that the third one is <em>the most instructive yet</em>. Nothing is ever just a bug. There is always a kicker.</p>
-<p>This skill accepts that no amount of prompting fully cures this, and does the honest thing instead: it hands the response to a different model, Gemini (remember gemini from last summer?) via Google's Antigravity CLI, whose only job is to say it like a human person. Claudette has pinky promised to print Antigravity's translation verbatim, because letting Claude "tidy up" the translation reintroduces exactly the voice being removed.</p>
-<h2>Before / after</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#before--after" target="_blank" rel="noopener"></a>
-<p><strong>Before (Claude):</strong></p>
-<blockquote>
-<p>Here's where it gets interesting: the retry logic isn't just a nice-to-have — it's - the - load-bearing - assumption - of - the - entire - sync - pipeline. Three things jumped out at me, and the third one is the most instructive yet. [...] And third — and this is the kicker — the dedupe key includes a timestamp, which means retries are never actually deduplicated.</p>
-</blockquote>
-<p><strong>After (/debuzz, colleague mode):</strong></p>
-<blockquote>
-<p>The sync pipeline's retry logic has three bugs. syncQueue.ts:142 swallows ETIMEDOUT instead of re-queuing the job. The backoff caps at 2 seconds, which is too low for mobile networks. And the dedupe key includes a timestamp, so retries are never deduplicated. Fix: strip the timestamp from the key, raise the cap to 30 seconds, and re-throw the timeout error.</p>
-</blockquote>
-<h2>Install</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#install" target="_blank" rel="noopener"></a>
-git clone https://github.com/adnanakil/nobuzz
-mkdir -p ~/.claude/skills
-cp -r nobuzz/debuzz ~/.claude/skills/
-<p>Requirements:</p>
-<ul>
-<li>Claude Code</li>
-<li>The <a href="https://antigravity.google/docs/cli/install/" target="_blank" rel="noopener">Antigravity CLI</a> (agy) — install with curl -fsSL https://antigravity.google/cli/install.sh | bash (macOS/Linux) or irm https://antigravity.google/cli/install.ps1 | iex (Windows), then run agy once to complete the Google Sign-In flow.</li>
-</ul>
-<h2>Usage</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#usage" target="_blank" rel="noopener"></a>
-/debuzz [mode] [text]
-
-Mode
-Audience
-What you get
-
-colleague (default)
-An engineer
-Same content, every file path and code block intact, zero theatrics
-
-manager
-A technical-adjacent manager
-What happened, why it matters, what's next — about a third the length, no code
-
-director
-An executive
-Three to five sentences: outcome, impact, ask. Assumes thirty seconds of attention
-
-<p>With no text argument it translates Claude's previous reply. Paste text after the mode to translate that instead. It also triggers on natural phrases like "say that in normal english."</p>
-<h2>How it works</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#how-it-works" target="_blank" rel="noopener"></a>
-<p>No magic. Claudette writes its previous reply to a temp file and runs agy -p "$(cat &lt;file&gt;) &lt;plain-English style instructions&gt;" — agy's headless mode doesn't read stdin and won't read files outside the project, so the text goes straight into the prompt — then prints Antigravity's output verbatim. If agy errors (usually auth), you see the actual error — Claude only offers its own rewrite as a clearly labeled fallback, because a debuzzer that quietly asks the buzzer to debuzz itself is how you end up with a load-bearing translation.</p>
-<h2>License</h2><a href="https://github.com/adnanakil/nobuzz/blob/main/README.md#license" target="_blank" rel="noopener"></a>
-<p>MIT</p>
+    <p><strong>The Yahoo Boys</strong><em>, by Carlos Barragán (Farrar, Straus &amp; Giroux)</em>. In 2022, the author of this engrossing investigation travelled to Lagos, Nigeria, to find the person who, years earlier, ensnared his mother in an online romance scam. What he discovered was a place primed by its history and its poverty for the emergence of youths, known as Yahoo Boys, dedicated to conning Western marks using false identities, fake naked pictures, and flattery. In Barragán’s account, Nigerian public discourse casts the Yahoo life style—fuelled by drugs and extravagant spending—as a double-edged sword, both a stain on the country’s reputation and a powerful economic engine. As the book follows four Yahoos, it assembles a story of loneliness in the digital age—a loneliness that deforms scammer and scammed alike.</p><p><strong>Unsayable</strong><em>, by Michael Cunningham (Random House)</em>. When this warm memoir begins, the author, a celebrated novelist, observes that the world is “sufficient unto itself. It neither knows nor cares if anyone writes about it.” Why write, then? In the pages that follow, Cunningham remembers his upbringing in middle-class suburban California, his gradual awareness of his gayness, his time as a countercultural student at Stanford, and his stints working as a hustler and a bartender, all the while elaborating writing’s many purposes—and offering guidance on how to do it well. It’s a way to entertain, to turn “ephemera into objects,” to “render and recognize everything and everyone.”</p><h2><a href="https://www.newyorker.com/best-books-2026" target="_blank" rel="noopener">What We’re Reading</a></h2><p><em>Discover notable new fiction, nonfiction, and poetry.</em></p><p><strong>Sunrise</strong><em>, by Téa Obreht (Random House)</em>. This kaleidoscopic novel, which unfolds across three time lines, opens in 2024, with the crash of a Cessna in the mountains of Wyoming. A survivor wanders alone through the wilderness until she finds Sunrise, an abandoned old Western town. It’s the very place that, some twenty years earlier, a county local, Coll, is working tirelessly to preserve. But, when Coll meets a writer who’s similarly interested in the town’s legacy, his plans get derailed. The writer shares her manuscript—embedded within the novel and set in 1902—which contains little-known truths about Sunrise and the man who founded it, someone whom Coll had long revered. As the narratives converge, Obreht teases out the relationship between our conceptions of history and of ourselves.</p><p><strong>Skin Contact</strong><em>, by Elisa Faison (Cardinal)</em>. At the outset of this funny and pensive novel, Frances, a married woman, tells her husband, Ben, that she “sort of” has a crush on a waitress—thereby kicking off their open marriage. She and Ben soon discover the joys of sleeping with other people, both together and separately. For Frances, who is thirty, the experiment is, at first, a way to help her cope with the grief of losing her mother. Then, just as she is realizing that she might want to have a child, Ben falls in love with another woman. Torn between a life that might seem “frivolous” and one that feels “flattening,” the couple have to decide what, for them, is the right path.</p><p><em>An earlier version of this article misspelled Elisa Faison’s name.</em></p>
   </article>
 
   <footer class="footer">
     <span>Saturday, August 22, 2026</span>
-    <a href="https://github.com/adnanakil/nobuzz/blob/main/README.md" target="_blank" rel="noopener">Read original ↗</a>
+    <a href="https://www.newyorker.com/magazine/2026/08/24/the-yahoo-boys-unsayable-sunrise-skin-contact" target="_blank" rel="noopener">Read original ↗</a>
   </footer>
 
   <div class="archive-link">

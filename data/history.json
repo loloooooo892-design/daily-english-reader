@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://littlelearner-ll.github.io/",
-    "https://reason.com/volokh/2026/08/14/plaintiffs-contesting-tren-de-aragua-membership-claims-alien-enemies-act-application-cant-sue-pseudonymously/",
-    "https://www.newyorker.com/culture/infinite-scroll/perez-hilton-and-our-live-streaming-nightmare",
-    "https://reason.com/volokh/2026/08/15/israeli-settler-terrorists-unjustly-expel-west-bank-palestinians-from-their-land/",
     "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
     "https://www.pcgamer.com/hardware/graphics-cards/weve-been-tracking-graphics-card-prices-for-exactly-one-year-and-its-never-been-worse-than-this/",
     "https://www.newyorker.com/culture/pop-music/phoebe-bridgers-comes-back-to-earth",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/news/global-notes/after-six-months-of-war-trump-is-still-losing-to-iran",
     "https://github.com/adnanakil/nobuzz/blob/main/README.md",
     "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
-    "https://www.pcgamer.com/hardware/robot-olympics-runner-bravely-sprints-headfirst-into-wall-and-collapses-in-shower-of-sparks-is-not-a-metaphor/"
+    "https://www.pcgamer.com/hardware/robot-olympics-runner-bravely-sprints-headfirst-into-wall-and-collapses-in-shower-of-sparks-is-not-a-metaphor/",
+    "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/",
+    "https://www.newyorker.com/magazine/2026/08/24/the-yahoo-boys-unsayable-sunrise-skin-contact",
+    "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
+    "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/"
   ],
   "categoryLog": [
-    "tech",
     "gaming",
     "law",
     "fun",
@@ -66,7 +65,8 @@
     "fun",
     "law",
     "gaming",
-    "fun"
+    "fun",
+    "gaming"
   ],
   "failures": {}
 }
