@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
-    "https://www.pcgamer.com/hardware/graphics-cards/weve-been-tracking-graphics-card-prices-for-exactly-one-year-and-its-never-been-worse-than-this/",
-    "https://www.newyorker.com/culture/pop-music/phoebe-bridgers-comes-back-to-earth",
-    "https://www.newyorker.com/magazine/2026/08/24/admissions-tour-being-a-person",
     "https://www.rockpapershotgun.com/credible-military-storytelling-ubisoft-announce-playtests-for-new-ghost-recon-game-alongside-a-sizeable-wildlands-update-and-a-future-soldier-giveaway",
     "https://reason.com/volokh/2026/08/14/fraud-claim-over-no-blowback-assurance-by-private-school-to-complaining-parents-followed-by-childrens-expulsions-can-go-forward/",
     "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/",
     "https://www.newyorker.com/magazine/2026/08/24/the-yahoo-boys-unsayable-sunrise-skin-contact",
     "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
-    "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/"
+    "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+    "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
+    "https://www.newyorker.com/culture/songs-of-summer/drakes-janice-stfu-on-every-corner",
+    "https://www.pcgamer.com/games/grand-theft-auto/cyberleeks-still-at-it-another-gta-6-leak-shows-2-full-minutes-of-high-speed-driving-surprisingly-few-crashes/",
+    "https://reason.com/volokh/2026/08/18/minnesotas-nudification-ban-repeats-unconstitutional-errors-of-early-revenge-porn-bills/"
   ],
   "categoryLog": [
-    "gaming",
     "law",
     "fun",
     "tech",
@@ -66,7 +65,8 @@
     "law",
     "gaming",
     "fun",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }
