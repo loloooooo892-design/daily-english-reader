@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>&quot;I think that might be a misread&quot;: Thief designer on why making a triple-A immersive sim doesn't really work — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Gaming</span>
+    <span>Rock Paper Shotgun</span>
+    <span class="sep">·</span><span>Oisin Kuhnke</span>
+    <span class="sep">·</span>
+    <span>537 words</span>
+    <span class="sep">·</span>
+    <span>3 min read</span>
+  </div>
+
+  <h1>&quot;I think that might be a misread&quot;: Thief designer on why making a triple-A immersive sim doesn't really work</h1>
+
+  <article class="article-body">
+    <p>Stole the words out of my mouth</p>
+    
+  
+  
+  
+  
+            <p>
+Broadly speaking, it's fine for something to exist as a niche. Whatever form of media a thing might be, to fulfil a niche is to meet the expectations of at least a handful of people with a particular taste that many others don't, and I think that's a delightful thing to do. In video games, <a href="https://www.rockpapershotgun.com/the-10-best-immersive-sims-on-pc" target="_blank" rel="noopener">immersive sims</a> might not be the most niche genre in the world, but they've historically not done gangbusters sales wise, meaning that triple-A takes don't quite make their money back. If you ask Randy Smith Evergreen, a designer on <a href="https://www.rockpapershotgun.com/games/thief-the-dark-project" target="_blank" rel="noopener">Thief: The Dark Project</a>, perhaps avoiding the world of triple-A is the way to go for immersive sims.
+</p>
+<p>
+Speaking to <a href="https://www.pcgamer.com/games/sim/thief-designer-says-that-the-immersive-sim-audience-is-too-small-for-aaa-games-theres-quite-a-few-of-us-who-think-the-way-to-do-it-is-be-iii-or-aa/" target="_blank" rel="noopener">PC Gamer</a>, Evergreen explains that both him and other developers who have done a lot of work on immersive sims "have a belief that the immersive sims that are being created today and are slated for the future are, by and large, thinking of themselves as [existing] in an arms race to be bigger and better." He notes how these games are trying to compete against much bigger names, saying that imsims have "to be triple-A, and it's got to sit right alongside Ghost of Tsushima and GTA 6, and it's got to be a game that's big enough to capture the public's attention. But I think that might be a misread for the audience size of immersive sims."
+</p>
+<p>
+From Evergreen's perspective, as well as other imsim designers, he says, it's probably better to take the triple-I or double-A approach over chasing that triple-A money. "So you're talking about a $3-10 million budget, a passionate team led by some of us folks who have experience with immersive sims or newcomers who just played a lot of immersive sims and really get it, making something that's a little bit smaller, more passionate, and can be made more quickly," he suggests.
+</p>
+<p>
+The developer notes how the original Thief had a budget of $3 million, or roughly $6 million adjusted for inflation, and that he isn't entirely sure that a game with that kind of budget "that you want to make in the year 2026 is going to sell disproportionately different amounts of copies than the $250 million one that comes out of a big studio. So I think that's an example of where the market is going, or [where] I think it should go at least."
+</p><p>
+I find myself agreeing with Evergreen, in part because of how the film industry used to be. These days it's all blockbusters that half the time don't make their multi-hundred dollar budgets back, when there was once a time where you'd get mid-budget films that served a particular niche and existed for the sake of having a broader portfolio (and would sometimes find success in DVD sales if they didn't in the box office, though that's harder to replicate in the games industry). There's a value in having niche, mid-budget games that appeal to a specific market that won't force a studio to close just because they weren't a number one bestseller. But what do I know! Surely the latest online gunslop will be a hit, just like the others.
+</p>
+  </article>
+
+  <footer class="footer">
+    <span>Monday, August 24, 2026</span>
+    <a href="https://www.rockpapershotgun.com/i-think-that-might-be-a-misread-thief-designer-on-why-making-a-triple-a-immersive-sim-doesnt-really-work" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
