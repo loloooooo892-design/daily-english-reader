@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.eurogamer.net/the-king-is-watching-impressions",
-    "https://www.scotusblog.com/2026/08/once-upon-a-time-storytelling-in-learning-resources-v-trump/",
-    "https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more",
-    "https://www.scotusblog.com/2026/08/scotus-litigator-floyd-abrams-at-90/",
     "https://www.rockpapershotgun.com/obvious-tells-and-subtle-hints-alien-isolations-lead-designer-on-the-lethal-variety-of-the-lost-wilds-dinosaurs",
     "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
     "https://nautil.us/why-it-might-be-time-to-rethink-the-human-family-tree-1283985/",
@@ -50,10 +46,13 @@
     "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
     "https://www.scotusblog.com/2026/08/the-courts-clearly-established-problem/",
     "https://www.eurogamer.net/the-sinking-city-2-now-playing",
-    "https://www.newyorker.com/culture/the-food-scene/consider-the-oyster-bar"
+    "https://www.newyorker.com/culture/the-food-scene/consider-the-oyster-bar",
+    "https://www.wired.com/story/when-the-packaging-is-the-product-empty-boxes-influencers/",
+    "https://www.newyorker.com/humor/shouts-murmurs/what-your-swimwear-says-about-you",
+    "https://www.rockpapershotgun.com/this-week-in-pc-games-gamescom-and-gta-6-fight-for-attention-but-dont-forget-folk-emerging-mgs4-and-the-horror-game-about-balancing-a-cake",
+    "https://reason.com/volokh/2026/08/23/reconciling-hayek-and-mills-divergent-defenses-of-liberty/"
   ],
   "categoryLog": [
-    "gaming",
     "fun",
     "law",
     "law",
@@ -66,6 +65,7 @@
     "tech",
     "law",
     "law",
+    "tech",
     "tech"
   ],
   "failures": {}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reconciling Hayek and Mill's Divergent Defenses of Liberty — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Law</span>
+    <span>The Volokh Conspiracy</span>
+    <span class="sep">·</span><span>IlyaSomin</span>
+    <span class="sep">·</span>
+    <span>1150 words</span>
+    <span class="sep">·</span>
+    <span>6 min read</span>
+  </div>
+
+  <h1>Reconciling Hayek and Mill's Divergent Defenses of Liberty</h1>
+
+  <article class="article-body">
+    <p>Nobel Prize-winning economist F.A. Hayek and the great political philosopher John Stuart Mill both reached generally libertarian conclusions. But, as prominent Harvard law Porf. and political theorist Cass Sunstein points out in <a href="https://casssunstein.substack.com/p/mill-hayek-and-liberalism" target="_blank" rel="noopener">an excellent recent post</a>, they did so for quite different reasons:</p> <blockquote><p>Mill was a romantic about choosers (about you and me, and what we know, and what we are capable of), while Hayek was not a romantic about choosers at all (not close). He was a romantic, or something like that, about undesigned orders and traditions, and a skeptic about planners.</p> <p>Mill put a bright spotlight on individuals, their knowledge, their potential, and their agency. Hayek put a bright spotlight on markets and traditions, and on government planners and what they cannot know.</p></blockquote> <p>In sum, Mill emphasized the merits of individual freedom of choice, which he famously argued would enable each person to exercise control over his or her affairs, and result in valuable "experiments in living." By contrast, Hayek emphasized the defects of government planners, and their lack of knowledge.</p> <p>As Sunstein notes, these two ideas are not inherently opposed. They can even be mutually reinforcing, in so far as they provide alternative justifications for the same conclusion. But there is a tension, in so far as Hayek also emphasized the value of "spontaneous order" and the traditions it generates, which he viewed as better guides to decision-making than the unaided reason of individuals. This contrasts with Mill's emphasis on individual autonomy and reasoning skills.</p> <p>Moreover, if tradition is so valuable, as Hayek suggests, why not use government power to enforce it against people who go against it? And if individual reason and experimentation are so beneficial, as Mill argued, why not trust voters' judgements at the ballot box, and let them use those decisions to constrain individual choice?</p> <p>I cannot resolve all tensions between these two perspectives. But the gap can be greatly reduced by recognizing that individuals make better decisions in some circumstances than in others. In particular, they do better when the "vote with their feet" than when the vote at the ballot box. And that divergence bolsters both Mill's confidence in individual autonomy, and Hayek's condemnation of planning and support for spontaneous order.</p> <p>As I have explained <a href="https://reason.com/volokh/2020/06/23/three-types-of-foot-voting/" target="_blank" rel="noopener">previously</a> (and more fully in my book book <a href="https://www.amazon.com/dp/0190054581/ref=nosim?tag=reasonmagazinea-20" target="_blank" rel="noopener"><em>Free to Move: Foot Voting, Migration, and Political Freedom</em>)</a>, people can vote with their feet by making choices in the private sector, by deciding with jurisdiction to live in within a federal system, and through international migration. What unites these three types of choices is that, <a href="https://reason.com/volokh/2020/06/21/how-foot-voting-promotes-political-freedom-better-than-ballot-box-voting/" target="_blank" rel="noopener">in each case, the individual makes a decision that is highly likely to have a decisive impact</a>. By contrast, when you vote at the ballot box, the odds that your vote will have a decisive effect on the outcome are infinitesimally small: usually one chance in a million or even less (perhaps 1 in 60 million in a US presidential election, though the exact figure varies by state).</p> <p>As a result, foot voters have strong incentives to seek out relevant information and evaluate it objectively. As discussed in my book and elsewhere, historical and experimental evidence shows they often make good decisions even under bad conditions, as in the cases of people fleeing totalitarian regimes that censor information from the outside world, and poorly educated Blacks fleeing slavery and segregation. By contrast, a combination of <a href="https://balkin.blogspot.com/2013/10/why-political-ignorance-is-serious.html" target="_blank" rel="noopener">"rational ignorance" (lack of incentive to seek out political information) and "rational irrationality"</a> (lack of incentive to engage in unbiased evaluation). In combination, these ensure they are often ignorant of very basic political information (such as what the three branches of government are or which officials are responsible for which issues) and often act as biased "political fans" in evaluating the information they do learn.</p> <p>Once we recognize that individuals generally make much better decisions as foot voters than as ballot box voters, Hayek and Mill's perspectives are much easier to reconcile.</p> <p>In the case of Hayek, this distinction can explain why he had respect for traditions developed through "spontaneous order," but was also highly critical of conservatives' support for the enforcement of tradition through state power, as in his famous essay "<a href="https://www.cato.org/sites/cato.org/files/articles/hayek-why-i-am-not-conservative.pdf" target="_blank" rel="noopener">Why I am Not a Conservative</a>." The answer is that traditions generated by individuals' foot voting choices are likely to have greater epistemic value than those imposed by force, whether by democratic governments or authoritarian ones.</p> <p>Hayek was not actually an across-the-board fan of tradition. He was more than willing to reject traditions imposed and perpetuated by government coercion. For example, he <a href="https://www.cato.org/commentary/libertarians-have-long-led-way-marriage" target="_blank" rel="noopener">rejected anti-sodomy laws</a> and other restrictions on consensual sexual activity, even though they were longstanding traditions. The distinction between foot voting and ballot box voting decisions can help justify this stance.</p> <p>The same goes for Mill's emphasis on individual autonomy. Foot voters are likely to make better choices than ballot box voters, and thus also create better "experiments in living." Mill, in fact, worried greatly about the problem of voter ignorance. In <a href="https://www.gutenberg.org/files/5669/5669-h/5669-h.htm" target="_blank" rel="noopener"><em>Considerations on Representative Government</em></a>, he <a href="https://volokh.com/posts/1202019183.shtml" target="_blank" rel="noopener">emphasized that voters have a duty to become well-informed</a>, and advocated giving extra votes to more educated voters in order to improve the quality of decision-making.</p> <p>But he failed to consider that even relatively more educated voters are still susceptible to rational ignorance (though they do, on average, know more than the less-educated) and still likely to act as <a href="http://www.volokh.com/posts/1222317278.shtml" target="_blank" rel="noopener">biased "political fans."</a>  Any given set of people are likely to make better decisions when voting with their feet than at the ballot box. The superior incentives of foot voters justify granting them greater scope and autonomy, while tightly limiting the power of government to override their choices.</p> <p>As I argue in <em>Free to Move</em> and other writings, these circumstances also justify decentralizing government power so as to give people more opportunities to vote with their feet in federal systems. This last is a point consonant with Hayek's advocacy of decentralized federalism in some of his early writings, including <a href="https://fee.org/ebooks/the-economic-conditions-of-interstate-federalism/" target="_blank" rel="noopener">a 1939 article</a> where he emphasized the importance of "do[ing] away with the impediments as to the movement of men, goods, and capital between the states."</p> <p>In sum, incorporating the problem of voter ignorance and the informational advantages of foot voting bolster both Hayek's argument for liberty and Mill's. Liberty enables people to make better-informed decisions in the private sector, thus reinforcing Mill's emphasis on autonomy. Voter ignorance further reduces the quality of government planning, thereby bolstering Hayek's argument against the latter, while helping to explain why he supported some traditions, but not others.</p> <p>The points covered here don't do away with all differences between Mill and Hayek. And, by themselves, they don't make a comprehensive case for a libertarian/classical liberal political system. But they do show how the superior decision-making of foot voters relative to ballot box voters bolster both Hayek and Mill's arguments, and make them mutually reinforcing.</p>
+  </article>
+
+  <footer class="footer">
+    <span>Tuesday, August 25, 2026</span>
+    <a href="https://reason.com/volokh/2026/08/23/reconciling-hayek-and-mills-divergent-defenses-of-liberty/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
