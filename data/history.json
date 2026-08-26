@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/review/google-pixel-watch-5/",
-    "https://www.rockpapershotgun.com/gta-6-footage-once-again-appears-to-leak-online-this-time-because-of-a-group-that-wants-games-like-the-crew-to-have-offline-modes-and-the-end-of-digital-preorders",
-    "https://www.newyorker.com/magazine/2026/08/24/new-yorks-hottest-club-is-the-jacob-riis-bathhouse",
-    "https://techcrunch.com/2026/08/20/there-are-less-than-48-hours-to-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket/",
     "https://www.newyorker.com/books/what-were-reading/three-books-that-will-transport-you",
     "https://www.pcgamer.com/games/survival-crafting/palworld-chromite/",
     "https://www.jurist.org/news/2026/08/malaysia-dispatch-revisiting-the-to-kill-a-movement-exhibition/",
@@ -50,11 +46,14 @@
     "https://www.newyorker.com/culture/critics-notebook/what-natalie-harp-carries",
     "https://www.wired.com/review/saily-ultra-esim/",
     "https://reason.com/volokh/2026/08/21/intern-actually-a-project-veritas-undercover-plant-in-political-organization-didnt-have-fiduciary-duty-to-organization/",
-    "https://www.rockpapershotgun.com/i-love-the-dark-soulful-architecture-of-the-canon-of-balls-a-rolling-open-world-game-inspired-by-sega-fumito-ueda-and-minecraft-parkour"
+    "https://www.rockpapershotgun.com/i-love-the-dark-soulful-architecture-of-the-canon-of-balls-a-rolling-open-world-game-inspired-by-sega-fumito-ueda-and-minecraft-parkour",
+    "https://www.pcgamer.com/games/rpg/solasta-2-is-getting-multiplayer-and-warlocks-in-its-next-update/",
+    "https://reason.com/volokh/2026/08/25/justice-department-opines-that-federal-law-allows-carrying-guns-in-post-offices-for-self-defense/",
+    "https://www.newyorker.com/books/flash-fiction/every-weekday-at-445-pm-libby-flores",
+    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/"
   ],
   "categoryLog": [
     "law",
-    "law",
     "tech",
     "fun",
     "law",
@@ -66,7 +65,8 @@
     "law",
     "tech",
     "tech",
-    "fun"
+    "fun",
+    "gaming"
   ],
   "failures": {}
 }

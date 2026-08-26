@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terabytes of credentials leaked in massive supply-chain attack — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Technology</span>
+    <span>Ars Technica</span>
+    
+    <span class="sep">·</span>
+    <span>1037 words</span>
+    <span class="sep">·</span>
+    <span>6 min read</span>
+  </div>
+
+  <h1>Terabytes of credentials leaked in massive supply-chain attack</h1>
+
+  <article class="article-body">
+    <p><a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/#main" target="_blank" rel="noopener">
+  Skip to content
+</a></p>
+            
+  
+      
+        <p>
+    
+  
+  
+    TEAMPCP’S RAMPAGE CONTINUES
+  
+</p>
+      
+      <p>
+        The data was scraped and exfiltrated from 2,500 users of a compromised AI package.
+      </p>
+          
+    
+<p>Terabytes worth of credentials, many belonging to the world’s biggest and most sensitive organizations, have been exposed in a supply-chain attack on LiteLLM, an open source tool that streamlines AI-driven software development. Microsoft, Amazon, Cisco, Samsung, and Salesforce are only a handful of the entities whose access secrets were exposed.</p>
+<p>The revelation was posted on <a href="https://www.cloudsek.com/blog/ai-supply-chain-breach-2500-companies-434000-cicd-pipelines" target="_blank" rel="noopener">Tuesday</a> and <a href="https://www.hudsonrock.com/blog/largest-ai-supply-chain-breach-of-2026-litellm-hack-impacts-thousands-of-global-enterprises-claim-your-ethical-disclosure" target="_blank" rel="noopener">Wednesday</a> by security firms CloudSEK and Hudson Rock. CloudSEK said it found cloud keys, repository tokens, SSH keys, Kubernetes secrets, package publishing credentials, environment variables, and AI provider keys that could allow attackers to gain access to more than 2,500 organizations.</p>
+<h2>40 minutes is all it takes</h2>
+<p>The credentials were extracted during a 40-minute window in March while the victims used compromised versions of LiteLLM downloaded from the package’s official location in the Python Package Index repository. Hudson Rock said it made the discovery after analyzing a 195TB file that it obtained. Neither firm identified the source of the information.</p>
+<p>The LiteLLM compromise was the result of a <a href="https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/" target="_blank" rel="noopener">previous supply-chain attack</a> that infected the widely used vulnerability scanner Trivy. Other software infected in the campaign includes <a href="https://www.kics.io/" target="_blank" rel="noopener">KICS</a> and the <a href="https://developers.telnyx.com/development/sdk/python" target="_blank" rel="noopener">Telnyx Python SDK</a>. TeamPCP, a ramshackle but extremely capable gang largely made up of teenagers, took credit for the attack, and researchers have largely corroborated the claim.</p>
+<p>“I’ve confirmed the data is legit, by the way, multiple victim orgs,” independent security researcher Kevin Beaumont <a href="https://infosec.exchange/@GossiTheDog@cyberplace.social/117082985466021541" target="_blank" rel="noopener">said</a>. “It contains a significant volume of sensitive content at orgs. It’s a massive supply chain breach due to poor AI security—not because AI is the threat, but teens can run circles around orgs obsessed with rushing out AI and poor DevOps security.”</p>
+                  
+    
+<p>The compromised versions of all four software packages contained code that accessed the memory of infected machines, scraped its contents, and exfiltrated it through an attacker-controlled channel. The data is filled with an assortment of information. Interspersed in the wall of data are credentials to software pipelines maintained by the tens of thousands of organizations that ran LiteLLM during the 40-minute span that the supply-chain attack remained active.</p>
+<p>In all, both security firms said some 434,000 CI/CD (continuous integration/continuous delivery) software pipelines had credentials exposed after running the compromised LiteLLM versions. In many cases, researchers at CloudSEK and Hudson Rock had trouble identifying the organizations the credentials belonged to. For instance, an email address in the dump from the domain @siriusxm.com ultimately didn’t indicate a breach at the satellite broadcaster, but rather one within the infrastructure of SiriusXM subsidiary AdsWizz.</p>
+
+<p>A full list of organizations is <a href="https://exposure.cloudsek.com/ai-supply-chain-incident" target="_blank" rel="noopener">here</a>. The researchers had high confidence that these organizations had their credentials exposed:</p>
+<ul>
+<li>Nvidia Corporation</li>
+<li>Amazon Web Services (AWS)</li>
+<li>Samsung Electronics</li>
+<li>samsung.com</li>
+<li>Salesforce, Inc.</li>
+<li>Cisco Systems, Inc.</li>
+<li>F. Hoffmann-La Roche AG</li>
+<li>ServiceNow</li>
+<li>Siemens AG</li>
+<li>S&amp;P Global</li>
+<li>Airbus US Space &amp; Defense</li>
+<li>John Deere</li>
+<li>Regeneron Pharmaceuticals, Inc.</li>
+<li>London Stock Exchange Group (LSEG)</li>
+<li>Thomson Reuters</li>
+<li>FedEx</li>
+<li>Munich Remunichre.com</li>
+<li>MediaTek Inc.</li>
+<li>Volkswagen AG</li>
+<li>Deloitte</li>
+<li>The Kroger Co.</li>
+<li>Siemens Energy</li>
+<li>Thales Group</li>
+<li>X Corp (Twitter)</li>
+<li>Zscaler, Inc.</li>
+<li>Epic Games</li>
+<li>Orange S.A.</li>
+<li>HP Inc.</li>
+<li>Philips</li>
+<li>Fortum Oyj</li>
+<li>Vodafone Group Plc</li>
+<li>Carl Zeiss AG</li>
+<li>Deutsche Bahn AG</li>
+<li>NGINX, Inc.</li>
+<li>BT Group</li>
+<li>Liebherr</li>
+<li>Krungthai Bank Public Company Limited</li>
+<li>Roku, Inc.</li>
+</ul>
+<p>“Many CI/CD pipelines are configured generically,” Hudson Rock said. “The dumped variables contain active database passwords, third-party API keys, and cloud credentials without any identifiable company email, custom domain string, or internal server name. This means countless organizations currently have active secrets sitting in this database, completely unaware of their exposure.”</p>
+<h2>Welcome to the new world of supply-chain attacks</h2>
+<p>Both firms are urging all organizations that used the compromised versions of LiteLLM—particularly those listed in the high-confidence section of the list—to thoroughly rotate all credentials in their pipelines. Hudson Rock instructed any organization that uses any AI proxy infrastructure, third-party CI/CD vulnerability scanners, or downstream AI packages to immediately audit their environment for versions 1.82.7 and 1.82.8 of LiteLLM, the two compromised versions of the software.</p>
+                  
+    
+        
+<p>The firm advised all those affected to perform “aggressive credential revocation,” assume any secret accessible to the LiteLLM environment is compromised, invalidate and rotate all cloud keys, Kubernetes service account tokens, and GitLab/GitHub PATs, and audit logging and egress filtering.</p>
+<p>As a cautionary tale, CloudSEK said that Trivy developers rotated but failed to fully revoke an automation token over a 20-day window. The lapse gave the attackers a nearly three-week period to force-push malicious code to third-party builds that used the vulnerability scanner. As Beaumont observed, organizations’ rush to integrate AI into their software delivery systems has also greatly contributed to the scale of the damage.</p>
+<p>Update: There are already signs that some of the affected organizations aren’t taking the disclosure with the seriousness warranted. After this post went live, Beaumont <a href="https://infosec.exchange/@GossiTheDog@cyberplace.social/117084862543112580" target="_blank" rel="noopener">reported</a>:</p>
+<blockquote><p>These creds date from about March. One of the orgs impacted told me they’d rotated them all and it’s a nothingburger, so I looked at their responsible disclosure policy, it allows trying creds, so I tried them all. Almost every one worked. Submitted report. One of the biggest US techcos.</p></blockquote>
+<p>Ultimately, the new revelations concerning the LiteLLM supply-chain attack underscore the growing threat of such campaigns and hence the importance of maintaining vigilance around the use of open source software that, when infected, can spread rapidly across the Internet.</p>
+<p>“The key takeaway is how supply chains have evolved to make a single upstream breach affect thousands of companies simultaneously,” Alon Gal, co-founder and chief technology officer of Hudson Rock, wrote in an email. “A window of roughly 40 minutes in which the LiteLLM dependency was hacked led to over 430,000 instances in which millions of secrets were harvested. This magnitude pushes us into a completely new world regarding the type of response required from the cybersecurity industry.”</p>
+<p><em>Post updated to add image.</em></p>
+                  
+  
+  
+          <p><a href="https://arstechnica.com/author/dan-goodin/" target="_blank" rel="noopener"></a></p>
+  
+  
+    <p>
+      Dan Goodin is Senior Security Editor at Ars Technica, where he oversees coverage of malware, computer espionage, botnets, hardware hacking, encryption, and passwords. In his spare time, he enjoys gardening, cooking, and following the independent music scene. Dan is based in San Francisco. Follow him at <a href="https://infosec.exchange/@dangoodin" target="_blank" rel="noopener">here</a> on Mastodon and <a href="https://bsky.app/profile/dangoodin.bsky.social" target="_blank" rel="noopener">here</a> on Bluesky. Contact him on Signal at DanArs.82.
+    </p>
+  
+
+  <p>
+    <a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/#comments" target="_blank" rel="noopener">
+    
+    91 Comments
+  </a>
+      </p>
+              
+  
+  
+      
+    <ol>
+              <li>
+                      <a href="https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/" target="_blank" rel="noopener">
+              
+            </a>
+        </li>
+                      
+                      
+                      
+                      
+                      </ol>
+  </article>
+
+  <footer class="footer">
+    <span>Wednesday, August 26, 2026</span>
+    <a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>

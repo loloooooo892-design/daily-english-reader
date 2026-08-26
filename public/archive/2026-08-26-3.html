@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>“Every Weekday at 4:45 P.M.,” by Libby Flores — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>1021 words</span>
+    <span class="sep">·</span>
+    <span>6 min read</span>
+  </div>
+
+  <h1>“Every Weekday at 4:45 P.M.,” by Libby Flores</h1>
+
+  <article class="article-body">
+    <p>Every weekday at 4:45 <em>P.M.</em> the man comes in—he never brings a list. She is usually behind the counter at the deli slicing turkey, her brown hair held back in a net underneath a maroon visor, the store’s logo in white stitching across the front.</p><p>She hears him on the phone first, his voice a smooth, low baritone: How would two people get to see each other before the summer is over?</p><p>He listens, then a tender laugh tumbles out. A laugh that circles his entire body, that blends in with the bleeps of the checkout counter, the rattle of the carts, the soft rock piping through as kids and families populate the fresh A.C. with wet hair, flip-flops, and half-bared swimsuits—hungry and searching.</p><p>Wow, he says, followed by another laugh.</p><p>Well, when will you be there?</p><p>I could figure something out.</p><p>He says this last thing a lot. The deli woman has seen the man in here before, usually with his son. She wants to glance over the stainless-steel countertop to be sure, but she waits. He is picking up bags of crostini from the display with one hand. She can hear the crinkle of the package. She knows he’s looking at them, but also not. He’s got his phone in the corner of his shoulder and is holding the red plastic basket in his other hand.</p><p>My days are terrible without you.</p><p>She hears him say something that must be a nickname. Daisy Maisey, he says, hold on.</p><p>His face appears above the counter and she almost ducks.</p><p>He orders: “Three pounds of ham and American cheese.”</p><p>I don’t, either, but the kids like it. He says not to her but to Daisy Maisey. I know, I know.</p><p>The deli woman wonders what he knows so emphatically.</p><p>The man knows that he might love this Daisy, and that Daisy is a time bomb set to destroy his life in a five-month period—that he will be turned inside out, that this love will be a terror whispered in his ear in the blackness of insomnia, in the car midway home, and he will never recover, or, at least, his life will become unrecognizable from its original form.</p><p>What the deli woman doesn’t know is that, while picking up the crostini, the man is remembering a fight that he had with his wife in this very store. And that he knows, maybe, that the woman now slicing meats for his children had overheard it.</p><p>What the fight was about he could not recall. Then: cereal.</p><p>He had wished to let the kids have sugar cereal on Sundays. That was how he’d been brought up, but she thought it opened a door to worse things.</p><p>“A gateway drug?” He laughed, didn’t mean to, but then smiled—and repeated it. This did not please her.</p><p>She yelled, “It’s not funny,” and pulled her purse from the shopping cart, swung it back over her shoulder, and disappeared down the long aisle to go wait in the car.</p><p>They moved on. He relented and did not buy the variety pack. It made life easier. But, later, when they got to the ice-cream shop, <em>See</em>, he thought, as the kids, eight and ten, lapped up their strawberry and chocolate, almost tipping the top scoop that was in danger of falling. He said nothing. Then, halfway through his pralines and cream, she, out of earshot of the kids, said, “Jesus, Michael, can you take a break from looking at her?”</p><p>She was a woman who had not bothered to put on a shirt and was licking a slow drip from her cone in a bikini top and cutoffs. He’d not noticed the unconscious looking while savoring his sugary treat.</p><p>“I am not!”</p><p>“Looking, looking, looking,” she said.</p><p>“Honey, I was—”</p><p>“Repeat, repeat, repeat,” she said.</p><p>As they sat on their plastic ice-cream stools in the delicious heat, a summer breeze came and they fought as the woman sucked her ice cream through the bottom of her cone. He turned his back to face his wife and take the beating he knew he deserved. A man watching might think of him as a victim and weak, and he was, and Daisy’s soft skin made him both things.</p><p>Later, in bed, his wife relented and let him stroke her cheek and look her in the eyes. You see, she still loved him.</p><p>“Here you go,” the meat and cheese wrapped in wax paper is being handed to him. She does not look at him in any kind of way, but he searches for judgment and sees nothing from the deli woman but <em>Have a great day</em>.</p><p>He will repair things with his wife slowly.</p><p>He goes down all the aisles. His wife hates it when he forgets stuff, and we know he will because of the phone in his ear. The sound of Daisy’s sleepy voice. It’s morning for her, and she has taken the call because these are the types of errands she waits for—the baritone tickling her ear—savoring his undivided attention. She has become the queen of the silent cry; she is the empress of a pretty but empty butter dish; she is the baroness who cares for the junk pile in the mail room.</p><p>He remembers his wedding day nineteen years ago. They were standing outside the hotel where they had just gotten married, and a beautiful girl, wearing a straw hat, walked by, winked, and shouted congratulations. He was the only person who saw her.</p><p>They will hang up after he reaches his cul-de-sac and she will go down to the farmers’ market as she does on Fridays and buy berries, a newspaper, and hot coffee. Daisy will think of him as he prepares the meal. The ingredients she already knows, but what she doesn’t know is that he will grill the bread and make the aioli from scratch. She will never eat his artisanal sandwiches or his baked chicken—but at the grocery store when he calls, she always asks, What’s for dinner tonight? ♦</p><p><em>This is drawn from “<a href="https://www.amazon.com/dp/1972693042" target="_blank" rel="noopener">All Good Men</a>.”</em></p>
+  </article>
+
+  <footer class="footer">
+    <span>Wednesday, August 26, 2026</span>
+    <a href="https://www.newyorker.com/books/flash-fiction/every-weekday-at-445-pm-libby-flores" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
