@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/books/what-were-reading/three-books-that-will-transport-you",
-    "https://www.pcgamer.com/games/survival-crafting/palworld-chromite/",
-    "https://www.jurist.org/news/2026/08/malaysia-dispatch-revisiting-the-to-kill-a-movement-exhibition/",
-    "https://www.newyorker.com/magazine/2026/08/24/where-theres-smoke-theres-fire-towers",
     "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
     "https://www.scotusblog.com/2026/08/understanding-the-courts-next-major-case-on-asylum-seekers-wassily-v-blanche/",
     "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/rpg/solasta-2-is-getting-multiplayer-and-warlocks-in-its-next-update/",
     "https://reason.com/volokh/2026/08/25/justice-department-opines-that-federal-law-allows-carrying-guns-in-post-offices-for-self-defense/",
     "https://www.newyorker.com/books/flash-fiction/every-weekday-at-445-pm-libby-flores",
-    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/"
+    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+    "https://www.rockpapershotgun.com/do-a-literal-monster-mash-in-dance-of-theseus-a-strangely-undisgusting-blend-of-plastic-surgery-and-balatro-style-fashion-battles",
+    "https://nautil.us/dolly-parton-science-icon-1284482/",
+    "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
+    "https://reason.com/volokh/2026/08/26/high-schools-ordering-parents-to-remove-pink-xx-protest-wristbands-at-girls-soccer-game-likely-violated-first-amendment/"
   ],
   "categoryLog": [
-    "law",
     "tech",
     "fun",
     "law",
@@ -66,6 +65,7 @@
     "tech",
     "tech",
     "fun",
+    "gaming",
     "gaming"
   ],
   "failures": {}
