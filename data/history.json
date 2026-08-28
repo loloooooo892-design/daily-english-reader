@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/squarespace-promo-code/",
-    "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-remake-rpg-focus-crafting",
-    "https://www.newyorker.com/culture/goings-on/late-summertime-idylls-by-the-water",
-    "https://www.rockpapershotgun.com/fallout-4-and-skyrim-updates-are-imminent-just-as-ive-modded-up-the-latter-for-the-first-time-in-ages",
     "https://longreads.com/2026/08/14/romance-dating-decline/",
     "https://annas-archive.gl/blog/physical-destruction.html",
     "https://www.scotusblog.com/2026/08/florida-republicans-bring-census-bureau-challenge-to-the-supreme-court/",
@@ -50,10 +46,13 @@
     "https://www.rockpapershotgun.com/massive-morrowind-mod-tamriel-rebuilts-poison-song-expansion-is-out-now-complete-with-new-quests-to-join-great-house-indoril-and-the-ordinators",
     "https://www.wired.com/story/waffle-house-teleporter-gregg-phillips-is-still-on-the-trump-administrations-payroll/",
     "https://reason.com/volokh/2026/08/26/what-is-reasonable-gun-control/",
-    "https://www.newyorker.com/magazine/2026/09/07/adults-tv-review-fx"
+    "https://www.newyorker.com/magazine/2026/09/07/adults-tv-review-fx",
+    "https://harvardlawreview.org/print/vol-139/remedies-for-a-constitutional-crisis/",
+    "https://nautil.us/how-much-of-a-problem-is-ais-water-use-1284519/",
+    "https://www.rockpapershotgun.com/stalker-2-gets-serious-performance-and-visual-upgrades-with-its-20-update-testing-confirms-polishing-up-one-of-the-biggest-flawed-gems-in-fps-games",
+    "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi"
   ],
   "categoryLog": [
-    "fun",
     "law",
     "gaming",
     "fun",
@@ -66,7 +65,8 @@
     "fun",
     "gaming",
     "gaming",
-    "gaming"
+    "gaming",
+    "law"
   ],
   "failures": {}
 }
