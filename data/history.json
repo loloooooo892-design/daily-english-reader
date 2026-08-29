@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-    "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
-    "https://www.pcgamer.com/hardware/robot-olympics-runner-bravely-sprints-headfirst-into-wall-and-collapses-in-shower-of-sparks-is-not-a-metaphor/",
-    "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/",
     "https://www.newyorker.com/magazine/2026/08/24/the-yahoo-boys-unsayable-sunrise-skin-contact",
     "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
     "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/hardware/nvidia-says-it-would-be-making-a-whole-lot-more-money-if-it-werent-for-the-memory-crisis-its-contributing-to/",
     "https://reason.com/volokh/2026/08/25/counsel-took-full-responsibility-for-his-mistakes-was-not-evasive-and-prioritized-candor-to-the-court-and-opposing-counsel/",
     "https://www.wired.com/story/netflix-failed-at-video-games-now-its-trying-to-promote-them/",
-    "https://www.newyorker.com/humor/shouts-murmurs/the-least-wanted-items-at-my-parents-estate-sale"
+    "https://www.newyorker.com/humor/shouts-murmurs/the-least-wanted-items-at-my-parents-estate-sale",
+    "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+    "https://www.eurogamer.net/modern-warfare-4-beta-day-1-update-footstep-audio-weapon-balance",
+    "https://reason.com/volokh/2026/08/26/a-wall-of-separation-between-lgb-and-t/",
+    "https://www.newyorker.com/books/what-were-reading/the-books-behind-peter-hellers-the-dog-stars"
   ],
   "categoryLog": [
-    "gaming",
     "fun",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "gaming",
     "law",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nvidia says it would be making a whole lot more money if it weren't for the memory crisis it's contributing to — Daily Reader</title>
+<title>htmx 4.0.0 has been released! — Daily Reader</title>
 <style>
 :root {
   --bg: #F7F8FA;
@@ -150,26 +150,177 @@ h1 {
 <body>
 <main class="container">
   <div class="meta">
-    <span class="category-tag">Gaming</span>
-    <span>PC Gamer</span>
-    <span class="sep">·</span><span>James Bentley</span>
+    <span class="category-tag">Technology</span>
+    <span>Hacker News Best</span>
+    <span class="sep">·</span><span>htmx</span>
     <span class="sep">·</span>
-    <span>519 words</span>
+    <span>1482 words</span>
     <span class="sep">·</span>
-    <span>3 min read</span>
+    <span>8 min read</span>
   </div>
 
-  <h1>Nvidia says it would be making a whole lot more money if it weren't for the memory crisis it's contributing to</h1>
+  <h1>htmx 4.0.0 has been released!</h1>
 
   <article class="article-body">
-    <p>Nvidia's latest earnings call is in and, as you can probably guess, the GPU maker turned AI hardware creator is raking in cash hand over fist. But alas, a projected 70% revenue increase for the 2028 fiscal year is apparently conservative, as the blasted <a href="https://www.pcgamer.com/hardware/memory/ram-and-storage-is-ridiculously-expensive-right-now-because-of-drumroll-ai-of-course-and-theres-little-reason-to-think-prices-will-drop-any-time-soon/" target="_blank" rel="noopener">memory crisis</a> is getting in the way. You know, that memory crisis, which Nvidia's AI aspirations are currently making worse.</p><p>When asked about that 70% figure specifically, CEO Jensen Huang confirmed that it's a "constrained" number that is informed by the lack of available memory in the market</p><p>Huang says, "The unconstrained would be a lot higher. We grew 100% year-over-year this year. The unconstrained is significant. And so we're just going to have to work hard to get more capacity. And we have a large supply chain".</p><p><a href="https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q227/Q2FY27-CFO-Commentary.pdf" target="_blank" rel="noopener">Nvidia's financials</a> paint an interesting picture, specifically one where data centers account for the majority of revenue, and consumer demand lacks in response. Nvidia made $96.2 billion in the latest quarter, with a gross margin of 75% and data center revenue accounting for $89 billion. That's a 117% jump from last year.</p><p>Annoyingly, Nvidia doesn't report gaming in financial earnings, and instead wraps it into 'Edge Computing', which includes gaming, workstations, physical AI PCs and robotics. That accounts for $7.1 billion in the latest earnings call. That's a 27% jump from last year.</p><p>In regard to Edge Computing, Nvidia says "increases were driven by strong sales of Blackwell workstations, partially offset by slower consumer PC sales that were tempered by elevated memory and systems prices."</p><p>As of today, the <a href="https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9700-xt-review-asus-prime-oc/" target="_blank" rel="noopener">RX 9070 XT</a> and <a href="https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9060-xt-16-gb-review-xfx-swift/" target="_blank" rel="noopener">9060 XT</a> are sitting atop the <a href="https://x.com/TechEpiphanyYT/status/2092865348697485339?s=20" target="_blank" rel="noopener">Amazon and Mindfactory GPU sales</a>. It's not yet clear if pricing, stock, or a combination of both are responsible for this shift.</p><p>Keep up to date with the most important stories and the best deals, as picked by the PC Gamer team.</p><p>Huang says many investors expressed concerns regarding gross margins with rising component costs, and confirms "we are experiencing extreme pricing conditions in memory. The magnitude of the price increase has exceeded our prior expectations and [is] headed even higher into next year."</p><p>However, he argues, "We have a really gigantic supply chain. And so we have incredible partners, and we've secured a lot of supply, but we just need a lot more."</p><p>It seems the memory crisis is really hitting everyone and is unlikely to end any time soon. Even the likes of Samsung has warned of a <a href="https://www.pcgamer.com/hardware/memory/gleefully-counting-its-billions-samsung-cries-warning-of-a-severe-memory-supply-crisis-next-year/" target="_blank" rel="noopener">'severe' memory supply crisis</a> next year. Pour one out for poor old Nvidia, who will have to pay more for the fire it is currently throwing even more wood onto.</p>
+    <h2><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#htmx-400-release" target="_blank" rel="noopener">htmx 4.0.0 Release</a></h2>
+<p>The htmx team is very happy to announce the release of htmx 4.0.0!  This is the culmination of 8 months of work (plus
+a <a href="https://four.htmx.org/game" target="_blank" rel="noopener">game</a>) and we are very happy with the results.</p>
+<p>The idea of htmx 4 started to germinate when I decided to create <a href="https://fixiproject.org/" target="_blank" rel="noopener">fixi</a> and, in doing so, got
+more familiar with the fetch() API and async programming in JavaScript.  (htmx had always
+used <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest" target="_blank" rel="noopener">XMLHttpRequest</a> due
+to backwards compatibility issues.)</p>
+<p>One chance evening I was contacted by Christian, who had some interesting ideas
+around <a href="https://four.htmx.org/docs#streaming-html" target="_blank" rel="noopener">streaming HTML</a> that
+got me thinking that moving the internals to fetch() would simplify things for him and for the library in general.
+After a bit of work I managed to get Michael and Alex on board, and we were off to the races.</p>
+<p>Development has been very smooth. We started a port of fixi + the htmx test suite. Over time, we rediscovered why htmx
+did many of the things that it did and moved our new implementation closer and closer to the old one. At this point
+the behavioral differences between 2.x and 4.x are relatively small and where they do diverge we have made explicit
+choices that we feel will put htmx-based applications in a good spot for
+being <a href="https://www.youtube.com/watch?v=lASLZ9TgXyc" target="_blank" rel="noopener">100-year web services</a></p>
+<p>Note that we are not marking 4.0 as <a href="https://docs.npmjs.com/cli/v10/commands/npm-dist-tag#purpose" target="_blank" rel="noopener">latest</a> in NPM
+because we do not want to force-upgrade users who are relying on non-versioned CDN URLs for htmx. Instead, 2.x will
+remain latest and the 4.0 line will remain next until some point in early 2027. The website, however, will reference 4.0.</p>
+<h3><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#major-changes" target="_blank" rel="noopener">Major Changes</a></h3>
+<p>As mentioned above, htmx 4, from a user’s viewpoint, is almost identical to htmx 2. There are three major changes:</p>
+<ul>
+<li>Attribute inheritance is now explicit by default rather than implicit by default (this is the biggest upgrade item)</li>
+<li>The htmx event names have been standardized &amp; cleaned up. Some advanced users may need to change the events they
+listen for.</li>
+<li>History support now does not use localStorage by default (which was a cause of many support headaches). Most people
+won’t notice this at all.</li>
+</ul>
+<p>Internally, we migrated from XMLHttpRequest to fetch() but that should be transparent for most users of htmx.</p>
+<h4><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#attribute-inheritance" target="_blank" rel="noopener">Attribute Inheritance</a></h4>
+<p>In htmx 2 many attributes were “inherited” by default. This allows you to place attributes on parent elements and
+their behavior will apply to child elements. This behavior, which came from
+the <a href="https://intercoolerjs.org/" target="_blank" rel="noopener">intercooler.js</a> days, was inspired by CSS and, unsurprisingly, worked out about the same
+as CSS: powerful but difficult to understand at times.</p>
+<p>In htmx 4 attributes are not inherited unless you <a href="https://four.htmx.org/docs#attribute-inheritance" target="_blank" rel="noopener">explicitly say so</a> by adding an
+:inherited after the attribute name:</p>
+&lt;!-- htmx 2 --&gt;
+&lt;div hx-confirm="Are you sure?"&gt;
+    &lt;button hx-delete="/item/1"&gt;Delete&lt;/button&gt;
+&lt;/div&gt;
 
-<p>James is a more recent PC gaming convert, often admiring graphics cards, cases, and motherboards from afar. It was not until 2019, after just finishing a degree in law and media, that they decided to throw out the last few years of education, build their PC, and start writing about gaming instead. In that time, he has covered the latest doodads, contraptions, and gismos, and loved every second of it. Hey, it’s better than writing case briefs.</p>
+&lt;!-- htmx 4 --&gt;
+&lt;div hx-confirm:inherited="Are you sure?"&gt;
+    &lt;button hx-delete="/item/1"&gt;Delete&lt;/button&gt;
+&lt;/div&gt;
+<p>This will be the largest upgrade burden in migrating from htmx 2 to htmx 4. To make things easier, we have provided
+a <a href="https://four.htmx.org/docs#upgrade-checker" target="_blank" rel="noopener">command line tool</a> to find places you need to mark as inherited.</p>
+<p>Note that attributes like hx-disinherit, etc. are no longer required and should be removed.</p>
+<h4><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#events" target="_blank" rel="noopener">Events</a></h4>
+<p>The events triggered by htmx 2 had grown organically over the life of the library and were not particularly well
+organized, making it difficult to know exactly which event was fired when.</p>
+<p>In htmx 4, all events now follow htmx:phase:action[:sub-action]:</p>
+htmx 2htmx 4htmx:beforeRequesthtmx:before:requesthtmx:afterRequesthtmx:after:requesthtmx:beforeSwaphtmx:before:swaphtmx:afterSwaphtmx:after:swaphtmx:configRequesthtmx:config:request
+<p>In addition, the following changes were made:</p>
+<ul>
+<li>Most error events collapse into <a href="https://four.htmx.org/reference/events/htmx-error" target="_blank" rel="noopener">htmx:error</a>. HTTP error responses fire
+<a href="https://four.htmx.org/reference/events/htmx-response-error" target="_blank" rel="noopener">htmx:response:error</a>.</li>
+<li>The htmx:xhr:* events are removed. htmx 4 uses fetch().</li>
+<li>The htmx:validation:* events are removed in favor of native browser form validation.</li>
+</ul>
+<p>The full table is in <a href="https://four.htmx.org/docs/whats-new-in-htmx-4" target="_blank" rel="noopener">What’s New in htmx 4</a>.</p>
+<p>The command line upgrade checker flags old event names in hx-on attributes and in your JavaScript where it can find
+them.</p>
+<h4><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#history" target="_blank" rel="noopener">History</a></h4>
+<p>History support has always been included in htmx, allowing you to implement back-button aware actions with simple
+attributes. In htmx 2, a cache in localStorage was used to snapshot pages for restoration. Unfortunately a large
+source of issues was that this snapshot could include DOM mutations by 3rd party JavaScript libraries. When the page was
+restored, those mutations remained but the underlying JavaScript logic was not.</p>
+<p>htmx 4 does not cache pages in localStorage. On back navigation htmx re-fetches the page and swaps it into &lt;body&gt;,
+or into the [hx-history-elt] element if one is present. This allows 3rd party JavaScript libraries to “just work” in
+most cases and, with good request caching, is very fast.</p>
+<p>If you want local caching instead, we now ship a very complete <a href="https://four.htmx.org/extensions/hx-history-cache" target="_blank" rel="noopener">hx-history-cache</a>
+extension that restores history from sessionStorage and is designed to integrate well with scripting solutions like
+Alpine.js, etc.</p>
+<h3><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#new-features" target="_blank" rel="noopener">New Features</a></h3>
+<p>There are two big new features in htmx 4, both of which we are really excited about:</p>
+<h4><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#morph-swaps" target="_blank" rel="noopener">Morph Swaps</a></h4>
+<p>We now support <a href="https://four.htmx.org/docs#morphing-swaps" target="_blank" rel="noopener">morphing swaps</a> out of the box with htmx.  I created <a href="https://github.com/bigskysoftware/idiomorph" target="_blank" rel="noopener">idiomorph</a> and
+nearly included it in htmx 2.x but decided against it.  In htmx 4, Michael has done great work improving on that
+algorithm and integrating it seamlessly into htmx.</p>
+<h4><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#hx-partial" target="_blank" rel="noopener">&lt;hx-partial&gt;</a></h4>
+<p>Another major new feature is the &lt;hx-partial&gt; tag.  This tag is similar to <a href="https://four.htmx.org/docs#out-of-band-swaps" target="_blank" rel="noopener">out-of-band swaps</a>,
+but is much clearer when you want to do something beyond just replacing a single element with a new version of itself:</p>
+&lt;hx-partial hx-target="#messages" hx-swap="beforeend"&gt;
+    &lt;div&gt;New message&lt;/div&gt;
+&lt;/hx-partial&gt;
+&lt;hx-partial hx-target="#count"&gt;
+    &lt;span&gt;5&lt;/span&gt;
+&lt;/hx-partial&gt;
+<h4><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#extensions" target="_blank" rel="noopener">Extensions</a></h4>
+<p>Much of the excitement in htmx 4 is in the extensions.  Switching to fetch() internally let us rethink how extensions
+can and should work, and sparked the creation (and recreation) of many new extensions, for example:</p>
+<ul>
+<li>hx-preload - preload content (e.g. on mouseover) to speed requests up</li>
+<li>hx-download - native, fetch-based file downloads</li>
+<li>hx-alpine-compat - smooths over compatibility issues between htmx and <a href="https://alpinejs.dev/" target="_blank" rel="noopener">Alpine.js</a></li>
+<li>hx-history-cache - caches history in sessionStorage, provides Alpine.js compatibility</li>
+</ul>
+<p>Additionally, there are three new or updated streaming HTML extensions:</p>
+<ul>
+<li><a href="https://four.htmx.org/extensions/hx-sse" target="_blank" rel="noopener">hx-sse</a> streams over text/event-stream.</li>
+<li><a href="https://four.htmx.org/extensions/hx-ws" target="_blank" rel="noopener">hx-ws</a> streams and sends over WebSockets.</li>
+<li><a href="https://four.htmx.org/extensions/hx-multipart" target="_blank" rel="noopener">hx-multipart</a> streams over multipart/mixed</li>
+</ul>
+<p>Finally, we decided it was time to try our hand at our own small front-end scripting solution that tightly integrates with htmx.  <a href="https://four.htmx.org/extensions/hx-live" target="_blank" rel="noopener">hx-live</a> is inspired by Alpine.js, <a href="https://jquery.com/" target="_blank" rel="noopener">jQuery</a> and <a href="https://hyperscript.org/" target="_blank" rel="noopener">hyperscript</a>, and makes front end scripting pleasant and fun.  It even supports what we are calling DOM-based, HATEOAS-friendly reactivity.</p>
+<p>There is a new <a href="https://four.htmx.org/docs/htmax" target="_blank" rel="noopener">htmax.js</a> bundle in the distribution which packages htmx with the most popular of these in a single file if you don’t want to think about which ones you want to pick.</p>
+<h3><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#upgrading" target="_blank" rel="noopener">Upgrading</a></h3>
+<p>For a complete upgrade guide see  <a href="https://four.htmx.org/docs/whats-new-in-htmx-4" target="_blank" rel="noopener">What’s New in htmx 4</a>.</p>
+<p>As mentioned earlier, we are providing an upgrade tool to help you:</p>
+$ npx htmx.org@4.0.0 upgrade-check -- ./templates
+
+File extensions: .html, .php, .js, .ts, .jinja, .jinja2, .j2, .erb, .hbs
+Use --ext to add more (e.g. --ext .vue --ext .svelte)
+
+Scanning 1 file(s)...
+
+Found 8 issue(s) in 1 of 1 file(s).
+templates/index.html:1: [inheritance] hx-headers needs :inherited suffix (descendant on line 3 has hx-delete) (this looks like a CSRF token; without :inherited the header does not reach child elements and the server rejects the request)
+templates/index.html:2: [inheritance] hx-target needs :inherited suffix (descendant on line 3 has hx-delete)
+templates/index.html:2: [inheritance] hx-confirm needs :inherited suffix (descendant on line 3 has hx-delete)
+templates/index.html:3: [renamed-attr] hx-disable -&gt; rename to hx-ignore (hx-disable now means 'disable during request')
+templates/index.html:4: [removed-attr] hx-vars is removed -&gt; use hx-vals with js: prefix
+templates/index.html:4: [removed-attr] hx-prompt is removed -&gt; load the hx-prompt extension to keep the same syntax
+templates/index.html:9: [old-event] old event name "htmx:afterRequest" -&gt; "htmx:after:request"
+templates/index.html:9: [old-api] htmx.addClass() is removed -&gt; use element.classList.add()
+<p>We are also shipping an <a href="https://four.htmx.org/docs/editor-support#ai-coding-assistants" target="_blank" rel="noopener">agent skill</a> to assist in upgrading</p>
+<h3><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#installing" target="_blank" rel="noopener">Installing</a></h3>
+<p>htmx 4.0 can be installed via a package manager referencing version 4.0.0, or can be linked via a CDN:</p>
+
+&lt;script src="https://unpkg.com/htmx.org@4.0.0/dist/htmx.min.js"&gt;&lt;/script&gt;
+<p>or <a href="https://unpkg.com/htmx.org@4.0.0/dist/htmx.min.js" target="_blank" rel="noopener">Downloaded</a></p>
+<h3><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#llms" target="_blank" rel="noopener">LLMs</a></h3>
+<p>Like it or not, a lot of people are using LLMs and we are providing the following skills files for LLMs:</p>
+<ul>
+<li><a href="https://raw.githubusercontent.com/bigskysoftware/htmx/v4.0.0/dist/skills/htmx-guidance.md" target="_blank" rel="noopener">htmx-guidance</a> - core htmx skills for developing with htmx 4</li>
+<li><a href="https://raw.githubusercontent.com/bigskysoftware/htmx/v4.0.0/dist/skills/htmx-debugging.md" target="_blank" rel="noopener">htmx-debugging</a> - diagnosing htmx issues during dev</li>
+<li><a href="https://raw.githubusercontent.com/bigskysoftware/htmx/v4.0.0/dist/skills/htmx-extension-authoring.md" target="_blank" rel="noopener">htmx-extension-authoring</a> - writing and debugging htmx 4 extensions</li>
+<li><a href="https://raw.githubusercontent.com/bigskysoftware/htmx/v4.0.0/dist/skills/htmx-upgrade-from-htmx2.md" target="_blank" rel="noopener">htmx-upgrade-from-htmx2</a> - migrating a codebase from htmx 2.x to 4.x</li>
+</ul>
+<p>(Let’s leave aside if releasing a new version of a library in the LLM era is a good or bad thing!)</p>
+<h3><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#conclusion" target="_blank" rel="noopener">Conclusion</a></h3>
+<p>We hope you enjoy htmx 4.  htmx 2 will continue to be supported indefinitely so don’t feel any pressure to upgrade.</p>
+<p>I’d like to thank the following people for all their help with this release:</p>
+<ul>
+<li><a href="https://github.com/MichaelWest22" target="_blank" rel="noopener">Michael West</a> - Incredible teammate &amp; grug-brained developer</li>
+<li><a href="https://github.com/scriptogre" target="_blank" rel="noopener">Christian Tanul</a> - Inspired htmx 4 &amp; led the streaming &amp; live extensions</li>
+<li><a href="https://github.com/alexpetros" target="_blank" rel="noopener">Alex Petros</a> - For keeping the ship on an even keel</li>
+<li>Stephen Mitchell - The genius behind the <a href="https://four.htmx.org/game" target="_blank" rel="noopener">game</a></li>
+<li>Stu Kennedy - Our WebSockets expert</li>
+<li>André Ahlert Jr. - Providing IDE &amp; Editor Support</li>
+<li>Dien Hoa Truong - For kicking the tires on early htmx 4 and helping fix many bugs</li>
+</ul>
+<h3><a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released#upgrade-music" target="_blank" rel="noopener">Upgrade Music</a></h3>
+<p>Wouldn’t be an htmx update without upgrade music:</p>
   </article>
 
   <footer class="footer">
     <span>Saturday, August 29, 2026</span>
-    <a href="https://www.pcgamer.com/hardware/nvidia-says-it-would-be-making-a-whole-lot-more-money-if-it-werent-for-the-memory-crisis-its-contributing-to/" target="_blank" rel="noopener">Read original ↗</a>
+    <a href="https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released" target="_blank" rel="noopener">Read original ↗</a>
   </footer>
 
   <div class="archive-link">
