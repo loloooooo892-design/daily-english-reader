@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://longreads.com/2026/08/14/romance-dating-decline/",
-    "https://annas-archive.gl/blog/physical-destruction.html",
-    "https://www.scotusblog.com/2026/08/florida-republicans-bring-census-bureau-challenge-to-the-supreme-court/",
-    "https://www.newyorker.com/news/global-notes/after-six-months-of-war-trump-is-still-losing-to-iran",
     "https://github.com/adnanakil/nobuzz/blob/main/README.md",
     "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
     "https://www.pcgamer.com/hardware/robot-olympics-runner-bravely-sprints-headfirst-into-wall-and-collapses-in-shower-of-sparks-is-not-a-metaphor/",
@@ -50,10 +46,13 @@
     "https://harvardlawreview.org/print/vol-139/remedies-for-a-constitutional-crisis/",
     "https://nautil.us/how-much-of-a-problem-is-ais-water-use-1284519/",
     "https://www.rockpapershotgun.com/stalker-2-gets-serious-performance-and-visual-upgrades-with-its-20-update-testing-confirms-polishing-up-one-of-the-biggest-flawed-gems-in-fps-games",
-    "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi"
+    "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
+    "https://www.pcgamer.com/hardware/nvidia-says-it-would-be-making-a-whole-lot-more-money-if-it-werent-for-the-memory-crisis-its-contributing-to/",
+    "https://reason.com/volokh/2026/08/25/counsel-took-full-responsibility-for-his-mistakes-was-not-evasive-and-prioritized-candor-to-the-court-and-opposing-counsel/",
+    "https://www.wired.com/story/netflix-failed-at-video-games-now-its-trying-to-promote-them/",
+    "https://www.newyorker.com/humor/shouts-murmurs/the-least-wanted-items-at-my-parents-estate-sale"
   ],
   "categoryLog": [
-    "law",
     "gaming",
     "fun",
     "gaming",
@@ -66,7 +65,8 @@
     "gaming",
     "gaming",
     "gaming",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }
