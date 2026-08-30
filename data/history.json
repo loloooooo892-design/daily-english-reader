@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/culture/songs-of-summer/drakes-janice-stfu-on-every-corner",
-    "https://www.pcgamer.com/games/grand-theft-auto/cyberleeks-still-at-it-another-gta-6-leak-shows-2-full-minutes-of-high-speed-driving-surprisingly-few-crashes/",
-    "https://reason.com/volokh/2026/08/18/minnesotas-nudification-ban-repeats-unconstitutional-errors-of-early-revenge-porn-bills/",
-    "https://reason.com/volokh/2026/08/23/trump-imposes-harmful-and-illegal-section-338-tariffs-against-many-canadian-imports/",
     "https://www.rockpapershotgun.com/latest-alleged-gta-6-leak-risks-tarnishing-the-reputation-of-our-communities-say-stop-killing-games-after-hackers-claim-pro-consumer-motivations",
     "https://www.wired.com/story/metas-big-reckoning-is-here/",
     "https://nautil.us/are-you-in-danger-of-becoming-a-robot-1284114/",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/culture/goings-on/kacey-musgraves-crossover-queen",
     "https://www.eurogamer.net/what-weve-been-playing-forget-the-classics-remaster-the-duds",
     "https://www.jurist.org/news/2026/08/un-experts-call-for-urgent-action-from-icc-member-states-to-defend-the-court-against-fresh-us-penalties-targeting-its-top-officials/",
-    "https://www.wired.com/story/relay-q-voice-to-text-ai-app/"
+    "https://www.wired.com/story/relay-q-voice-to-text-ai-app/",
+    "https://www.wired.com/story/hotels-com-coupon/",
+    "https://longreads.com/2026/08/28/conservation-africa-wild-dogs-genetics/",
+    "https://www.rockpapershotgun.com/solve-a-mountain-mystery-via-the-medium-of-creepy-cards-in-hillthorn-which-has-an-excellent-demo",
+    "https://reason.com/volokh/2026/08/25/5-years-of-the-journal-of-free-speech-law-150-published-articles/"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "law",
     "law",
@@ -66,7 +65,8 @@
     "law",
     "gaming",
     "tech",
-    "fun"
+    "fun",
+    "tech"
   ],
   "failures": {}
 }
