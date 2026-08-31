@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/culture/photo-booth/melissa-auf-der-maurs-chronicle-of-nineties-rock",
-    "https://www.rockpapershotgun.com/i-think-that-might-be-a-misread-thief-designer-on-why-making-a-triple-a-immersive-sim-doesnt-really-work",
-    "https://www.wired.com/story/canon-promo-code/",
-    "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
     "https://www.scotusblog.com/2026/08/the-courts-clearly-established-problem/",
     "https://www.eurogamer.net/the-sinking-city-2-now-playing",
     "https://www.newyorker.com/culture/the-food-scene/consider-the-oyster-bar",
@@ -50,11 +46,14 @@
     "https://www.pcgamer.com/games/grand-theft-auto/the-gta-6-reveal-has-me-wowed-by-vice-city-and-underwhelmed-by-rockstars-same-old-missions/",
     "https://nautil.us/cyborg-roaches-could-be-the-future-of-triage-medicine-1284583/",
     "https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/",
-    "https://reason.com/volokh/2026/08/28/this-case-begins-with-a-viral-video-and-goes-on-to-involve-the-anti-doxing-league/"
+    "https://reason.com/volokh/2026/08/28/this-case-begins-with-a-viral-video-and-goes-on-to-involve-the-anti-doxing-league/",
+    "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+    "https://www.scotusblog.com/2026/08/supreme-court-allows-construction-on-white-house-ballroom-to-continue/",
+    "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-second-weekend-major-patch-steam-numbers",
+    "https://www.newyorker.com/magazine/2026/09/07/where-to-get-fire-outfits-for-burning-man"
   ],
   "categoryLog": [
     "law",
-    "law",
     "tech",
     "tech",
     "fun",
@@ -66,7 +65,8 @@
     "tech",
     "fun",
     "tech",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }
