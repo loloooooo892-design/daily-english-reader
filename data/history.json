@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/humor/shouts-murmurs/what-your-swimwear-says-about-you",
-    "https://www.rockpapershotgun.com/this-week-in-pc-games-gamescom-and-gta-6-fight-for-attention-but-dont-forget-folk-emerging-mgs4-and-the-horror-game-about-balancing-a-cake",
-    "https://reason.com/volokh/2026/08/23/reconciling-hayek-and-mills-divergent-defenses-of-liberty/",
-    "https://www.newyorker.com/culture/critics-notebook/what-natalie-harp-carries",
     "https://www.wired.com/review/saily-ultra-esim/",
     "https://reason.com/volokh/2026/08/21/intern-actually-a-project-veritas-undercover-plant-in-political-organization-didnt-have-fiduciary-duty-to-organization/",
     "https://www.rockpapershotgun.com/i-love-the-dark-soulful-architecture-of-the-canon-of-balls-a-rolling-open-world-game-inspired-by-sega-fumito-ueda-and-minecraft-parkour",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/08/31/lawsuit-over-outing-of-gay-saudi-residents-by-lufthansa-in-saudi-arabia-can-proceed/",
     "https://www.newyorker.com/magazine/2026/09/07/all-rise-coyote-court-is-now-in-session",
     "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
-    "https://www.rockpapershotgun.com/the-sunday-papers-825"
+    "https://www.rockpapershotgun.com/the-sunday-papers-825",
+    "https://www.pcgamer.com/games/rpg/fables-story-will-be-15-20-hours-long-according-to-its-game-director-although-the-games-life-systems-are-limitless/",
+    "https://www.scotusblog.com/2026/08/what-the-public-thinks-of-the-supreme-court/",
+    "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
+    "https://nautil.us/how-a-psychic-horse-named-clever-hans-changed-the-way-we-do-science-1284622/"
   ],
   "categoryLog": [
-    "tech",
     "tech",
     "fun",
     "gaming",
@@ -66,7 +65,8 @@
     "tech",
     "gaming",
     "tech",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }
