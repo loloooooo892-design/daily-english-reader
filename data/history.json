@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.scotusblog.com/2026/08/the-courts-clearly-established-problem/",
-    "https://www.eurogamer.net/the-sinking-city-2-now-playing",
-    "https://www.newyorker.com/culture/the-food-scene/consider-the-oyster-bar",
-    "https://www.wired.com/story/when-the-packaging-is-the-product-empty-boxes-influencers/",
     "https://www.newyorker.com/humor/shouts-murmurs/what-your-swimwear-says-about-you",
     "https://www.rockpapershotgun.com/this-week-in-pc-games-gamescom-and-gta-6-fight-for-attention-but-dont-forget-folk-emerging-mgs4-and-the-horror-game-about-balancing-a-cake",
     "https://reason.com/volokh/2026/08/23/reconciling-hayek-and-mills-divergent-defenses-of-liberty/",
@@ -50,10 +46,13 @@
     "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
     "https://www.scotusblog.com/2026/08/supreme-court-allows-construction-on-white-house-ballroom-to-continue/",
     "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-second-weekend-major-patch-steam-numbers",
-    "https://www.newyorker.com/magazine/2026/09/07/where-to-get-fire-outfits-for-burning-man"
+    "https://www.newyorker.com/magazine/2026/09/07/where-to-get-fire-outfits-for-burning-man",
+    "https://reason.com/volokh/2026/08/31/lawsuit-over-outing-of-gay-saudi-residents-by-lufthansa-in-saudi-arabia-can-proceed/",
+    "https://www.newyorker.com/magazine/2026/09/07/all-rise-coyote-court-is-now-in-session",
+    "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
+    "https://www.rockpapershotgun.com/the-sunday-papers-825"
   ],
   "categoryLog": [
-    "law",
     "tech",
     "tech",
     "fun",
@@ -66,7 +65,8 @@
     "fun",
     "tech",
     "gaming",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }

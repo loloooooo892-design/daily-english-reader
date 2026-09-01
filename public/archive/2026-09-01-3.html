@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Easiest Ways to Share Anything Between Android and iOS — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Technology</span>
+    <span>Wired</span>
+    <span class="sep">·</span><span>@wired</span>
+    <span class="sep">·</span>
+    <span>782 words</span>
+    <span class="sep">·</span>
+    <span>4 min read</span>
+  </div>
+
+  <h1>The Easiest Ways to Share Anything Between Android and iOS</h1>
+
+  <article class="article-body">
+    <p>Whisper it quietly, but certain bricks in Apple’s walled garden might be getting taken away.</p><p>Thanks to some recent upgrades added to <a href="https://www.wired.com/tag/android/" target="_blank" rel="noopener">Android</a> by <a href="https://www.wired.com/tag/google/" target="_blank" rel="noopener">Google</a>, it's now easier than ever to share files between an <a href="https://www.wired.com/tag/iphone/" target="_blank" rel="noopener">iPhone</a> and an <a href="https://www.wired.com/gallery/best-android-phones/" target="_blank" rel="noopener">Android phone</a>, without installing any new apps (though that's still an option too).</p><p>So if you need to send a photo, contact card, web link, or anything else, these are the options you have available. As is often the case with Android, they may vary depending on the make and model of your handset, though you should find at least one of these methods works for you.</p><h2>Share Files via AirDrop</h2><p>This is the big one: Google recently figured out a way to <a href="https://blog.google/products-and-platforms/platforms/android/quick-share-airdrop/" target="_blank" rel="noopener">add support for AirDrop</a>—Apple's previously closed-off, device-to-device sharing protocol—to newer Pixel phones. It doesn't appear that Apple was involved in the process, but the company hasn't gotten in Google's way since, and the functionality has been rolled out to other phones (including the recent Pixel and Galaxy handsets).</p><p>Some prep work may be required. On Samsung phones, you need to open Settings, then choose <strong>Connected devices &gt; Quick Share</strong> and enable <strong>Share with Apple devices</strong>—though there's no such toggle switch on Pixel phones—it'll just work right away. It needs enabling on iOS too: From Settings, tap <strong>General &gt; AirDrop</strong>, and <strong>Everyone for 10 Minutes</strong>.</p><p>With that done, whenever you tap the share button anywhere in any Android app, you can choose <strong>Quick Share</strong> from the resulting pop-up panel to communicate with a nearby iPhone. The iPhone should show up in the available devices, so select it to start the transfer—which will still need to be accepted on the iPhone.</p><p>It will work the other way too, starting from AirDrop on an iPhone, as long as the Android device is set up to receive from any other device. From Settings, tap either <strong>Connection preferences</strong> (Google Pixel phones) or <strong>Connected devices</strong> (Samsung Galaxy phones), then select <strong>Quick Share &gt; Who can share with you</strong>.</p><h2>Share Files via QR code</h2><p>Google hasn't stopped with AirDrop on Android. It has also recently pushed out a QR-code-based option for sharing from Android to iOS. It's a bit more clunky than AirDrop, but it'll work no matter what kind of Android phone you've got.</p><p>Again, you need to go through <strong>Quick Share</strong>, which pops up as an option whenever you try to share something in Android—no matter what the app or item you want to share. You won't see an iPhone appear if you don't have the AirDrop functionality, but you should see a <strong>Use QR code</strong> option on the right, under <strong>Share with iPhone and other devices</strong>, which after a few moments shrinks down to just a QR code symbol.</p><p>Tap this option to get your QR code on screen. On the iPhone side, AirDrop still needs enabling (via <strong>General &gt; AirDrop &gt; Everyone for 10 Minutes</strong>), and the iPhone camera can then be pointed at the QR code to get to a special Google web address. That will lead to a simple download page for the shared file or content.</p><p>Google says transferred files remain in the cloud for 24 hours, after which they'll be securely deleted. They don't count toward your Google Drive storage quota, and you can share up to 1,000 files in a single session, to a maximum of 20 iPhones (or iPads or Macs, which also support AirDrop).</p><h2>Other Sharing Options</h2><p>You do have a multitude of sharing options to pick from if you want to get something from Android to iOS. You can simply attach a file to an email, for example, or use a messaging app that supports both Android and iOS, like WhatsApp. Bear in mind that certain messaging apps compress photos and videos before sending, though many apps let you turn compression off in the settings.</p><p>Cloud storage apps are another helpful method you can use, though as with messaging apps you want something that works well on any platform (so not iCloud). <a href="https://www.wired.com/story/how-to-free-up-storage-space-in-gmail/" target="_blank" rel="noopener">Google Drive</a> and Dropbox are two apps that are simple to use, run well on Android and iOS, and have smart sharing features built in, for example.</p><p>For iPhone-to-iPhone and Android-to-Android connections and file transfers, everything is much more straightforward: You can just use AirDrop or Quick Share through the relevant share panels, and the receiving device should pop up (assuming you've set the right availability options, as described above).</p><p>One option you can't use is Bluetooth: Apple locks down Bluetooth on the iPhone to some extent, so while you can connect accessories like wireless earbuds, you can't use it for wireless file transfers.</p>
+  </article>
+
+  <footer class="footer">
+    <span>Tuesday, September 1, 2026</span>
+    <a href="https://www.wired.com/story/how-to-share-anything-between-android-and-ios/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
