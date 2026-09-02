@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/review/saily-ultra-esim/",
-    "https://reason.com/volokh/2026/08/21/intern-actually-a-project-veritas-undercover-plant-in-political-organization-didnt-have-fiduciary-duty-to-organization/",
-    "https://www.rockpapershotgun.com/i-love-the-dark-soulful-architecture-of-the-canon-of-balls-a-rolling-open-world-game-inspired-by-sega-fumito-ueda-and-minecraft-parkour",
-    "https://www.pcgamer.com/games/rpg/solasta-2-is-getting-multiplayer-and-warlocks-in-its-next-update/",
     "https://reason.com/volokh/2026/08/25/justice-department-opines-that-federal-law-allows-carrying-guns-in-post-offices-for-self-defense/",
     "https://www.newyorker.com/books/flash-fiction/every-weekday-at-445-pm-libby-flores",
     "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/rpg/fables-story-will-be-15-20-hours-long-according-to-its-game-director-although-the-games-life-systems-are-limitless/",
     "https://www.scotusblog.com/2026/08/what-the-public-thinks-of-the-supreme-court/",
     "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
-    "https://nautil.us/how-a-psychic-horse-named-clever-hans-changed-the-way-we-do-science-1284622/"
+    "https://nautil.us/how-a-psychic-horse-named-clever-hans-changed-the-way-we-do-science-1284622/",
+    "https://www.eurogamer.net/doom-the-dark-ages-revelations-id-software-crunch",
+    "https://techcrunch.com/2026/09/01/waymo-goes-on-offense-ahead-of-teslas-cybercab-launch/",
+    "https://www.scotusblog.com/2026/08/scotus-sides-with-trump-administration-in-mail-in-voting-dispute/",
+    "https://www.newyorker.com/news/a-reporter-at-large/new-maps-show-how-israel-has-thwarted-hopes-for-a-palestinian-state"
   ],
   "categoryLog": [
-    "tech",
     "fun",
     "gaming",
     "gaming",
@@ -66,6 +65,7 @@
     "gaming",
     "tech",
     "law",
+    "gaming",
     "gaming"
   ],
   "failures": {}
