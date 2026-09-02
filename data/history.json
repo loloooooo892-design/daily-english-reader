@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://reason.com/volokh/2026/08/25/justice-department-opines-that-federal-law-allows-carrying-guns-in-post-offices-for-self-defense/",
-    "https://www.newyorker.com/books/flash-fiction/every-weekday-at-445-pm-libby-flores",
-    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-    "https://www.rockpapershotgun.com/do-a-literal-monster-mash-in-dance-of-theseus-a-strangely-undisgusting-blend-of-plastic-surgery-and-balatro-style-fashion-battles",
     "https://nautil.us/dolly-parton-science-icon-1284482/",
     "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
     "https://reason.com/volokh/2026/08/26/high-schools-ordering-parents-to-remove-pink-xx-protest-wristbands-at-girls-soccer-game-likely-violated-first-amendment/",
@@ -50,10 +46,13 @@
     "https://www.eurogamer.net/doom-the-dark-ages-revelations-id-software-crunch",
     "https://techcrunch.com/2026/09/01/waymo-goes-on-offense-ahead-of-teslas-cybercab-launch/",
     "https://www.scotusblog.com/2026/08/scotus-sides-with-trump-administration-in-mail-in-voting-dispute/",
-    "https://www.newyorker.com/news/a-reporter-at-large/new-maps-show-how-israel-has-thwarted-hopes-for-a-palestinian-state"
+    "https://www.newyorker.com/news/a-reporter-at-large/new-maps-show-how-israel-has-thwarted-hopes-for-a-palestinian-state",
+    "https://nautil.us/why-do-male-chimpanzees-throw-rocks-at-the-same-trees-for-more-than-a-decade-1284704/",
+    "https://techcrunch.com/2026/09/02/google-spared-from-ad-business-breakup-but-judge-orders-changes-to-how-it-operates/",
+    "https://www.scotusblog.com/2026/08/trump-administration-asks-justices-to-consider-key-border-policy/",
+    "https://www.rockpapershotgun.com/active-development-on-league-of-legends-fighting-game-spinoff-2xko-will-be-coming-to-an-end-at-the-end-of-the-year"
   ],
   "categoryLog": [
-    "fun",
     "gaming",
     "gaming",
     "gaming",
@@ -66,7 +65,8 @@
     "tech",
     "law",
     "gaming",
-    "gaming"
+    "gaming",
+    "fun"
   ],
   "failures": {}
 }
