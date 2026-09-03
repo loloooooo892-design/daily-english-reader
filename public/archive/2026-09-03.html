@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terabytes of credentials leaked in massive supply-chain attack — Daily Reader</title>
+<title>Third Circuit Rejects Facial Challenge to Ban on Nonimmigrant Aliens' Gun Possession — Daily Reader</title>
 <style>
 :root {
   --bg: #F7F8FA;
@@ -150,139 +150,39 @@ h1 {
 <body>
 <main class="container">
   <div class="meta">
-    <span class="category-tag">Technology</span>
-    <span>Ars Technica</span>
+    <span class="category-tag">Law</span>
+    <span>The Volokh Conspiracy</span>
     
     <span class="sep">·</span>
-    <span>1037 words</span>
+    <span>1293 words</span>
     <span class="sep">·</span>
-    <span>6 min read</span>
+    <span>7 min read</span>
   </div>
 
-  <h1>Terabytes of credentials leaked in massive supply-chain attack</h1>
+  <h1>Third Circuit Rejects Facial Challenge to Ban on Nonimmigrant Aliens' Gun Possession</h1>
 
   <article class="article-body">
-    <p><a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/#main" target="_blank" rel="noopener">
-  Skip to content
-</a></p>
-            
-  
-      
-        <p>
-    
-  
-  
-    TEAMPCP’S RAMPAGE CONTINUES
-  
-</p>
-      
-      <p>
-        The data was scraped and exfiltrated from 2,500 users of a compromised AI package.
-      </p>
-          
-    
-<p>Terabytes worth of credentials, many belonging to the world’s biggest and most sensitive organizations, have been exposed in a supply-chain attack on LiteLLM, an open source tool that streamlines AI-driven software development. Microsoft, Amazon, Cisco, Samsung, and Salesforce are only a handful of the entities whose access secrets were exposed.</p>
-<p>The revelation was posted on <a href="https://www.cloudsek.com/blog/ai-supply-chain-breach-2500-companies-434000-cicd-pipelines" target="_blank" rel="noopener">Tuesday</a> and <a href="https://www.hudsonrock.com/blog/largest-ai-supply-chain-breach-of-2026-litellm-hack-impacts-thousands-of-global-enterprises-claim-your-ethical-disclosure" target="_blank" rel="noopener">Wednesday</a> by security firms CloudSEK and Hudson Rock. CloudSEK said it found cloud keys, repository tokens, SSH keys, Kubernetes secrets, package publishing credentials, environment variables, and AI provider keys that could allow attackers to gain access to more than 2,500 organizations.</p>
-<h2>40 minutes is all it takes</h2>
-<p>The credentials were extracted during a 40-minute window in March while the victims used compromised versions of LiteLLM downloaded from the package’s official location in the Python Package Index repository. Hudson Rock said it made the discovery after analyzing a 195TB file that it obtained. Neither firm identified the source of the information.</p>
-<p>The LiteLLM compromise was the result of a <a href="https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/" target="_blank" rel="noopener">previous supply-chain attack</a> that infected the widely used vulnerability scanner Trivy. Other software infected in the campaign includes <a href="https://www.kics.io/" target="_blank" rel="noopener">KICS</a> and the <a href="https://developers.telnyx.com/development/sdk/python" target="_blank" rel="noopener">Telnyx Python SDK</a>. TeamPCP, a ramshackle but extremely capable gang largely made up of teenagers, took credit for the attack, and researchers have largely corroborated the claim.</p>
-<p>“I’ve confirmed the data is legit, by the way, multiple victim orgs,” independent security researcher Kevin Beaumont <a href="https://infosec.exchange/@GossiTheDog@cyberplace.social/117082985466021541" target="_blank" rel="noopener">said</a>. “It contains a significant volume of sensitive content at orgs. It’s a massive supply chain breach due to poor AI security—not because AI is the threat, but teens can run circles around orgs obsessed with rushing out AI and poor DevOps security.”</p>
-                  
-    
-<p>The compromised versions of all four software packages contained code that accessed the memory of infected machines, scraped its contents, and exfiltrated it through an attacker-controlled channel. The data is filled with an assortment of information. Interspersed in the wall of data are credentials to software pipelines maintained by the tens of thousands of organizations that ran LiteLLM during the 40-minute span that the supply-chain attack remained active.</p>
-<p>In all, both security firms said some 434,000 CI/CD (continuous integration/continuous delivery) software pipelines had credentials exposed after running the compromised LiteLLM versions. In many cases, researchers at CloudSEK and Hudson Rock had trouble identifying the organizations the credentials belonged to. For instance, an email address in the dump from the domain @siriusxm.com ultimately didn’t indicate a breach at the satellite broadcaster, but rather one within the infrastructure of SiriusXM subsidiary AdsWizz.</p>
-
-<p>A full list of organizations is <a href="https://exposure.cloudsek.com/ai-supply-chain-incident" target="_blank" rel="noopener">here</a>. The researchers had high confidence that these organizations had their credentials exposed:</p>
-<ul>
-<li>Nvidia Corporation</li>
-<li>Amazon Web Services (AWS)</li>
-<li>Samsung Electronics</li>
-<li>samsung.com</li>
-<li>Salesforce, Inc.</li>
-<li>Cisco Systems, Inc.</li>
-<li>F. Hoffmann-La Roche AG</li>
-<li>ServiceNow</li>
-<li>Siemens AG</li>
-<li>S&amp;P Global</li>
-<li>Airbus US Space &amp; Defense</li>
-<li>John Deere</li>
-<li>Regeneron Pharmaceuticals, Inc.</li>
-<li>London Stock Exchange Group (LSEG)</li>
-<li>Thomson Reuters</li>
-<li>FedEx</li>
-<li>Munich Remunichre.com</li>
-<li>MediaTek Inc.</li>
-<li>Volkswagen AG</li>
-<li>Deloitte</li>
-<li>The Kroger Co.</li>
-<li>Siemens Energy</li>
-<li>Thales Group</li>
-<li>X Corp (Twitter)</li>
-<li>Zscaler, Inc.</li>
-<li>Epic Games</li>
-<li>Orange S.A.</li>
-<li>HP Inc.</li>
-<li>Philips</li>
-<li>Fortum Oyj</li>
-<li>Vodafone Group Plc</li>
-<li>Carl Zeiss AG</li>
-<li>Deutsche Bahn AG</li>
-<li>NGINX, Inc.</li>
-<li>BT Group</li>
-<li>Liebherr</li>
-<li>Krungthai Bank Public Company Limited</li>
-<li>Roku, Inc.</li>
-</ul>
-<p>“Many CI/CD pipelines are configured generically,” Hudson Rock said. “The dumped variables contain active database passwords, third-party API keys, and cloud credentials without any identifiable company email, custom domain string, or internal server name. This means countless organizations currently have active secrets sitting in this database, completely unaware of their exposure.”</p>
-<h2>Welcome to the new world of supply-chain attacks</h2>
-<p>Both firms are urging all organizations that used the compromised versions of LiteLLM—particularly those listed in the high-confidence section of the list—to thoroughly rotate all credentials in their pipelines. Hudson Rock instructed any organization that uses any AI proxy infrastructure, third-party CI/CD vulnerability scanners, or downstream AI packages to immediately audit their environment for versions 1.82.7 and 1.82.8 of LiteLLM, the two compromised versions of the software.</p>
-                  
-    
-        
-<p>The firm advised all those affected to perform “aggressive credential revocation,” assume any secret accessible to the LiteLLM environment is compromised, invalidate and rotate all cloud keys, Kubernetes service account tokens, and GitLab/GitHub PATs, and audit logging and egress filtering.</p>
-<p>As a cautionary tale, CloudSEK said that Trivy developers rotated but failed to fully revoke an automation token over a 20-day window. The lapse gave the attackers a nearly three-week period to force-push malicious code to third-party builds that used the vulnerability scanner. As Beaumont observed, organizations’ rush to integrate AI into their software delivery systems has also greatly contributed to the scale of the damage.</p>
-<p>Update: There are already signs that some of the affected organizations aren’t taking the disclosure with the seriousness warranted. After this post went live, Beaumont <a href="https://infosec.exchange/@GossiTheDog@cyberplace.social/117084862543112580" target="_blank" rel="noopener">reported</a>:</p>
-<blockquote><p>These creds date from about March. One of the orgs impacted told me they’d rotated them all and it’s a nothingburger, so I looked at their responsible disclosure policy, it allows trying creds, so I tried them all. Almost every one worked. Submitted report. One of the biggest US techcos.</p></blockquote>
-<p>Ultimately, the new revelations concerning the LiteLLM supply-chain attack underscore the growing threat of such campaigns and hence the importance of maintaining vigilance around the use of open source software that, when infected, can spread rapidly across the Internet.</p>
-<p>“The key takeaway is how supply chains have evolved to make a single upstream breach affect thousands of companies simultaneously,” Alon Gal, co-founder and chief technology officer of Hudson Rock, wrote in an email. “A window of roughly 40 minutes in which the LiteLLM dependency was hacked led to over 430,000 instances in which millions of secrets were harvested. This magnitude pushes us into a completely new world regarding the type of response required from the cybersecurity industry.”</p>
-<p><em>Post updated to add image.</em></p>
-                  
-  
-  
-          <p><a href="https://arstechnica.com/author/dan-goodin/" target="_blank" rel="noopener"></a></p>
-  
-  
-    <p>
-      Dan Goodin is Senior Security Editor at Ars Technica, where he oversees coverage of malware, computer espionage, botnets, hardware hacking, encryption, and passwords. In his spare time, he enjoys gardening, cooking, and following the independent music scene. Dan is based in San Francisco. Follow him at <a href="https://infosec.exchange/@dangoodin" target="_blank" rel="noopener">here</a> on Mastodon and <a href="https://bsky.app/profile/dangoodin.bsky.social" target="_blank" rel="noopener">here</a> on Bluesky. Contact him on Signal at DanArs.82.
-    </p>
-  
-
-  <p>
-    <a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/#comments" target="_blank" rel="noopener">
-    
-    91 Comments
-  </a>
-      </p>
-              
-  
-  
-      
-    <ol>
-              <li>
-                      <a href="https://arstechnica.com/gadgets/2026/09/the-army-just-used-a-20-kilowatt-laser-to-take-out-three-drones/" target="_blank" rel="noopener">
-              
-            </a>
-        </li>
-                      
-                      
-                      
-                      
-                      </ol>
+    <p>Some excerpts from <a href="https://www2.ca3.uscourts.gov/opinarch/253012p.pdf" target="_blank" rel="noopener"><em>U.S. v. Aleman-Lozano</em></a>, decided yesterday by Third Circuit Judge Patty Shwartz, joined by Judges Theodore McKee:</p>
+<blockquote><p>Aleman-Lozano is a native and citizen of El Salvador. He entered the United States unlawfully but, in 2017, was granted a nonimmigrant temporary visa with work authorization. Since entering the United States, he has resided with his family, attended school, and worked in Washington, D.C.</p>
+<p>In September 2021, a Pennsylvania state trooper pulled Aleman-Lozano over for a traffic violation …. During the stop, the trooper saw a rifle cartridge on the passenger seat. As a result, the trooper obtained a search warrant and found a pistol containing a loaded sixteen-round magazine, which Aleman-Lozano told police he had purchased from an unidentified individual in Maryland. The pistol did not have a serial number….</p></blockquote>
+<p>Aleman-Lozano was prosecuted under 18 U.S.C. § 922(g)(5)(B), which generally makes it illegal for aliens present under a nonimmigrant visa (with some exceptions) to possess guns, and brought a facial challenge to the constitutionality of the provision. Judges Shwartz and McKee assumed without deciding that "the people" in the Second Amendment included noncitizens who were lawfully present, but concluded that "there is historical support for the challenged restriction" based on "analogues from before and at the time of the Second Amendment's ratification":</p>
+<blockquote><p>English common law distinguished between "aliens and natural-born subjects. Natural-born subjects are such as are born within the dominions of the crown of England, that is, within the … allegiance of the king; and aliens, such as are born out of it." Under the common law, "natural-born subjects [had] a great variety of rights, which they acquire[d] by being born within the king's ligeance," while the rights of "aliens … [were] much more circumscribed, being acquired only by residence here, and lost whenever they remove[d]." For example, "aliens" could not hold land, and "land and gun ownership were historically linked." "[T]he right to own guns in eighteenth-century England was statutorily restricted to the landed gentry." An alien could own land if he became naturalized by swearing allegiance to the sovereign before Parliament, which "placed [him] in almost 'exactly the same state as if he had been born in the' dominions of the Crown." The English Bill of Rights also limited gun ownership to those loyal to the Crown. It "guarantee[d] that 'Protestants … may have Arms for their Defence suitable to their Conditions, and as allowed by Law.'"</p>
+<p>Before the American Revolution, some "colonial governments prohibited any white person unwilling to affirm his allegiance to the British Crown from collecting firearms." For example, Georgia disarmed indentured Acadians, a "group of French settlers and ancestors to the Cajuns, [who] 'refused to be loyal subjects of the British government' during the French and Indian War." The disarmament of Acadians "was based solely on loyalty concerns."</p>
+<p>After the American Revolution began, the states disarmed British loyalists because of their allegiance to the English monarch and not to the American cause. The Continental Congress called upon the States "immediately to cause all persons to be disarmed … who are notoriously disaffected to the cause of America, or who have not associated, and shall refuse to associate, to defend, by arms, these United Colonies, against the hostile attempts of the British fleets and armies." The states answered the call and disarmed those who refused to swear allegiance to the state and/or to the American cause. Thus, from English common law through the Revolutionary period around the time of ratification, there was a historical tradition of disarming those considered disloyal to the sovereign….</p>
+<p>With this history in mind, we conclude that why and how § 922(g)(5)(B) restricts firearms possession is "consistent with the principles that underpin our regulatory tradition" because it addresses the same allegiance concern as the historical laws and does so in the same way.</p>
+<p>As to why the restriction exists, "[a]llegiance serves as a mark of trustworthiness," and it "shows one's willingness to accede to the terms of social order in exchange for the full benefits of citizenship. [Noncitizens], as a matter of their status, have not yet affirmed their allegiance to the sovereign. That has uniformly served as the basis for disarming them." Section 922(g)(5)(B) disarms noncitizens who bear a "presumptive allegiance to a foreign state," and not to the United States, and thus addresses the same problem as the historical laws.</p>
+<p>As to the "how" inquiry, the historical laws and § 922(g)(5)(B) burden the right in the same way. Historically, governments disarmed individuals "unless and until they swore an oath of allegiance to the sovereign." An individual could obtain the right to bear arms after swearing an oath of allegiance. Today § 922(g)(5)(B) "disarms persons unwilling or unable to swear the oath of allegiance and loyalty to the United States." Noncitizens disarmed under § 922(g)(5)(B) who follow the path prescribed by Congress and undergo the naturalization process, which culminates in taking the oath of renunciation and allegiance "as a demonstration of trustworthiness," gain the right to bear arms. Section 922(g)(5)(B) addresses the same loyalty concern as the historical laws and does so in the same way.</p></blockquote>
+<p>Judge Peter Phipps concurred in the judgment:</p>
+<blockquote><p>The Majority Opinion makes a needless assumption, the breadth of which is staggering, <em>viz.</em>, that all nonimmigrant visa holders are part of "the people" and therefore have full Second Amendment rights. A nonimmigrant is a foreign national with a permanent residence abroad who comes to the United States on a temporary basis, such as for tourism, study, business, medical treatment, or transient travel. Whatever are the precise contours of 'the people,' that term certainly does not include every such visitor….</p>
+<p>The term 'the people' as used in the Constitution is "a term of art" with consistent meaning. As defined by the Supreme Court, 'the people' refers to "a class of persons who are part of a national community or who have otherwise developed sufficient connection with this country to be considered part of that community," with the understanding that the relevant national community is the national "political community." {[T]he Founding generation, influenced by Locke and Montesquieu, "spoke of 'the people,'" to mean "the sovereign community that consented to a legitimate government" ….} While not every contour of the national political community has been identified, adult citizens are part of the people, and excludable aliens are not. It may also be that nonimmigrants are, as a class, not part of the national political community as they are citizens of another country with permanent residences abroad, and they cannot vote in federal elections or serve on federal juries. But it is not necessary in this case to determine whether nonimmigrants, as a class, are not part of 'the people.'</p>
+<p>Rather, Aleman-Lozano's facial challenge to § 922(g)(5)(B) will fail if one nonimmigrant visa holder is outside of the national political community. And if nothing else, receipt of one type of nonimmigrant visa—the C-1 transit visa—does not induct foreign nationals into 'the people.' A C-1 transit visa allows foreign nationals to pass through this country to reach another foreign country and has a maximum duration of stay of 29 days. The limitations on the visa—it is given to foreign nationals with permanent residence abroad who are travelling through this country transiently—prevent C-1 transit visa holders from developing a "sufficient connection" with this country to be considered part of the national political community. Consequently, C-1 transit visa holders are not part of 'the people,' and the Second Amendment does not protect their ability to keep and bear arms.</p>
+<p>That conclusion is fatal to Aleman-Lozano's facial challenge. It is therefore unnecessary for the resolution of this case to broadly assume that each and every nonimmigrant visa holder is part of 'the people.'</p></blockquote>
+<p>Patrick J. Bannon and Carlo D. Marchioli represent the government.</p>
   </article>
 
   <footer class="footer">
     <span>Thursday, September 3, 2026</span>
-    <a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/" target="_blank" rel="noopener">Read original ↗</a>
+    <a href="https://reason.com/volokh/2026/09/02/third-circuit-rejects-facial-challenge-to-ban-on-nonimmigrant-aliens-gun-possession/" target="_blank" rel="noopener">Read original ↗</a>
   </footer>
 
   <div class="archive-link">

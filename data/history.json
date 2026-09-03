@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/waffle-house-teleporter-gregg-phillips-is-still-on-the-trump-administrations-payroll/",
-    "https://reason.com/volokh/2026/08/26/what-is-reasonable-gun-control/",
-    "https://www.newyorker.com/magazine/2026/09/07/adults-tv-review-fx",
-    "https://harvardlawreview.org/print/vol-139/remedies-for-a-constitutional-crisis/",
     "https://nautil.us/how-much-of-a-problem-is-ais-water-use-1284519/",
     "https://www.rockpapershotgun.com/stalker-2-gets-serious-performance-and-visual-upgrades-with-its-20-update-testing-confirms-polishing-up-one-of-the-biggest-flawed-gems-in-fps-games",
     "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
@@ -50,11 +46,14 @@
     "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
     "https://reason.com/volokh/2026/09/02/no-tro-against-arkansas-democrat-gazette-as-to-publishing-of-data-center-plans/",
     "https://www.rockpapershotgun.com/having-taken-over-cities-skylines-2s-resurrection-iceflake-studios-are-also-making-a-bricky-city-builder-called-lego-skylines",
-    "https://www.newyorker.com/news/press-room/2026-festival-lineup"
+    "https://www.newyorker.com/news/press-room/2026-festival-lineup",
+    "https://reason.com/volokh/2026/09/02/third-circuit-rejects-facial-challenge-to-ban-on-nonimmigrant-aliens-gun-possession/",
+    "https://www.theverge.com/tech/985009/tecno-bezelless-concept-phone-ifa",
+    "https://www.rockpapershotgun.com/in-dungeon-settlers-you-build-a-colony-on-top-of-a-teeming-rpg-labyrinth-in-a-trim-take-on-rimworld",
+    "https://www.newyorker.com/books/what-were-reading/five-great-campus-novels"
   ],
   "categoryLog": [
     "gaming",
-    "gaming",
     "law",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "gaming",
     "fun",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
