@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://nautil.us/dolly-parton-science-icon-1284482/",
-    "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
-    "https://reason.com/volokh/2026/08/26/high-schools-ordering-parents-to-remove-pink-xx-protest-wristbands-at-girls-soccer-game-likely-violated-first-amendment/",
-    "https://www.rockpapershotgun.com/massive-morrowind-mod-tamriel-rebuilts-poison-song-expansion-is-out-now-complete-with-new-quests-to-join-great-house-indoril-and-the-ordinators",
     "https://www.wired.com/story/waffle-house-teleporter-gregg-phillips-is-still-on-the-trump-administrations-payroll/",
     "https://reason.com/volokh/2026/08/26/what-is-reasonable-gun-control/",
     "https://www.newyorker.com/magazine/2026/09/07/adults-tv-review-fx",
@@ -50,10 +46,13 @@
     "https://nautil.us/why-do-male-chimpanzees-throw-rocks-at-the-same-trees-for-more-than-a-decade-1284704/",
     "https://techcrunch.com/2026/09/02/google-spared-from-ad-business-breakup-but-judge-orders-changes-to-how-it-operates/",
     "https://www.scotusblog.com/2026/08/trump-administration-asks-justices-to-consider-key-border-policy/",
-    "https://www.rockpapershotgun.com/active-development-on-league-of-legends-fighting-game-spinoff-2xko-will-be-coming-to-an-end-at-the-end-of-the-year"
+    "https://www.rockpapershotgun.com/active-development-on-league-of-legends-fighting-game-spinoff-2xko-will-be-coming-to-an-end-at-the-end-of-the-year",
+    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+    "https://reason.com/volokh/2026/09/02/no-tro-against-arkansas-democrat-gazette-as-to-publishing-of-data-center-plans/",
+    "https://www.rockpapershotgun.com/having-taken-over-cities-skylines-2s-resurrection-iceflake-studios-are-also-making-a-bricky-city-builder-called-lego-skylines",
+    "https://www.newyorker.com/news/press-room/2026-festival-lineup"
   ],
   "categoryLog": [
-    "gaming",
     "gaming",
     "gaming",
     "law",
@@ -66,7 +65,8 @@
     "law",
     "gaming",
     "gaming",
-    "fun"
+    "fun",
+    "tech"
   ],
   "failures": {}
 }
