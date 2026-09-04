@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://nautil.us/how-much-of-a-problem-is-ais-water-use-1284519/",
-    "https://www.rockpapershotgun.com/stalker-2-gets-serious-performance-and-visual-upgrades-with-its-20-update-testing-confirms-polishing-up-one-of-the-biggest-flawed-gems-in-fps-games",
-    "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
-    "https://www.pcgamer.com/hardware/nvidia-says-it-would-be-making-a-whole-lot-more-money-if-it-werent-for-the-memory-crisis-its-contributing-to/",
     "https://reason.com/volokh/2026/08/25/counsel-took-full-responsibility-for-his-mistakes-was-not-evasive-and-prioritized-candor-to-the-court-and-opposing-counsel/",
     "https://www.wired.com/story/netflix-failed-at-video-games-now-its-trying-to-promote-them/",
     "https://www.newyorker.com/humor/shouts-murmurs/the-least-wanted-items-at-my-parents-estate-sale",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/09/02/third-circuit-rejects-facial-challenge-to-ban-on-nonimmigrant-aliens-gun-possession/",
     "https://www.theverge.com/tech/985009/tecno-bezelless-concept-phone-ifa",
     "https://www.rockpapershotgun.com/in-dungeon-settlers-you-build-a-colony-on-top-of-a-teeming-rpg-labyrinth-in-a-trim-take-on-rimworld",
-    "https://www.newyorker.com/books/what-were-reading/five-great-campus-novels"
+    "https://www.newyorker.com/books/what-were-reading/five-great-campus-novels",
+    "https://www.wired.com/story/scientists-find-most-convincing-evidence-yet-dark-matter-particle/",
+    "https://www.newyorker.com/books/this-week-in-fiction/helen-simpson-09-07-26",
+    "https://www.rockpapershotgun.com/gta-6-life-simulation-elements-confirmed-thank-god-we-can-turn-the-offensively-hot-jason-and-lucia-into-exhausted-slobs-like-the-rest-of-us",
+    "https://reason.com/volokh/2026/09/01/advocate-john-roberts-v-chief-justice-john-roberts/"
   ],
   "categoryLog": [
-    "gaming",
     "law",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "fun",
     "tech",
-    "law"
+    "law",
+    "tech"
   ],
   "failures": {}
 }
