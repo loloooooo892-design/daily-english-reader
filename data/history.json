@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.eurogamer.net/modern-warfare-4-beta-day-1-update-footstep-audio-weapon-balance",
-    "https://reason.com/volokh/2026/08/26/a-wall-of-separation-between-lgb-and-t/",
-    "https://www.newyorker.com/books/what-were-reading/the-books-behind-peter-hellers-the-dog-stars",
-    "https://www.newyorker.com/culture/goings-on/kacey-musgraves-crossover-queen",
     "https://www.eurogamer.net/what-weve-been-playing-forget-the-classics-remaster-the-duds",
     "https://www.jurist.org/news/2026/08/un-experts-call-for-urgent-action-from-icc-member-states-to-defend-the-court-against-fresh-us-penalties-targeting-its-top-officials/",
     "https://www.wired.com/story/relay-q-voice-to-text-ai-app/",
@@ -50,10 +46,13 @@
     "https://www.eurogamer.net/monster-hunter-wilds-ascendance-boost-weapons",
     "https://longreads.com/2026/08/31/rachel-entrekin-ultramarathon-competition-women/",
     "https://reason.com/volokh/2026/09/03/my-new-usa-today-article-on-dangerous-similarities-between-democratic-socialists-and-maga-nationalists/",
-    "https://www.wired.com/story/dermstore-promo-code/"
+    "https://www.wired.com/story/dermstore-promo-code/",
+    "https://www.eurogamer.net/gta-6-driving-car-theft-more-challenging-rockstar-realism-push",
+    "https://reason.com/volokh/2026/09/02/second-amendment-doesnt-protect-machineguns-doesnt-preclude-registration-requirement-for-silencers/",
+    "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+    "https://www.newyorker.com/humor/shouts-murmurs/welcome-to-career-day"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "fun",
     "tech",
@@ -66,6 +65,7 @@
     "tech",
     "law",
     "tech",
+    "gaming",
     "gaming"
   ],
   "failures": {}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome to Career Day — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>704 words</span>
+    <span class="sep">·</span>
+    <span>4 min read</span>
+  </div>
+
+  <h1>Welcome to Career Day</h1>
+
+  <article class="article-body">
+    <p>Hi, kids! I’m Charlotte’s mom, and I’m here to tell you about my job.</p><p>My typical day begins with me waking up in a cold sweat around 3 <em>A.M.</em> Instead of closing my eyes and going back to sleep, as ten out of ten doctors would recommend, I peel my phone off my sweaty cheek and dive straight into my work e-mail. This insures that I’ll start the day early since I’m all but guaranteed to read something that will fill me with a powerful rage. This morning, for example, I encountered an e-mail where my boss, Steve, put me in the “cc” line instead of the “to” line, even though I’m the person spearheading this project. Like, what is he doing?</p><p>Rather than attempting to move past this for the sake of my mental (and cardiovascular!) health, I spend the next three hours mulling a variety of pithy responses that would subtly call into question Steve’s abilities, motives, intellect, and upbringing. However, kids—and this is key—I don’t actually reply to his e-mail until the sleeping child next to me finally stirs, at around 5:50 <em>A.M.</em>, at which point I immediately forget all my clever retorts, because the screams for pancakes wipe the slate clean.</p><p>After I drop my kids off at school, I dial into a daily 8:30 <em>A.M.</em> call that Steve set, even though he knows that at 8:30 <em>A.M.</em>, every morning, unless one of my children has the plague, I’m about to get on the subway. I anxiously join a “quick” forty-five-minute meeting at the top of the subway stairs, trying to make out what’s being said amid the blaring of sirens, the barking of dogs, and the roar beneath my feet of every single train that I’m missing.</p><p>When I arrive at my desk, I spend two-ish hours messing around with an A.I. chatbot, as per the company’s new mandate, teaching it how to do my job so that it can replace me. Not that I care. It sort of feels like getting paid to tutor a very optimistic, very eager golden retriever.</p><p>After I’ve transferred twenty years’ worth of expertise and hard work to a computer in a matter of minutes, I ask the chatbot to brainstorm places that I could go to for lunch. You kids love lunch, right? Recommendation in hand, I traverse the city to a highly recommended Korean-fried-chicken place, only to find that it’s been shuttered for more than nine months, and also that it is now a Turkish-rug shop. I pick up a twenty-dollar grain bowl instead, haul it back to the office, and eat at my desk, alone, even though I’m not actually working but, rather, engaging with the chatbot about a variety of very difficult-to-photograph moles.</p><p>After lunch, I scroll on TikTok until it’s finally caffeine o’clock! After coffee, the day is pretty much over, so I mess around with the chatbot for another three hours, mostly asking it to generate cartoons of me at the beach. Once I’ve got a good enough image to post on Instagram, it’s time to clock out.</p><p>As soon as I get home, having received zero important e-mails in the course of the entire day, Steve asks me to log back in and build a fifteen-page deck on “A.I. and Us.” I spend the next two hours using A.I. to make the deck while my children enjoy several episodes of “Is It Cake?” Sometimes I glance up and play along. Other times, I take a photo of the “cake” and ask the chatbot to guess for us. And that pretty much does it!</p><p>Any questions?</p><p>Do I have a degree? Many!</p><p>Were they expensive to procure? Obscenely!</p><p>Am I satisfied with my level of income? Ha ha. Ha. No.</p><p>What job do I do? It doesn’t matter! They’re all the same now.</p><p>Is there any chance that’s going to improve by the time you enter the work force? . . . Sure.</p><p>Anyway, study hard, kids! But also make sure that what you’re studying is how to live off the land. And remember the most important advice of all: if you’re going to make a long trek for fried chicken, <em>call ahead</em>. ♦</p>
+  </article>
+
+  <footer class="footer">
+    <span>Saturday, September 5, 2026</span>
+    <a href="https://www.newyorker.com/humor/shouts-murmurs/welcome-to-career-day" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
