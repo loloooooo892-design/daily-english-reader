@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://nautil.us/cyborg-roaches-could-be-the-future-of-triage-medicine-1284583/",
-    "https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/",
-    "https://reason.com/volokh/2026/08/28/this-case-begins-with-a-viral-video-and-goes-on-to-involve-the-anti-doxing-league/",
-    "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
     "https://www.scotusblog.com/2026/08/supreme-court-allows-construction-on-white-house-ballroom-to-continue/",
     "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-second-weekend-major-patch-steam-numbers",
     "https://www.newyorker.com/magazine/2026/09/07/where-to-get-fire-outfits-for-burning-man",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/culture/critics-notebook/the-art-of-getting-lost-in-minnie-evans",
     "https://www.pcgamer.com/software/ai/nvidia-puts-its-money-where-its-mouth-is-on-open-weight-ai-moving-to-buy-hugging-face-for-usd13-billion/",
     "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
-    "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/"
+    "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+    "https://www.rockpapershotgun.com/we-ended-up-kind-of-cornered-there-mortal-shell-2-devs-say-they-didnt-intend-to-lock-everybody-out-by-disabling-achievements-for-slayer-seal-easy-mode-users",
+    "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
+    "https://www.wired.com/story/create-custom-windows-11-notifications-to-remind-yourself-of-anything/",
+    "https://www.newyorker.com/culture/infinite-scroll/the-unique-horrors-of-ai-food-slop"
   ],
   "categoryLog": [
-    "tech",
     "gaming",
     "tech",
     "law",
@@ -66,7 +65,8 @@
     "gaming",
     "gaming",
     "gaming",
-    "fun"
+    "fun",
+    "gaming"
   ],
   "failures": {}
 }
