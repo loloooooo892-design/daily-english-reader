@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://longreads.com/2026/08/28/conservation-africa-wild-dogs-genetics/",
-    "https://www.rockpapershotgun.com/solve-a-mountain-mystery-via-the-medium-of-creepy-cards-in-hillthorn-which-has-an-excellent-demo",
-    "https://reason.com/volokh/2026/08/25/5-years-of-the-journal-of-free-speech-law-150-published-articles/",
-    "https://www.pcgamer.com/games/grand-theft-auto/the-gta-6-reveal-has-me-wowed-by-vice-city-and-underwhelmed-by-rockstars-same-old-missions/",
     "https://nautil.us/cyborg-roaches-could-be-the-future-of-triage-medicine-1284583/",
     "https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/",
     "https://reason.com/volokh/2026/08/28/this-case-begins-with-a-viral-video-and-goes-on-to-involve-the-anti-doxing-league/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/action/onimusha-leather-tempered-iron-materials-grind-red-souls/",
     "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
     "https://reason.com/volokh/2026/09/03/puerto-rico-has-rational-basis-for-allowing-only-two-genders-for-birth-certificate-gender-changes/",
-    "https://www.newyorker.com/magazine/2026/09/14/the-anti-ai-ad-ad-campaign"
+    "https://www.newyorker.com/magazine/2026/09/14/the-anti-ai-ad-ad-campaign",
+    "https://www.newyorker.com/culture/critics-notebook/the-art-of-getting-lost-in-minnie-evans",
+    "https://www.pcgamer.com/software/ai/nvidia-puts-its-money-where-its-mouth-is-on-open-weight-ai-moving-to-buy-hugging-face-for-usd13-billion/",
+    "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
+    "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/"
   ],
   "categoryLog": [
-    "fun",
     "tech",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "gaming",
     "gaming",
-    "gaming"
+    "gaming",
+    "fun"
   ],
   "failures": {}
 }
