@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.scotusblog.com/2026/08/supreme-court-allows-construction-on-white-house-ballroom-to-continue/",
-    "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-second-weekend-major-patch-steam-numbers",
-    "https://www.newyorker.com/magazine/2026/09/07/where-to-get-fire-outfits-for-burning-man",
-    "https://reason.com/volokh/2026/08/31/lawsuit-over-outing-of-gay-saudi-residents-by-lufthansa-in-saudi-arabia-can-proceed/",
     "https://www.newyorker.com/magazine/2026/09/07/all-rise-coyote-court-is-now-in-session",
     "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
     "https://www.rockpapershotgun.com/the-sunday-papers-825",
@@ -50,10 +46,13 @@
     "https://www.rockpapershotgun.com/we-ended-up-kind-of-cornered-there-mortal-shell-2-devs-say-they-didnt-intend-to-lock-everybody-out-by-disabling-achievements-for-slayer-seal-easy-mode-users",
     "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
     "https://www.wired.com/story/create-custom-windows-11-notifications-to-remind-yourself-of-anything/",
-    "https://www.newyorker.com/culture/infinite-scroll/the-unique-horrors-of-ai-food-slop"
+    "https://www.newyorker.com/culture/infinite-scroll/the-unique-horrors-of-ai-food-slop",
+    "https://www.scotusblog.com/2026/08/republican-groups-file-emergency-application-to-court-on-broadcasting-rates-for-political-ads/",
+    "https://www.newyorker.com/humor/shouts-murmurs/seven-steps-to-financial-success-according-to-a-guy-who-won-a-multimillion-dollar-lawsuit-against-the-circus",
+    "https://www.pcgamer.com/games/moba/in-a-sea-of-failed-live-service-games-im-shocked-to-see-someone-trying-to-make-a-moba/",
+    "https://www.wired.com/story/pig-kidney-transplant-working-after-record-setting-9-months/"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "law",
     "gaming",
@@ -66,7 +65,8 @@
     "gaming",
     "gaming",
     "fun",
-    "gaming"
+    "gaming",
+    "law"
   ],
   "failures": {}
 }
