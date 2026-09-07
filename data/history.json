@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/09/07/all-rise-coyote-court-is-now-in-session",
-    "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
-    "https://www.rockpapershotgun.com/the-sunday-papers-825",
-    "https://www.pcgamer.com/games/rpg/fables-story-will-be-15-20-hours-long-according-to-its-game-director-although-the-games-life-systems-are-limitless/",
     "https://www.scotusblog.com/2026/08/what-the-public-thinks-of-the-supreme-court/",
     "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
     "https://nautil.us/how-a-psychic-horse-named-clever-hans-changed-the-way-we-do-science-1284622/",
@@ -50,10 +46,13 @@
     "https://www.scotusblog.com/2026/08/republican-groups-file-emergency-application-to-court-on-broadcasting-rates-for-political-ads/",
     "https://www.newyorker.com/humor/shouts-murmurs/seven-steps-to-financial-success-according-to-a-guy-who-won-a-multimillion-dollar-lawsuit-against-the-circus",
     "https://www.pcgamer.com/games/moba/in-a-sea-of-failed-live-service-games-im-shocked-to-see-someone-trying-to-make-a-moba/",
-    "https://www.wired.com/story/pig-kidney-transplant-working-after-record-setting-9-months/"
+    "https://www.wired.com/story/pig-kidney-transplant-working-after-record-setting-9-months/",
+    "https://www.wired.com/story/every-samsung-galaxy-phone-comes-with-this-unique-add-on/",
+    "https://www.newyorker.com/magazine/2026/09/14/tom-sachs-channels-chanel",
+    "https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/",
+    "https://reason.com/volokh/2026/09/01/school-can-control-what-flags-schoolteachers-hang-on-classroom-walls/"
   ],
   "categoryLog": [
-    "tech",
     "law",
     "gaming",
     "gaming",
@@ -66,7 +65,8 @@
     "gaming",
     "fun",
     "gaming",
-    "law"
+    "law",
+    "tech"
   ],
   "failures": {}
 }
