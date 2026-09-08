@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Scourge of A.1. — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>801 words</span>
+    <span class="sep">·</span>
+    <span>5 min read</span>
+  </div>
+
+  <h1>The Scourge of A.1.</h1>
+
+  <article class="article-body">
+    <p>Rather than devote this space to humor, as I sometimes do, this week I want to speak about a very serious subject: A.1. Wherever we turn nowadays, we hear about the supposedly frightening phenomenon of A.1. We’re told that A.1. is going to take our jobs, revolutionize our economy, drain our bank accounts, maybe change how our brains work, start wars, and even lead to the end of the world. All of these are real concerns. But let me add some perspective and demythologize the subject a bit. Yes, right now, A.1. may seem overwhelming and scary, but let’s everybody step back, take a deep breath, and remember—<em>it’s just a steak sauce!</em></p><p>For A.1. to cause such fear is understandable, because many of us are not comfortable with condiments. We see A.1. as belonging to the world of advanced, high-level condiments, and we run for cover. In my case, I struggled with condiments all the way through school. On the condiments SAT, I did so poorly that it almost kept me out of college. My aptitude for condiments is very low—nothing I can do about it—and I know millions are like me in that. But just because we’re not very good at condiments, that’s no reason to fear them.</p><p>Also, there is another threatening and somewhat embarrassing aspect to A.1., especially for young men. They are told that when they become sexually active, always use a condiment. They hear this over and over: Use a condiment! Use a condiment! They have that fixed in their minds, and they want to follow this sound advice from parents and teachers and public-health officials, and that’s all good. But nobody ever says <em>which</em> condiment. And there are a lot of condiments out there! What with all the uncertainty that surrounds intimacy when you’re young and inexperienced, not knowing the right condiment can be an anxiety-producing issue. When the experts say, “Use a condiment,” do they mean, “Use Louisiana Extra-Hot Iberian Hot Sauce?” Well, here’s a news flash: they don’t! (I learned that the hard way.) Each person must settle on the right condiment by trial and error, through an often painful process, and that’s a problem we tend not to talk about.</p><p>Now, I’m going to tell you a fact about A.1. that, once you hear it, you’ll never forget it. A.1. is basically <em>Worcestershire sauce</em>. Sure, some tweaks to the formula have been added, but in essence A.1. and Worcestershire sauce are one and the same. A.1. was invented because nobody knew how to pronounce “Wor-shest-er-sher-ster sauce.” A guy takes his family or some friends or clients out for a nice dinner, everybody orders big steaks, and then the guy tells the waiter, “Oh, and bring us a bottle of Wor-shers-ter-shuer-shest sauce,” and he looks and sounds like an idiot, and the evening is ruined. “A.1.,” on the other hand, is easy to say. Plus, everybody is now so terrified of A.1., it makes the waitstaff hop to.</p><p>How did such a hard-to-pronounce name as Wor-shest-et-cetera make it into the language in the first place? It turns out that the name goes back thousands of years and refers to a place in England. In the time of the Roman Empire, much of England was under occupation. The English had hundreds of different druidical religions, but only one sauce. In order to confuse the Romans, the local people gave their most strategic places names that were almost impossible to pronounce. One of these places was called, in Saxon, “Wor-shesht-yer-sher-ter-shest-sher,” which meant “The Place of Our Only Sauce, and We Have Just the One.” The Roman Army, which had recently come from Italy, naturally spoke Introductory Latin, then known as Italian. Try saying that name in Italian! It’s no snap for the Italians even today, after centuries of practice.</p><p>Recently, you may have noticed that your electricity bill has gone up. This is because A.1.-production centers bigger than any the world has ever seen are using billions of kilowatts to pump out the familiar steak sauce night and day. A study has shown that by early next year we will have enough A.1. not only to garnish all the beef cattle, milk cows, buffalo, beefalo, oxen, and musk oxen on the planet but enough to drown them in an A.1. tsunami seventy-five metres deep. What are the manufacturers’ plans for all this A.1.? Here is where the dangerous part comes in. Many experts say that all this A.1. has some connection to computers, and to something called “coding.” Following this theory, the code may be an ingenious and hard-to-crack cipher in which, perhaps, the letter “A” is represented by the numeral “1.” Talk about hiding in plain sight! But, for the moment, the rest of the code has yet to be solved. ♦</p>
+  </article>
+
+  <footer class="footer">
+    <span>Tuesday, September 8, 2026</span>
+    <a href="https://www.newyorker.com/magazine/2026/09/14/the-scourge-of-a-1" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>

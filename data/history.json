@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.scotusblog.com/2026/08/what-the-public-thinks-of-the-supreme-court/",
-    "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
-    "https://nautil.us/how-a-psychic-horse-named-clever-hans-changed-the-way-we-do-science-1284622/",
-    "https://www.eurogamer.net/doom-the-dark-ages-revelations-id-software-crunch",
     "https://techcrunch.com/2026/09/01/waymo-goes-on-offense-ahead-of-teslas-cybercab-launch/",
     "https://www.scotusblog.com/2026/08/scotus-sides-with-trump-administration-in-mail-in-voting-dispute/",
     "https://www.newyorker.com/news/a-reporter-at-large/new-maps-show-how-israel-has-thwarted-hopes-for-a-palestinian-state",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/every-samsung-galaxy-phone-comes-with-this-unique-add-on/",
     "https://www.newyorker.com/magazine/2026/09/14/tom-sachs-channels-chanel",
     "https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/",
-    "https://reason.com/volokh/2026/09/01/school-can-control-what-flags-schoolteachers-hang-on-classroom-walls/"
+    "https://reason.com/volokh/2026/09/01/school-can-control-what-flags-schoolteachers-hang-on-classroom-walls/",
+    "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
+    "https://www.newyorker.com/magazine/2026/09/14/the-scourge-of-a-1",
+    "https://www.jurist.org/news/2026/09/hong-kong-court-upholds-conviction-of-pro-democracy-humanitarian-fund-organizers/",
+    "https://www.rockpapershotgun.com/im-desperately-looking-for-anybody-who-knows-anybody-at-valve-open-world-satire-future-no-thanks-is-still-locked-in-steam-horny-jail"
   ],
   "categoryLog": [
-    "law",
     "gaming",
     "gaming",
     "fun",
@@ -66,6 +65,7 @@
     "fun",
     "gaming",
     "law",
+    "tech",
     "tech"
   ],
   "failures": {}
