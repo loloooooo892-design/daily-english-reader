@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How a Skateboarder Sees Los Angeles — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>1274 words</span>
+    <span class="sep">·</span>
+    <span>7 min read</span>
+  </div>
+
+  <h1>How a Skateboarder Sees Los Angeles</h1>
+
+  <article class="article-body">
+    <p>Jerry Hsu grew up in San Jose, about an hour south of San Francisco, and, for a time, he assumed he would never leave. He didn’t need to. In the late nineties and two-thousands, Hsu and his daredevil friends had proudly put their sleepy Silicon Valley city on the map as an unlikely skateboarding capital. He noticed that young skateboarders from around the country were moving to San Jose, “and it had to do with my group of friends and these videos we were making,” he told me. “It’s like when a random city becomes very important for some random reason. We were able to have our slice of heaven.”</p><p>The son of Taiwanese immigrants, Hsu was a precocious talent and became a professional skateboarder in his mid-teens. Magazines sent photographers to San Jose to shoot pictures of him, and he eventually became interested in their craft, what kind of gear they were using, the parallels between their respective art forms. His mother would drive him to the local Barnes &amp; Noble, where he grew fascinated with how <a href="https://www.newyorker.com/culture/cultural-comment/nan-goldins-art-addiction-and-activism-in-all-the-beauty-and-the-bloodshed" target="_blank" rel="noopener">Nan Goldin</a> and <a href="https://www.newyorker.com/magazine/2001/07/30/us-and-them" target="_blank" rel="noopener">Larry Clark</a> chronicled the micro-scenes around them. (She also famously procured him a concrete parking block so that he could practice tricks at home.) As skateboard companies sent him around the world in his late teens and twenties, he began obsessively taking photographs of the strange, funny, often macabre things he came across, and publishing them on Tumblr or in <em>Vice</em> magazine.</p><p>In 2011, Hsu moved to Los Angeles, primarily for a relationship, and to further his career as a skateboarder. But he also felt a private excitement about spending time photographing a city “that was more rich with things I wanted to see.” With a body thrashed by occupational hazards, Hsu, who is forty-four, orients his life nowadays around running Sci-Fi Fantasy, his skate company, and roaming the city to take pictures. His latest book, “<a href="https://www.mackbooks.us/products/how-about-never-jerry-hsu" target="_blank" rel="noopener">How About Never</a>,” is a brutal and wondrous chronicle of the sights he has sought out these past fifteen years.</p><p>It’s no surprise that a skateboarder, constantly scanning the landscape for surfaces to recontextualize, might see the world differently. Hsu’s photographs explore the city’s manic extremes. Some of them are quick visual gags: the symmetry of two discarded toilets stacked like yin and yang (or in a sixty-nine position) on the side of the street, a veiny sex toy that’s washed up in a brackish puddle. A triangular slab has fallen neatly out of a wall, as though it was too weary to go on. He notices signs of life where others might just perceive neglect, such as a flower bush sequestered behind a foreboding fence. One picture feels like a short story waiting to be written: a tree hollowed out by rot has been stuffed with roses by a neighbor who felt sorry for it. Hsu maps a Los Angeles of leftovers and castoffs; portraits of friends and strangers in the street are full of dazed, inscrutable expressions.</p><p>“My attraction to risk is ever present,” he explains. Hsu is the type of person who runs toward fire, as evidenced by pictures of overturned cars, collisions, a bank building ablaze. They manage to avoid feeling grimly voyeuristic. Instead, there’s a sense of stillness in these images, akin to that flash of calm after you’ve done something ruinous to your body but before your brain registers pain or begins cycling through consequences. I was drawn to a picture of a smashed car windshield, the glass frozen in a series of circular ripples, until it began to resemble the vertical slit of a reptilian eye. It was still in mind a few pages later, as I studied how a young man’s artificial eye seemed to match the orange shade of his hoodie.</p><p>My favorite picture in the book finds a sensibly blue Subaru station wagon that has somehow turned on its side in the middle of the night. There’s something funny about its vanity license plate (“<em>4A POEM</em>”) and the way the car’s headlights shine brightly on a house in the distance, as if to point attention away from itself.</p><p>Hsu says that his ex-wife often remarked that he had a sixth sense for stumbling upon bizarre, uncanny scenes. Many of his images, even the faintly violent ones, possess an absurdist humor: in one, a motorist explains to a police officer why their Toyota has hopped the curb, but, from a distance, it almost looks like the sedan is playfully trying to return to its mates in a used-car lot. Hsu explained that he finds a lot of his subjects by using <a href="https://www.newyorker.com/magazine/2019/07/29/citizen-the-smartphone-police-blotter" target="_blank" rel="noopener">Citizen</a>, the incident-reporting app, to see if anything intriguing is happening nearby.</p><p>For all the book’s darkness, there are pictures that feel sublime and vast. There are numerous pictures from the hills surrounding Los Angeles where you can’t tell whether the city is on fire or merely aglow with energy. A suburban home like any other sits haloed by clouds, with California’s placid skies a screen of infinite possibility. A picture of a cat vaulting from a gate to a fence takes on an outsized feeling of hope. “Maybe this is corny,” Hsu explained to me, “but all this chaos and these little beautiful secrets I found here reminded me of myself. It was a mirror and threshold.”</p><p>I first learned about Hsu in the early two-thousands. My younger cousin wound up skating at his house a few times and excitedly asked if we were related to him. Sadly, the answer was no. Admiring Hsu’s twin careers taught me to see my own Silicon Valley suburb differently, even though I was someone who’d felt the urge to leave as soon as I could. I realized that I hadn’t tried hard enough to appreciate all the beauty and weirdness that was actually available to me.</p><p>Where Hsu’s early work was filled with the people in his life, his work over the past decade is marked by a kind of solitude. Some of “How About Never” feels uncomfortably intimate, from its opening image of a cake flower resting on a knife above a dingy sink to pictures of hospital rooms, scabs and bruises, his ex-wife resting her palms on the sink in their bathroom. Hsu says that he spent nearly ten years editing the book, and that he recently realized that it also tracks the dissolution of his marriage. As he put it, there’s a private story of “hope, despair, all the feelings that are associated with trying to make a loving relationship happen” in how the images are sequenced.</p><p>Hsu spoke to me from his home in Los Angeles, and at one point, he angled his laptop to show me a shelf full of negatives and contact sheets, and hard drives of digital photos. His archives contain nearly every picture he’s taken in the past twenty-five years, even random things he texts to his friends. He rarely deletes pictures from his phone, thinking that even the imperfect shots might be meaningful to him someday. It reminded me of the famous series of home movies that Hsu made of himself, as a teen-ager, practicing tricks in his parents’ garage. The result of all those hours of practice was a style of effortless cool. Yet he felt compelled to keep a record of all the failures and misses along the way. “Maybe because I have this type of vision, it really takes away from another type that’s more practical,” he said, laughing. A few minutes after we hung up, he got an alert on his phone: a car had just flipped over in Koreatown. ♦</p>
+  </article>
+
+  <footer class="footer">
+    <span>Wednesday, September 9, 2026</span>
+    <a href="https://www.newyorker.com/culture/photo-booth/how-a-professional-skateboarder-sees-los-angeles" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
