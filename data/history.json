@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/books/this-week-in-fiction/helen-simpson-09-07-26",
-    "https://www.rockpapershotgun.com/gta-6-life-simulation-elements-confirmed-thank-god-we-can-turn-the-offensively-hot-jason-and-lucia-into-exhausted-slobs-like-the-rest-of-us",
-    "https://reason.com/volokh/2026/09/01/advocate-john-roberts-v-chief-justice-john-roberts/",
-    "https://www.eurogamer.net/monster-hunter-wilds-ascendance-boost-weapons",
     "https://longreads.com/2026/08/31/rachel-entrekin-ultramarathon-competition-women/",
     "https://reason.com/volokh/2026/09/03/my-new-usa-today-article-on-dangerous-similarities-between-democratic-socialists-and-maga-nationalists/",
     "https://www.wired.com/story/dermstore-promo-code/",
@@ -50,10 +46,13 @@
     "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-gamescom-preview",
     "https://www.newyorker.com/culture/the-food-scene/helen-help-me-juice-thats-worth-the-squeeze",
     "https://www.jurist.org/news/2026/09/death-of-baloch-student-raises-concerns-amid-enforced-disappearances-and-extrajudicial-killings-un-experts-say/",
-    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/"
+    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+    "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
+    "https://www.newyorker.com/humor/shouts-murmurs/some-legacy-sequels-we-hope-are-never-made",
+    "https://www.rockpapershotgun.com/miami-dade-police-outraged-by-proposals-to-turn-parts-of-miami-into-gta-6-saying-that-rockstars-game-embodies-what-they-work-every-single-day-to-prevent",
+    "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/"
   ],
   "categoryLog": [
-    "law",
     "tech",
     "gaming",
     "gaming",
@@ -66,7 +65,8 @@
     "tech",
     "tech",
     "fun",
-    "gaming"
+    "gaming",
+    "law"
   ],
   "failures": {}
 }

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terabytes of credentials leaked in massive supply-chain attack — Daily Reader</title>
+<title>A Stealth Startup Thinks It Just Hacked the Memory Shortage — Daily Reader</title>
 <style>
 :root {
   --bg: #F7F8FA;
@@ -151,138 +151,23 @@ h1 {
 <main class="container">
   <div class="meta">
     <span class="category-tag">Technology</span>
-    <span>Ars Technica</span>
-    
+    <span>Wired</span>
+    <span class="sep">·</span><span>@wired</span>
     <span class="sep">·</span>
-    <span>1037 words</span>
+    <span>1348 words</span>
     <span class="sep">·</span>
-    <span>6 min read</span>
+    <span>7 min read</span>
   </div>
 
-  <h1>Terabytes of credentials leaked in massive supply-chain attack</h1>
+  <h1>A Stealth Startup Thinks It Just Hacked the Memory Shortage</h1>
 
   <article class="article-body">
-    <p><a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/#main" target="_blank" rel="noopener">
-  Skip to content
-</a></p>
-            
-  
-      
-        <p>
-    
-  
-  
-    TEAMPCP’S RAMPAGE CONTINUES
-  
-</p>
-      
-      <p>
-        The data was scraped and exfiltrated from 2,500 users of a compromised AI package.
-      </p>
-          
-    
-<p>Terabytes worth of credentials, many belonging to the world’s biggest and most sensitive organizations, have been exposed in a supply-chain attack on LiteLLM, an open source tool that streamlines AI-driven software development. Microsoft, Amazon, Cisco, Samsung, and Salesforce are only a handful of the entities whose access secrets were exposed.</p>
-<p>The revelation was posted on <a href="https://www.cloudsek.com/blog/ai-supply-chain-breach-2500-companies-434000-cicd-pipelines" target="_blank" rel="noopener">Tuesday</a> and <a href="https://www.hudsonrock.com/blog/largest-ai-supply-chain-breach-of-2026-litellm-hack-impacts-thousands-of-global-enterprises-claim-your-ethical-disclosure" target="_blank" rel="noopener">Wednesday</a> by security firms CloudSEK and Hudson Rock. CloudSEK said it found cloud keys, repository tokens, SSH keys, Kubernetes secrets, package publishing credentials, environment variables, and AI provider keys that could allow attackers to gain access to more than 2,500 organizations.</p>
-<h2>40 minutes is all it takes</h2>
-<p>The credentials were extracted during a 40-minute window in March while the victims used compromised versions of LiteLLM downloaded from the package’s official location in the Python Package Index repository. Hudson Rock said it made the discovery after analyzing a 195TB file that it obtained. Neither firm identified the source of the information.</p>
-<p>The LiteLLM compromise was the result of a <a href="https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/" target="_blank" rel="noopener">previous supply-chain attack</a> that infected the widely used vulnerability scanner Trivy. Other software infected in the campaign includes <a href="https://www.kics.io/" target="_blank" rel="noopener">KICS</a> and the <a href="https://developers.telnyx.com/development/sdk/python" target="_blank" rel="noopener">Telnyx Python SDK</a>. TeamPCP, a ramshackle but extremely capable gang largely made up of teenagers, took credit for the attack, and researchers have largely corroborated the claim.</p>
-<p>“I’ve confirmed the data is legit, by the way, multiple victim orgs,” independent security researcher Kevin Beaumont <a href="https://infosec.exchange/@GossiTheDog@cyberplace.social/117082985466021541" target="_blank" rel="noopener">said</a>. “It contains a significant volume of sensitive content at orgs. It’s a massive supply chain breach due to poor AI security—not because AI is the threat, but teens can run circles around orgs obsessed with rushing out AI and poor DevOps security.”</p>
-                  
-    
-<p>The compromised versions of all four software packages contained code that accessed the memory of infected machines, scraped its contents, and exfiltrated it through an attacker-controlled channel. The data is filled with an assortment of information. Interspersed in the wall of data are credentials to software pipelines maintained by the tens of thousands of organizations that ran LiteLLM during the 40-minute span that the supply-chain attack remained active.</p>
-<p>In all, both security firms said some 434,000 CI/CD (continuous integration/continuous delivery) software pipelines had credentials exposed after running the compromised LiteLLM versions. In many cases, researchers at CloudSEK and Hudson Rock had trouble identifying the organizations the credentials belonged to. For instance, an email address in the dump from the domain @siriusxm.com ultimately didn’t indicate a breach at the satellite broadcaster, but rather one within the infrastructure of SiriusXM subsidiary AdsWizz.</p>
-
-<p>A full list of organizations is <a href="https://exposure.cloudsek.com/ai-supply-chain-incident" target="_blank" rel="noopener">here</a>. The researchers had high confidence that these organizations had their credentials exposed:</p>
-<ul>
-<li>Nvidia Corporation</li>
-<li>Amazon Web Services (AWS)</li>
-<li>Samsung Electronics</li>
-<li>samsung.com</li>
-<li>Salesforce, Inc.</li>
-<li>Cisco Systems, Inc.</li>
-<li>F. Hoffmann-La Roche AG</li>
-<li>ServiceNow</li>
-<li>Siemens AG</li>
-<li>S&amp;P Global</li>
-<li>Airbus US Space &amp; Defense</li>
-<li>John Deere</li>
-<li>Regeneron Pharmaceuticals, Inc.</li>
-<li>London Stock Exchange Group (LSEG)</li>
-<li>Thomson Reuters</li>
-<li>FedEx</li>
-<li>Munich Remunichre.com</li>
-<li>MediaTek Inc.</li>
-<li>Volkswagen AG</li>
-<li>Deloitte</li>
-<li>The Kroger Co.</li>
-<li>Siemens Energy</li>
-<li>Thales Group</li>
-<li>X Corp (Twitter)</li>
-<li>Zscaler, Inc.</li>
-<li>Epic Games</li>
-<li>Orange S.A.</li>
-<li>HP Inc.</li>
-<li>Philips</li>
-<li>Fortum Oyj</li>
-<li>Vodafone Group Plc</li>
-<li>Carl Zeiss AG</li>
-<li>Deutsche Bahn AG</li>
-<li>NGINX, Inc.</li>
-<li>BT Group</li>
-<li>Liebherr</li>
-<li>Krungthai Bank Public Company Limited</li>
-<li>Roku, Inc.</li>
-</ul>
-<p>“Many CI/CD pipelines are configured generically,” Hudson Rock said. “The dumped variables contain active database passwords, third-party API keys, and cloud credentials without any identifiable company email, custom domain string, or internal server name. This means countless organizations currently have active secrets sitting in this database, completely unaware of their exposure.”</p>
-<h2>Welcome to the new world of supply-chain attacks</h2>
-<p>Both firms are urging all organizations that used the compromised versions of LiteLLM—particularly those listed in the high-confidence section of the list—to thoroughly rotate all credentials in their pipelines. Hudson Rock instructed any organization that uses any AI proxy infrastructure, third-party CI/CD vulnerability scanners, or downstream AI packages to immediately audit their environment for versions 1.82.7 and 1.82.8 of LiteLLM, the two compromised versions of the software.</p>
-                  
-    
-        
-<p>The firm advised all those affected to perform “aggressive credential revocation,” assume any secret accessible to the LiteLLM environment is compromised, invalidate and rotate all cloud keys, Kubernetes service account tokens, and GitLab/GitHub PATs, and audit logging and egress filtering.</p>
-<p>As a cautionary tale, CloudSEK said that Trivy developers rotated but failed to fully revoke an automation token over a 20-day window. The lapse gave the attackers a nearly three-week period to force-push malicious code to third-party builds that used the vulnerability scanner. As Beaumont observed, organizations’ rush to integrate AI into their software delivery systems has also greatly contributed to the scale of the damage.</p>
-<p>Update: There are already signs that some of the affected organizations aren’t taking the disclosure with the seriousness warranted. After this post went live, Beaumont <a href="https://infosec.exchange/@GossiTheDog@cyberplace.social/117084862543112580" target="_blank" rel="noopener">reported</a>:</p>
-<blockquote><p>These creds date from about March. One of the orgs impacted told me they’d rotated them all and it’s a nothingburger, so I looked at their responsible disclosure policy, it allows trying creds, so I tried them all. Almost every one worked. Submitted report. One of the biggest US techcos.</p></blockquote>
-<p>Ultimately, the new revelations concerning the LiteLLM supply-chain attack underscore the growing threat of such campaigns and hence the importance of maintaining vigilance around the use of open source software that, when infected, can spread rapidly across the Internet.</p>
-<p>“The key takeaway is how supply chains have evolved to make a single upstream breach affect thousands of companies simultaneously,” Alon Gal, co-founder and chief technology officer of Hudson Rock, wrote in an email. “A window of roughly 40 minutes in which the LiteLLM dependency was hacked led to over 430,000 instances in which millions of secrets were harvested. This magnitude pushes us into a completely new world regarding the type of response required from the cybersecurity industry.”</p>
-<p><em>Post updated to add image.</em></p>
-                  
-  
-  
-          <p><a href="https://arstechnica.com/author/dan-goodin/" target="_blank" rel="noopener"></a></p>
-  
-  
-    <p>
-      Dan Goodin is Senior Security Editor at Ars Technica, where he oversees coverage of malware, computer espionage, botnets, hardware hacking, encryption, and passwords. In his spare time, he enjoys gardening, cooking, and following the independent music scene. Dan is based in San Francisco. Follow him at <a href="https://infosec.exchange/@dangoodin" target="_blank" rel="noopener">here</a> on Mastodon and <a href="https://bsky.app/profile/dangoodin.bsky.social" target="_blank" rel="noopener">here</a> on Bluesky. Contact him on Signal at DanArs.82.
-    </p>
-  
-
-  <p>
-    <a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/#comments" target="_blank" rel="noopener">
-    
-    91 Comments
-  </a>
-      </p>
-              
-  
-  
-      
-    <ol>
-              <li>
-                      <a href="https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/" target="_blank" rel="noopener">
-              
-            </a>
-        </li>
-                      
-                      
-                      
-                      
-                      </ol>
+    <p>An ambitious chip startup that has spent more than seven years quietly trying to redesign the architecture for <a href="https://www.wired.com/tag/memory/" target="_blank" rel="noopener">computer memory</a> has just come out of stealth mode and believes its new approach can help ease the global <a href="https://www.wired.com/story/solving-the-pc-memory-crisis/" target="_blank" rel="noopener">memory-chip shortage</a>—provided it can produce its technology at scale.</p><p>Kepler Computing, a San Jose, California–based startup founded in 2018 by a team of physicists and computer scientists, says it has developed a new architecture for <a href="https://www.wired.com/story/why-chip-packaging-could-decide-the-next-phase-of-the-ai-boom/" target="_blank" rel="noopener">high-bandwidth memory (HBM)</a> that directly addresses some of the chip supply bottlenecks that are constraining the computing market.</p><p>While chipmakers typically rely on expensive <a href="https://www.wired.com/story/asml-extreme-ultraviolet-lithography-chips-moores-law/" target="_blank" rel="noopener">extreme ultraviolet lithography (EUV)</a> to shrink the transistors on a chip, thereby packing more technology into the same amount of space, Kepler claims that its “3D stacking” approach and a proprietary new material allow it to increase density without relying on EUV at all—and it can work with existing semiconductor fabrication plants.</p><p>Kepler says it has made similar gains for the high-speed cache memory typically used in CPUs, GPUs, and XPUs. This so-called SRAM sits within the core of a chip die in order to cut down on data transfer times. HBM, by contrast, uses stacks of DRAM, which is a separate memory component of chips.</p><p>The company has raised $468 million in funding over the past few years from big-name backers. This includes GlobalFoundries, Intel Capital, AMD Ventures, the British investment fund Baillie Gifford, and Bill Gates, through his private Gates Frontier fund. In July, the US Department of Commerce <a href="https://www.nist.gov/news-events/news/2026/07/department-commerce-announces-letters-intent-7-companies-874-million" target="_blank" rel="noopener">committed</a> to give Kepler up to $245 million to “develop in the US a new class of high-performance AI memory technology, enabled by innovative 3D and ferroelectric technologies.”</p><p>For now, much of Kepler’s testing is happening in Singapore, which is where GlobalFoundries—a manufacturing partner and investor of $50 million—has a facility. Over the past two years Kepler has been building out what it refers to as “mini fabs,” where it produces its memory chips in conjunction with Global Foundries’ 28-nanometer chips. (It has also been running tests in GlobalFoundries’ facilities in Burlington, Vermont.)</p><p>Kepler and its investors say the startup’s new approach to building memory chips couldn’t come at a better time. The global memory chip shortage has reaffirmed at least two realities about the market: Building new fabs is hugely expensive and painstaking, and the demands around certain kinds of memory tend to be cyclical. In a data-center-driven, AI-crazed world, HBM has become the memory du jour.</p><p>Some of the world’s leading memory makers, <a href="https://www.cnbc.com/2026/08/13/inside-sk-hynixs-720-billion-bet-to-build-enough-memory-for-ai.html" target="_blank" rel="noopener">including SK Hynix and Micron</a>, have been racing to build multibillion-dollar fabs in order to meet demand, wagering that even by the time those facilities are operational, the industry will still be looking for high-bandwidth memory.</p><p>“For a long time our thinking was that we’d work on SRAM first and then follow up with DRAM and HBM,” says Debo Olaosebikan, a Kepler Computing cofounder and its chief executive officer. “But with the launch of ChatGPT [in 2022] and the explosion of demand for an HBM alternative, we started working on our HBM road map. Now we’re making SRAM and HBM in parallel.”</p><p>“We didn’t go in thinking that this would be a replacement for DRAM or a replacement for SRAM,” says Srini Ananth, managing director at Intel Capital. “We figured the market would dictate that, and now you’re seeing a demand for both.”</p><p>In bypassing ultraviolet lithography, Kepler is one of a few tech startups working to avoid one of the major bottlenecks in semiconductor manufacturing. The startup claims it can produce SRAM that achieves the same density as 2-nanometer or 3-nanometer chips without having to invest in EUV.</p><p>“Kepler’s approach is at the sweet spot of our strategy,” says Ed Kaste, senior vice president of GlobalFoundries’ CMOS business. “It’s a new materials system, with multigenerational scaling potential, without having to build entirely new systems in the fab or invest in very expensive lithography equipment.”</p><h2>Material Impact</h2><p>Kepler’s overarching pitch is that the accelerated computing market shouldn’t have to wait for brand-new memory fabs to be built in order to meet demand. Instead, new approaches to building memory within existing fabs can increase supply.</p><p>Their approach is twofold. In terms of improving HBM, Kepler says it has developed a novel 3D-manufacturing technique that fits more memory chips within a fixed footprint. The core compute can then sit closer to the memory, so the data travel between the two uses less energy. Their ultimate goal is to move data around in HBM with the amount of energy that’s comparable to SRAM, all while keeping HBM’s large capacity.</p><p>Kepler also says it has improved the density of SRAM using ferroelectrics, which can <a href="https://www.science.org/content/article/new-materials-could-supercharge-computer-memory-chips" target="_blank" rel="noopener">read and write data at lower voltages</a> than the mechanisms typically used to process and store data in semiconductors. The startup did this by developing a new, low-voltage, composite material that works with this ferroelectric approach.</p><p>Sasi Manipatruni, a Kepler cofounder and its chief technology officer, says the Kepler team went through 35 iterations of composites before they landed on a material class that they thought would make memory chips easier and cheaper to make.</p><p>“Once we found a way to solve the physics problem—as in the physical limitations for HBM—we came up with a material innovation that helps with the amount of memory you can have between chips,” he says.</p><p>In its early build-outs with GlobalFoundries, Kepler says it was able to convert a fab into a “next-generation” fab in just eight months, compared to a typical 24-month timeframe.</p><p>“Out goal is to take the fabs and architectures already built, and push them to the limits of physics,” Olaosebikan says.</p><p>Basically Kepler is betting that any additional costs that come from new materials or retooling existing fabs would far outweigh the $20 billion to $40 billion it costs to build new ones and outfit them with equipment worth hundreds of millions of dollars.</p><h2>Waiting to Scale</h2><p>Kepler Computing still has a long road ahead before it reaches full-scale production—assuming it gets there. To date, the company has run its technology on around 2,000 wafers. The startup says it’s planning to ship its first samples of HBM chips later this year, ramp up production out of Singapore next year, and start chip production in the US in 2028.</p><p>Kaste, the GlobalFoundries executive, says he’s confident that the “fundamental breakthroughs have happened. What remains is getting good results on thousands of wafers and millions of devices.”</p><p>He points out that one of the challenges with a material system like the one Kepler is using is that it includes iron in its composite. “Iron is a tough contaminant to introduce into a production facility. So Kepler’s solution has to run on dedicated equipment, or be fully encapsulated so that it can’t escape,” he says.</p><p>“The art is in keeping that material really well isolated through our production flow,” Kaste says.</p><p>Olaosebikan wouldn’t confirm the specific elements of the company’s composite material. “What I can say is, we’re using a small number of materials, and some of them aren’t what you’d typically find in mainstream ferroelectrics,” he says.</p><p>Kepler Computing isn’t the only startup looking to upend the semiconductor industry. Late last year, a well-funded startup called Substrate <a href="https://www.reuters.com/world/asia-pacific/us-startup-substrate-announces-chipmaking-tool-that-it-says-will-rival-asml-2025-10-28/" target="_blank" rel="noopener">also made waves</a> for its new approach to lithography, which uses nanoparticles to etch details onto advanced chips. Some industry analysts were skeptical of the startup’s ambitions, noting that it would be extremely difficult for Substrate to produce a large number of chips “that meet incredibly stringent specifications, on time and on budget,” as reported in <a href="https://www.bloomberg.com/news/newsletters/2025-11-03/chip-startup-substrate-draws-skepticism-in-quest-to-take-on-tsmc" target="_blank" rel="noopener">Bloomberg</a>.</p><p>Scale is a common challenge when attempting to innovate semiconductor manufacturing, whether with new processes, materials, or some combination of both. “The question is how to overcome all the limitations of contamination, different materials, and different tooling, in such a way that the resulting innovation can be used at scale and is worth the cost,” says Austin Lyons, a chip analyst for Creative Strategies, who was not briefed on Kepler’s innovation.</p><p>Proving out a new method for memory is one thing; meeting the historic demand for it will be another altogether.</p>
   </article>
 
   <footer class="footer">
     <span>Thursday, September 10, 2026</span>
-    <a href="https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/" target="_blank" rel="noopener">Read original ↗</a>
+    <a href="https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/" target="_blank" rel="noopener">Read original ↗</a>
   </footer>
 
   <div class="archive-link">
