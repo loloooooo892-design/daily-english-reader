@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
-    "https://reason.com/volokh/2026/09/03/puerto-rico-has-rational-basis-for-allowing-only-two-genders-for-birth-certificate-gender-changes/",
-    "https://www.newyorker.com/magazine/2026/09/14/the-anti-ai-ad-ad-campaign",
-    "https://www.newyorker.com/culture/critics-notebook/the-art-of-getting-lost-in-minnie-evans",
     "https://www.pcgamer.com/software/ai/nvidia-puts-its-money-where-its-mouth-is-on-open-weight-ai-moving-to-buy-hugging-face-for-usd13-billion/",
     "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
     "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
@@ -50,11 +46,14 @@
     "https://reason.com/volokh/2026/09/11/reflections-on-the-25th-anniversary-of-9-11/",
     "https://nautil.us/what-bird-feeding-has-to-do-with-happiness-1284926/",
     "https://www.polygon.com/new-tv-shows-streaming-this-weekend-netflix-september-11-13/",
-    "https://www.wired.com/story/ulta-coupon/"
+    "https://www.wired.com/story/ulta-coupon/",
+    "https://www.scotusblog.com/2026/09/missouri-urges-supreme-court-to-allow-for-use-of-congressional-map-expected-to-aid-republicans/",
+    "https://longreads.com/2026/09/09/queen-freddie-mercury-mary-austin/",
+    "https://www.rockpapershotgun.com/stylised-xcom-like-tactics-game-ex-sanguis-straps-othercides-obsession-with-timelines-to-a-leaner-roguelike-campaign",
+    "https://www.wired.com/story/lg-promo-code/"
   ],
   "categoryLog": [
     "gaming",
-    "gaming",
     "fun",
     "gaming",
     "law",
@@ -66,6 +65,7 @@
     "gaming",
     "law",
     "tech",
+    "law",
     "law"
   ],
   "failures": {}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stylised XCOM-like tactics game Ex Sanguis retains Othercide's obsession with initiative bars, but straps it to a leaner roguelike campaign — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Gaming</span>
+    <span>Rock Paper Shotgun</span>
+    <span class="sep">·</span><span>Edwin Evans-Thirlwell</span>
+    <span class="sep">·</span>
+    <span>1094 words</span>
+    <span class="sep">·</span>
+    <span>6 min read</span>
+  </div>
+
+  <h1>Stylised XCOM-like tactics game Ex Sanguis retains Othercide's obsession with initiative bars, but straps it to a leaner roguelike campaign</h1>
+
+  <article class="article-body">
+    <p>Out now in early access</p>
+    
+  
+  
+  
+
+            <p>
+The nasal greenhorn strategy gamer understands "strategy" to be about mastery of space by means of clanging offensives, shining shieldwalls, and brute attrition, but the true Napoleon of Drag-Select knows that strategy is always, primarily, the mastery of time. I don't think Napoleon would have approved of Ex Sanguis. He would not have liked all the willowy clone women made out of congealed blood and pincers. He would have suspected them of being divorcees and Babouvists. But perhaps he would have appreciated the game's fixation with seizing the initiative.
+</p>
+<p>
+As with Lightbulb's previous grid-based tactics RPG <a href="https://www.rockpapershotgun.com/games/othercide" target="_blank" rel="noopener">Othercide</a>, Ex Sanguis has you going up against dozens of vaguely eschatological bladespawn with just the three austere and menacing bladegirls. There are generally a half-dozen foes to start with, and reinforcements soon hatch from gross eggsacs around the map. You can't simply overwhelm your opponents, then. Instead, you must pre-empt and interrupt them, anticipating their advance and dancing your best moves in first on the game's fluctuating timeline.
+</p>
+<p>
+Some abilities are performed instantly, while others trigger after a delay. However initially inconvenient, the delays soon become an asset, as you learn to aim your artillery strikes where you know your enemies <em>will</em> be, a few score ticks from now. Other abilities trigger when an opponent acts, cutting them off. Or when a friendly deals some damage, adding a follow-up attack. A key question is whether to exhaust your regular action points and dip into your Burst bar, which lets you sneak in some extra licks at the cost of wildly postponing the character's next turn.
+</p>
+
+<p>
+And then there's repositioning: you get shoves, gravity pulses, and driving kicks that punt opponents around. This allows you to knock delayed enemy attacks off target, perhaps slamming the noxious seraphim into a boulder, or nudging them into the path of the AOE move you've just queued up with the previous character. As you preview these gambits, the character portraits and action indicators shuffle to and fro on the timeline. On higher difficulties, it's vitally important to avoid a scenario where the whole opposing force can take a turn, one after the other.
+</p><p>
+When I played Othercide, I didn't quite clock how much Lightbulb's approach has in common with Into The Breach. The resemblance feels a bit more prominent in Ex Sanguis. There's no fixed match countdown, true, but you're encouraged to finish fast: the angelbeasts are only going to get more numerous, and you generally aren't required to slaughter all of them - just a surgeon's handful of VIPs or a single enemy map fixture, sulking to the rear.
+</p>
+<p>
+It's a messier experience than you'll find in Subset's game, however. The environments are full of blood blisters that blow up when struck, launching nearby characters a few squares. On more crowded maps, a single volatile pustule often triggers a prolonged cascade. The AI in the early access build seems overfond of setting the blisters off, in addition to controlling terrain. Some times, it's hellbent on swarming you; at others, it tries to lock down big portions of the map by preparing a delayed AOE move, wherever it finds itself.
+</p>
+
+<p>
+The greater emphasis on terrain damage is one thing that distinguishes the early access version of Ex Sanguis from what I remember of Othercide. The other, more obvious point of departure is that Ex Sanguis has a trimmer roguelike structure, with more focussed progression.
+</p><p>
+On which note, here's my best effort at explaining the story: some kind of pesky vampire moon has leeched away the world's vital fluids and memories, reducing all of Creation to an ivory placeholder. You are the Mater, a goddess replete with the simmering intensity of Derek Zoolander. She can spawn duplicates of herself to fight the moon's minions. So far, it's very much the previous game's gothic mommy monster mash on fast-forward – all pout and glare and cod Latin metaphors, without much coherence but with a lot of enjoyable attitude.
+</p>
+<p>
+It feels faster partly because there's less going on outside battle. Each run kicks you off with three warriors, allowing you to pick their classes – the initial options are broadly Swordlady, Gunlass and Time Wizardress - and starting abilities. You then trek across a cratered world map, fighting battles (with unlockable higher difficulties) and accumulating Corrupted Blood for campaign progression. Every battle you win nets you a choice of three further abilities or stat boosts per character.
+</p>
+
+<p>
+Yes, we are operating in the realm of <a href="https://www.rockpapershotgun.com/games/vampire-survivors" target="_blank" rel="noopener">Vampire Survivors</a>, just a teeny bit. As in the previous game and many other roguelikes, abilities form complementary sets, which are fun to unearth: for example, Swordlady can inflict bleed with one kind of melee attack, then slurp up the debuff to restore her own health. Eventually, you swill down enough Corrupted Blood from victories to access a bossfight, which functions as a chapter break. It's wise, of course, to pootle around a bit first, levelling up your murderdames and spending a bit of your Corrupted Blood on smaller lore discoveries that come with bonus abilities. When a run is over, whether due to beating a boss or defeat, you'll spend various flavours of ethereal substance on meta-unlocks that give you more things to unlock within runs.
+</p><p>
+I'm mixed on the new campaign format. I do miss the grottier, denser storytelling of the previous game, which grounded its stark monochrome abstractions in a narrative of obscure medieval abuses: it was like a neo-noir penny dreadful. I also took ghoulish pleasure in the ability to melt down your clone-daughters into primordial soup, treating the weaker ones as health packs for their more accomplished sisters, rather than just levelling everybody up. It's possible there are similarly revolting ideas at play later in Ex Sanguis.
+</p>
+<p>
+Beyond that, I do wonder how much the new game's battle system and ability design really improves on Othercide's. I haven't yet discovered a blend of reaction and delayed abilities that really captivates me, in terms of how it lets me mess with the timeline and disrupt the horde.</p>
+<p>Still, it's early days – I've only played three hours, and Ex Sanguis will spend at least six months in early access. If you really loved Othercide, I don't think there's anything here that will hugely disappoint you, just yet. You can read more about the game on <a href="https://store.steampowered.com/app/3275050/Ex_Sanguis/" target="_blank" rel="noopener">Steam</a>. Belated clarification: you do not have to be Napoleon or any other celebrated general to have opinions about Ex Sanguis. I'm not sure how Napoleon found his way into my intro, honestly.
+</p>
+  </article>
+
+  <footer class="footer">
+    <span>Saturday, September 12, 2026</span>
+    <a href="https://www.rockpapershotgun.com/stylised-xcom-like-tactics-game-ex-sanguis-straps-othercides-obsession-with-timelines-to-a-leaner-roguelike-campaign" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
