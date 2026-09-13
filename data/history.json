@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/humor/shouts-murmurs/seven-steps-to-financial-success-according-to-a-guy-who-won-a-multimillion-dollar-lawsuit-against-the-circus",
-    "https://www.pcgamer.com/games/moba/in-a-sea-of-failed-live-service-games-im-shocked-to-see-someone-trying-to-make-a-moba/",
-    "https://www.wired.com/story/pig-kidney-transplant-working-after-record-setting-9-months/",
-    "https://www.wired.com/story/every-samsung-galaxy-phone-comes-with-this-unique-add-on/",
     "https://www.newyorker.com/magazine/2026/09/14/tom-sachs-channels-chanel",
     "https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/",
     "https://reason.com/volokh/2026/09/01/school-can-control-what-flags-schoolteachers-hang-on-classroom-walls/",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/books/what-were-reading/five-books-for-lingerie-lovers",
     "https://www.rockpapershotgun.com/a-game-for-everyone-is-a-game-for-no-one-dont-expect-an-easy-ride-in-carcass-clad-the-co-op-tank-horror-game-from-the-makers-of-mouthwashing",
     "https://reason.com/volokh/2026/09/10/med-school-didnt-violate-accusers-title-ix-rights-by-imposing-only-a-20-month-suspension-on-student-found-responsible-for-sexual-assault/",
-    "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/"
+    "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/",
+    "https://www.pcgamer.com/gaming-industry/fallout-dev-tim-cain-says-the-games-industrys-volatility-is-always-gonna-be-around-whats-happening-now-isnt-novel-it-isnt-new/",
+    "https://reason.com/volokh/2026/09/09/second-amendment-roundup-atfs-firearm-and-frame-or-receiver-rules-invalid/",
+    "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+    "https://nautil.us/nighttime-light-may-change-the-shape-of-your-heart-1284967/"
   ],
   "categoryLog": [
-    "gaming",
     "law",
     "tech",
     "tech",
@@ -66,7 +65,8 @@
     "law",
     "law",
     "law",
-    "fun"
+    "fun",
+    "gaming"
   ],
   "failures": {}
 }
