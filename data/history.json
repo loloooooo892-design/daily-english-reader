@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://harvardlawreview.org/print/vol-139/montesquieus-day-in-court-appendix/",
-    "https://www.wired.com/story/create-custom-windows-11-notifications-to-remind-yourself-of-anything/",
-    "https://www.newyorker.com/culture/infinite-scroll/the-unique-horrors-of-ai-food-slop",
-    "https://www.scotusblog.com/2026/08/republican-groups-file-emergency-application-to-court-on-broadcasting-rates-for-political-ads/",
     "https://www.newyorker.com/humor/shouts-murmurs/seven-steps-to-financial-success-according-to-a-guy-who-won-a-multimillion-dollar-lawsuit-against-the-circus",
     "https://www.pcgamer.com/games/moba/in-a-sea-of-failed-live-service-games-im-shocked-to-see-someone-trying-to-make-a-moba/",
     "https://www.wired.com/story/pig-kidney-transplant-working-after-record-setting-9-months/",
@@ -50,10 +46,13 @@
     "https://www.jurist.org/news/2026/09/recruitment-of-foreign-nationals-in-russia-ukraine-war-amounts-to-human-trafficking-amnesty-international-says/",
     "https://www.eurogamer.net/what-weve-been-playing-well-this-is-embarrassing-were-wearing-the-same-outfit",
     "https://www.newyorker.com/news/the-lede/the-warning-benjamin-netanyahu-ignored",
-    "https://www.wired.com/story/canon-promo-code/"
+    "https://www.wired.com/story/canon-promo-code/",
+    "https://www.newyorker.com/books/what-were-reading/five-books-for-lingerie-lovers",
+    "https://www.rockpapershotgun.com/a-game-for-everyone-is-a-game-for-no-one-dont-expect-an-easy-ride-in-carcass-clad-the-co-op-tank-horror-game-from-the-makers-of-mouthwashing",
+    "https://reason.com/volokh/2026/09/10/med-school-didnt-violate-accusers-title-ix-rights-by-imposing-only-a-20-month-suspension-on-student-found-responsible-for-sexual-assault/",
+    "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/"
   ],
   "categoryLog": [
-    "fun",
     "gaming",
     "law",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "law",
     "law",
-    "law"
+    "law",
+    "fun"
   ],
   "failures": {}
 }

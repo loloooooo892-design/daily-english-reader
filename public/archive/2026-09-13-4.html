@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>An open letter to Dario: if you mean it, open the weights! — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Technology</span>
+    <span>Hacker News Best</span>
+    <span class="sep">·</span><span>Jake Gold</span>
+    <span class="sep">·</span>
+    <span>524 words</span>
+    <span class="sep">·</span>
+    <span>3 min read</span>
+  </div>
+
+  <h1>An open letter to Dario: if you mean it, open the weights!</h1>
+
+  <article class="article-body">
+    <p>Dear Dario,</p>
+<p>You published <a href="https://darioamodei.com/post/we-must-pace-the-frontier" target="_blank" rel="noopener">We Must Pace the Frontier</a> today, which committed Anthropic to embedded third-party evaluators and asked governments to require every other frontier company to match. Sam Altman agreed within hours.<a href="https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/#fn:1" target="_blank" rel="noopener">1</a></p>
+<p>The stated goal is to slow down the pace of AI progress.</p>
+
+<p>I believe you’re being sincere, so I’m asking you to call for a different law, one that would actually slow things down, even though it would require real sacrifice on your part.</p>
+<p><strong>Any AI model a company offers to the public has to be released as open weights.</strong></p>
+<p>This wouldn’t cover every model you train, just the ones you make available to the public. Internal and research models wouldn’t be affected, and governments could still get access to unreleased models.</p>
+<p>But Anthropic would have to publish Fable’s weights the day it was released, OpenAI would have to do the same with Astra, and so would everyone else.</p>
+<p>As you know, funding for frontier model development depends on valuations that assume the weights remain proprietary. By changing that assumption, we can reduce the money available for future training runs and slow progress at every lab at once, without a regulator deciding anything.</p>
+<h2><a href="https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/#every-regulation-youve-asked-for-ends-in-capture" target="_blank" rel="noopener">Every regulation you’ve asked for ends in capture</a></h2>
+<p>There’s no slowing down frontier models by regulation that wouldn’t lead to regulatory capture. Embedded evaluators, compute thresholds, industry coordination with antitrust waivers. All of it gets written with the help of the current frontier labs, because nobody else understands the technical details well enough to write it.</p>
+<p>Once it’s law, it only gets more complex, because every incident adds a rule and no rule ever gets removed. The big companies can afford the compliance teams and lawyers to keep up, and each new requirement makes it harder for anyone else to catch them. Instead of slowing you down, it protects your position and profits.</p>
+<h2><a href="https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/#why-im-asking-you" target="_blank" rel="noopener">Why I’m asking you</a></h2>
+<p>You seem like a good and principled person, and you have a record of giving things up for what you believe. You left OpenAI to start a company with safety built in from the beginning, when the safe career move was to stay.<a href="https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/#fn:2" target="_blank" rel="noopener">2</a> You’ve spent years asking for regulation of your own industry and getting called a doomer and a regulatory capturer for it.<a href="https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/#fn:3" target="_blank" rel="noopener">3</a> You pushed for export controls that shrink your own market. Anthropic paid $1.5 billion to settle with authors rather than fight to the end.<a href="https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/#fn:4" target="_blank" rel="noopener">4</a> And today you committed to slowing down before anyone else did.</p>
+<p>You also had the foresight to make Anthropic a PBC (Public Benefit Corporation), so you can legally put the mission first:</p>
+<blockquote>
+<p><a href="https://www.anthropic.com/company" target="_blank" rel="noopener">The responsible development and maintenance of advanced AI for the long-term benefit of humanity.</a></p>
+</blockquote>
+<p>This is exactly the kind of mission over short-term profit decision the PBC structure exists for. You remain the only person who could propose a law like this and be taken seriously, and the only one likely to actually do it.</p>
+<p>If you really want to slow down frontier AI, call for a law that makes every publicly available model open weights. There’s nothing in it to game or dodge, even for you.</p>
+  </article>
+
+  <footer class="footer">
+    <span>Sunday, September 13, 2026</span>
+    <a href="https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
