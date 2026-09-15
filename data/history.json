@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://reason.com/volokh/2026/09/02/an-unopposed-grant-of-sealing-carries-little-weight-in-a-contested-posture/",
-    "https://www.newyorker.com/magazine/2026/09/14/the-breakup-all-them-dogs-sex-dissent-we-want-to-believe",
-    "https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update",
-    "https://techcrunch.com/2026/09/08/googles-revived-nuclear-power-plant-gets-1-9b-loan-from-us-government/",
     "https://www.scotusblog.com/2026/09/citing-election-fraud-concerns-trump-administration-brings-dispute-over-voter-database-to-the-su/",
     "https://www.rockpapershotgun.com/warlock-dungeons-dragons-is-an-open-world-spell-collecting-game-and-thats-just-fine-by-me-actually",
     "https://www.newyorker.com/culture/photo-booth/how-a-professional-skateboarder-sees-los-angeles",
@@ -50,12 +46,15 @@
     "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
     "https://www.newyorker.com/magazine/2026/09/21/dey-etna-are-they-dead-yet-unbelonging",
     "https://www.pcgamer.com/games/rpg/upcoming-vampire-rpg-nighthawks-has-been-removed-from-steam-search-and-delisted-in-certain-countries-as-valve-classifies-it-adults-only-its-very-bad-news-for-us/",
-    "https://www.jurist.org/news/2026/09/un-secretary-general-calls-on-world-leaders-to-invest-in-peace-as-global-conflicts-reach-post-wwii-high/"
+    "https://www.jurist.org/news/2026/09/un-secretary-general-calls-on-world-leaders-to-invest-in-peace-as-global-conflicts-reach-post-wwii-high/",
+    "https://reason.com/volokh/2026/09/10/first-circuit-refuses-to-stay-district-court-injunction-against-trumps-executive-order-on-mail-in-voting/",
+    "https://www.newyorker.com/magazine/2026/09/21/the-hearing-aid-that-plays-it-by-ear",
+    "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
+    "https://techcrunch.com/2026/09/14/macos-27-new-siri-takes-on-ai-productivity-apps/"
   ],
   "categoryLog": [
     "tech",
     "tech",
-    "tech",
     "fun",
     "gaming",
     "law",
@@ -66,7 +65,8 @@
     "fun",
     "gaming",
     "law",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
