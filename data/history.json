@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/culture/the-food-scene/helen-help-me-juice-thats-worth-the-squeeze",
-    "https://www.jurist.org/news/2026/09/death-of-baloch-student-raises-concerns-amid-enforced-disappearances-and-extrajudicial-killings-un-experts-say/",
-    "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-    "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
     "https://www.newyorker.com/humor/shouts-murmurs/some-legacy-sequels-we-hope-are-never-made",
     "https://www.rockpapershotgun.com/miami-dade-police-outraged-by-proposals-to-turn-parts-of-miami-into-gta-6-saying-that-rockstars-game-embodies-what-they-work-every-single-day-to-prevent",
     "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/fps/wardogs-ceo-says-he-wont-hire-devs-who-arent-down-with-mandatory-crunch-if-you-care-about-what-youre-making-this-is-the-place-to-work/",
     "https://nautil.us/did-wildfires-spark-the-invention-of-pottery-1285052/",
     "https://reason.com/volokh/2026/09/11/dc-circuit-rejects-energy-departments-claim-of-emergency-authority-to-order-coal-plant-to-remain-open/",
-    "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/"
+    "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
+    "https://nautil.us/what-grok-and-claude-have-to-say-about-the-ai-apocalypse-1285077/",
+    "https://reason.com/volokh/2026/09/16/defamation-via-songs-and-ai-generated-video-u-tenn-coachs-claim-can-go-forward/",
+    "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+    "https://www.eurogamer.net/untangling-my-response-to-how-ocarina-of-time-remake-looks"
   ],
   "categoryLog": [
-    "fun",
     "gaming",
     "law",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "law",
     "law",
-    "gaming"
+    "gaming",
+    "fun"
   ],
   "failures": {}
 }
