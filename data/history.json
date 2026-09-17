@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/humor/shouts-murmurs/some-legacy-sequels-we-hope-are-never-made",
-    "https://www.rockpapershotgun.com/miami-dade-police-outraged-by-proposals-to-turn-parts-of-miami-into-gta-6-saying-that-rockstars-game-embodies-what-they-work-every-single-day-to-prevent",
-    "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
-    "https://www.wired.com/story/norton-coupon-code/",
     "https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
     "https://reason.com/volokh/2026/09/09/sound-of-da-harassment-prosecution/",
     "https://nautil.us/rethinking-the-mechanisms-of-alzheimers-disease-1284912/",
@@ -50,10 +46,13 @@
     "https://nautil.us/what-grok-and-claude-have-to-say-about-the-ai-apocalypse-1285077/",
     "https://reason.com/volokh/2026/09/16/defamation-via-songs-and-ai-generated-video-u-tenn-coachs-claim-can-go-forward/",
     "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-    "https://www.eurogamer.net/untangling-my-response-to-how-ocarina-of-time-remake-looks"
+    "https://www.eurogamer.net/untangling-my-response-to-how-ocarina-of-time-remake-looks",
+    "https://www.pcgamer.com/games/action/after-nearly-a-year-of-silence-following-its-last-minute-delay-kingmakers-resurfaces-with-an-extended-gameplay-video-and-new-playtest/",
+    "https://www.newyorker.com/podcast/in-the-dark/the-journey",
+    "https://reason.com/volokh/2026/09/15/distortion-by-omission-the-new-york-times-and-pro-palestine-demonstrations/",
+    "https://mistral.ai/news/mistral-x-mozilla/"
   ],
   "categoryLog": [
-    "gaming",
     "law",
     "tech",
     "law",
@@ -66,7 +65,8 @@
     "law",
     "law",
     "gaming",
-    "fun"
+    "fun",
+    "gaming"
   ],
   "failures": {}
 }
