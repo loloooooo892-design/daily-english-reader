@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
-    "https://reason.com/volokh/2026/09/09/sound-of-da-harassment-prosecution/",
-    "https://nautil.us/rethinking-the-mechanisms-of-alzheimers-disease-1284912/",
-    "https://reason.com/volokh/2026/09/11/reflections-on-the-25th-anniversary-of-9-11/",
     "https://nautil.us/what-bird-feeding-has-to-do-with-happiness-1284926/",
     "https://www.polygon.com/new-tv-shows-streaming-this-weekend-netflix-september-11-13/",
     "https://www.wired.com/story/ulta-coupon/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/action/after-nearly-a-year-of-silence-following-its-last-minute-delay-kingmakers-resurfaces-with-an-extended-gameplay-video-and-new-playtest/",
     "https://www.newyorker.com/podcast/in-the-dark/the-journey",
     "https://reason.com/volokh/2026/09/15/distortion-by-omission-the-new-york-times-and-pro-palestine-demonstrations/",
-    "https://mistral.ai/news/mistral-x-mozilla/"
+    "https://mistral.ai/news/mistral-x-mozilla/",
+    "https://www.rockpapershotgun.com/you-can-never-see-outside-of-yourself-the-house-before-is-a-body-horror-game-in-which-you-are-a-house-tunnelling-through-its-own-soul",
+    "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/",
+    "https://www.jurist.org/news/2026/09/thailand-and-cambodia-begin-un-backed-conciliation-process-over-conflicting-maritime-boundary-claims/",
+    "https://longreads.com/2026/09/03/longreads-questionnaire-jon-ronson/"
   ],
   "categoryLog": [
-    "law",
     "tech",
     "law",
     "law",
@@ -66,6 +65,7 @@
     "law",
     "gaming",
     "fun",
+    "gaming",
     "gaming"
   ],
   "failures": {}
