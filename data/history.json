@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://longreads.com/2026/09/09/queen-freddie-mercury-mary-austin/",
-    "https://www.rockpapershotgun.com/stylised-xcom-like-tactics-game-ex-sanguis-straps-othercides-obsession-with-timelines-to-a-leaner-roguelike-campaign",
-    "https://www.wired.com/story/lg-promo-code/",
-    "https://www.jurist.org/news/2026/09/recruitment-of-foreign-nationals-in-russia-ukraine-war-amounts-to-human-trafficking-amnesty-international-says/",
     "https://www.eurogamer.net/what-weve-been-playing-well-this-is-embarrassing-were-wearing-the-same-outfit",
     "https://www.newyorker.com/news/the-lede/the-warning-benjamin-netanyahu-ignored",
     "https://www.wired.com/story/canon-promo-code/",
@@ -50,10 +46,13 @@
     "https://will-keleher.com/posts/small-programming-tricks-matter/",
     "https://www.rockpapershotgun.com/the-king-is-watching-devs-are-making-the-crab-is-walking-this-journalist-is-writing",
     "https://longreads.com/2026/09/16/the-violent-feud-that-shocked-the-horse-world/",
-    "https://reason.com/volokh/2026/09/15/doctor-political-candidate-has-standing-to-sue-over-medical-board-investigations-related-to-his-public-comments-about-the-covid-pandemic/"
+    "https://reason.com/volokh/2026/09/15/doctor-political-candidate-has-standing-to-sue-over-medical-board-investigations-related-to-his-public-comments-about-the-covid-pandemic/",
+    "https://www.pcgamer.com/games/grand-theft-auto/the-pc-platform-is-becoming-more-and-more-important-take-two-chief-says-as-we-continue-to-wonder-when-were-going-to-get-gta-6/",
+    "https://www.wired.com/story/zoro-promo-code/",
+    "https://reason.com/volokh/2026/09/17/not-using-a-smartphone-burdens-others/",
+    "https://www.newyorker.com/news/the-lede/mail-in-voting-survives"
   ],
   "categoryLog": [
-    "law",
     "law",
     "law",
     "fun",
@@ -66,7 +65,8 @@
     "fun",
     "gaming",
     "gaming",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }

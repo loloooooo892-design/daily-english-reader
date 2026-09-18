@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Small Programming Tricks — Daily Reader</title>
+<title>'The PC platform is becoming more and more important,' Take-Two chief says, as we continue to wonder when we're going to get GTA 6 — Daily Reader</title>
 <style>
 :root {
   --bg: #F7F8FA;
@@ -150,66 +150,26 @@ h1 {
 <body>
 <main class="container">
   <div class="meta">
-    <span class="category-tag">Technology</span>
-    <span>Hacker News Best</span>
-    
+    <span class="category-tag">Gaming</span>
+    <span>PC Gamer</span>
+    <span class="sep">·</span><span>Andy Chalk</span>
     <span class="sep">·</span>
-    <span>767 words</span>
+    <span>592 words</span>
     <span class="sep">·</span>
-    <span>4 min read</span>
+    <span>3 min read</span>
   </div>
 
-  <h1>Small Programming Tricks</h1>
+  <h1>'The PC platform is becoming more and more important,' Take-Two chief says, as we continue to wonder when we're going to get GTA 6</h1>
 
   <article class="article-body">
-    <p>Day to day, I think a surprising amount of engineering productivity comes from small nuggets of knowledge: being aware that a language feature exists; knowing that an unexplained tcp delay is probably related to the TCP_NO_DELAY setting and Nagle’s algorithm; knowing the right git incantation to get out of a pickle; or knowing a trick with sed to rewrite a file.</p>
-<p>In one sense, this is self-evident: anything you know is going to be made up of smaller pieces of knowledge. <em>Of course</em> those smaller pieces of knowledge matter.</p>
-<p>But I think there are some nuggets of knowledge that are particularly valuable and don’t require a lot of supporting mental infrastructure. You don’t need to know any python to use python3 -m http.server to start a simple server in a directory, but it might still make your work marginally easier. Let me share a few examples:</p>
-<ul>
-<li>You probably know that ctrl + r allows searching your terminal’s command history, but if you install <a href="https://github.com/junegunn/fzf" target="_blank" rel="noopener">fzf</a>, you can set it up so that ctrl + r does a fuzzy search. If you want even more power, <a href="https://github.com/ellie/atuin" target="_blank" rel="noopener">atuin</a> replaces your shell history with a searchable SQLite database. <a href="https://github.com/jimhester/per-directory-history" target="_blank" rel="noopener">per-directory-history</a> lets you switch back and forth between searching for commands that have been run in a specific directory or searching all previous commands. Finally, you can configure how much history to store: <a href="https://unix.stackexchange.com/questions/273861/unlimited-history-in-zsh" target="_blank" rel="noopener">stackoverflow question</a>.</li>
-<li>You can SELECT without a FROM. This can be useful for testing out how a function in your database actually works or reminding yourself how SELECT TRUE &lt;&gt; NULL works.<a href="https://will-keleher.com/posts/small-programming-tricks-matter/#fn:1" target="_blank" rel="noopener">1</a></li>
-<li>PostgresSQL and MySQL both support explain analyze which will actually run the query you’re trying to optimize and give you a ton more information about its performance.</li>
-<li>In regular expressions, \b, the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Word_boundary_assertion" target="_blank" rel="noopener">word boundary assertion</a>, makes it easy to look for the beginnings or ends of words.</li>
-<li>You can use logarithms with metrics to get a sense of the distribution of values for a field you’re interested in:
-const bucket = Math.floor(Math.log10(userInGroupCount))
-metrics.increment("my_metric", { bucket });
-</li>
-<li>Modern JS now supports <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap" target="_blank" rel="noopener">Array.flatMap</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries" target="_blank" rel="noopener">Object.entries</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/withResolvers" target="_blank" rel="noopener">Promise.withResolvers</a>.</li>
-<li>In NodeJS, you can keep a connection open to an external resource by creating an <a href="https://nodejs.org/api/https.html#class-httpsagent" target="_blank" rel="noopener">https.Agent</a> and then providing it to your http requests: fetch(url, {method, agent}). This can have a dramatic impact on latency.</li>
-<li>git log -S pattern (<a href="https://git-scm.com/book/en/v2/Git-Tools-Searching" target="_blank" rel="noopener">”git pickaxe”</a>) can give you all commits that <em>added or removed</em> a string in a codebase. It’s amazingly useful especially with older codebases! (git log -G pattern is similar, but will also show when that line was moved)</li>
-<li>Similar to cd -, you can use git checkout - to check out your previous HEAD.</li>
-<li><a href="https://will-keleher.com/posts/you-probably-dont-need-find/" target="_blank" rel="noopener">You probably don’t need find</a>. A lot of find commands can be replaced with globs like **/*.md. Most shells support this out of the box, but with bash, you need to turn this on with shopt -s globstar.</li>
-<li>In a similar vein, most folks will probably want to use rg (ripgrep) rather than grep, ack, or ag.</li>
-<li>zsh’s advanced autocompletion features aren’t turned on by default:
-if type brew &amp;&gt;/dev/null; then
-    FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
-fi
-autoload -Uz compinit
-compinit
-</li>
-</ul>
-<p>You might have already known all of these things! Or you might work in a domain that makes all of these little tricks totally useless. Even if this particular set of tricks isn’t useful for you, I bet you have your own stash of tricks that you’ve accumulated over the years that makes your work easier.</p>
-<p>At a company, I think even more knowledge tends to be this sort of small high-leverage nugget:</p>
-<ul>
-<li>To debug $PROBLEM, use $DATA_SOURCE.</li>
-<li>$PERSON knows a ton about $AREA and they’re happy to help if you get stuck</li>
-<li>There are good docs about $HARD_THING $OVER_HERE.</li>
-<li>When $THING happens, it means we should manually scale out.</li>
-<li>To do a rolling restart of a service, run $THIS_COMMAND.</li>
-<li>This $UTIL makes $THAT_PROBLEM easy to script.</li>
-</ul>
-<p>At a previous company, I shared a trick on slack every day with the engineering team, both technical and company-specific, and folks found them pretty useful. Even if you knew 9/10 tricks, that 10th doc or technique might save you some time! And one trick per day was the right number to avoid overwhelming people with knowledge, and it could occasionally spark useful discussion. If you’re a more senior engineer at your company, you might think about doing something similar.</p>
+    <p><a href="https://www.pcgamer.com/grand-theft-auto-6/" target="_blank" rel="noopener">Grand Theft Auto 6</a> is coming! Not to us on Team PC, mind: It will eventually, but right now it's a strict console exclusive. Why? Hard to say: Publisher Take-Two Interactive has taken pains to reassure PC gamers that they're very important and loved, but also, y'know, <em>not now</em>.</p><p>The latest reassurance to gamers on personal computers came during Take-Two's annual shareholders meeting, held yesterday, during which Take-Two chairman and CEO Strauss Zelnick was asked about the potential impact of <a href="https://www.tomsguide.com/gaming/playstation/ps5-pro-restocks-latest-updates" target="_blank" rel="noopener">PlayStation 5 Pro shortages</a>—ironically, driven at least in part by the looming launch of <a href="https://www.pcgamer.com/grand-theft-auto-6/" target="_blank" rel="noopener">GTA 6</a>—on the company's plans for releasing the game on PC.</p><p>After clarifying that the question is really about "the cadence of PC launches," Zelnick continued, "The strategy of the company is over time, generally speaking, to launch for any platforms for which there's a meaningful audience. But that isn't always the case, and certainly if platforms were no longer viable, we would change that strategy. And I would note that the PC platform is becoming more and more important to our company over time."</p><p>So, what does that mean? Essentially, that Zelnick doesn't want to talk about it: GTA 6, for better or worse, is a console exclusive, and that's clearly where the studio's focus is.</p><p>Which isn't to say Zelnick's response isn't confusing, but that's something of an ongoing pattern: In May he said PC can account for up to half the total sales of major game releases, but that GTA 6 is debuting on consoles because Take-Two is focused on "<a href="https://www.pcgamer.com/gaming-industry/pc-players-arent-grand-theft-auto-6s-core-audience-take-two-ceo-says-and-thats-why-we-have-to-wait-for-it/" target="_blank" rel="noopener">serving the core consumer</a>," which apparently does not include PC gamers—those gamers who, you may recall, <em>can account for up to half the total sales of major game releases.</em></p><p>Those struck me as inherently contradictory statements, and saying the PC is "becoming more and more important" when it's clearly already <a href="https://www.pcgamer.com/pc-is-the-most-dominant-its-been-this-decade-as-two-thirds-of-devs-say-theyre-targeting-the-platform/" target="_blank" rel="noopener"><em>very</em> important</a> doesn't really clear that air. I can understand why Zelnick wouldn't want to just come out and state the obvious reason for holding back GTA 6 on PC—<a href="https://www.pcgamer.com/games/grand-theft-auto/theres-really-only-one-reason-for-rockstar-to-release-grand-theft-auto-6-later-on-pc/" target="_blank" rel="noopener">double-dipping</a>—but if he did, we'd at least be able to relax and say, 'Well, yeah, that makes sense.'</p><p>Speaking of not wanting to talk about things, Zelnick was also asked about GTA Online during the meeting, to which he reminded attendees that GTA 6 is "a singleplayer experience," and that <a href="https://www.pcgamer.com/grand-theft-auto-5/" target="_blank" rel="noopener">GTA 5</a> Online "continues to be a robust business for us" that Take-Two will continue to support. The <a href="https://www.pcgamer.com/games/grand-theft-auto/twitch-ceo-says-gta-6-multiplayer-will-launch-in-2027/" target="_blank" rel="noopener">CEO of Twitch thinks</a> GTA 6 multiplayer will come out next year, but it's not entirely clear whether he's speculating or relaying inside info.</p><p>Keep up to date with the most important stories and the best deals, as picked by the PC Gamer team.</p><p>Grand Theft Auto 6 is set to launch on PlayStation 5 and Xbox Series X/S on November 19. We'll get it someday.</p>
 
-<ol>
-<li>
-<p>I think I first saw this technique on <a href="https://jvns.ca/" target="_blank" rel="noopener">Julia Evan’s blog</a>, and I think her writing often perfectly encapsulates the idea behind this post: "small bits of knowledge are powerful! and fun! and approachable!!" <a href="https://will-keleher.com/posts/small-programming-tricks-matter/#fnref:1" target="_blank" rel="noopener">↩︎</a></p>
-</li>
-</ol>
+<p>Andy has been gaming on PCs from the very beginning, starting as a youngster with text adventures and primitive action games on a cassette-based TRS80. From there he graduated to the glory days of Sierra Online adventures and Microprose sims, ran a local BBS, learned how to build PCs, and developed a longstanding love of RPGs, immersive sims, and shooters. He began writing videogame news in 2007 for The Escapist and somehow managed to avoid getting fired until 2014, when he joined the storied ranks of PC Gamer. He covers all aspects of the industry, from new game announcements and patch notes to legal disputes, Twitch beefs, esports, and Henry Cavill. Lots of Henry Cavill.</p>
   </article>
 
   <footer class="footer">
     <span>Friday, September 18, 2026</span>
-    <a href="https://will-keleher.com/posts/small-programming-tricks-matter/" target="_blank" rel="noopener">Read original ↗</a>
+    <a href="https://www.pcgamer.com/games/grand-theft-auto/the-pc-platform-is-becoming-more-and-more-important-take-two-chief-says-as-we-continue-to-wonder-when-were-going-to-get-gta-6/" target="_blank" rel="noopener">Read original ↗</a>
   </footer>
 
   <div class="archive-link">
