@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://nautil.us/what-bird-feeding-has-to-do-with-happiness-1284926/",
-    "https://www.polygon.com/new-tv-shows-streaming-this-weekend-netflix-september-11-13/",
-    "https://www.wired.com/story/ulta-coupon/",
-    "https://www.scotusblog.com/2026/09/missouri-urges-supreme-court-to-allow-for-use-of-congressional-map-expected-to-aid-republicans/",
     "https://longreads.com/2026/09/09/queen-freddie-mercury-mary-austin/",
     "https://www.rockpapershotgun.com/stylised-xcom-like-tactics-game-ex-sanguis-straps-othercides-obsession-with-timelines-to-a-leaner-roguelike-campaign",
     "https://www.wired.com/story/lg-promo-code/",
@@ -50,10 +46,13 @@
     "https://www.rockpapershotgun.com/you-can-never-see-outside-of-yourself-the-house-before-is-a-body-horror-game-in-which-you-are-a-house-tunnelling-through-its-own-soul",
     "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/",
     "https://www.jurist.org/news/2026/09/thailand-and-cambodia-begin-un-backed-conciliation-process-over-conflicting-maritime-boundary-claims/",
-    "https://longreads.com/2026/09/03/longreads-questionnaire-jon-ronson/"
+    "https://longreads.com/2026/09/03/longreads-questionnaire-jon-ronson/",
+    "https://will-keleher.com/posts/small-programming-tricks-matter/",
+    "https://www.rockpapershotgun.com/the-king-is-watching-devs-are-making-the-crab-is-walking-this-journalist-is-writing",
+    "https://longreads.com/2026/09/16/the-violent-feud-that-shocked-the-horse-world/",
+    "https://reason.com/volokh/2026/09/15/doctor-political-candidate-has-standing-to-sue-over-medical-board-investigations-related-to-his-public-comments-about-the-covid-pandemic/"
   ],
   "categoryLog": [
-    "tech",
     "law",
     "law",
     "law",
@@ -66,7 +65,8 @@
     "gaming",
     "fun",
     "gaming",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }

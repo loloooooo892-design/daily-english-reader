@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Small Programming Tricks — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Technology</span>
+    <span>Hacker News Best</span>
+    
+    <span class="sep">·</span>
+    <span>767 words</span>
+    <span class="sep">·</span>
+    <span>4 min read</span>
+  </div>
+
+  <h1>Small Programming Tricks</h1>
+
+  <article class="article-body">
+    <p>Day to day, I think a surprising amount of engineering productivity comes from small nuggets of knowledge: being aware that a language feature exists; knowing that an unexplained tcp delay is probably related to the TCP_NO_DELAY setting and Nagle’s algorithm; knowing the right git incantation to get out of a pickle; or knowing a trick with sed to rewrite a file.</p>
+<p>In one sense, this is self-evident: anything you know is going to be made up of smaller pieces of knowledge. <em>Of course</em> those smaller pieces of knowledge matter.</p>
+<p>But I think there are some nuggets of knowledge that are particularly valuable and don’t require a lot of supporting mental infrastructure. You don’t need to know any python to use python3 -m http.server to start a simple server in a directory, but it might still make your work marginally easier. Let me share a few examples:</p>
+<ul>
+<li>You probably know that ctrl + r allows searching your terminal’s command history, but if you install <a href="https://github.com/junegunn/fzf" target="_blank" rel="noopener">fzf</a>, you can set it up so that ctrl + r does a fuzzy search. If you want even more power, <a href="https://github.com/ellie/atuin" target="_blank" rel="noopener">atuin</a> replaces your shell history with a searchable SQLite database. <a href="https://github.com/jimhester/per-directory-history" target="_blank" rel="noopener">per-directory-history</a> lets you switch back and forth between searching for commands that have been run in a specific directory or searching all previous commands. Finally, you can configure how much history to store: <a href="https://unix.stackexchange.com/questions/273861/unlimited-history-in-zsh" target="_blank" rel="noopener">stackoverflow question</a>.</li>
+<li>You can SELECT without a FROM. This can be useful for testing out how a function in your database actually works or reminding yourself how SELECT TRUE &lt;&gt; NULL works.<a href="https://will-keleher.com/posts/small-programming-tricks-matter/#fn:1" target="_blank" rel="noopener">1</a></li>
+<li>PostgresSQL and MySQL both support explain analyze which will actually run the query you’re trying to optimize and give you a ton more information about its performance.</li>
+<li>In regular expressions, \b, the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Word_boundary_assertion" target="_blank" rel="noopener">word boundary assertion</a>, makes it easy to look for the beginnings or ends of words.</li>
+<li>You can use logarithms with metrics to get a sense of the distribution of values for a field you’re interested in:
+const bucket = Math.floor(Math.log10(userInGroupCount))
+metrics.increment("my_metric", { bucket });
+</li>
+<li>Modern JS now supports <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap" target="_blank" rel="noopener">Array.flatMap</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries" target="_blank" rel="noopener">Object.entries</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/withResolvers" target="_blank" rel="noopener">Promise.withResolvers</a>.</li>
+<li>In NodeJS, you can keep a connection open to an external resource by creating an <a href="https://nodejs.org/api/https.html#class-httpsagent" target="_blank" rel="noopener">https.Agent</a> and then providing it to your http requests: fetch(url, {method, agent}). This can have a dramatic impact on latency.</li>
+<li>git log -S pattern (<a href="https://git-scm.com/book/en/v2/Git-Tools-Searching" target="_blank" rel="noopener">”git pickaxe”</a>) can give you all commits that <em>added or removed</em> a string in a codebase. It’s amazingly useful especially with older codebases! (git log -G pattern is similar, but will also show when that line was moved)</li>
+<li>Similar to cd -, you can use git checkout - to check out your previous HEAD.</li>
+<li><a href="https://will-keleher.com/posts/you-probably-dont-need-find/" target="_blank" rel="noopener">You probably don’t need find</a>. A lot of find commands can be replaced with globs like **/*.md. Most shells support this out of the box, but with bash, you need to turn this on with shopt -s globstar.</li>
+<li>In a similar vein, most folks will probably want to use rg (ripgrep) rather than grep, ack, or ag.</li>
+<li>zsh’s advanced autocompletion features aren’t turned on by default:
+if type brew &amp;&gt;/dev/null; then
+    FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+fi
+autoload -Uz compinit
+compinit
+</li>
+</ul>
+<p>You might have already known all of these things! Or you might work in a domain that makes all of these little tricks totally useless. Even if this particular set of tricks isn’t useful for you, I bet you have your own stash of tricks that you’ve accumulated over the years that makes your work easier.</p>
+<p>At a company, I think even more knowledge tends to be this sort of small high-leverage nugget:</p>
+<ul>
+<li>To debug $PROBLEM, use $DATA_SOURCE.</li>
+<li>$PERSON knows a ton about $AREA and they’re happy to help if you get stuck</li>
+<li>There are good docs about $HARD_THING $OVER_HERE.</li>
+<li>When $THING happens, it means we should manually scale out.</li>
+<li>To do a rolling restart of a service, run $THIS_COMMAND.</li>
+<li>This $UTIL makes $THAT_PROBLEM easy to script.</li>
+</ul>
+<p>At a previous company, I shared a trick on slack every day with the engineering team, both technical and company-specific, and folks found them pretty useful. Even if you knew 9/10 tricks, that 10th doc or technique might save you some time! And one trick per day was the right number to avoid overwhelming people with knowledge, and it could occasionally spark useful discussion. If you’re a more senior engineer at your company, you might think about doing something similar.</p>
+
+<ol>
+<li>
+<p>I think I first saw this technique on <a href="https://jvns.ca/" target="_blank" rel="noopener">Julia Evan’s blog</a>, and I think her writing often perfectly encapsulates the idea behind this post: "small bits of knowledge are powerful! and fun! and approachable!!" <a href="https://will-keleher.com/posts/small-programming-tricks-matter/#fnref:1" target="_blank" rel="noopener">↩︎</a></p>
+</li>
+</ol>
+  </article>
+
+  <footer class="footer">
+    <span>Friday, September 18, 2026</span>
+    <a href="https://will-keleher.com/posts/small-programming-tricks-matter/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
