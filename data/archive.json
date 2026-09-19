@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-09-19",
+    "slug": "2026-09-19-4",
+    "title": "Bend",
+    "source": "Hacker News Best",
+    "category": "tech",
+    "wordCount": 556
+  },
+  {
+    "date": "2026-09-19",
+    "slug": "2026-09-19-3",
+    "title": "European Commission's proposed EU Kids Act could see online games forced to enact stricter age verification amid new rules around accounts for under 15s",
+    "source": "Rock Paper Shotgun",
+    "category": "gaming",
+    "wordCount": 512
+  },
+  {
+    "date": "2026-09-19",
+    "slug": "2026-09-19-2",
+    "title": "Paula Cole Doesn’t Want to Wait",
+    "source": "The New Yorker",
+    "category": "fun",
+    "wordCount": 730
+  },
+  {
+    "date": "2026-09-19",
+    "slug": "2026-09-19",
+    "title": "The fundamental confusions of federal Indian law",
+    "source": "SCOTUSblog",
+    "category": "law",
+    "wordCount": 1064
+  },
+  {
     "date": "2026-09-18",
     "slug": "2026-09-18-4",
     "title": "Mail-In Voting Survives",

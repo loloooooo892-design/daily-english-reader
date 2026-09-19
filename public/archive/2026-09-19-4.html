@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bend — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Technology</span>
+    <span>Hacker News Best</span>
+    
+    <span class="sep">·</span>
+    <span>556 words</span>
+    <span class="sep">·</span>
+    <span>3 min read</span>
+  </div>
+
+  <h1>Bend</h1>
+
+  <article class="article-body">
+    <a href="https://bend-lang.com/" target="_blank" rel="noopener">~/bend</a>
+  <a href="https://github.com/bendlang/bend" target="_blank" rel="noopener"></a><a href="https://discord.bend-lang.com/" target="_blank" rel="noopener"></a><a href="https://x.com/bendlang" target="_blank" rel="noopener"></a><a href="https://www.reddit.com/r/bendlang/" target="_blank" rel="noopener"></a><a href="https://hub.bend-lang.com/" target="_blank" rel="noopener">hub</a><a href="https://bend-lang.com/bender" target="_blank" rel="noopener">bender</a><a href="https://bend-lang.com/#get" target="_blank" rel="noopener">get Bend</a>
+
+    <p><a href="https://bend-lang.com/#!" target="_blank" rel="noopener">×</a></p><h3>1.Install</h3>
+curl -fsSL https://bend-lang.com/install.sh | sh
+    <h3>2.Add this to your AGENTS.md</h3>
+When using Bend:
+- run `bend guide` to learn it
+- use `LAWS.bend` to keep important rules
+- run `bend PROOF.bend` before committing
+- parallelize the code whenever possible
+    <h3>3.Enjoy bug-free, fast vibe-coded apps!</h3>
+  
+
+  <p>a fast language that blocks AI mistakes via proof</p>
+  <p>C speed · CUDA parallelism · Lean proofs · Python syntax</p>
+
+  <p>In the post-AGI economy, humans will eventually stop writing
+and reading code, but we still need an ambiguity-free way to
+tell the AIs building the world around us what we want done.</p>
+  <p>With laws, our intents can be much more precise than natural
+language. With proofs, we can verify that the AI implemented
+our prompts correctly. And a fast compiler runs it at speed.</p>
+  <p>That's Bend - and nothing else.</p>
+
+  <h2>1.Bend runs FAST.</h2>
+  <p>Bend compiles to native code. On one core, it runs nearly as
+fast as C. The same binary also runs on sixteen cores, or on
+the GPU, running up to a hundred times faster than one core.</p>
+  
+
+  <h2>2.Bend compiles FAST.</h2>
+  <p>Bend's type checker is a proof checker, as in Lean and Rocq.
+Those can take minutes on a mid-sized codebase. Bend takes a
+second at most, so an AI agent can check after every change.</p>
+  
+
+  <h2>3.Bend is PARALLEL.</h2>
+  <p>No threads, no locks, no kernels to write. Split the work in
+two, and Bend spreads the calls over every core it can find,
+then joins them back. Now watch pow2 run on 4,096 GPU cores:</p>
+  
+
+  <h2>4.Bend BLOCKS mistakes - with proof</h2>
+  <p>How can you trust code you never read? By demanding a proof.
+LAWS.bend is where you declare laws. From then on, no AI can
+ship one line that breaks them, ever. Watch it guard a game:</p>
+  
+  
+    <p>New feature:</p>
+    <p>“Claude, make the board wrap around”</p>
+  
+  
+  
+  <p>Without LAWS.bend, the bug went live. With LAWS.bend, the AI
+had to retry until it built a wall and proved the law holds.
+Merging a bug is mathematically impossible: it is a <em>theorem</em>.</p>
+<p>LAWS.bend</p>
+# LAW: no move sequence leads to victory.
+law you_cant_win:
+  for moves: List&lt;Move&gt;            # any sequence of moves
+  board = replay(start(), moves)   # replayed from the start
+  is_won(board) == False{}         # never leads to victory
+<p>PROOF.bend</p>
+# PROOF: you_cant_win holds.
+def Laws.you_cant_win(moves):
+  # ... written by the AI
+  <p>LAWS.bend is AGENTS.md backed by proof.
+“Make no mistakes” is now <em>type-checked</em>.</p>
+  <p><a href="https://bend-lang.com/#lab" target="_blank" rel="noopener">Skeptical? Try breaking the game.</a></p>
+
+  <h2>5.Get started.</h2>
+  <h3>5.1.Install</h3>
+curl -fsSL https://bend-lang.com/install.sh | sh
+  <h3>5.2.Tell your agent to use Bend</h3>
+  <p>Add this to your AGENTS.md:</p>
+When using Bend:
+- run `bend guide` to learn it
+- use `LAWS.bend` to keep important rules
+- run `bend PROOF.bend` before committing
+- parallelize the code whenever possible
+  <p>Then, just say: "use Bend"!</p>
+  <h3>5.3.Enjoy bug-free, fast vibe-coded apps!</h3>
+  <p>Hints: ask it to write laws for whatever should never break,
+and to parallelize everything you want running fast. Bend is
+young: if anything goes wrong, ask it to open an issue. Bend
+works best on the back-end, on Linux and on macOS. Enjoy! &lt;3</p>
+
+  <h2>6.References.</h2>
+  <p>Guide: <a href="https://github.com/bendlang/bend/blob/main/guide/GUIDE.md" target="_blank" rel="noopener">GUIDE.md</a> is the whole language; bend guide prints it.
+Paper: <a href="https://github.com/bendlang/bend/blob/main/paper/BendTT.pdf" target="_blank" rel="noopener">BendTT</a>, an affine dependent type theory, Bend's core.
+Paper: <a href="https://github.com/bendlang/bend/blob/main/paper/BendRT.pdf" target="_blank" rel="noopener">BendRT</a>, a parallel runtime for CPUs and GPUs, the VM.</p>
+  <p>Bend is still evolving. Expect bugs, and please <a href="https://github.com/bendlang/bend/issues" target="_blank" rel="noopener">report them</a>.</p>
+  </article>
+
+  <footer class="footer">
+    <span>Saturday, September 19, 2026</span>
+    <a href="https://bend-lang.com/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>

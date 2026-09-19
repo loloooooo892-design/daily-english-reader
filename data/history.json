@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.eurogamer.net/what-weve-been-playing-well-this-is-embarrassing-were-wearing-the-same-outfit",
-    "https://www.newyorker.com/news/the-lede/the-warning-benjamin-netanyahu-ignored",
-    "https://www.wired.com/story/canon-promo-code/",
-    "https://www.newyorker.com/books/what-were-reading/five-books-for-lingerie-lovers",
     "https://www.rockpapershotgun.com/a-game-for-everyone-is-a-game-for-no-one-dont-expect-an-easy-ride-in-carcass-clad-the-co-op-tank-horror-game-from-the-makers-of-mouthwashing",
     "https://reason.com/volokh/2026/09/10/med-school-didnt-violate-accusers-title-ix-rights-by-imposing-only-a-20-month-suspension-on-student-found-responsible-for-sexual-assault/",
     "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/",
@@ -50,11 +46,14 @@
     "https://www.pcgamer.com/games/grand-theft-auto/the-pc-platform-is-becoming-more-and-more-important-take-two-chief-says-as-we-continue-to-wonder-when-were-going-to-get-gta-6/",
     "https://www.wired.com/story/zoro-promo-code/",
     "https://reason.com/volokh/2026/09/17/not-using-a-smartphone-burdens-others/",
-    "https://www.newyorker.com/news/the-lede/mail-in-voting-survives"
+    "https://www.newyorker.com/news/the-lede/mail-in-voting-survives",
+    "https://www.scotusblog.com/2026/09/the-fundamental-confusions-of-federal-indian-law/",
+    "https://www.newyorker.com/magazine/2026/09/21/paula-cole-doesnt-want-to-wait",
+    "https://www.rockpapershotgun.com/european-commissions-proposed-eu-kids-act-could-see-online-games-forced-to-enact-stricter-age-verification-amid-new-rules-around-accounts-for-under-15s",
+    "https://bend-lang.com/"
   ],
   "categoryLog": [
     "law",
-    "law",
     "fun",
     "gaming",
     "law",
@@ -66,7 +65,8 @@
     "gaming",
     "gaming",
     "tech",
-    "gaming"
+    "gaming",
+    "law"
   ],
   "failures": {}
 }
