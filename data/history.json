@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.rockpapershotgun.com/a-game-for-everyone-is-a-game-for-no-one-dont-expect-an-easy-ride-in-carcass-clad-the-co-op-tank-horror-game-from-the-makers-of-mouthwashing",
-    "https://reason.com/volokh/2026/09/10/med-school-didnt-violate-accusers-title-ix-rights-by-imposing-only-a-20-month-suspension-on-student-found-responsible-for-sexual-assault/",
-    "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/",
-    "https://www.pcgamer.com/gaming-industry/fallout-dev-tim-cain-says-the-games-industrys-volatility-is-always-gonna-be-around-whats-happening-now-isnt-novel-it-isnt-new/",
     "https://reason.com/volokh/2026/09/09/second-amendment-roundup-atfs-firearm-and-frame-or-receiver-rules-invalid/",
     "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
     "https://nautil.us/nighttime-light-may-change-the-shape-of-your-heart-1284967/",
@@ -50,10 +46,13 @@
     "https://www.scotusblog.com/2026/09/the-fundamental-confusions-of-federal-indian-law/",
     "https://www.newyorker.com/magazine/2026/09/21/paula-cole-doesnt-want-to-wait",
     "https://www.rockpapershotgun.com/european-commissions-proposed-eu-kids-act-could-see-online-games-forced-to-enact-stricter-age-verification-amid-new-rules-around-accounts-for-under-15s",
-    "https://bend-lang.com/"
+    "https://bend-lang.com/",
+    "https://www.eurogamer.net/rockstar-employment-tribunal-fired-gta-6-employees-iwgb",
+    "https://www.newyorker.com/humor/shouts-murmurs/arrangements-i-would-accept",
+    "https://reason.com/volokh/2026/09/16/use-of-flock-cameras-is-not-a-fourth-amendment-search-district-court-rules/",
+    "https://www.wired.com/story/nobel-prize-protein-design-now-using-ai-to-create-molecules-beyond-nature/"
   ],
   "categoryLog": [
-    "law",
     "fun",
     "gaming",
     "law",
@@ -66,7 +65,8 @@
     "gaming",
     "tech",
     "gaming",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bend — Daily Reader</title>
+<title>He Won the Nobel Prize for Protein Design. Now He Uses AI to Create Molecules Not Found in Nature — Daily Reader</title>
 <style>
 :root {
   --bg: #F7F8FA;
@@ -151,115 +151,23 @@ h1 {
 <main class="container">
   <div class="meta">
     <span class="category-tag">Technology</span>
-    <span>Hacker News Best</span>
-    
+    <span>Wired</span>
+    <span class="sep">·</span><span>@wired</span>
     <span class="sep">·</span>
-    <span>556 words</span>
+    <span>900 words</span>
     <span class="sep">·</span>
-    <span>3 min read</span>
+    <span>5 min read</span>
   </div>
 
-  <h1>Bend</h1>
+  <h1>He Won the Nobel Prize for Protein Design. Now He Uses AI to Create Molecules Not Found in Nature</h1>
 
   <article class="article-body">
-    <a href="https://bend-lang.com/" target="_blank" rel="noopener">~/bend</a>
-  <a href="https://github.com/bendlang/bend" target="_blank" rel="noopener"></a><a href="https://discord.bend-lang.com/" target="_blank" rel="noopener"></a><a href="https://x.com/bendlang" target="_blank" rel="noopener"></a><a href="https://www.reddit.com/r/bendlang/" target="_blank" rel="noopener"></a><a href="https://hub.bend-lang.com/" target="_blank" rel="noopener">hub</a><a href="https://bend-lang.com/bender" target="_blank" rel="noopener">bender</a><a href="https://bend-lang.com/#get" target="_blank" rel="noopener">get Bend</a>
-
-    <p><a href="https://bend-lang.com/#!" target="_blank" rel="noopener">×</a></p><h3>1.Install</h3>
-curl -fsSL https://bend-lang.com/install.sh | sh
-    <h3>2.Add this to your AGENTS.md</h3>
-When using Bend:
-- run `bend guide` to learn it
-- use `LAWS.bend` to keep important rules
-- run `bend PROOF.bend` before committing
-- parallelize the code whenever possible
-    <h3>3.Enjoy bug-free, fast vibe-coded apps!</h3>
-  
-
-  <p>a fast language that blocks AI mistakes via proof</p>
-  <p>C speed · CUDA parallelism · Lean proofs · Python syntax</p>
-
-  <p>In the post-AGI economy, humans will eventually stop writing
-and reading code, but we still need an ambiguity-free way to
-tell the AIs building the world around us what we want done.</p>
-  <p>With laws, our intents can be much more precise than natural
-language. With proofs, we can verify that the AI implemented
-our prompts correctly. And a fast compiler runs it at speed.</p>
-  <p>That's Bend - and nothing else.</p>
-
-  <h2>1.Bend runs FAST.</h2>
-  <p>Bend compiles to native code. On one core, it runs nearly as
-fast as C. The same binary also runs on sixteen cores, or on
-the GPU, running up to a hundred times faster than one core.</p>
-  
-
-  <h2>2.Bend compiles FAST.</h2>
-  <p>Bend's type checker is a proof checker, as in Lean and Rocq.
-Those can take minutes on a mid-sized codebase. Bend takes a
-second at most, so an AI agent can check after every change.</p>
-  
-
-  <h2>3.Bend is PARALLEL.</h2>
-  <p>No threads, no locks, no kernels to write. Split the work in
-two, and Bend spreads the calls over every core it can find,
-then joins them back. Now watch pow2 run on 4,096 GPU cores:</p>
-  
-
-  <h2>4.Bend BLOCKS mistakes - with proof</h2>
-  <p>How can you trust code you never read? By demanding a proof.
-LAWS.bend is where you declare laws. From then on, no AI can
-ship one line that breaks them, ever. Watch it guard a game:</p>
-  
-  
-    <p>New feature:</p>
-    <p>“Claude, make the board wrap around”</p>
-  
-  
-  
-  <p>Without LAWS.bend, the bug went live. With LAWS.bend, the AI
-had to retry until it built a wall and proved the law holds.
-Merging a bug is mathematically impossible: it is a <em>theorem</em>.</p>
-<p>LAWS.bend</p>
-# LAW: no move sequence leads to victory.
-law you_cant_win:
-  for moves: List&lt;Move&gt;            # any sequence of moves
-  board = replay(start(), moves)   # replayed from the start
-  is_won(board) == False{}         # never leads to victory
-<p>PROOF.bend</p>
-# PROOF: you_cant_win holds.
-def Laws.you_cant_win(moves):
-  # ... written by the AI
-  <p>LAWS.bend is AGENTS.md backed by proof.
-“Make no mistakes” is now <em>type-checked</em>.</p>
-  <p><a href="https://bend-lang.com/#lab" target="_blank" rel="noopener">Skeptical? Try breaking the game.</a></p>
-
-  <h2>5.Get started.</h2>
-  <h3>5.1.Install</h3>
-curl -fsSL https://bend-lang.com/install.sh | sh
-  <h3>5.2.Tell your agent to use Bend</h3>
-  <p>Add this to your AGENTS.md:</p>
-When using Bend:
-- run `bend guide` to learn it
-- use `LAWS.bend` to keep important rules
-- run `bend PROOF.bend` before committing
-- parallelize the code whenever possible
-  <p>Then, just say: "use Bend"!</p>
-  <h3>5.3.Enjoy bug-free, fast vibe-coded apps!</h3>
-  <p>Hints: ask it to write laws for whatever should never break,
-and to parallelize everything you want running fast. Bend is
-young: if anything goes wrong, ask it to open an issue. Bend
-works best on the back-end, on Linux and on macOS. Enjoy! &lt;3</p>
-
-  <h2>6.References.</h2>
-  <p>Guide: <a href="https://github.com/bendlang/bend/blob/main/guide/GUIDE.md" target="_blank" rel="noopener">GUIDE.md</a> is the whole language; bend guide prints it.
-Paper: <a href="https://github.com/bendlang/bend/blob/main/paper/BendTT.pdf" target="_blank" rel="noopener">BendTT</a>, an affine dependent type theory, Bend's core.
-Paper: <a href="https://github.com/bendlang/bend/blob/main/paper/BendRT.pdf" target="_blank" rel="noopener">BendRT</a>, a parallel runtime for CPUs and GPUs, the VM.</p>
-  <p>Bend is still evolving. Expect bugs, and please <a href="https://github.com/bendlang/bend/issues" target="_blank" rel="noopener">report them</a>.</p>
+    <p>The natural world as we know it represents only a fraction of what might exist. Based on this idea, AI BioDesign was born: a scientific project that combines artificial intelligence and large-scale laboratory experiments to design and test <a href="https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/" target="_blank" rel="noopener">new molecules</a> and biological functions that are not found in nature but are physically and chemically possible.</p><p>In doing so, the researchers are aiming to create databases, models, and tools that could serve as “seeds” for developing the medicines and technologies of the future. The authors envision, for example, new drugs to <a href="https://www.wired.com/story/smart-nanoparticles-deliver-mrna-directly-to-tumors-in-new-cancer-therapy/" target="_blank" rel="noopener">treat cancer</a> and neurodegenerative diseases or enzymes capable of <a href="https://www.wired.com/story/could-plastic-eating-moth-larvae-be-a-solution-to-environmental-pollution/" target="_blank" rel="noopener">breaking down plastics</a> in the ocean.</p><p>The initiative is led by the Allen Institute, a biomedical research nonprofit in Seattle, along with the University of Washington and the Fred Hutchinson Cancer Center. Among the scientists leading the charge is David Baker, who shared the 2024 Nobel Prize in Chemistry for his work in <a href="https://www.wired.com/story/alphafold-changed-science-after-5-years-its-still-evolving/" target="_blank" rel="noopener">computational protein design</a>.</p><p>For much of the history of biology, scientists have studied the solutions forged by billions of years of evolution. Exploring possibilities that nature never produced is a fundamentally new approach. And as technology makes this now possible, one that a leaders of the field even compares the potential of these methods to historic transformations such as industrialization, electrification, and the digital revolution.</p><p>However, delving into completely novel regions of biology also inevitably leads to <a href="https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/" target="_blank" rel="noopener">difficult questions</a>. WIRED en Español spoke with David Baker, chief scientific officer at AI BioDesign, to address this and other topics.</p><p><em>This interview has been edited for length and clarity.</em></p><p><strong>JORGE GARAY: AI BioDesign seeks to explore possible molecules and biological functions that have never existed in nature. Are there any particular risks involved in venturing into this uncharted territory? How can scientists anticipate those risks and what steps can they take to minimize them before a designed molecule leaves the lab?</strong></p><p><strong>DAVID BAKER:</strong> What’s exciting about biology is that nature has explored only a fraction of what is physically and chemically possible, which opens a world of possibilities for what we could design. When we explore those possibilities, the primary risks are not much different than those associated with any new biological technology—unintended interactions with living systems, unexpected environmental effects, or misuse.</p><p>The advantage we have today is that computational design allows us to evaluate many of these risks before a molecule is ever synthesized. We can screen designs computationally, test them extensively in contained laboratory settings, and subject them to increasingly realistic experimental validation before considering any real-world application.</p><p><strong>The project mentions possibilities ranging from new drugs to plastic-degrading enzymes and even biological computers. If we have greater predictive power when designing new molecules and biological functions, how far do you think this capability could take us?</strong></p><p>My team and I have lofty goals for protein design: We’re working to build a world where a cure for a new disease is created in weeks, not decades. Where our air, water, and soil are clean because we removed pollutants and reimagined the processes that contaminated them. Where crops thrive in conditions that once killed them. Where molecular machines pull critical minerals from waste and repair the infrastructure we depend on.</p><p>Proteins are the molecular machines life has developed to create all organic matter we know of here on Earth. Unlocking their full potential requires that we derive engineering principles that make it possible for innovative new ideas, including ones we can’t yet imagine, to be achievable.</p><p><strong>As these models become more capable, could AI eventually design functional molecules that scientists themselves do not fully understand? If so, would it be enough to experimentally demonstrate that they work and are safe, or do you think we also need to understand the mechanisms?</strong></p><p>Science has often progressed in stages, and we see that mirrored in how machine learning has advanced protein design. The first step is usually observing that something works, and we often only later understand why. Machine learning is really good at that first stage—it has vastly improved our capability to observe patterns that can be leveraged for biological design. Strong experimental evidence can justify moving forward with projects, but deeper understanding remains an important objective both for our research and scientific inquiry overall. Much of what we cannot achieve today is due to a lack of understanding or data that defines the parameters for how specific systems work or do not. This is the crux of the AI BioDesign program.</p><p><strong>Are there molecules or biological functions that, in your opinion, should not be designed, even if it were technically possible to do so? What criteria should determine where that line is drawn?</strong></p><p>Decisions should be guided by a balance of potential benefits and potential harms. Applications that address major challenges in health, sustainability, or human well-being have a strong case for development. Conversely, designs that create <a href="https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/" target="_blank" rel="noopener">significant risks</a> to public safety, security, or the environment deserve heightened scrutiny and, in some cases, clear restrictions.</p><p>Just as we have developed frameworks for other powerful technologies, we need governance structures that evolve alongside advances in AI and biotechnology. I’ve advocated that those restrictions should include monitoring and logging all synthetic DNA that is manufactured to record the sequence and its creator. This creates a practical barrier to misuse and a record of any ill-intentioned attempts.</p><p><em>This story originally appeared on</em> <a href="https://es.wired.com/articulos/el-nobel-que-usa-ia-para-crear-moleculas-ineditas-en-la-naturaleza-nos-habla-del-potencial-y-los-peligros-del-biodiseno" target="_blank" rel="noopener">WIRED en Español</a> <em>and has been translated from Spanish.</em></p>
   </article>
 
   <footer class="footer">
     <span>Saturday, September 19, 2026</span>
-    <a href="https://bend-lang.com/" target="_blank" rel="noopener">Read original ↗</a>
+    <a href="https://www.wired.com/story/nobel-prize-protein-design-now-using-ai-to-create-molecules-beyond-nature/" target="_blank" rel="noopener">Read original ↗</a>
   </footer>
 
   <div class="archive-link">
