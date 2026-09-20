@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.pcgamer.com/games/adventure/beneath-a-steel-sky-review-1994/",
-    "https://nautil.us/are-too-many-americans-taking-antidepressants-1284975/",
-    "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-    "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
     "https://www.newyorker.com/magazine/2026/09/21/dey-etna-are-they-dead-yet-unbelonging",
     "https://www.pcgamer.com/games/rpg/upcoming-vampire-rpg-nighthawks-has-been-removed-from-steam-search-and-delisted-in-certain-countries-as-valve-classifies-it-adults-only-its-very-bad-news-for-us/",
     "https://www.jurist.org/news/2026/09/un-secretary-general-calls-on-world-leaders-to-invest-in-peace-as-global-conflicts-reach-post-wwii-high/",
@@ -50,10 +46,13 @@
     "https://longreads.com/2026/09/07/on-tour-with-the-eclipse-chasers/",
     "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
     "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
-    "https://www.pcgamer.com/gaming-industry/industry-vets-behind-dishonored-ultima-online-her-story-and-more-agree-the-games-industry-crisis-goes-beyond-games-ultimately-to-fix-whats-broken-in-the-videogame-industry-we-might-have-to-fix-reality/"
+    "https://www.pcgamer.com/gaming-industry/industry-vets-behind-dishonored-ultima-online-her-story-and-more-agree-the-games-industry-crisis-goes-beyond-games-ultimately-to-fix-whats-broken-in-the-videogame-industry-we-might-have-to-fix-reality/",
+    "https://www.jurist.org/news/2026/09/un-experts-belarus-weaponized-criminal-justice-system-against-government-dissent/",
+    "https://nautil.us/is-this-massive-new-study-on-the-benefits-of-whole-grains-part-of-the-war-on-protein-rfk-jr-is-ending-1285119/",
+    "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5",
+    "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/"
   ],
   "categoryLog": [
-    "gaming",
     "law",
     "tech",
     "law",
@@ -66,7 +65,8 @@
     "gaming",
     "law",
     "gaming",
-    "fun"
+    "fun",
+    "law"
   ],
   "failures": {}
 }
