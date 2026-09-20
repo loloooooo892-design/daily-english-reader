@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://reason.com/volokh/2026/09/09/second-amendment-roundup-atfs-firearm-and-frame-or-receiver-rules-invalid/",
-    "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-    "https://nautil.us/nighttime-light-may-change-the-shape-of-your-heart-1284967/",
-    "https://www.scotusblog.com/2026/09/trump-administration-asks-justices-to-decide-on-its-appointments-of-acting-us-attorneys/",
     "https://www.pcgamer.com/games/adventure/beneath-a-steel-sky-review-1994/",
     "https://nautil.us/are-too-many-americans-taking-antidepressants-1284975/",
     "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
@@ -50,10 +46,13 @@
     "https://www.eurogamer.net/rockstar-employment-tribunal-fired-gta-6-employees-iwgb",
     "https://www.newyorker.com/humor/shouts-murmurs/arrangements-i-would-accept",
     "https://reason.com/volokh/2026/09/16/use-of-flock-cameras-is-not-a-fourth-amendment-search-district-court-rules/",
-    "https://www.wired.com/story/nobel-prize-protein-design-now-using-ai-to-create-molecules-beyond-nature/"
+    "https://www.wired.com/story/nobel-prize-protein-design-now-using-ai-to-create-molecules-beyond-nature/",
+    "https://longreads.com/2026/09/07/on-tour-with-the-eclipse-chasers/",
+    "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+    "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
+    "https://www.pcgamer.com/gaming-industry/industry-vets-behind-dishonored-ultima-online-her-story-and-more-agree-the-games-industry-crisis-goes-beyond-games-ultimately-to-fix-whats-broken-in-the-videogame-industry-we-might-have-to-fix-reality/"
   ],
   "categoryLog": [
-    "fun",
     "gaming",
     "law",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "gaming",
     "law",
-    "gaming"
+    "gaming",
+    "fun"
   ],
   "failures": {}
 }

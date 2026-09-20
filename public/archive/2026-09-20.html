@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On Tour with the Eclipse Chasers — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>Longreads</span>
+    <span class="sep">·</span><span>Carolyn Wells</span>
+    <span class="sep">·</span>
+    <span>538 words</span>
+    <span class="sep">·</span>
+    <span>3 min read</span>
+  </div>
+
+  <h1>On Tour with the Eclipse Chasers</h1>
+
+  <article class="article-body">
+    <p>A man named Donald Liebenberg tops <a href="http://eclipse-chaser-log.com/" target="_blank" rel="noopener">eclipse-chaser-log.com</a> with a whopping 2 hours, 27 minutes, and 41 seconds of darkness from 27 total eclipses—stats I didn’t even know people tracked until I read Rudi Zygadlo’s piece. It turns out there’s a dedicated subculture of umbraphiles logging every second of totality. Zygadlo meets a veteran British couple who’ve built their lives around these fleeting events, then travels to Spain in August 2026 to see his own first total eclipse. Adding 1 minute 38 seconds to the board earns him a place near the bottom, but judging by the awe he feels in those brief moments of darkness, he may be moving up the league yet. </p>
+<blockquote>
+<p>There are various eclipse-chasing guests in our hotel. You can identify many of them from themed caps and T-shirts. The largest party is an alumni group from UCLA. We meet several by the pool. A couple from Minnesota, a sommelier from New York. “I was in Montreal for 2024,” says Mees from the Netherlands, treading water. “My wife is a virgin.” Everyone is friendly, but somewhat shifty when it comes to the issue of where to watch. We are too.</p>
+<p>By 6pm on the day of, we are stationed on the infernal hillside, on a dusty path beneath pine trees and an immaculate sky. There are better vantage points but we have some degree of privacy here. We can hear others, but we can’t see them. The partial phase begins with a yodel at 7:34pm when the sun is eight degrees — or a fist’s length — above the horizon and my father-in-law produces a bottle of local white, which immediately turns warm in the glass. The nibble of the moon turns into a bite then into a crescent and I’m surprised how well my bottom-of-the-range bridge camera with a solar filter over the lens captures the partial phases. Later I’ll wish I never turned the thing on. Meara is quiet. Glowing. She is more pregnant than ever.</p>
+</blockquote>
+
+							<h2>
+					More picks on astronomy 
+				</h2>
+	
+		
+						<h3><a href="https://longreads.com/2025/07/24/the-unseen-fury-of-solar-storms/" target="_blank" rel="noopener">The Unseen Fury of Solar Storms</a></h3>							<p>
+					Henry Wismayer | June 24, 2025 | Noēma | 6,505 words				</p>
+						<p>“Lurking in every space weather forecaster’s mind is the hypothetical big one, a solar storm so huge it could bring our networked, planetary civilization to its knees.”</p>
+					
+	
+	
+		
+						<h3><a href="https://longreads.com/2025/07/21/what-happens-once-we-spot-the-asteroid-that-will-hit-earth/" target="_blank" rel="noopener">What Happens Once We Spot the Asteroid That Will Hit Earth?</a></h3>							<p>
+					Tomas Weber | FT Magazine | July 19, 2025 | 4,536 words
+				</p>
+						<p>“This year, the alert system for defending the planet against incoming space rocks was activated for the first time. It won’t be the last.”</p>
+					
+	
+	
+		
+						<h3><a href="https://longreads.com/2024/09/26/the-searchers-3/" target="_blank" rel="noopener">The Searchers</a></h3>							<p>
+					Dave Eggers | The Washington Post | September 17, 2024 | 6,805 words				</p>
+						<p>“[T]he work being done at JPL is the most inspiring research and exploration being done by any humans on our planet.”</p>
+					
+	
+	
+		
+						<h3><a href="https://longreads.com/2020/09/09/the-weird-space-that-lies-outside-our-solar-system/" target="_blank" rel="noopener">The Weird Space That Lies Outside Our Solar System</a></h3>							<p>
+					Patchen Barss | BBC | September 8, 2020 | 2,234 words				</p>
+						<p>Launched in the 1970s, Voyager 1 and Voyager 2 — the first two spacecraft and human-made objects to leave our solar system — have reached interstellar space and now beam back images from this mysterious region.</p>
+					
+	
+	
+		
+						<h3><a href="https://longreads.com/2019/01/25/what-falls-to-earth-2/" target="_blank" rel="noopener">What Falls to Earth</a></h3>							
+						<p>Grieving the mysterious death of her father, Susanna Space seeks refuge in the study of meteors. </p>
+  </article>
+
+  <footer class="footer">
+    <span>Sunday, September 20, 2026</span>
+    <a href="https://longreads.com/2026/09/07/on-tour-with-the-eclipse-chasers/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
