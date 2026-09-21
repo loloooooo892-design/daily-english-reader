@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/09/21/dey-etna-are-they-dead-yet-unbelonging",
-    "https://www.pcgamer.com/games/rpg/upcoming-vampire-rpg-nighthawks-has-been-removed-from-steam-search-and-delisted-in-certain-countries-as-valve-classifies-it-adults-only-its-very-bad-news-for-us/",
-    "https://www.jurist.org/news/2026/09/un-secretary-general-calls-on-world-leaders-to-invest-in-peace-as-global-conflicts-reach-post-wwii-high/",
-    "https://reason.com/volokh/2026/09/10/first-circuit-refuses-to-stay-district-court-injunction-against-trumps-executive-order-on-mail-in-voting/",
     "https://www.newyorker.com/magazine/2026/09/21/the-hearing-aid-that-plays-it-by-ear",
     "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
     "https://techcrunch.com/2026/09/14/macos-27-new-siri-takes-on-ai-productivity-apps/",
@@ -50,10 +46,13 @@
     "https://www.jurist.org/news/2026/09/un-experts-belarus-weaponized-criminal-justice-system-against-government-dissent/",
     "https://nautil.us/is-this-massive-new-study-on-the-benefits-of-whole-grains-part-of-the-war-on-protein-rfk-jr-is-ending-1285119/",
     "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5",
-    "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/"
+    "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+    "https://www.newyorker.com/humor/shouts-murmurs/your-parents-fall-tv-preview",
+    "https://www.wired.com/story/ebay-coupon-code/",
+    "https://reason.com/volokh/2026/09/16/federal-judge-refers-philly-da-to-department-of-justice-for-potential-prosecution/",
+    "https://www.pcgamer.com/games/action/marked-for-mayhem-is-a-4-player-dungeon-crawler-that-wants-you-to-try-to-win-as-a-team-while-also-beating-all-your-teammates-as-a-player-good-luck/"
   ],
   "categoryLog": [
-    "law",
     "tech",
     "law",
     "law",
@@ -66,7 +65,8 @@
     "law",
     "gaming",
     "fun",
-    "law"
+    "law",
+    "fun"
   ],
   "failures": {}
 }
