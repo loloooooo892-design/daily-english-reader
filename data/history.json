@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://nautil.us/why-elon-musks-self-growing-moon-cities-are-tragically-flawed-1285049/",
-    "https://www.bbc.com/news/articles/ck790xg41ygro",
-    "https://www.eurogamer.net/valve-steam-frame-vr-demand-expand-market",
-    "https://www.pcgamer.com/games/fps/wardogs-ceo-says-he-wont-hire-devs-who-arent-down-with-mandatory-crunch-if-you-care-about-what-youre-making-this-is-the-place-to-work/",
     "https://nautil.us/did-wildfires-spark-the-invention-of-pottery-1285052/",
     "https://reason.com/volokh/2026/09/11/dc-circuit-rejects-energy-departments-claim-of-emergency-authority-to-order-coal-plant-to-remain-open/",
     "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/adopt-this-data-center-plushie-and-hear-its-piercing-scream/",
     "https://reason.com/volokh/2026/09/16/the-anti-nazi-law/",
     "https://www.eurogamer.net/runescape-generative-ai-clone-taken-down",
-    "https://www.newyorker.com/books/what-were-reading/the-new-yorkers-coverage-of-the-2026-national-book-award-fiction-nominees"
+    "https://www.newyorker.com/books/what-were-reading/the-new-yorkers-coverage-of-the-2026-national-book-award-fiction-nominees",
+    "https://reason.com/volokh/2026/09/17/the-1940s-a-systematic-avalanche-of-falsehoods/",
+    "https://longreads.com/2026/09/09/queen-freddie-mercury-mary-austin/",
+    "https://www.pcgamer.com/games/sim/we-just-saw-a-big-chunk-of-thief-remastered-gameplay-and-im-more-desperate-than-ever-to-play/",
+    "https://www.wired.com/story/justice-for-css/"
   ],
   "categoryLog": [
-    "law",
     "law",
     "gaming",
     "fun",
@@ -66,7 +65,8 @@
     "fun",
     "law",
     "fun",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
