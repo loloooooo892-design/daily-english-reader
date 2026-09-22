@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://nautil.us/did-wildfires-spark-the-invention-of-pottery-1285052/",
-    "https://reason.com/volokh/2026/09/11/dc-circuit-rejects-energy-departments-claim-of-emergency-authority-to-order-coal-plant-to-remain-open/",
-    "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
-    "https://nautil.us/what-grok-and-claude-have-to-say-about-the-ai-apocalypse-1285077/",
     "https://reason.com/volokh/2026/09/16/defamation-via-songs-and-ai-generated-video-u-tenn-coachs-claim-can-go-forward/",
     "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
     "https://www.eurogamer.net/untangling-my-response-to-how-ocarina-of-time-remake-looks",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/09/17/the-1940s-a-systematic-avalanche-of-falsehoods/",
     "https://longreads.com/2026/09/09/queen-freddie-mercury-mary-austin/",
     "https://www.pcgamer.com/games/sim/we-just-saw-a-big-chunk-of-thief-remastered-gameplay-and-im-more-desperate-than-ever-to-play/",
-    "https://www.wired.com/story/justice-for-css/"
+    "https://www.wired.com/story/justice-for-css/",
+    "https://www.newyorker.com/magazine/2026/09/28/why-i-free-solo-el-capitan",
+    "https://www.eurogamer.net/blood-of-dawnwalker-budget-revealed",
+    "https://reason.com/volokh/2026/09/18/new-article-landor-v-louisiana-department-of-corrections-bringing-clarity-to-the-necessary-and-proper-clause/",
+    "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
   ],
   "categoryLog": [
-    "law",
     "gaming",
     "fun",
     "gaming",
@@ -66,7 +65,8 @@
     "law",
     "fun",
     "tech",
-    "law"
+    "law",
+    "fun"
   ],
   "failures": {}
 }
