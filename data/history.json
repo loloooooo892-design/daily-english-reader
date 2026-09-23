@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/podcast/in-the-dark/the-journey",
-    "https://reason.com/volokh/2026/09/15/distortion-by-omission-the-new-york-times-and-pro-palestine-demonstrations/",
-    "https://mistral.ai/news/mistral-x-mozilla/",
-    "https://www.rockpapershotgun.com/you-can-never-see-outside-of-yourself-the-house-before-is-a-body-horror-game-in-which-you-are-a-house-tunnelling-through-its-own-soul",
     "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/",
     "https://www.jurist.org/news/2026/09/thailand-and-cambodia-begin-un-backed-conciliation-process-over-conflicting-maritime-boundary-claims/",
     "https://longreads.com/2026/09/03/longreads-questionnaire-jon-ronson/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/grand-theft-auto/i-modded-crazy-taxi-into-grand-theft-auto-5/",
     "https://www.wired.com/story/dyson-wont-say-whats-wrong-with-the-camerajet-toothbrush/",
     "https://reason.com/volokh/2026/09/22/someone-trying-to-vanish-my-post-about-a-no-pseudonymity-decision/",
-    "https://www.newyorker.com/magazine/2026/09/28/inside-shaqs-league-of-dunkers"
+    "https://www.newyorker.com/magazine/2026/09/28/inside-shaqs-league-of-dunkers",
+    "https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/",
+    "https://www.rockpapershotgun.com/wardogs-presents-a-different-kind-of-fps-power-fantasy-making-fat-stacks-as-a-pacifist-rideshare-driver",
+    "https://www.newyorker.com/news/fault-lines/how-the-absence-of-shame-weakens-democracy",
+    "https://harvardlawreview.org/print/vol-139/exploring-the-limits-of-qualified-immunity-under-harlows-discretionary-function-test/"
   ],
   "categoryLog": [
-    "fun",
     "gaming",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "law",
     "fun",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }
