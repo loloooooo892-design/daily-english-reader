@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-09-23",
+    "slug": "2026-09-23-4",
+    "title": "Inside Shaq’s League of Dunkers",
+    "source": "The New Yorker",
+    "category": "fun",
+    "wordCount": 679
+  },
+  {
+    "date": "2026-09-23",
+    "slug": "2026-09-23-3",
+    "title": "Someone Trying to Vanish My Post About a No-Pseudonymity Decision",
+    "source": "The Volokh Conspiracy",
+    "category": "law",
+    "wordCount": 963
+  },
+  {
+    "date": "2026-09-23",
+    "slug": "2026-09-23-2",
+    "title": "Dyson Won’t Say What’s Wrong With Its CameraJet Toothbrush",
+    "source": "Wired",
+    "category": "tech",
+    "wordCount": 1003
+  },
+  {
+    "date": "2026-09-23",
+    "slug": "2026-09-23",
+    "title": "I modded Crazy Taxi into Grand Theft Auto 5",
+    "source": "PC Gamer",
+    "category": "gaming",
+    "wordCount": 512
+  },
+  {
     "date": "2026-09-22",
     "slug": "2026-09-22-4",
     "title": "Introducing GPT-6 Sol and Luna",

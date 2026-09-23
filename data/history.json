@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://reason.com/volokh/2026/09/16/defamation-via-songs-and-ai-generated-video-u-tenn-coachs-claim-can-go-forward/",
-    "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-    "https://www.eurogamer.net/untangling-my-response-to-how-ocarina-of-time-remake-looks",
-    "https://www.pcgamer.com/games/action/after-nearly-a-year-of-silence-following-its-last-minute-delay-kingmakers-resurfaces-with-an-extended-gameplay-video-and-new-playtest/",
     "https://www.newyorker.com/podcast/in-the-dark/the-journey",
     "https://reason.com/volokh/2026/09/15/distortion-by-omission-the-new-york-times-and-pro-palestine-demonstrations/",
     "https://mistral.ai/news/mistral-x-mozilla/",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/magazine/2026/09/28/why-i-free-solo-el-capitan",
     "https://www.eurogamer.net/blood-of-dawnwalker-budget-revealed",
     "https://reason.com/volokh/2026/09/18/new-article-landor-v-louisiana-department-of-corrections-bringing-clarity-to-the-necessary-and-proper-clause/",
-    "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+    "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "https://www.pcgamer.com/games/grand-theft-auto/i-modded-crazy-taxi-into-grand-theft-auto-5/",
+    "https://www.wired.com/story/dyson-wont-say-whats-wrong-with-the-camerajet-toothbrush/",
+    "https://reason.com/volokh/2026/09/22/someone-trying-to-vanish-my-post-about-a-no-pseudonymity-decision/",
+    "https://www.newyorker.com/magazine/2026/09/28/inside-shaqs-league-of-dunkers"
   ],
   "categoryLog": [
-    "gaming",
     "fun",
     "gaming",
     "gaming",
@@ -66,7 +65,8 @@
     "fun",
     "tech",
     "law",
-    "fun"
+    "fun",
+    "gaming"
   ],
   "failures": {}
 }

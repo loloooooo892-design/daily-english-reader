@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I modded Crazy Taxi into Grand Theft Auto 5 — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Gaming</span>
+    <span>PC Gamer</span>
+    <span class="sep">·</span><span>Joshua Wolens</span>
+    <span class="sep">·</span>
+    <span>512 words</span>
+    <span class="sep">·</span>
+    <span>3 min read</span>
+  </div>
+
+  <h1>I modded Crazy Taxi into Grand Theft Auto 5</h1>
+
+  <article class="article-body">
+    <p>Los Santos Customs</p><p>I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a href="https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/" target="_blank" rel="noopener">what I got up to earlier</a>.</p><p>Have you heard? <a href="https://www.pcgamer.com/games/racing/as-an-og-crazy-taxi-lover-its-new-remake-might-just-not-be-crazy-enough/" target="_blank" rel="noopener">Crazy Taxi is coming back</a>. As a game, yes (with some rather off-putting <a href="https://www.pcgamer.com/games/racing/the-new-crazy-taxi-has-a-generative-ai-disclosure-on-its-steam-page-and-people-are-not-happy/" target="_blank" rel="noopener">gen-AI mixed in</a> there), and also as <a href="https://www.pcgamer.com/movies-tv/segas-ongoing-effort-to-revive-crazy-taxi-now-appears-to-be-taking-the-form-of-a-movie/" target="_blank" rel="noopener">a movie</a>. You may have heard this. What you have not heard is that I, personally, am bringing Crazy Taxi back. I am bringing it back to Los Santos, to <a href="https://www.pcgamer.com/grand-theft-auto-5/" target="_blank" rel="noopener">Grand Theft Auto 5</a>.</p><p>Simply put, I have installed the aptly-named <a href="https://www.gta5-mods.com/scripts/crazy-taxi-mod" target="_blank" rel="noopener">Crazy Taxi Mod</a>, which has populated my doomed and bedraggled city with a new variety of quest: a taxi quest. A <em>crazy</em> taxi quest.</p><p>Approach a yellow circle and the game will prompt you to hit H. Hit H and you will enter a world of point-to-point transportation. The mod gives you a selection of cars, all yellow, and none of which I can remember because all the cars in my game are seized<a href="https://www.pcgamer.com/games/grand-theft-auto/i-turned-car-friction-off-in-gta-5-help/" target="_blank" rel="noopener"> by irresistible movement</a>, which means they immediately jet off the vehicle-select screen as soon as they appear.</p><p>An added consequence of this behaviour is that you have to choose a car quickly. The mod will teleport you into the one you've chosen, whatever its location. Wait too long, and the car you want to drive will have either taken flight or ploughed into the side of a building and exploded.</p><p>Regardless, once you're in, it's pure Crazy Taxi. You've got a time limit and the sidewalks have punters. Pick them up and your time limit extends. The goal is rapidity, to keep your pickups and dropoffs frequent enough that your time limit is actually <em>growing</em> in the aggregate, rather than depleting.</p><p>Or it would be, but my various fares keep getting scared off by the rolling gang war that Los Santos has, at this point, descended into. Or they get hit by cars, or shot by my bodyguards, or they have bad credit maybe. Who knows? Point is, they sometimes fail to actually get in the car, leaving me idling my big yellow taxi forlornly at the side of the road, eternally.</p><p>But aren't we all doing that in some way, when you think about it?</p><p>Keep up to date with the most important stories and the best deals, as picked by the PC Gamer team.</p>
+
+<p>One of Josh's first memories is of playing Quake 2 on the family computer when he was much too young to be doing that, and he's been irreparably game-brained ever since. His writing has been featured in Vice, Fanbyte, and the Financial Times. He'll play pretty much anything, and has written far too much on everything from visual novels to Assassin's Creed. His most profound loves are for CRPGs, immersive sims, and any game whose ambition outstrips its budget. He thinks you're all far too mean about Deus Ex: Invisible War.</p>
+  </article>
+
+  <footer class="footer">
+    <span>Wednesday, September 23, 2026</span>
+    <a href="https://www.pcgamer.com/games/grand-theft-auto/i-modded-crazy-taxi-into-grand-theft-auto-5/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>

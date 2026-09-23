@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inside Shaq’s League of Dunkers — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>679 words</span>
+    <span class="sep">·</span>
+    <span>4 min read</span>
+  </div>
+
+  <h1>Inside Shaq’s League of Dunkers</h1>
+
+  <article class="article-body">
+    <p>Shaquille O’Neal first messaged Mac McClung a decade ago, when McClung was a seventeen-year-old living in Gate City, Virginia, scoring sixty points in a game and doing reverse-windmill dunks over future accountants and insurance adjusters. O’Neal loved his swag. McClung didn’t get drafted out of college—he’s neither tall nor wide—but he has since played in a total of seventeen N.B.A. contests across four seasons and five teams. He fell into dunking. “The Dunk Contest was never something where I was, like, ‘That’s my goal,’ ” McClung said the other day, as a physical therapist dug into his hip flexors in the bowels of a Midtown Atlanta arena. “But it happened, and it’s been a beautiful thing.” McClung, who currently plays professional basketball in Spain, has won three N.B.A. Slam Dunk Contests, by jumping over a car, over two guys stacked on top of each other, and over Shaq himself. “For one of them, Shaq put on my high-school jersey,” he said. “At my high school, they have that picture hung up.”</p><p>This spring, O’Neal asked McClung, now a floppy-haired twenty-seven-year-old who writes poetry (he took inspiration from “The Vibrational Poetry Book” and the work of Greta Gerwig) to star in the first dunking league. “At first, I was kind of, like, ‘I don’t know if I could compete with these guys,’ ’’ McClung said, of the men who have abandoned basketball for its most spectacular component. There’s Cam Hazzard, an “Excel-sheet master” and a finance major at Abilene Christian University, who can do something called a 360 inverted East Bay (it’s impressive); Dengxing (Dunk) Chen, a five-foot-nine Chinese virtuoso with a fifty-two-inch vertical; and Isaiah (the Puerto Rican Airbender) Rivera, the only human to have completed a 360 behind-the-back-between-the-legs dunk.</p><p>“Then I started thinking of it like <em>O.K., what kind of ego is that</em>? Like, <em>Oh, are you afraid you’re going to lose</em>?” McClung said. Incidentally, the champion would win five hundred thousand dollars: five times what the N.B.A. pays its top dunker. McClung joined the Dunkman League.</p><p>For a dunker, McClung is nearing middle age. He stepped off the trainer’s table and grimaced. “Getting old, man,” he said, walking to a nearby court to play some one-on-one with Bradley Dean, a high-school buddy whom he uses as a human hurdle in dunk contests. (“A privilege,” Dean said.) Then they circled up with a dunking consultant to talk through the first dunk that McClung would attempt at the following day’s championship.</p><p>“Either the triple, the crystal, or the two-ball,” McClung said. He turned to Dean: “You come in, you throw that dime.” Dean nodded gravely.</p><p>Another idea: “So, what would happen if I did the 720 again?”</p><p>An awkward pause. “It still is a score where somebody has to do some real shit,” the consultant offered.</p><p>McClung considered the abilities of Chen, his first-round opponent. “He jumps from fucking half-court,” he said. “One thing I do love is trying to get everybody hyped up first. I love winning everybody over.” Twenty minutes later, pacing around the basket, he said, “I just forgot the whole plan.”</p><p>“Let Mac overthink,” the consultant said. “It’s a ritual.”</p><p>The following evening, the arena was heavy on Hazzard fans. O’Neal, graying and gargantuan, sat in the second row wearing a shirt with his name printed all over it. Asked about McClung, he said, “A little white kid who can do crazy shit. It’s a travesty he doesn’t have a spot on an N.B.A. team.” He shovelled a handful of popcorn into his mouth. “He’s No. 1 here.” McClung was nearby, listening to Justin Bieber and thinking through his first dunk.</p><p>The lights dimmed. Eight dunkers bounced out on bulging calves. Wearing a headband and a hard look, Chen took a breath and sailed over a man and two motorcycles. His translator pumped a fist. McClung, in peach-colored shoes, countered by jumping over a convertible with three friends inside. The judges gave Chen’s dunk the edge by two one-hundredths of a point. McClung bowed to his opponent and went to the locker room.</p>
+  </article>
+
+  <footer class="footer">
+    <span>Wednesday, September 23, 2026</span>
+    <a href="https://www.newyorker.com/magazine/2026/09/28/inside-shaqs-league-of-dunkers" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
