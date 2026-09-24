@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/",
-    "https://www.jurist.org/news/2026/09/thailand-and-cambodia-begin-un-backed-conciliation-process-over-conflicting-maritime-boundary-claims/",
-    "https://longreads.com/2026/09/03/longreads-questionnaire-jon-ronson/",
-    "https://will-keleher.com/posts/small-programming-tricks-matter/",
     "https://www.rockpapershotgun.com/the-king-is-watching-devs-are-making-the-crab-is-walking-this-journalist-is-writing",
     "https://longreads.com/2026/09/16/the-violent-feud-that-shocked-the-horse-world/",
     "https://reason.com/volokh/2026/09/15/doctor-political-candidate-has-standing-to-sue-over-medical-board-investigations-related-to-his-public-comments-about-the-covid-pandemic/",
@@ -50,11 +46,14 @@
     "https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/",
     "https://www.rockpapershotgun.com/wardogs-presents-a-different-kind-of-fps-power-fantasy-making-fat-stacks-as-a-pacifist-rideshare-driver",
     "https://www.newyorker.com/news/fault-lines/how-the-absence-of-shame-weakens-democracy",
-    "https://harvardlawreview.org/print/vol-139/exploring-the-limits-of-qualified-immunity-under-harlows-discretionary-function-test/"
+    "https://harvardlawreview.org/print/vol-139/exploring-the-limits-of-qualified-immunity-under-harlows-discretionary-function-test/",
+    "https://www.wired.com/story/bentley-wants-its-torcal-suv-to-break-the-curse-of-the-luxury-ev/",
+    "https://www.newyorker.com/magazine/2026/09/28/learning-to-yearn-with-georgia-oakley",
+    "https://www.rockpapershotgun.com/blizzard-say-battlenet-isnt-looking-to-fight-steam-and-epic-for-supermassive-storefront-supremacy-despite-recently-nabbing-the-witcher-3-and-cyberpunk-2077",
+    "https://reason.com/volokh/2026/09/19/when-youre-in-a-college-electrical-circuits-lab-better-follow-the-teachers-instructions/"
   ],
   "categoryLog": [
     "gaming",
-    "gaming",
     "tech",
     "gaming",
     "law",
@@ -66,6 +65,7 @@
     "law",
     "fun",
     "gaming",
+    "tech",
     "tech"
   ],
   "failures": {}
