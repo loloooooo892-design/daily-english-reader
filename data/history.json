@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/zoro-promo-code/",
-    "https://reason.com/volokh/2026/09/17/not-using-a-smartphone-burdens-others/",
-    "https://www.newyorker.com/news/the-lede/mail-in-voting-survives",
-    "https://www.scotusblog.com/2026/09/the-fundamental-confusions-of-federal-indian-law/",
     "https://www.newyorker.com/magazine/2026/09/21/paula-cole-doesnt-want-to-wait",
     "https://www.rockpapershotgun.com/european-commissions-proposed-eu-kids-act-could-see-online-games-forced-to-enact-stricter-age-verification-amid-new-rules-around-accounts-for-under-15s",
     "https://bend-lang.com/",
@@ -50,10 +46,13 @@
     "https://www.eurogamer.net/switch-2-sales-ocarina-of-time-just-the-beginning",
     "https://www.scotusblog.com/2026/09/the-decision-before-the-decision/",
     "https://www.wired.com/story/the-motley-fool-promo-code/",
-    "https://www.newyorker.com/news/the-lede/is-trumps-latest-press-attack-just-another-distraction"
+    "https://www.newyorker.com/news/the-lede/is-trumps-latest-press-attack-just-another-distraction",
+    "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
+    "https://www.eurogamer.net/hideo-kojima-physint-playstation-release-decima-engine",
+    "https://nautil.us/behold-crawzilla-the-not-quite-biggest-crayfish-ever-caught-1285273/",
+    "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/"
   ],
   "categoryLog": [
-    "tech",
     "gaming",
     "law",
     "gaming",
@@ -66,7 +65,8 @@
     "gaming",
     "tech",
     "tech",
-    "gaming"
+    "gaming",
+    "law"
   ],
   "failures": {}
 }
