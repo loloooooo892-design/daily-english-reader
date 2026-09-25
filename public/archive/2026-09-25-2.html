@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The decision before the decision — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Law</span>
+    <span>SCOTUSblog</span>
+    <span class="sep">·</span><span>Taraleigh Davis</span>
+    <span class="sep">·</span>
+    <span>1498 words</span>
+    <span class="sep">·</span>
+    <span>8 min read</span>
+  </div>
+
+  <h1>The decision before the decision</h1>
+
+  <article class="article-body">
+    <p>On Friday, Aug. 21, Chief Justice John Roberts issued an administrative, or temporary, stay, allowing construction to continue on the White House ballroom. The order put on hold a district court injunction that would have halted work by midnight, and it explained nothing, staying the injunction “pending further order.” Ten days later, the court <a href="https://www.scotusblog.com/2026/08/supreme-court-allows-construction-on-white-house-ballroom-to-continue/" target="_blank" rel="noopener">concluded</a> that the challengers to the ballroom likely lacked standing to sue. Roberts dissented, joined by the three Democratic-appointed justices. In other words, the justice who froze the injunction actually voted against the party he froze it for.</p><p>Explainers written that weekend told readers not to read anything into Roberts’ initial order. An administrative stay, <a href="https://time.com/article/2026/08/23/the-supreme-court-let-trumps-ballroom-proceed-for-now-heres-what-that-means/" target="_blank" rel="noopener">TIME wrote</a>, does not reflect a case’s outcome. ABC News <a href="https://abcnews.com/Politics/supreme-court-chief-justice-allows-construction-white-house/story?id=135846623" target="_blank" rel="noopener">described the order</a> as taking no position on the government's appeal. </p><p>That is the standard narrative, and it may be right. But it is an empirical claim, and as far as I can tell, nobody has tested it. So I did. The answer matters beyond the ballroom. An administrative stay decides what does (or doesn’t) happen while the Supreme Court makes up its mind, and it can be the first public sign of how seriously the court is taking an application.</p><p>So how often do the justices issue an administrative stay in a case before deciding it, and does this tell us anything about what comes next?</p><p><strong>The tools of the circuit justice</strong></p><p>When a party asks the Supreme Court for emergency relief, the application does not go to the full court. It goes to a single justice, the one assigned to the federal circuit the case comes from. Roberts <a href="https://www.scotusblog.com/2026/08/supreme-court-allows-construction-on-white-house-ballroom-to-continue/" target="_blank" rel="noopener">handles</a> the U.S. Court of Appeals for the D.C. Circuit, which is why the ballroom application landed on his desk on Aug. 13.</p><p>The circuit justice then has options. He or she can act on the application alone; if the justice denies it in chambers, as Justice Brett Kavanaugh did <a href="https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26a304.html" target="_blank" rel="noopener">recently</a>, the court’s rules let the applicant renew the application to any other justice. If they decide to refer the case to the full court, the circuit justice has two tools before doing so.</p><p>The first is a request for a response, an order directing the parties to file a response by a set date. (In the ballroom case, for example, Roberts requested a response by noon on Aug. 18.) And that might be the last thing parties hear from the court before its decision. Indeed, for much of the emergency docket’s history, the justices frequently ruled on an application with nothing before them but the applicant’s papers and the record below.</p><p>The second is the administrative stay, sometimes called a temporary stay: a short freeze of the lower-court order to preserve the status quo. In this case, the temporary stay issued by Roberts on Aug. 21 came hours before the D.C. Circuit's mandate would have halted the cranes.</p><p>Neither order contains reasoning or a legal test. When the full court decides whether to grant a stay, it asks whether it is likely to take up the case and reverse, and whether the parties will suffer irreparable harm in the meantime. No comparable standard governs when a circuit justice requests a response or issues a temporary stay, at least not one the court has announced. That is why the explainers above told readers to read nothing into Roberts’ order. But these orders get read as tea leaves anyway, because they are the only thing the court has said.</p><p>My dataset of emergency applications can help determine whether the tea leaves actually mean anything. The figures that follow cover 476 substantive applications resolved by the full court from the 2000-01 term through the 2024-25 term. They exclude execution-related applications, which follow their own rhythms, and refiled applications. (The ballroom case belongs to the current term and is not in these numbers. It will be in the new stat pack <em>coming next month!</em>)</p><p><strong>How often does this happen?</strong></p><p>Let’s start with the response request, which has quietly become the norm. By the mid-2010s the court requested a response in roughly three quarters of substantive emergency applications. In the 2023-24 term it did so a striking 98% of the time, and in the 2024-25 term, 93%. Nothing in the court’s rules requires this. The other side responds when the justice asks it to do so, and they now ask almost every time.</p><p>The administrative stay is a different story. Of the 476 applications, only 59 drew one, about 12%, with no clear trend over time. (The temporary stay also almost never travels alone: 53 of the 59 came alongside a request for a response.)</p><p>Applications that drew both orders took a median of 13 days to resolve; applications that drew neither took a median of two. The administrative stay thus manages things in the meantime by keeping the lower court order from taking effect while the Supreme Court hears from the other side.</p><p>That may sound like simple housekeeping. But deciding what stays in place during the wait is a real decision with real consequences. In the ballroom case, the injunction from the lower court would have stopped construction at midnight. Roberts’ temporary stay meant work continued for the 10 days it took the Supreme Court to decide on the emergency application. Some things, like a building going up, a person being removed from the country, or federal funds being spent, are hard to undo afterward.</p><p><strong>But do they predict anything?</strong></p><p>Applications that received an administrative stay obtained relief (their emergency request was granted) 54% of the time. Applications that did not obtained relief only 34% of the time. The odds of winning relief after a temporary stay were thus more than twice the odds without one.</p><p>I think it is worth asking whether something other than the temporary stay is producing that gap in grants of relief. There are two possibilities here. The first is timing. Response requests became routine over the same 25 years, so cases with temporary stays and those without might simply be drawn from different eras. Limiting the data to the 2015 term forward puts every application on the same footing, and the gap holds: 57% are successful with a freeze against 40% without. The second possibility is that the response request is the real tell. But, comparing only among applications where a response was requested, the temporary stay still separated the winners from the losers, 55% against 38%.</p><p>The temporary stay in a case also predicts how much the court will say. Applications with an administrative stay produced a written opinion 27% of the time; applications without one, 10%. (Dissent rates, for what it is worth, barely differed.)</p><p>The ballroom case fits the pattern: there was a temporary stay, a response requested, an application granted, and a written opinion issued. And Roberts’ own dissent supplies a caveat. The temporary stay tracked what the court did, not how the circuit justice voted. Nor is this unprecedented: Justice Samuel Alito froze both the <a href="https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/22a901.html" target="_blank" rel="noopener">mifepristone litigation</a> and <a href="https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/23a243.html" target="_blank" rel="noopener"><em>Murthy v. Missouri</em></a> in 2023, the court granted relief twice, and Alito dissented both times.</p><p><strong>Is this a Roberts thing?</strong></p><p>No. What follows are rates among applications presented to each justice, limited to justices with at least 15. (Three current justices, Neil Gorsuch, Ketanji Brown Jackson, and Amy Coney Barrett, do not yet have enough presented applications to include, a function of how recently they joined the court rather than anything about how they’ve ruled.)</p><p>Alito issued administrative stays in 23% of the applications presented to him, and Roberts in 16%. At the other end is Justice Elena Kagan at 3%, two temporary stays across 59 applications, the third-largest caseload in the data. Kagan requested responses in 92% of her applications, essentially Alito’s rate. The two justices use one tool the same and the other completely differently.</p><p>By subject matter, administrative stays clustered in cases about judicial power and due process. Judicial power cases carry the highest relief rate of any category, at 62%. Civil rights applications drew a temporary stay just 5% of the time across 94 applications.</p><p><strong>The takeaway</strong></p><p>The explainers noted above were right that an administrative stay is not a ruling on the merits, and it doesn’t tell you how the justice who issues one will vote, as Roberts’ own dissent shows. But it would be wrong to conclude that it tells you nothing. Over 25 terms, applicants who received a temporary stay went on to win relief more than half the time; applicants who did not won about a third.</p><p>Most of what we focus on and know about the emergency docket comes from its results: which applications the court grants, which it denies, and who dissents. But the docket contains more than outcomes. It records the steps the court takes to get there, and those steps in turn can reveal what is most likely to follow.</p><p><strong>Recommended Citation: </strong>Taraleigh Davis, <em>The decision before the decision</em>, SCOTUSblog (Sep. 23, 2026, 9:30 AM), https://www.scotusblog.com/2026/09/the-decision-before-the-decision/</p>
+  </article>
+
+  <footer class="footer">
+    <span>Friday, September 25, 2026</span>
+    <a href="https://www.scotusblog.com/2026/09/the-decision-before-the-decision/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>

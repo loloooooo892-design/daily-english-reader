@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.rockpapershotgun.com/the-king-is-watching-devs-are-making-the-crab-is-walking-this-journalist-is-writing",
-    "https://longreads.com/2026/09/16/the-violent-feud-that-shocked-the-horse-world/",
-    "https://reason.com/volokh/2026/09/15/doctor-political-candidate-has-standing-to-sue-over-medical-board-investigations-related-to-his-public-comments-about-the-covid-pandemic/",
-    "https://www.pcgamer.com/games/grand-theft-auto/the-pc-platform-is-becoming-more-and-more-important-take-two-chief-says-as-we-continue-to-wonder-when-were-going-to-get-gta-6/",
     "https://www.wired.com/story/zoro-promo-code/",
     "https://reason.com/volokh/2026/09/17/not-using-a-smartphone-burdens-others/",
     "https://www.newyorker.com/news/the-lede/mail-in-voting-survives",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/bentley-wants-its-torcal-suv-to-break-the-curse-of-the-luxury-ev/",
     "https://www.newyorker.com/magazine/2026/09/28/learning-to-yearn-with-georgia-oakley",
     "https://www.rockpapershotgun.com/blizzard-say-battlenet-isnt-looking-to-fight-steam-and-epic-for-supermassive-storefront-supremacy-despite-recently-nabbing-the-witcher-3-and-cyberpunk-2077",
-    "https://reason.com/volokh/2026/09/19/when-youre-in-a-college-electrical-circuits-lab-better-follow-the-teachers-instructions/"
+    "https://reason.com/volokh/2026/09/19/when-youre-in-a-college-electrical-circuits-lab-better-follow-the-teachers-instructions/",
+    "https://www.eurogamer.net/switch-2-sales-ocarina-of-time-just-the-beginning",
+    "https://www.scotusblog.com/2026/09/the-decision-before-the-decision/",
+    "https://www.wired.com/story/the-motley-fool-promo-code/",
+    "https://www.newyorker.com/news/the-lede/is-trumps-latest-press-attack-just-another-distraction"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "gaming",
     "law",
@@ -66,7 +65,8 @@
     "fun",
     "gaming",
     "tech",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }
