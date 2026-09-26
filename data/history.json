@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/humor/shouts-murmurs/arrangements-i-would-accept",
-    "https://reason.com/volokh/2026/09/16/use-of-flock-cameras-is-not-a-fourth-amendment-search-district-court-rules/",
-    "https://www.wired.com/story/nobel-prize-protein-design-now-using-ai-to-create-molecules-beyond-nature/",
-    "https://longreads.com/2026/09/07/on-tour-with-the-eclipse-chasers/",
     "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
     "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
     "https://www.pcgamer.com/gaming-industry/industry-vets-behind-dishonored-ultima-online-her-story-and-more-agree-the-games-industry-crisis-goes-beyond-games-ultimately-to-fix-whats-broken-in-the-videogame-industry-we-might-have-to-fix-reality/",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/magazine/2026/09/28/the-maltese-version-that-summers-end-berlin-before-and-after-jean-toomer",
     "https://www.rockpapershotgun.com/the-sunday-papers-828",
     "https://www.wired.com/story/tech-bros-dating-palantir-tesla/",
-    "https://www.jurist.org/news/2026/09/uk-anti-migrant-activist-arrested-for-suspected-criminal-damage-and-endangerment/"
+    "https://www.jurist.org/news/2026/09/uk-anti-migrant-activist-arrested-for-suspected-criminal-damage-and-endangerment/",
+    "https://ollaya.dev/",
+    "https://longreads.com/2026/09/16/the-violent-feud-that-shocked-the-horse-world/",
+    "https://www.rockpapershotgun.com/ahead-of-gta-6-rockstar-warn-modders-against-against-making-unofficial-main-story-expansions-unauthorised-ports-and-mods-that-combine-gta-maps",
+    "https://reason.com/volokh/2026/09/24/tro-issued-ordering-reinstatement-of-cnn-ms-now-and-politico-white-house-access/"
   ],
   "categoryLog": [
-    "law",
     "gaming",
     "fun",
     "law",
@@ -66,7 +65,8 @@
     "tech",
     "gaming",
     "law",
-    "fun"
+    "fun",
+    "tech"
   ],
   "failures": {}
 }
