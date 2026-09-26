@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/09/21/paula-cole-doesnt-want-to-wait",
-    "https://www.rockpapershotgun.com/european-commissions-proposed-eu-kids-act-could-see-online-games-forced-to-enact-stricter-age-verification-amid-new-rules-around-accounts-for-under-15s",
-    "https://bend-lang.com/",
-    "https://www.eurogamer.net/rockstar-employment-tribunal-fired-gta-6-employees-iwgb",
     "https://www.newyorker.com/humor/shouts-murmurs/arrangements-i-would-accept",
     "https://reason.com/volokh/2026/09/16/use-of-flock-cameras-is-not-a-fourth-amendment-search-district-court-rules/",
     "https://www.wired.com/story/nobel-prize-protein-design-now-using-ai-to-create-molecules-beyond-nature/",
@@ -50,10 +46,13 @@
     "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
     "https://www.eurogamer.net/hideo-kojima-physint-playstation-release-decima-engine",
     "https://nautil.us/behold-crawzilla-the-not-quite-biggest-crayfish-ever-caught-1285273/",
-    "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/"
+    "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
+    "https://www.newyorker.com/magazine/2026/09/28/the-maltese-version-that-summers-end-berlin-before-and-after-jean-toomer",
+    "https://www.rockpapershotgun.com/the-sunday-papers-828",
+    "https://www.wired.com/story/tech-bros-dating-palantir-tesla/",
+    "https://www.jurist.org/news/2026/09/uk-anti-migrant-activist-arrested-for-suspected-criminal-damage-and-endangerment/"
   ],
   "categoryLog": [
-    "gaming",
     "law",
     "gaming",
     "fun",
@@ -66,7 +65,8 @@
     "tech",
     "tech",
     "gaming",
-    "law"
+    "law",
+    "fun"
   ],
   "failures": {}
 }

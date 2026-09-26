@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefly Noted Book Reviews — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>575 words</span>
+    <span class="sep">·</span>
+    <span>3 min read</span>
+  </div>
+
+  <h1>Briefly Noted Book Reviews</h1>
+
+  <article class="article-body">
+    <p><a href="https://www.newyorker.com/magazine/2026/09/28/the-maltese-version-that-summers-end-berlin-before-and-after-jean-toomer#main-content" target="_blank" rel="noopener">Skip to main content</a></p><a href="https://www.newyorker.com/" target="_blank" rel="noopener"></a><ul><li><a href="https://www.newyorker.com/newsletters?sourceCode=navbar" target="_blank" rel="noopener">Newsletter</a></li></ul><ul><li><a href="https://www.newyorker.com/latest" target="_blank" rel="noopener">The Latest</a></li><li><a href="https://www.newyorker.com/news" target="_blank" rel="noopener">News</a></li><li><a href="https://www.newyorker.com/culture" target="_blank" rel="noopener">Books &amp; Culture</a></li><li><a href="https://www.newyorker.com/fiction-and-poetry" target="_blank" rel="noopener">Fiction &amp; Poetry</a></li><li><a href="https://www.newyorker.com/humor" target="_blank" rel="noopener">Humor &amp; Cartoons</a></li><li><a href="https://www.newyorker.com/archive" target="_blank" rel="noopener">Magazine</a></li><li><a href="https://www.newyorker.com/crossword-puzzles-and-games" target="_blank" rel="noopener">Puzzles &amp; Games</a></li><li><a href="https://www.newyorker.com/video" target="_blank" rel="noopener">Video</a></li><li><a href="https://www.newyorker.com/podcasts" target="_blank" rel="noopener">Podcasts</a></li><li><a href="https://www.newyorker.com/goings-on" target="_blank" rel="noopener">Goings On</a></li><li><a href="https://store.newyorker.com/" target="_blank" rel="noopener">Shop</a></li><li><a href="https://festival.newyorker.com/" target="_blank" rel="noopener">Festival</a></li></ul><a href="https://www.newyorker.com/" target="_blank" rel="noopener"></a><p>“The Maltese Version,” “That Summer’s End,” “Berlin Before and After,” and “Jean Toomer.”</p><p>September 21, 2026</p><p><a href="https://www.amazon.com/dp/B0FR68F3FN" target="_blank" rel="noopener"><strong>The Maltese Version</strong></a><em>, by Katy Simpson Smith (Farrar, Straus &amp; Giroux)</em>. The timeworn saying about there being two sides to every story gains new dimension in this probing novel, which posits that “two sides means there are two stories.” Here, readers are presented with four sides, each belonging to a different woman connected to the same man: Max, a literary translator. One of the women, Max’s mentor, Herschel, induces him to go to Malta, to work on a collection by a local poet, Ana. When his girlfriend, Leonie, can’t get ahold of him, she deploys her friend Rhoda to investigate. As their lives intersect, Smith asks, How do we make meaning, and how do we convey it?</p><p><a href="https://www.amazon.com/dp/0593804031" target="_blank" rel="noopener"><strong>That Summer’s End</strong></a><em>, by Lee Seong-bok, translated from the Korean by Anton Hur (Knopf)</em>. Nature, loss, and longing inspire these quiet verses, which conjure a sense of the immense mysteries governing the observable world. “How do feelings come / a bough first blossoms,” the book’s opening poem, “Feeling,” begins. “Is that how feelings come / a bough first drops its blossoms / Is that how feelings fall.” Lee’s lines have the intimacy and metaphysical heft of prayer; their elegant recursions and repetitions call to mind the cycles of life, death, and rebirth. Many of his poems are titled simply, in reference to the people, objects, animals, and abstractions on which he trains his attention—“Sea,” “Mountain,” “Cat,” “Child.” Throughout, Lee’s invocations imbue his subjects with an air of divinity.</p><h2><a href="https://www.newyorker.com/best-books-2026" target="_blank" rel="noopener">What We’re Reading</a></h2><p><em>Discover notable new fiction, nonfiction, and poetry.</em></p><p><a href="https://www.amazon.com/dp/B0GYFVCTGY" target="_blank" rel="noopener"><strong>Berlin Before and After</strong></a><em>, by Wendy Lesser (Harper)</em>. This adoring tribute to Berlin considers the city’s history as a “cautionary mirror” for the present. Lesser, as a secular Jew born in California in the shadow of the Second World War, confesses to having once possessed an “ingrained distaste” for Germany. Yet when she began travelling there, in 2003, she developed an intense fondness for its capital. As her narrative moves from the vivid cultural ferment of the Weimar Republic to the era of Berlin’s division and on to today, it touches on figures such as Bertolt Brecht, Gerhard Richter, and Jenny Erpenbeck, and examines how Germany has memorialized the crimes perpetrated by the Nazis and the German Democratic Republic. Ultimately, Lesser’s goal is to show what other cultures can learn from the fact that, there, “the desire to wipe out the disparaged past did not prevail.”</p><p><a href="https://www.amazon.com/dp/0300267738" target="_blank" rel="noopener"><strong>Jean Toomer</strong></a><em>, by George Hutchinson (Yale)</em>. This illuminating biography focusses on the Harlem Renaissance writer, best known for the experimental work “Cane,” from 1923, which has since become a highlight of modernist and African American literature. As Hutchinson makes clear, Toomer had a complex relationship to Blackness; his grandfather was the mixed-race son of an enslaved woman—a heritage that Toomer embraced, before pretending ignorance of it. He also rejected the overtly racialized way that his work was categorized, a view that sprang from his belief that all people belong to the same “basic human stock,” and that, as Hutchinson writes, “the so-called separate races were products of false labeling.”</p><ul><li><p>Parents disagreed on whether to vaccinate their children. Then the kids <a href="https://www.newyorker.com/magazine/2026/09/07/the-maha-custody-battle" target="_blank" rel="noopener">got sick</a>.</p></li></ul>
+  </article>
+
+  <footer class="footer">
+    <span>Saturday, September 26, 2026</span>
+    <a href="https://www.newyorker.com/magazine/2026/09/28/the-maltese-version-that-summers-end-berlin-before-and-after-jean-toomer" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
