@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
-    "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
-    "https://www.pcgamer.com/gaming-industry/industry-vets-behind-dishonored-ultima-online-her-story-and-more-agree-the-games-industry-crisis-goes-beyond-games-ultimately-to-fix-whats-broken-in-the-videogame-industry-we-might-have-to-fix-reality/",
-    "https://www.jurist.org/news/2026/09/un-experts-belarus-weaponized-criminal-justice-system-against-government-dissent/",
     "https://nautil.us/is-this-massive-new-study-on-the-benefits-of-whole-grains-part-of-the-war-on-protein-rfk-jr-is-ending-1285119/",
     "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5",
     "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
@@ -50,10 +46,13 @@
     "https://ollaya.dev/",
     "https://longreads.com/2026/09/16/the-violent-feud-that-shocked-the-horse-world/",
     "https://www.rockpapershotgun.com/ahead-of-gta-6-rockstar-warn-modders-against-against-making-unofficial-main-story-expansions-unauthorised-ports-and-mods-that-combine-gta-maps",
-    "https://reason.com/volokh/2026/09/24/tro-issued-ordering-reinstatement-of-cnn-ms-now-and-politico-white-house-access/"
+    "https://reason.com/volokh/2026/09/24/tro-issued-ordering-reinstatement-of-cnn-ms-now-and-politico-white-house-access/",
+    "https://www.newyorker.com/magazine/2026/10/05/gut-renos-of-ionesco-and-chekhov",
+    "https://reason.com/volokh/2026/09/24/because-kbj-denied-administrative-stay-in-third-country-removal-case-the-application-should-be-referred-to-the-full-court-now/",
+    "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+    "https://www.rockpapershotgun.com/the-sunday-papers-827"
   ],
   "categoryLog": [
-    "gaming",
     "fun",
     "law",
     "fun",
@@ -66,7 +65,8 @@
     "gaming",
     "law",
     "fun",
-    "tech"
+    "tech",
+    "fun"
   ],
   "failures": {}
 }
