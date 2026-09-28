@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/ebay-coupon-code/",
-    "https://reason.com/volokh/2026/09/16/federal-judge-refers-philly-da-to-department-of-justice-for-potential-prosecution/",
-    "https://www.pcgamer.com/games/action/marked-for-mayhem-is-a-4-player-dungeon-crawler-that-wants-you-to-try-to-win-as-a-team-while-also-beating-all-your-teammates-as-a-player-good-luck/",
-    "https://www.wired.com/story/adopt-this-data-center-plushie-and-hear-its-piercing-scream/",
     "https://reason.com/volokh/2026/09/16/the-anti-nazi-law/",
     "https://www.eurogamer.net/runescape-generative-ai-clone-taken-down",
     "https://www.newyorker.com/books/what-were-reading/the-new-yorkers-coverage-of-the-2026-national-book-award-fiction-nominees",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/reebok-discount-code/",
     "https://www.newyorker.com/magazine/2026/09/28/the-return-of-salt",
     "https://reason.com/volokh/2026/09/26/may-president-trump-exclude-cnn-from-air-force-one-very-likely-yes/",
-    "https://www.rockpapershotgun.com/the-sunday-papers-829"
+    "https://www.rockpapershotgun.com/the-sunday-papers-829",
+    "https://www.wired.com/story/ovary-activity-after-menopause/",
+    "https://www.scotusblog.com/2026/09/for-the-third-time-supreme-court-declines-to-allow-missouri-to-use-congressional-map-expected-to/",
+    "https://www.newyorker.com/culture/photo-booth/the-teen-portraits-that-captivated-sofia-coppola",
+    "https://www.eurogamer.net/new-gta-5-leak-rockstar-liberty-city-dlc-early-gta-6"
   ],
   "categoryLog": [
-    "law",
     "fun",
     "tech",
     "law",
@@ -66,6 +65,7 @@
     "fun",
     "tech",
     "fun",
+    "tech",
     "tech"
   ],
   "failures": {}
