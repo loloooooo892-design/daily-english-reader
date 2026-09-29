@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.eurogamer.net/blood-of-dawnwalker-budget-revealed",
-    "https://reason.com/volokh/2026/09/18/new-article-landor-v-louisiana-department-of-corrections-bringing-clarity-to-the-necessary-and-proper-clause/",
-    "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-    "https://www.pcgamer.com/games/grand-theft-auto/i-modded-crazy-taxi-into-grand-theft-auto-5/",
     "https://www.wired.com/story/dyson-wont-say-whats-wrong-with-the-camerajet-toothbrush/",
     "https://reason.com/volokh/2026/09/22/someone-trying-to-vanish-my-post-about-a-no-pseudonymity-decision/",
     "https://www.newyorker.com/magazine/2026/09/28/inside-shaqs-league-of-dunkers",
@@ -50,10 +46,13 @@
     "https://www.scotusblog.com/2026/09/trump-administration-takes-important-immigration-question-back-to-the-supreme-court/",
     "https://www.newyorker.com/magazine/2026/10/05/more-sunshine-with-joey-arias-and-basil-twist",
     "https://www.eurogamer.net/call-of-duty-warzone-skin-toggle-modern-warfare-4",
-    "https://techcrunch.com/2026/09/28/tesla-delays-roadster-2-event-again-due-to-bad-weather/"
+    "https://techcrunch.com/2026/09/28/tesla-delays-roadster-2-event-again-due-to-bad-weather/",
+    "https://www.wired.com/story/shark-air-purifier-deal-october-2026/",
+    "https://reason.com/volokh/2026/09/25/anthropics-supply-chain-risk-designation-stemmed-from-its-refusing-to-agree-to-contract-terms-not-its-speech/",
+    "https://www.rockpapershotgun.com/prebuilt-steam-machine-faceplate-screens-are-here-delivering-decent-surprisingly-cheaper-alternatives-to-valve-approved-diy-builds",
+    "https://www.newyorker.com/magazine/2026/10/05/the-president-vs-the-press"
   ],
   "categoryLog": [
-    "law",
     "fun",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "tech",
     "gaming",
-    "law"
+    "law",
+    "tech"
   ],
   "failures": {}
 }
