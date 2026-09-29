@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://longreads.com/2026/09/09/queen-freddie-mercury-mary-austin/",
-    "https://www.pcgamer.com/games/sim/we-just-saw-a-big-chunk-of-thief-remastered-gameplay-and-im-more-desperate-than-ever-to-play/",
-    "https://www.wired.com/story/justice-for-css/",
-    "https://www.newyorker.com/magazine/2026/09/28/why-i-free-solo-el-capitan",
     "https://www.eurogamer.net/blood-of-dawnwalker-budget-revealed",
     "https://reason.com/volokh/2026/09/18/new-article-landor-v-louisiana-department-of-corrections-bringing-clarity-to-the-necessary-and-proper-clause/",
     "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/the-elder-scrolls/former-elder-scrolls-writer-kurt-kuhlmann-is-100-percent-convinced-a-load-bearing-bit-of-series-lore-was-inspired-by-a-typo/",
     "https://nautil.us/how-fast-you-age-during-40s-may-predict-memory-lapses-in-your-50s-1285315/",
     "https://www.scotusblog.com/2026/09/some-lessons-of-open-minded-discourse-on-the-supreme-court/",
-    "https://www.wired.com/story/best-apple-watch/"
+    "https://www.wired.com/story/best-apple-watch/",
+    "https://www.scotusblog.com/2026/09/trump-administration-takes-important-immigration-question-back-to-the-supreme-court/",
+    "https://www.newyorker.com/magazine/2026/10/05/more-sunshine-with-joey-arias-and-basil-twist",
+    "https://www.eurogamer.net/call-of-duty-warzone-skin-toggle-modern-warfare-4",
+    "https://techcrunch.com/2026/09/28/tesla-delays-roadster-2-event-again-due-to-bad-weather/"
   ],
   "categoryLog": [
-    "tech",
     "law",
     "fun",
     "gaming",
@@ -66,7 +65,8 @@
     "fun",
     "tech",
     "tech",
-    "gaming"
+    "gaming",
+    "law"
   ],
   "failures": {}
 }
