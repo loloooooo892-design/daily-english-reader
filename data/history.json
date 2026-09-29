@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://reason.com/volokh/2026/09/16/the-anti-nazi-law/",
-    "https://www.eurogamer.net/runescape-generative-ai-clone-taken-down",
-    "https://www.newyorker.com/books/what-were-reading/the-new-yorkers-coverage-of-the-2026-national-book-award-fiction-nominees",
-    "https://reason.com/volokh/2026/09/17/the-1940s-a-systematic-avalanche-of-falsehoods/",
     "https://longreads.com/2026/09/09/queen-freddie-mercury-mary-austin/",
     "https://www.pcgamer.com/games/sim/we-just-saw-a-big-chunk-of-thief-remastered-gameplay-and-im-more-desperate-than-ever-to-play/",
     "https://www.wired.com/story/justice-for-css/",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/ovary-activity-after-menopause/",
     "https://www.scotusblog.com/2026/09/for-the-third-time-supreme-court-declines-to-allow-missouri-to-use-congressional-map-expected-to/",
     "https://www.newyorker.com/culture/photo-booth/the-teen-portraits-that-captivated-sofia-coppola",
-    "https://www.eurogamer.net/new-gta-5-leak-rockstar-liberty-city-dlc-early-gta-6"
+    "https://www.eurogamer.net/new-gta-5-leak-rockstar-liberty-city-dlc-early-gta-6",
+    "https://www.pcgamer.com/games/the-elder-scrolls/former-elder-scrolls-writer-kurt-kuhlmann-is-100-percent-convinced-a-load-bearing-bit-of-series-lore-was-inspired-by-a-typo/",
+    "https://nautil.us/how-fast-you-age-during-40s-may-predict-memory-lapses-in-your-50s-1285315/",
+    "https://www.scotusblog.com/2026/09/some-lessons-of-open-minded-discourse-on-the-supreme-court/",
+    "https://www.wired.com/story/best-apple-watch/"
   ],
   "categoryLog": [
-    "fun",
     "tech",
     "law",
     "fun",
@@ -66,7 +65,8 @@
     "tech",
     "fun",
     "tech",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }
