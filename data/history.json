@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/dyson-wont-say-whats-wrong-with-the-camerajet-toothbrush/",
-    "https://reason.com/volokh/2026/09/22/someone-trying-to-vanish-my-post-about-a-no-pseudonymity-decision/",
-    "https://www.newyorker.com/magazine/2026/09/28/inside-shaqs-league-of-dunkers",
-    "https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/",
     "https://www.rockpapershotgun.com/wardogs-presents-a-different-kind-of-fps-power-fantasy-making-fat-stacks-as-a-pacifist-rideshare-driver",
     "https://www.newyorker.com/news/fault-lines/how-the-absence-of-shame-weakens-democracy",
     "https://harvardlawreview.org/print/vol-139/exploring-the-limits-of-qualified-immunity-under-harlows-discretionary-function-test/",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/shark-air-purifier-deal-october-2026/",
     "https://reason.com/volokh/2026/09/25/anthropics-supply-chain-risk-designation-stemmed-from-its-refusing-to-agree-to-contract-terms-not-its-speech/",
     "https://www.rockpapershotgun.com/prebuilt-steam-machine-faceplate-screens-are-here-delivering-decent-surprisingly-cheaper-alternatives-to-valve-approved-diy-builds",
-    "https://www.newyorker.com/magazine/2026/10/05/the-president-vs-the-press"
+    "https://www.newyorker.com/magazine/2026/10/05/the-president-vs-the-press",
+    "https://www.eurogamer.net/bioware-co-founder-greg-zeschuk-closure-interview",
+    "https://harvardlawreview.org/print/vol-139/remedies-for-a-constitutional-crisis/",
+    "https://www.newyorker.com/culture/gift-guides/tech-gifts-that-wont-rot-their-brains",
+    "https://smsofdeath.com/"
   ],
   "categoryLog": [
-    "fun",
     "gaming",
     "tech",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "gaming",
     "law",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }
