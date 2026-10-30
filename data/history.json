@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.scotusblog.com/2026/09/the-decision-before-the-decision/",
-    "https://www.wired.com/story/the-motley-fool-promo-code/",
-    "https://www.newyorker.com/news/the-lede/is-trumps-latest-press-attack-just-another-distraction",
-    "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
     "https://www.eurogamer.net/hideo-kojima-physint-playstation-release-decima-engine",
     "https://nautil.us/behold-crawzilla-the-not-quite-biggest-crayfish-ever-caught-1285273/",
     "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
@@ -50,10 +46,13 @@
     "https://www.pcgamer.com/games/grand-theft-auto/i-feel-like-weve-built-a-pyramid-on-everest-says-rockstar-of-gta-6-meeting-impossible-expectations/",
     "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
     "https://nautil.us/your-cells-keep-a-record-of-every-workout-youve-ever-done-1286173/",
-    "https://reason.com/volokh/2026/10/26/bob-woodward-reveals-he-spoke-with-justices-stewart-powell-white-blackmun-and-rehnquist-for-the-brethren/"
+    "https://reason.com/volokh/2026/10/26/bob-woodward-reveals-he-spoke-with-justices-stewart-powell-white-blackmun-and-rehnquist-for-the-brethren/",
+    "https://reason.com/volokh/2026/10/27/hasan-piker-sues-scott-jennings/",
+    "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+    "https://www.eurogamer.net/tenebris-somnia-horror-game-fmv-live-action-faith",
+    "https://www.newyorker.com/culture/the-front-row/queen-at-sea-confronts-old-age-with-bitter-empathy"
   ],
   "categoryLog": [
-    "tech",
     "gaming",
     "law",
     "fun",
@@ -66,7 +65,8 @@
     "tech",
     "gaming",
     "fun",
-    "gaming"
+    "gaming",
+    "law"
   ],
   "failures": {}
 }
