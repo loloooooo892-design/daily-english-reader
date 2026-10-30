@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/09/28/learning-to-yearn-with-georgia-oakley",
-    "https://www.rockpapershotgun.com/blizzard-say-battlenet-isnt-looking-to-fight-steam-and-epic-for-supermassive-storefront-supremacy-despite-recently-nabbing-the-witcher-3-and-cyberpunk-2077",
-    "https://reason.com/volokh/2026/09/19/when-youre-in-a-college-electrical-circuits-lab-better-follow-the-teachers-instructions/",
-    "https://www.eurogamer.net/switch-2-sales-ocarina-of-time-just-the-beginning",
     "https://www.scotusblog.com/2026/09/the-decision-before-the-decision/",
     "https://www.wired.com/story/the-motley-fool-promo-code/",
     "https://www.newyorker.com/news/the-lede/is-trumps-latest-press-attack-just-another-distraction",
@@ -50,11 +46,14 @@
     "https://www.newyorker.com/humor/shouts-murmurs/race-to-the-bottom-great-moments-in-the-history-of-leaders-talking-about-asses",
     "https://www.pcgamer.com/games/call-of-duty/modern-warfare-4s-newest-map-is-actually-older-than-the-gen-z-and-alpha-teens-who-will-play-it/",
     "https://reason.com/volokh/2026/10/29/the-law-and-democrats-allegedly-recruiting-second-dan-sullivan-to-run-in-alaska-senate-race/",
-    "https://www.wired.com/story/pura-promo-code/"
+    "https://www.wired.com/story/pura-promo-code/",
+    "https://www.pcgamer.com/games/grand-theft-auto/i-feel-like-weve-built-a-pyramid-on-everest-says-rockstar-of-gta-6-meeting-impossible-expectations/",
+    "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
+    "https://nautil.us/your-cells-keep-a-record-of-every-workout-youve-ever-done-1286173/",
+    "https://reason.com/volokh/2026/10/26/bob-woodward-reveals-he-spoke-with-justices-stewart-powell-white-blackmun-and-rehnquist-for-the-brethren/"
   ],
   "categoryLog": [
     "tech",
-    "tech",
     "gaming",
     "law",
     "fun",
@@ -66,7 +65,8 @@
     "law",
     "tech",
     "gaming",
-    "fun"
+    "fun",
+    "gaming"
   ],
   "failures": {}
 }

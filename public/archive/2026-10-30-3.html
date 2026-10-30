@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Cells Keep a Record of Every Workout You’ve Ever Done - Nautilus — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>Nautilus</span>
+    
+    <span class="sep">·</span>
+    <span>1062 words</span>
+    <span class="sep">·</span>
+    <span>6 min read</span>
+  </div>
+
+  <h1>Your Cells Keep a Record of Every Workout You’ve Ever Done - Nautilus</h1>
+
+  <article class="article-body">
+    <p>Have you ever taken months off training—maybe due to an injury, a new baby, or crushing work deadlines—and come back convinced you were starting from zero?</p><p>Research from <a href="https://publish.illinois.edu/hernandez-saavedra/" target="_blank" rel="noopener">our team</a> has some good news: At the cellular level, you probably weren’t.</p><p>We found that muscle and liver cells <a href="https://doi.org/10.1152/ajpcell.00451.2025" target="_blank" rel="noopener">store memories from</a> <a href="https://doi.org/10.1016/j.molmet.2026.102418" target="_blank" rel="noopener">every training session</a> in ways that may help improve endurance, control blood sugar levels, and even slow weight regain after inactivity.</p><h2>Use it or lose it? Maybe not</h2><p>For most of the past century, long before fad diets and fancy workout trends took off, exercise was considered one of the <a href="https://doi.org/10.1001/jama.2018.14854" target="_blank" rel="noopener">most effective lifestyle changes</a> to lower the risk of heart disease, Type 2 diabetes, several cancers and early death for people of all ages. But people typically understood exercise as something whose beneficial effects fade away over time: You use it or lose it.</p><p>When you stop training, your maximum oxygen uptake, muscle gains and insulin sensitivity <a href="https://doi.org/10.3389/fphys.2023.1334766" target="_blank" rel="noopener">drift back to where they started</a>, often within weeks. <a href="https://odphp.health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines/current-guidelines" target="_blank" rel="noopener">Physical activity guidelines</a> are built on this fact, which is why they emphasize consistency above all else.</p><p>Consistency, however, is a luxury that roughly <a href="http://dx.doi.org/10.15585/mmwr.mm7204a1" target="_blank" rel="noopener">3 in 4 American adults aren’t able to enjoy</a>. People can experience injuries, illness, pregnancy or jobs that limit their time for or ability to exercise. If adaptation really resets, every time you step into the gym would be as if you’ve never been there before. But that scenario doesn’t match what coaches and returning athletes typically describe: In practice, people who have trained before can <a href="https://doi.org/10.1038/s41598-018-20287-3" target="_blank" rel="noopener">get fit again faster</a> than those who haven’t undergone similar training.</p><p>In recent years, however, scientists have started challenging the concept of “use it or lose it.” New research hints that your cells might <a href="https://doi.org/10.1152/ajpcell.00423.2024" target="_blank" rel="noopener">keep a record of your training history</a> so all of your gains are not completely lost.</p><h2>More than muscle</h2><p><a href="https://www.researchgate.net/profile/Yi-Heng-Huang" target="_blank" rel="noopener">We are</a> <a href="https://scholar.google.com/citations?hl=en&amp;user=Gv0CkeMAAAAJ" target="_blank" rel="noopener">exercise physiologists</a> who study how cells remember exercise. <a href="https://publish.illinois.edu/hernandez-saavedra/" target="_blank" rel="noopener">Our lab</a> and others have shown that the body is able to store a form of exercise memory across different organs.</p><p>To study how this exercise memory works, our team of researchers use an <a href="https://doi.org/10.1002/jcsm.12617" target="_blank" rel="noopener">ON-OFF-ON exercise training protocol</a> in mice, which involves an initial four- to eight-week training period, followed by detraining—a period of no exercise—and a second training bout. This method allows us to examine how cells form a memory of exercise, maintain a record of exercise through detraining, and recall memories of prior training when exposed again to exercise.</p><p>Using this strategy, our team found that <a href="https://doi.org/10.1152/ajpcell.00451.2025" target="_blank" rel="noopener">skeletal muscle memory accelerates muscle growth</a>. Compared to mice with no training history, mice who retrained grew bigger muscles, and the individual muscle fibers inside those muscles grew too. Larger muscle fibers meant that the working cells were themselves getting bigger, rather than the surrounding tissue.</p><p>Looking more closely at these muscle cells, we found that retrained muscle is <a href="https://doi.org/10.1152/ajpcell.00451.2025" target="_blank" rel="noopener">better at matching energy production to demand</a>—meaning, the muscles were better at drawing from energy stores when it’s needed most—and this ability persists without further exercise. This memory held even when the mice ate a high-fat diet, suggesting that prior training can still offer benefits even when diet is working against those gains.</p><p>Muscle isn’t the only body part that learns from exercise. Working muscle needs fuel, and the liver supplies it during and after training sessions.</p><p>My colleagues and I found that <a href="https://doi.org/10.1016/j.molmet.2026.102418" target="_blank" rel="noopener">liver cells also store exercise memory</a> and uses it to feed muscle more efficiently. In both mice and people who trained, stopped, then trained again, their livers released higher levels of a family of <a href="https://doi.org/10.1007/s13238-017-0437-z" target="_blank" rel="noopener">enzymes called carboxylesterases</a>. These enzymes chop up lipids circulating in the blood, delivering fat in a form that muscle can take up and burn as it grows.</p><h2>A record that outlives you</h2><p>Recorded cellular memories of exercise may even be passed down to future generations.</p><p>In mice, we found that three to four weeks of maternal and paternal endurance exercise can <a href="https://doi.org/10.2337/db22-0341" target="_blank" rel="noopener">have a lasting effect on their offspring</a>. Compared to offspring born to sedentary parents, parental exercise granted protection against poor blood sugar levels and excess weight gain for an entire year after birth.</p><p>Researchers have hypothesized numerous ways that prenatal exercise may affect offspring. For example, maternal exercise might allow offspring to <a href="https://doi.org/10.1016/j.cmet.2021.03.004" target="_blank" rel="noopener">spend more time developing in the womb</a> or lead parents to <a href="https://doi.org/10.1186/s13006-026-00857-2" target="_blank" rel="noopener">producer higher quality milk</a>.</p><p>But there remains much to be discovered on how parents influence the health of their children and whether their lifestyle could provide a fitness advantage across generations.</p><h2>Every cell remembers</h2><p>Biology has traditionally granted memory to a short list of cells. <a href="https://theconversation.com/where-are-memories-stored-in-the-brain-new-research-suggests-they-may-be-in-the-connections-between-your-brain-cells-174578" target="_blank" rel="noopener">Neurons store memory</a> in the connections between them. <a href="https://theconversation.com/immune-cells-can-adapt-to-invading-pathogens-deciding-whether-to-fight-now-or-prepare-for-the-next-battle-223523" target="_blank" rel="noopener">Immune cells store memory</a> so they can recognize pathogens faster and more strongly the next time they encounter them.</p><p>Researchers previously <a href="https://doi.org/10.1038/s41586-022-04919-3" target="_blank" rel="noopener">considered all other cells to be memoryless</a>; a cell responds to a signal, then returns to baseline without keeping a record of that interaction. But that assumption is now coming apart.</p><p><a href="https://doi.org/10.1038/nature24271" target="_blank" rel="noopener">Skin stem cells</a> can keep a record of inflammation, allowing them to heal a new wound faster months later. <a href="https://doi.org/10.1038/s41586-024-08165-7" target="_blank" rel="noopener">Human fat cells</a> keep a record of obesity that persists even after substantial weight loss, which may account for why you gain weight faster when switching back to a high-calorie diet—the so-called <a href="https://theconversation.com/is-yo-yo-dieting-bad-for-you-heres-what-the-latest-research-shows-278932" target="_blank" rel="noopener">yo-yo effect</a>.</p><p>We propose that every cell in the body remembers exercise, regardless of how little or how much someone trains. The question is how long these records are stored and whether researchers could prolong or expand each cell’s storage capacity. Better understanding of how cells learn and remember exercise, where they store memories and how those memories are preserved could help improve exercise guidelines for those who cannot exercise for prolonged or consistent periods of time.</p><p>To be clear, none of these findings are evidence for skipping the gym; nothing in our data suggests the effects of past training can substitute for present training. But there is hope that the work you put into getting in shape isn’t completely lost over time.</p><p>Somewhere, deep in your cells, there is a record waiting to be replayed the next time you lace up your running shoes, pick up a pair of dumbbells or want to fulfill a New Year’s resolution. </p><p><em>This article is republished from </em><a href="https://theconversation.com/your-cells-keep-a-record-of-every-workout-youve-ever-done-and-those-gains-persist-even-after-a-break-from-exercise-291243" target="_blank" rel="noopener">The Conversation</a><em> under a Creative Commons license. Read the <a href="https://theconversation.com/your-cells-keep-a-record-of-every-workout-youve-ever-done-and-those-gains-persist-even-after-a-break-from-exercise-291243" target="_blank" rel="noopener">original article</a>.</em></p><p><em>Lead image: Shutterstock</em></p>
+  </article>
+
+  <footer class="footer">
+    <span>Friday, October 30, 2026</span>
+    <a href="https://nautil.us/your-cells-keep-a-record-of-every-workout-youve-ever-done-1286173/" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
