@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.rockpapershotgun.com/the-sunday-papers-828",
-    "https://www.wired.com/story/tech-bros-dating-palantir-tesla/",
-    "https://www.jurist.org/news/2026/09/uk-anti-migrant-activist-arrested-for-suspected-criminal-damage-and-endangerment/",
-    "https://ollaya.dev/",
     "https://longreads.com/2026/09/16/the-violent-feud-that-shocked-the-horse-world/",
     "https://www.rockpapershotgun.com/ahead-of-gta-6-rockstar-warn-modders-against-against-making-unofficial-main-story-expansions-unauthorised-ports-and-mods-that-combine-gta-maps",
     "https://reason.com/volokh/2026/09/24/tro-issued-ordering-reinstatement-of-cnn-ms-now-and-politico-white-house-access/",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/oh-my-hours-ios-app/",
     "https://www.polygon.com/final-fantasy-resonance-esper-locations/",
     "https://reason.com/volokh/2026/10/29/supreme-court-clerks-who-become-law-professors-2012-2026/",
-    "https://longreads.com/2026/10/29/ingram-texas-ice-police-investigation/"
+    "https://longreads.com/2026/10/29/ingram-texas-ice-police-investigation/",
+    "https://www.polygon.com/gta-6-side-activities/",
+    "https://www.newyorker.com/magazine/2026/11/09/the-party-girls-at-the-heart-of-club-kid",
+    "https://reason.com/volokh/2026/10/30/short-circuit-an-inexhaustive-weekly-compendium-of-rulings-from-the-federal-courts-of-appeal-83/",
+    "https://www.wired.com/story/nzxt-discount-code/"
   ],
   "categoryLog": [
-    "law",
     "fun",
     "tech",
     "fun",
@@ -66,7 +65,8 @@
     "fun",
     "gaming",
     "law",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }
