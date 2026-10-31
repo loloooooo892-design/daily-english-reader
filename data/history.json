@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.eurogamer.net/hideo-kojima-physint-playstation-release-decima-engine",
-    "https://nautil.us/behold-crawzilla-the-not-quite-biggest-crayfish-ever-caught-1285273/",
-    "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
-    "https://www.newyorker.com/magazine/2026/09/28/the-maltese-version-that-summers-end-berlin-before-and-after-jean-toomer",
     "https://www.rockpapershotgun.com/the-sunday-papers-828",
     "https://www.wired.com/story/tech-bros-dating-palantir-tesla/",
     "https://www.jurist.org/news/2026/09/uk-anti-migrant-activist-arrested-for-suspected-criminal-damage-and-endangerment/",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/10/27/hasan-piker-sues-scott-jennings/",
     "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
     "https://www.eurogamer.net/tenebris-somnia-horror-game-fmv-live-action-faith",
-    "https://www.newyorker.com/culture/the-front-row/queen-at-sea-confronts-old-age-with-bitter-empathy"
+    "https://www.newyorker.com/culture/the-front-row/queen-at-sea-confronts-old-age-with-bitter-empathy",
+    "https://www.wired.com/story/oh-my-hours-ios-app/",
+    "https://www.polygon.com/final-fantasy-resonance-esper-locations/",
+    "https://reason.com/volokh/2026/10/29/supreme-court-clerks-who-become-law-professors-2012-2026/",
+    "https://longreads.com/2026/10/29/ingram-texas-ice-police-investigation/"
   ],
   "categoryLog": [
-    "gaming",
     "law",
     "fun",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "fun",
     "gaming",
-    "law"
+    "law",
+    "tech"
   ],
   "failures": {}
 }
