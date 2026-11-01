@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://reason.com/volokh/2026/09/24/because-kbj-denied-administrative-stay-in-third-country-removal-case-the-application-should-be-referred-to-the-full-court-now/",
-    "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
-    "https://www.rockpapershotgun.com/the-sunday-papers-827",
-    "https://www.wired.com/story/reebok-discount-code/",
     "https://www.newyorker.com/magazine/2026/09/28/the-return-of-salt",
     "https://reason.com/volokh/2026/09/26/may-president-trump-exclude-cnn-from-air-force-one-very-likely-yes/",
     "https://www.rockpapershotgun.com/the-sunday-papers-829",
@@ -50,10 +46,13 @@
     "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
     "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
     "https://www.polygon.com/adolescence-nocturne-stephen-graham-interview/",
-    "https://www.newyorker.com/books/what-were-reading/the-best-mystery-novels-of-the-twenty-first-century"
+    "https://www.newyorker.com/books/what-were-reading/the-best-mystery-novels-of-the-twenty-first-century",
+    "https://www.newyorker.com/news/the-lede/brazils-president-faces-down-the-online-right",
+    "https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it",
+    "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+    "https://reason.com/volokh/2026/10/30/new-brennan-center-report-on-curbing-executive-power/"
   ],
   "categoryLog": [
-    "tech",
     "fun",
     "tech",
     "tech",
@@ -66,7 +65,8 @@
     "law",
     "tech",
     "gaming",
-    "tech"
+    "tech",
+    "fun"
   ],
   "failures": {}
 }
