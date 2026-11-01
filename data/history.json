@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://longreads.com/2026/09/16/the-violent-feud-that-shocked-the-horse-world/",
-    "https://www.rockpapershotgun.com/ahead-of-gta-6-rockstar-warn-modders-against-against-making-unofficial-main-story-expansions-unauthorised-ports-and-mods-that-combine-gta-maps",
-    "https://reason.com/volokh/2026/09/24/tro-issued-ordering-reinstatement-of-cnn-ms-now-and-politico-white-house-access/",
-    "https://www.newyorker.com/magazine/2026/10/05/gut-renos-of-ionesco-and-chekhov",
     "https://reason.com/volokh/2026/09/24/because-kbj-denied-administrative-stay-in-third-country-removal-case-the-application-should-be-referred-to-the-full-court-now/",
     "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
     "https://www.rockpapershotgun.com/the-sunday-papers-827",
@@ -50,10 +46,13 @@
     "https://www.polygon.com/gta-6-side-activities/",
     "https://www.newyorker.com/magazine/2026/11/09/the-party-girls-at-the-heart-of-club-kid",
     "https://reason.com/volokh/2026/10/30/short-circuit-an-inexhaustive-weekly-compendium-of-rulings-from-the-federal-courts-of-appeal-83/",
-    "https://www.wired.com/story/nzxt-discount-code/"
+    "https://www.wired.com/story/nzxt-discount-code/",
+    "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+    "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
+    "https://www.polygon.com/adolescence-nocturne-stephen-graham-interview/",
+    "https://www.newyorker.com/books/what-were-reading/the-best-mystery-novels-of-the-twenty-first-century"
   ],
   "categoryLog": [
-    "fun",
     "tech",
     "fun",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "law",
     "tech",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }
