@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/09/28/the-return-of-salt",
-    "https://reason.com/volokh/2026/09/26/may-president-trump-exclude-cnn-from-air-force-one-very-likely-yes/",
-    "https://www.rockpapershotgun.com/the-sunday-papers-829",
-    "https://www.wired.com/story/ovary-activity-after-menopause/",
     "https://www.scotusblog.com/2026/09/for-the-third-time-supreme-court-declines-to-allow-missouri-to-use-congressional-map-expected-to/",
     "https://www.newyorker.com/culture/photo-booth/the-teen-portraits-that-captivated-sofia-coppola",
     "https://www.eurogamer.net/new-gta-5-leak-rockstar-liberty-city-dlc-early-gta-6",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/news/the-lede/brazils-president-faces-down-the-online-right",
     "https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it",
     "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
-    "https://reason.com/volokh/2026/10/30/new-brennan-center-report-on-curbing-executive-power/"
+    "https://reason.com/volokh/2026/10/30/new-brennan-center-report-on-curbing-executive-power/",
+    "https://www.rockpapershotgun.com/mass-effect-5-was-named-universe-partly-because-it-let-players-generate-alternate-timelines-based-on-their-choices-in-previous-entries-technical-director-says",
+    "https://nautil.us/ketamines-role-in-alleged-cornell-rape-highlights-flood-of-psychoactive-drugs-on-campus-1286212/",
+    "https://www.scotusblog.com/2026/10/court-declines-to-restore-biden-era-regulation-allowing-some-deportation-proceedings-to-be-suspe/",
+    "https://www.wired.com/story/what-democrats-can-learn-new-york-data-center-moratorium/"
   ],
   "categoryLog": [
-    "fun",
     "tech",
     "tech",
     "gaming",
@@ -66,7 +65,8 @@
     "tech",
     "gaming",
     "tech",
-    "fun"
+    "fun",
+    "gaming"
   ],
   "failures": {}
 }
