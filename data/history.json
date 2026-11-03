@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.scotusblog.com/2026/09/for-the-third-time-supreme-court-declines-to-allow-missouri-to-use-congressional-map-expected-to/",
-    "https://www.newyorker.com/culture/photo-booth/the-teen-portraits-that-captivated-sofia-coppola",
-    "https://www.eurogamer.net/new-gta-5-leak-rockstar-liberty-city-dlc-early-gta-6",
-    "https://www.pcgamer.com/games/the-elder-scrolls/former-elder-scrolls-writer-kurt-kuhlmann-is-100-percent-convinced-a-load-bearing-bit-of-series-lore-was-inspired-by-a-typo/",
     "https://nautil.us/how-fast-you-age-during-40s-may-predict-memory-lapses-in-your-50s-1285315/",
     "https://www.scotusblog.com/2026/09/some-lessons-of-open-minded-discourse-on-the-supreme-court/",
     "https://www.wired.com/story/best-apple-watch/",
@@ -50,11 +46,14 @@
     "https://www.rockpapershotgun.com/mass-effect-5-was-named-universe-partly-because-it-let-players-generate-alternate-timelines-based-on-their-choices-in-previous-entries-technical-director-says",
     "https://nautil.us/ketamines-role-in-alleged-cornell-rape-highlights-flood-of-psychoactive-drugs-on-campus-1286212/",
     "https://www.scotusblog.com/2026/10/court-declines-to-restore-biden-era-regulation-allowing-some-deportation-proceedings-to-be-suspe/",
-    "https://www.wired.com/story/what-democrats-can-learn-new-york-data-center-moratorium/"
+    "https://www.wired.com/story/what-democrats-can-learn-new-york-data-center-moratorium/",
+    "https://www.theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027",
+    "https://www.newyorker.com/magazine/2026/11/09/new-jersey-the-diesel-state",
+    "https://www.pcgamer.com/games/fps/romero-games-has-a-new-publisher-for-the-game-xbox-abandoned-but-its-110-person-team-is-now-just-16-devs-i-needed-to-basically-design-a-new-game-that-could-use-as-much-of-that-stuff-as-possible/",
+    "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/"
   ],
   "categoryLog": [
     "tech",
-    "tech",
     "gaming",
     "law",
     "tech",
@@ -66,7 +65,8 @@
     "gaming",
     "tech",
     "fun",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }
