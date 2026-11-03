@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://nautil.us/how-fast-you-age-during-40s-may-predict-memory-lapses-in-your-50s-1285315/",
-    "https://www.scotusblog.com/2026/09/some-lessons-of-open-minded-discourse-on-the-supreme-court/",
-    "https://www.wired.com/story/best-apple-watch/",
-    "https://www.scotusblog.com/2026/09/trump-administration-takes-important-immigration-question-back-to-the-supreme-court/",
     "https://www.newyorker.com/magazine/2026/10/05/more-sunshine-with-joey-arias-and-basil-twist",
     "https://www.eurogamer.net/call-of-duty-warzone-skin-toggle-modern-warfare-4",
     "https://techcrunch.com/2026/09/28/tesla-delays-roadster-2-event-again-due-to-bad-weather/",
@@ -50,10 +46,13 @@
     "https://www.theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027",
     "https://www.newyorker.com/magazine/2026/11/09/new-jersey-the-diesel-state",
     "https://www.pcgamer.com/games/fps/romero-games-has-a-new-publisher-for-the-game-xbox-abandoned-but-its-110-person-team-is-now-just-16-devs-i-needed-to-basically-design-a-new-game-that-could-use-as-much-of-that-stuff-as-possible/",
-    "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/"
+    "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/",
+    "https://reason.com/volokh/2026/10/29/even-trumpy-judges-and-woke-judges-might-know-more-law-than-you-do/",
+    "https://www.pcgamer.com/games/mmo/dune-awakening-is-getting-a-free-dlc-that-adds-a-whole-new-map-and-swaps-out-sand-for-snow/",
+    "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
+    "https://longreads.com/2026/11/02/elderly-seniors-screens-feeds/"
   ],
   "categoryLog": [
-    "tech",
     "gaming",
     "law",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "fun",
     "gaming",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
