@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/10/05/more-sunshine-with-joey-arias-and-basil-twist",
-    "https://www.eurogamer.net/call-of-duty-warzone-skin-toggle-modern-warfare-4",
-    "https://techcrunch.com/2026/09/28/tesla-delays-roadster-2-event-again-due-to-bad-weather/",
-    "https://www.wired.com/story/shark-air-purifier-deal-october-2026/",
     "https://reason.com/volokh/2026/09/25/anthropics-supply-chain-risk-designation-stemmed-from-its-refusing-to-agree-to-contract-terms-not-its-speech/",
     "https://www.rockpapershotgun.com/prebuilt-steam-machine-faceplate-screens-are-here-delivering-decent-surprisingly-cheaper-alternatives-to-valve-approved-diy-builds",
     "https://www.newyorker.com/magazine/2026/10/05/the-president-vs-the-press",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/10/29/even-trumpy-judges-and-woke-judges-might-know-more-law-than-you-do/",
     "https://www.pcgamer.com/games/mmo/dune-awakening-is-getting-a-free-dlc-that-adds-a-whole-new-map-and-swaps-out-sand-for-snow/",
     "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
-    "https://longreads.com/2026/11/02/elderly-seniors-screens-feeds/"
+    "https://longreads.com/2026/11/02/elderly-seniors-screens-feeds/",
+    "https://www.scotusblog.com/2026/10/groups-ask-supreme-court-to-leave-lower-court-order-in-place-halting-border-wall-construction-in/",
+    "https://longreads.com/2026/10/30/wellness-bpc-157-pedtides-fda/",
+    "https://www.eurogamer.net/arc-raiders-ai-voice-acting-would-go-crazy",
+    "https://www.wired.com/story/uber-eats-promo-code/"
   ],
   "categoryLog": [
-    "gaming",
     "law",
     "tech",
     "gaming",
@@ -66,6 +65,7 @@
     "fun",
     "gaming",
     "tech",
+    "law",
     "law"
   ],
   "failures": {}
