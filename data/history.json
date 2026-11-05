@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://harvardlawreview.org/print/vol-139/remedies-for-a-constitutional-crisis/",
-    "https://www.newyorker.com/culture/gift-guides/tech-gifts-that-wont-rot-their-brains",
-    "https://smsofdeath.com/",
-    "https://www.newyorker.com/humor/shouts-murmurs/race-to-the-bottom-great-moments-in-the-history-of-leaders-talking-about-asses",
     "https://www.pcgamer.com/games/call-of-duty/modern-warfare-4s-newest-map-is-actually-older-than-the-gen-z-and-alpha-teens-who-will-play-it/",
     "https://reason.com/volokh/2026/10/29/the-law-and-democrats-allegedly-recruiting-second-dan-sullivan-to-run-in-alaska-senate-race/",
     "https://www.wired.com/story/pura-promo-code/",
@@ -50,10 +46,13 @@
     "https://nautil.us/could-one-brain-region-be-tied-to-feeling-sick-all-over-1286308/",
     "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
     "https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch/",
-    "https://reason.com/volokh/2026/11/02/will-alito-or-thomas-retire-if-democrats-win-the-senate/"
+    "https://reason.com/volokh/2026/11/02/will-alito-or-thomas-retire-if-democrats-win-the-senate/",
+    "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
+    "https://www.pcgamer.com/gaming-industry/data-centers-were-some-of-the-biggest-losers-in-last-nights-us-midterm-elections/",
+    "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+    "https://www.newyorker.com/magazine/2026/11/09/common-scams-to-avoid"
   ],
   "categoryLog": [
-    "tech",
     "gaming",
     "fun",
     "gaming",
@@ -66,7 +65,8 @@
     "tech",
     "law",
     "law",
-    "fun"
+    "fun",
+    "law"
   ],
   "failures": {}
 }
