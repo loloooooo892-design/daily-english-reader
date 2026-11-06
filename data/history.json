@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://techcrunch.com/2026/10/29/the-r2-suv-is-already-rivians-best-selling-vehicle/",
-    "https://nautil.us/your-cells-keep-a-record-of-every-workout-youve-ever-done-1286173/",
-    "https://reason.com/volokh/2026/10/26/bob-woodward-reveals-he-spoke-with-justices-stewart-powell-white-blackmun-and-rehnquist-for-the-brethren/",
-    "https://reason.com/volokh/2026/10/27/hasan-piker-sues-scott-jennings/",
     "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
     "https://www.eurogamer.net/tenebris-somnia-horror-game-fmv-live-action-faith",
     "https://www.newyorker.com/culture/the-front-row/queen-at-sea-confronts-old-age-with-bitter-empathy",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/11/04/dont-expect-a-lame-duck-supreme-court-vacancy-but-there-are-other-nominations-to-consider/",
     "https://www.newyorker.com/magazine/2026/11/09/corruption-on-the-ballot",
     "https://www.eurogamer.net/dragons-dogma-2-dungeon-meshi-collaboration-out-now",
-    "https://www.wired.com/story/wired-world-fair-2026-blade-runner-2099/"
+    "https://www.wired.com/story/wired-world-fair-2026-blade-runner-2099/",
+    "https://www.rockpapershotgun.com/virtue-and-a-sledgehammer-review",
+    "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
+    "https://www.scotusblog.com/2026/11/justices-to-consider-compensation-standard-for-eminent-domain-on-interstate-pipelines/",
+    "https://www.newyorker.com/news/the-political-scene/a-blue-wave-just-crashed-on-trump"
   ],
   "categoryLog": [
-    "fun",
     "gaming",
     "law",
     "tech",
@@ -66,7 +65,8 @@
     "law",
     "fun",
     "law",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }
