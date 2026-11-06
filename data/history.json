@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-    "https://www.eurogamer.net/tenebris-somnia-horror-game-fmv-live-action-faith",
-    "https://www.newyorker.com/culture/the-front-row/queen-at-sea-confronts-old-age-with-bitter-empathy",
-    "https://www.wired.com/story/oh-my-hours-ios-app/",
     "https://www.polygon.com/final-fantasy-resonance-esper-locations/",
     "https://reason.com/volokh/2026/10/29/supreme-court-clerks-who-become-law-professors-2012-2026/",
     "https://longreads.com/2026/10/29/ingram-texas-ice-police-investigation/",
@@ -50,10 +46,13 @@
     "https://www.rockpapershotgun.com/virtue-and-a-sledgehammer-review",
     "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
     "https://www.scotusblog.com/2026/11/justices-to-consider-compensation-standard-for-eminent-domain-on-interstate-pipelines/",
-    "https://www.newyorker.com/news/the-political-scene/a-blue-wave-just-crashed-on-trump"
+    "https://www.newyorker.com/news/the-political-scene/a-blue-wave-just-crashed-on-trump",
+    "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
+    "https://www.polygon.com/sci-fi-films-streaming-free-november-5-2026/",
+    "https://www.newyorker.com/books/this-week-in-fiction/tea-obreht-11-09-2026",
+    "https://www.scotusblog.com/2026/11/-court-leans-toward-narrow-ruling-on-inmates-use-of-habeas-for-accelerated-transfer-to-a-halfway/"
   ],
   "categoryLog": [
-    "gaming",
     "law",
     "tech",
     "gaming",
@@ -66,7 +65,8 @@
     "fun",
     "law",
     "law",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }
