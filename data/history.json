@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.polygon.com/final-fantasy-resonance-esper-locations/",
-    "https://reason.com/volokh/2026/10/29/supreme-court-clerks-who-become-law-professors-2012-2026/",
-    "https://longreads.com/2026/10/29/ingram-texas-ice-police-investigation/",
-    "https://www.polygon.com/gta-6-side-activities/",
     "https://www.newyorker.com/magazine/2026/11/09/the-party-girls-at-the-heart-of-club-kid",
     "https://reason.com/volokh/2026/10/30/short-circuit-an-inexhaustive-weekly-compendium-of-rulings-from-the-federal-courts-of-appeal-83/",
     "https://www.wired.com/story/nzxt-discount-code/",
@@ -50,10 +46,13 @@
     "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
     "https://www.polygon.com/sci-fi-films-streaming-free-november-5-2026/",
     "https://www.newyorker.com/books/this-week-in-fiction/tea-obreht-11-09-2026",
-    "https://www.scotusblog.com/2026/11/-court-leans-toward-narrow-ruling-on-inmates-use-of-habeas-for-accelerated-transfer-to-a-halfway/"
+    "https://www.scotusblog.com/2026/11/-court-leans-toward-narrow-ruling-on-inmates-use-of-habeas-for-accelerated-transfer-to-a-halfway/",
+    "https://www.polygon.com/zelda-ocarina-of-time-happy-mask-shop-spooky-skull-bunny-hood/",
+    "https://www.newyorker.com/magazine/2026/11/16/the-heart-theatre-review-broadway-i-became-we",
+    "https://www.wired.com/story/altra-promo-code/",
+    "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/"
   ],
   "categoryLog": [
-    "law",
     "tech",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "law",
     "law",
     "gaming",
-    "tech"
+    "tech",
+    "gaming"
   ],
   "failures": {}
 }
