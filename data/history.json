@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://harvardlawreview.org/print/vol-139/civil-rights-deserts-appendix/",
-    "https://www.polygon.com/adolescence-nocturne-stephen-graham-interview/",
-    "https://www.newyorker.com/books/what-were-reading/the-best-mystery-novels-of-the-twenty-first-century",
-    "https://www.newyorker.com/news/the-lede/brazils-president-faces-down-the-online-right",
     "https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it",
     "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
     "https://reason.com/volokh/2026/10/30/new-brennan-center-report-on-curbing-executive-power/",
@@ -50,10 +46,13 @@
     "https://nautil.us/a-neuropsychologist-explains-the-importance-of-exercise-in-fighting-dementia-1286369/",
     "https://www.pcgamer.com/games/rpg/david-gaider-has-been-working-on-owlcats-expanse-rpg-the-expanse-has-long-been-one-of-my-favourite-series-and-so-obviously-i-jumped-at-the-opportunity-to-be-involved/",
     "https://reason.com/volokh/2026/11/03/choosin-texas-i-can-tell/",
-    "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/"
+    "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/",
+    "https://harvardlawreview.org/print/vol-139/aggregation-and-the-universal-injunction/",
+    "https://www.newyorker.com/magazine/2026/11/16/paper-tiger-movie-review",
+    "https://www.pcgamer.com/gaming-industry/richard-garriott-on-the-state-of-the-games-industry-the-bells-and-whistles-are-no-longer-whats-important/",
+    "https://www.wired.com/story/early-black-friday-tv-deals-11-5-26/"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "fun",
     "gaming",
@@ -66,7 +65,8 @@
     "gaming",
     "tech",
     "gaming",
-    "fun"
+    "fun",
+    "law"
   ],
   "failures": {}
 }
