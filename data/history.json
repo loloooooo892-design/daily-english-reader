@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.rockpapershotgun.com/atmosfar-is-a-giddy-aerial-exploration-game-after-the-heart-of-no-mans-sky-but-im-already-trying-to-escape-it",
-    "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
-    "https://reason.com/volokh/2026/10/30/new-brennan-center-report-on-curbing-executive-power/",
-    "https://www.rockpapershotgun.com/mass-effect-5-was-named-universe-partly-because-it-let-players-generate-alternate-timelines-based-on-their-choices-in-previous-entries-technical-director-says",
     "https://nautil.us/ketamines-role-in-alleged-cornell-rape-highlights-flood-of-psychoactive-drugs-on-campus-1286212/",
     "https://www.scotusblog.com/2026/10/court-declines-to-restore-biden-era-regulation-allowing-some-deportation-proceedings-to-be-suspe/",
     "https://www.wired.com/story/what-democrats-can-learn-new-york-data-center-moratorium/",
@@ -50,10 +46,13 @@
     "https://harvardlawreview.org/print/vol-139/aggregation-and-the-universal-injunction/",
     "https://www.newyorker.com/magazine/2026/11/16/paper-tiger-movie-review",
     "https://www.pcgamer.com/gaming-industry/richard-garriott-on-the-state-of-the-games-industry-the-bells-and-whistles-are-no-longer-whats-important/",
-    "https://www.wired.com/story/early-black-friday-tv-deals-11-5-26/"
+    "https://www.wired.com/story/early-black-friday-tv-deals-11-5-26/",
+    "https://www.eurogamer.net/patrick-stewart-dies-oblivion-uriel-septim-castlevania",
+    "https://www.scotusblog.com/2026/11/justices-grapple-with-how-to-apply-pretrial-procedure-rules-in-improper-firing-dispute/",
+    "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+    "https://www.newyorker.com/humor/shouts-murmurs/life-as-a-dc-insider-as-imagined-by-a-dc-outsider"
   ],
   "categoryLog": [
-    "tech",
     "fun",
     "gaming",
     "tech",
@@ -66,7 +65,8 @@
     "tech",
     "gaming",
     "fun",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }

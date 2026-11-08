@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Life as a D.C. Insider, as Imagined by a D.C. Outsider — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>568 words</span>
+    <span class="sep">·</span>
+    <span>3 min read</span>
+  </div>
+
+  <h1>Life as a D.C. Insider, as Imagined by a D.C. Outsider</h1>
+
+  <article class="article-body">
+    <p>I wake to the sound of legislation being thrown at my window. I look at the legislation and angrily get on the phone. “There should be more carcinogens,” I demand.</p><p>Breakfast is scrambled eggs and toast, prepared and hand-fed to me by Mitt Romney.</p><p>I put on a different suit and tie from the ones that I slept in and walk outside. The air is crisp and refreshing. The Lincoln Memorial gives me a wink and a thumbs-up. Then a tourist approaches and it goes back to normal.</p><p>I text my best friend, Coal Lobby, and ask if he wants to play outside. “Sorry, I have to be at the Capitol today,” he replies. He adds a sad emoji. I cry.</p><p>I go for a jog. Midway through, a journalist calls me. I’m one of their anonymous sources. “The government has the flu,” I say. I finish my jog. My suit and tie are all sweaty. I keep them on.</p><p>I go to visit C.I.A. and ask how the spying is going. “Good,” says C.I.A. “One of the people I spy on is watching ‘Widow’s Bay.’ It’s funny, but also scary. You should watch it.” I tell C.I.A. that I’m too busy. “I get it,” C.I.A. says. “There are so many shows. It’s hard to keep up.” Talking to C.I.A. is so boring.</p><p>I’m getting hungry. I go to a diner whose only employee is Chuck Grassley. “The usual?” Chuck asks me. I say yes. We high five.</p><p>My phone buzzes. It’s a text from Coal Lobby. “It turns out I’m free!” he says. “Apparently I’m supposed to be at the Capitol tomorrow. Today it’s Verizon’s turn. Want to jump rope?” We jump rope. My suit and tie are now even sweatier. I disrobe completely.</p><p>I am thirsty. I go to a dive bar called something like Phil-a-Buster’s or Making This Dead Body Disappear Will Cost Forty Thousand Dollars. I order a Martini. The bartender notices that I am not wearing clothes and asks if I would like to put on his suit and tie. I say yes.</p><p>I glance at the television over the bar and see an important speech being given by a gun. The audience is also guns. I rise and applaud.</p><p>I leave the bar. I notice how many columns and archways this city has. “Just like ancient Rome,” I say to myself. Then I think of “Gladiator” and wonder how that movie holds up. I call Coal Lobby and ask if he wants to watch “Gladiator” with me. He says it’s rated R, so he has to ask his mom. “Forget it,” I say. “She’ll say no. Remember when we were going to wander around the woods to try and find that dead amendment and she said you couldn’t?” Coal Lobby remembers. He cries.</p><p>Somebody walks by me. It’s Mitt Romney. I wonder why he serves me breakfast by hand every morning. It’s not something we’ve discussed.</p><p>I leave the bar. A bird flies past and gives me a secret note. It says to meet at the place where all the rich people gather in masks and robes. I show up and they’re playing Scrabble. It’s kind of a letdown.</p><p>I go home. I put on a new suit and tie and get into bed. The journalist from before calls me. “Does government still have the flu?” they ask. I say yes. ♦</p>
+  </article>
+
+  <footer class="footer">
+    <span>Sunday, November 8, 2026</span>
+    <a href="https://www.newyorker.com/humor/shouts-murmurs/life-as-a-dc-insider-as-imagined-by-a-dc-outsider" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
