@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/11/09/new-jersey-the-diesel-state",
-    "https://www.pcgamer.com/games/fps/romero-games-has-a-new-publisher-for-the-game-xbox-abandoned-but-its-110-person-team-is-now-just-16-devs-i-needed-to-basically-design-a-new-game-that-could-use-as-much-of-that-stuff-as-possible/",
-    "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/",
-    "https://reason.com/volokh/2026/10/29/even-trumpy-judges-and-woke-judges-might-know-more-law-than-you-do/",
     "https://www.pcgamer.com/games/mmo/dune-awakening-is-getting-a-free-dlc-that-adds-a-whole-new-map-and-swaps-out-sand-for-snow/",
     "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
     "https://longreads.com/2026/11/02/elderly-seniors-screens-feeds/",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
     "https://www.newyorker.com/books/what-were-reading/three-novels-that-stuck-with-chad-harbach",
     "https://reason.com/volokh/2026/11/04/fifth-circuit-on-pseudonymity-of-libel-defendant-who-claims-she-was-sexually-assaulted/",
-    "https://www.eurogamer.net/what-weve-been-playing-vice-city-zelda-world-of-warcraft-forever"
+    "https://www.eurogamer.net/what-weve-been-playing-vice-city-zelda-world-of-warcraft-forever",
+    "https://www.scotusblog.com/2026/11/justices-consider-when-a-constitutional-rule-is-previously-unavailable-to-prisoner/",
+    "https://www.wired.com/story/wired-world-fair-2026-ben-collins-the-onion/",
+    "https://www.rockpapershotgun.com/the-elder-scrolls-6-sentinel-teaser-all-but-confirms-hammerfell-setting-and-means-we-can-finally-stop-using-that-eight-year-old-header-image-with-the-hills",
+    "https://longreads.com/2026/10/27/anderson-speedway-indianas-data-centers/"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "law",
     "law",
@@ -66,7 +65,8 @@
     "fun",
     "law",
     "gaming",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
