@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.pcgamer.com/games/mmo/dune-awakening-is-getting-a-free-dlc-that-adds-a-whole-new-map-and-swaps-out-sand-for-snow/",
-    "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
-    "https://longreads.com/2026/11/02/elderly-seniors-screens-feeds/",
-    "https://www.scotusblog.com/2026/10/groups-ask-supreme-court-to-leave-lower-court-order-in-place-halting-border-wall-construction-in/",
     "https://longreads.com/2026/10/30/wellness-bpc-157-pedtides-fda/",
     "https://www.eurogamer.net/arc-raiders-ai-voice-acting-would-go-crazy",
     "https://www.wired.com/story/uber-eats-promo-code/",
@@ -50,10 +46,13 @@
     "https://www.scotusblog.com/2026/11/justices-consider-when-a-constitutional-rule-is-previously-unavailable-to-prisoner/",
     "https://www.wired.com/story/wired-world-fair-2026-ben-collins-the-onion/",
     "https://www.rockpapershotgun.com/the-elder-scrolls-6-sentinel-teaser-all-but-confirms-hammerfell-setting-and-means-we-can-finally-stop-using-that-eight-year-old-header-image-with-the-hills",
-    "https://longreads.com/2026/10/27/anderson-speedway-indianas-data-centers/"
+    "https://longreads.com/2026/10/27/anderson-speedway-indianas-data-centers/",
+    "https://reason.com/volokh/2026/11/07/arkansas-bar-official-allegedly-transferred-points-from-some-bar-examinees-to-others/",
+    "https://www.eurogamer.net/tenebris-somnia-horror-game-fmv-live-action-faith",
+    "https://www.wired.com/story/can-a-radar-equipped-ac-actually-cut-your-power-bill/",
+    "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want"
   ],
   "categoryLog": [
-    "tech",
     "law",
     "law",
     "fun",
@@ -66,6 +65,7 @@
     "law",
     "gaming",
     "tech",
+    "law",
     "law"
   ],
   "failures": {}
