@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://longreads.com/2026/10/30/wellness-bpc-157-pedtides-fda/",
-    "https://www.eurogamer.net/arc-raiders-ai-voice-acting-would-go-crazy",
-    "https://www.wired.com/story/uber-eats-promo-code/",
-    "https://nautil.us/could-one-brain-region-be-tied-to-feeling-sick-all-over-1286308/",
     "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
     "https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch/",
     "https://reason.com/volokh/2026/11/02/will-alito-or-thomas-retire-if-democrats-win-the-senate/",
@@ -50,11 +46,14 @@
     "https://reason.com/volokh/2026/11/07/arkansas-bar-official-allegedly-transferred-points-from-some-bar-examinees-to-others/",
     "https://www.eurogamer.net/tenebris-somnia-horror-game-fmv-live-action-faith",
     "https://www.wired.com/story/can-a-radar-equipped-ac-actually-cut-your-power-bill/",
-    "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want"
+    "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
+    "https://www.newyorker.com/books/this-week-in-fiction/yasushi-inoue-11-16-26",
+    "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-golden-scale-how-to-get-fishing-pond/",
+    "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/",
+    "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/"
   ],
   "categoryLog": [
     "law",
-    "law",
     "fun",
     "law",
     "law",
@@ -66,7 +65,8 @@
     "gaming",
     "tech",
     "law",
-    "law"
+    "law",
+    "fun"
   ],
   "failures": {}
 }
