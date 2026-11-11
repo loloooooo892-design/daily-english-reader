@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
-    "https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch/",
-    "https://reason.com/volokh/2026/11/02/will-alito-or-thomas-retire-if-democrats-win-the-senate/",
-    "https://harvardlawreview.org/print/vol-139/some-realism-about-constitutional-remedies/",
     "https://www.pcgamer.com/gaming-industry/data-centers-were-some-of-the-biggest-losers-in-last-nights-us-midterm-elections/",
     "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
     "https://www.newyorker.com/magazine/2026/11/09/common-scams-to-avoid",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/books/this-week-in-fiction/yasushi-inoue-11-16-26",
     "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-golden-scale-how-to-get-fishing-pond/",
     "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/",
-    "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/"
+    "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+    "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/",
+    "https://reason.com/volokh/2026/11/10/disability-discrimination-and-allegations-of-ai-use-in-students-university-of-michigan-course-papers/",
+    "https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/",
+    "https://www.newyorker.com/magazine/2026/11/16/josh-homme-likes-to-satan"
   ],
   "categoryLog": [
-    "law",
     "fun",
     "law",
     "law",
@@ -66,7 +65,8 @@
     "tech",
     "law",
     "law",
-    "fun"
+    "fun",
+    "tech"
   ],
   "failures": {}
 }

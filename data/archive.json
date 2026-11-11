@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-11-11",
+    "slug": "2026-11-11-4",
+    "title": "Josh Homme Likes to Satan",
+    "source": "The New Yorker",
+    "category": "fun",
+    "wordCount": 581
+  },
+  {
+    "date": "2026-11-11",
+    "slug": "2026-11-11-3",
+    "title": "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC",
+    "source": "PC Gamer",
+    "category": "gaming",
+    "wordCount": 532
+  },
+  {
+    "date": "2026-11-11",
+    "slug": "2026-11-11-2",
+    "title": "Disability Discrimination and Allegations of AI Use in Student's University of Michigan Course Papers",
+    "source": "The Volokh Conspiracy",
+    "category": "law",
+    "wordCount": 1450
+  },
+  {
+    "date": "2026-11-11",
+    "slug": "2026-11-11",
+    "title": "DHS Has Used This Controversial Investigative Tool 185,000 Times Since Trump Took Office",
+    "source": "Wired",
+    "category": "tech",
+    "wordCount": 774
+  },
+  {
     "date": "2026-11-10",
     "slug": "2026-11-10-4",
     "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
