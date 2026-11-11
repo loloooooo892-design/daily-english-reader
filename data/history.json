@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.pcgamer.com/gaming-industry/data-centers-were-some-of-the-biggest-losers-in-last-nights-us-midterm-elections/",
-    "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-    "https://www.newyorker.com/magazine/2026/11/09/common-scams-to-avoid",
-    "https://reason.com/volokh/2026/11/04/dont-expect-a-lame-duck-supreme-court-vacancy-but-there-are-other-nominations-to-consider/",
     "https://www.newyorker.com/magazine/2026/11/09/corruption-on-the-ballot",
     "https://www.eurogamer.net/dragons-dogma-2-dungeon-meshi-collaboration-out-now",
     "https://www.wired.com/story/wired-world-fair-2026-blade-runner-2099/",
@@ -50,10 +46,13 @@
     "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/",
     "https://reason.com/volokh/2026/11/10/disability-discrimination-and-allegations-of-ai-use-in-students-university-of-michigan-course-papers/",
     "https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/",
-    "https://www.newyorker.com/magazine/2026/11/16/josh-homme-likes-to-satan"
+    "https://www.newyorker.com/magazine/2026/11/16/josh-homme-likes-to-satan",
+    "https://www.scotusblog.com/2026/11/trump-administration-brings-white-house-ballroom-battle-back-to-supreme-court/",
+    "https://nautil.us/do-we-think-in-pictures-words-or-code-1286476/",
+    "https://www.polygon.com/the-odyssey-christopher-nolan-home-release-date/",
+    "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/"
   ],
   "categoryLog": [
-    "fun",
     "law",
     "law",
     "gaming",
@@ -66,7 +65,8 @@
     "law",
     "law",
     "fun",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
