@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
-    "https://www.scotusblog.com/2026/11/justices-to-consider-compensation-standard-for-eminent-domain-on-interstate-pipelines/",
-    "https://www.newyorker.com/news/the-political-scene/a-blue-wave-just-crashed-on-trump",
-    "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
     "https://www.polygon.com/sci-fi-films-streaming-free-november-5-2026/",
     "https://www.newyorker.com/books/this-week-in-fiction/tea-obreht-11-09-2026",
     "https://www.scotusblog.com/2026/11/-court-leans-toward-narrow-ruling-on-inmates-use-of-habeas-for-accelerated-transfer-to-a-halfway/",
@@ -50,10 +46,13 @@
     "https://www.eurogamer.net/arc-raiders-ai-voice-acting-would-go-crazy",
     "https://longreads.com/2026/10/30/wellness-bpc-157-pedtides-fda/",
     "https://www.scotusblog.com/2026/11/court-to-consider-the-reach-of-article-iii-courts-in-immigration-contract-dispute/",
-    "https://www.wired.com/story/we-have-to-take-over-far-right-extremists-want-to-seize-control-of-the-gop/"
+    "https://www.wired.com/story/we-have-to-take-over-far-right-extremists-want-to-seize-control-of-the-gop/",
+    "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+    "https://reason.com/volokh/2026/11/08/impeach-pete-hegseth/",
+    "https://www.pcgamer.com/hardware/handheld-gaming-pcs/microsofts-own-upscaler-and-alternative-to-fsr-just-landed-on-xbox-ally-x-handhelds-actually-uses-an-npu-for-something-useful/",
+    "https://nautil.us/the-what-and-when-of-longevity-dieting-1286564/"
   ],
   "categoryLog": [
-    "law",
     "gaming",
     "tech",
     "gaming",
@@ -66,7 +65,8 @@
     "fun",
     "tech",
     "law",
-    "gaming"
+    "gaming",
+    "tech"
   ],
   "failures": {}
 }
