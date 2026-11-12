@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/11/09/corruption-on-the-ballot",
-    "https://www.eurogamer.net/dragons-dogma-2-dungeon-meshi-collaboration-out-now",
-    "https://www.wired.com/story/wired-world-fair-2026-blade-runner-2099/",
-    "https://www.rockpapershotgun.com/virtue-and-a-sledgehammer-review",
     "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
     "https://www.scotusblog.com/2026/11/justices-to-consider-compensation-standard-for-eminent-domain-on-interstate-pipelines/",
     "https://www.newyorker.com/news/the-political-scene/a-blue-wave-just-crashed-on-trump",
@@ -50,11 +46,14 @@
     "https://www.scotusblog.com/2026/11/trump-administration-brings-white-house-ballroom-battle-back-to-supreme-court/",
     "https://nautil.us/do-we-think-in-pictures-words-or-code-1286476/",
     "https://www.polygon.com/the-odyssey-christopher-nolan-home-release-date/",
-    "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/"
+    "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/",
+    "https://www.eurogamer.net/arc-raiders-ai-voice-acting-would-go-crazy",
+    "https://longreads.com/2026/10/30/wellness-bpc-157-pedtides-fda/",
+    "https://www.scotusblog.com/2026/11/court-to-consider-the-reach-of-article-iii-courts-in-immigration-contract-dispute/",
+    "https://www.wired.com/story/we-have-to-take-over-far-right-extremists-want-to-seize-control-of-the-gop/"
   ],
   "categoryLog": [
     "law",
-    "law",
     "gaming",
     "tech",
     "gaming",
@@ -66,7 +65,8 @@
     "law",
     "fun",
     "tech",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }
