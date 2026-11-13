@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.polygon.com/sci-fi-films-streaming-free-november-5-2026/",
-    "https://www.newyorker.com/books/this-week-in-fiction/tea-obreht-11-09-2026",
-    "https://www.scotusblog.com/2026/11/-court-leans-toward-narrow-ruling-on-inmates-use-of-habeas-for-accelerated-transfer-to-a-halfway/",
-    "https://www.polygon.com/zelda-ocarina-of-time-happy-mask-shop-spooky-skull-bunny-hood/",
     "https://www.newyorker.com/magazine/2026/11/16/the-heart-theatre-review-broadway-i-became-we",
     "https://www.wired.com/story/altra-promo-code/",
     "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
@@ -50,10 +46,13 @@
     "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
     "https://reason.com/volokh/2026/11/08/impeach-pete-hegseth/",
     "https://www.pcgamer.com/hardware/handheld-gaming-pcs/microsofts-own-upscaler-and-alternative-to-fsr-just-landed-on-xbox-ally-x-handhelds-actually-uses-an-npu-for-something-useful/",
-    "https://nautil.us/the-what-and-when-of-longevity-dieting-1286564/"
+    "https://nautil.us/the-what-and-when-of-longevity-dieting-1286564/",
+    "https://www.newyorker.com/magazine/2026/11/16/john-cusack-goes-graphic",
+    "https://www.pcgamer.com/hardware/who-is-colette-kress-nvidias-new-interim-ceo/",
+    "https://www.scotusblog.com/2026/11/justices-dubious-of-fee-award-in-eminent-domain-dispute-about-interstate-pipeline/",
+    "https://www.wired.com/story/acer-promo-code/"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "gaming",
     "fun",
@@ -66,7 +65,8 @@
     "tech",
     "law",
     "gaming",
-    "tech"
+    "tech",
+    "fun"
   ],
   "failures": {}
 }
