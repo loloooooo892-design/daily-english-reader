@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/magazine/2026/11/16/the-heart-theatre-review-broadway-i-became-we",
-    "https://www.wired.com/story/altra-promo-code/",
-    "https://harvardlawreview.org/print/vol-139/introduction-to-keep-government-generally-within-the-bounds-of-law/",
-    "https://nautil.us/a-neuropsychologist-explains-the-importance-of-exercise-in-fighting-dementia-1286369/",
     "https://www.pcgamer.com/games/rpg/david-gaider-has-been-working-on-owlcats-expanse-rpg-the-expanse-has-long-been-one-of-my-favourite-series-and-so-obviously-i-jumped-at-the-opportunity-to-be-involved/",
     "https://reason.com/volokh/2026/11/03/choosin-texas-i-can-tell/",
     "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/",
@@ -50,10 +46,13 @@
     "https://www.newyorker.com/magazine/2026/11/16/john-cusack-goes-graphic",
     "https://www.pcgamer.com/hardware/who-is-colette-kress-nvidias-new-interim-ceo/",
     "https://www.scotusblog.com/2026/11/justices-dubious-of-fee-award-in-eminent-domain-dispute-about-interstate-pipeline/",
-    "https://www.wired.com/story/acer-promo-code/"
+    "https://www.wired.com/story/acer-promo-code/",
+    "https://www.newyorker.com/books/what-were-reading/intimate-books-about-self-analysis-and-spirituality",
+    "https://www.scotusblog.com/2026/11/justices-see-immigration-contract-dispute-as-raising-the-possibility-of-major-limits-on-administ/",
+    "https://www.eurogamer.net/world-of-warcraft-forever-launch-smooth",
+    "https://www.wired.com/story/the-polar-vortex-is-about-to-make-weather-weird-from-the-uk-to-the-us/"
   ],
   "categoryLog": [
-    "tech",
     "gaming",
     "fun",
     "law",
@@ -66,6 +65,7 @@
     "law",
     "gaming",
     "tech",
+    "fun",
     "fun"
   ],
   "failures": {}
