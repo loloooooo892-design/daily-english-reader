@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dear Age-Gap Expert — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>623 words</span>
+    <span class="sep">·</span>
+    <span>4 min read</span>
+  </div>
+
+  <h1>Dear Age-Gap Expert</h1>
+
+  <article class="article-body">
+    <p>Dear Age-Gap Expert,</p><p>I’m twenty-six, but I’m dating a veteran of the American Civil War. My boyfriend served in the U.S. Navy’s North Atlantic Blockading Squadron, under the Union commander John Rodgers. Whenever I go out dancing, my boyfriend stays home because he’s “too tired.” Is this something I should just expect of dating an older man?</p><p>Thanks,Civil Disagreement</p><p>Dear Civil Disagreement,</p><p>It’s common for energy levels to decline as people age. Additionally, the American Civil War was particularly exhausting. It’s not surprising that your boyfriend may feel some lingering fatigue. Relationships, however, are about give-and-take. Try alternating Saturday-night activities—that way, you both get to do what you love with the person you love. One week, go to the club; the next, spend some quality time picking maggots out of your boyfriend’s hardtack.</p><p>Best,Age-Gap Expert</p><p>Dear Age-Gap Expert,</p><p>If you’d told me a year ago that I’d be in a committed relationship with a Han Dynasty pig breeder, I would’ve laughed in your face. I knew a guy in college who dated older, but I always figured that he must’ve had a complicated relationship with his father. (Unrelated: my father is a Han Dynasty pig breeder, and we don’t talk.) Now that I’m the one dating an older man, I’m worried that people will think I have “daddy issues.”</p><p>Sincerely,Son of Ham</p><p>Dear Son of Ham,</p><p>Unfortunately, without more information, I can’t determine whether your relationship is Oedipal in nature. There’s no obvious connection between your relationship with your father and your relationship with your boyfriend, aside from their shared age, ancestry, and occupation. But why not refocus your concerns, and examine your preoccupation with what other people think?</p><p>As the son of a Han Dynasty pig breeder, you were raised in great comfort, thanks to your father’s high social status and his abundance of pigs. Compared with the petty shopkeeper or the itinerant trader, you are practically a member of the scholarly gentry. Growing up amid opulence may have jaded you, but I hope it has not distorted your self-worth. My recommendation is simple: Remember your origins. Take comfort in knowing that whoever dares judge you probably has, at best, only one or two pigs.</p><p>Best,Age-Gap Expert</p><p>Dear Age-Gap Expert,</p><p>My girlfriend is from the Bronze Age. I can tell that this makes my parents uncomfortable. How do I prove that my girlfriend loves me for who I am, and not just for my access to, and basic knowledge of, more complex metals?</p><p>Thanks,Going for Bronze</p><p>Dear Going for Bronze,</p><p>Every parent wants to see their child loved for who they really are. And it sounds like your girlfriend wants to be with you not <em>only</em> because of your access to the natural-iron–nickel-alloy meteoric iron but also because of your personality and shared interests. When your parents are around, try to emphasize the things that you and your girlfriend have in common: the use of basic writing systems, for instance.</p><p>Best,Age-Gap Expert</p><p>Dear Age-Gap Expert,</p><p>My boyfriend is eight million years old, and I’m only twenty-three. What should I get him for our anniversary?</p><p>Sincerely,Miocene Mania</p><p>Dear Miocene Mania,</p><p>Your boyfriend has lived through all of human civilization (and then some!). This means that he’s received enough thoughtful cards, vintage tie clips, and couples massages to last a lifetime. Try getting out of your comfort zone and giving him an experience that might remind him of his wayward youth. This could mean closing the Strait of Gibraltar, or subtly increasing the over-all atmospheric carbon dioxide from the modern four hundred and forty parts per million to his more familiar Miocene level of six-fifty. As everyone knows, a high concentration of carbon dioxide is the key to a man’s heart.</p><p>Best,Age-Gap Expert ♦</p>
+  </article>
+
+  <footer class="footer">
+    <span>Saturday, November 14, 2026</span>
+    <a href="https://www.newyorker.com/humor/shouts-murmurs/dear-age-gap-expert" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
