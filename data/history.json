@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.scotusblog.com/2026/11/justices-grapple-with-how-to-apply-pretrial-procedure-rules-in-improper-firing-dispute/",
-    "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
-    "https://www.newyorker.com/humor/shouts-murmurs/life-as-a-dc-insider-as-imagined-by-a-dc-outsider",
-    "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
     "https://www.newyorker.com/books/what-were-reading/three-novels-that-stuck-with-chad-harbach",
     "https://reason.com/volokh/2026/11/04/fifth-circuit-on-pseudonymity-of-libel-defendant-who-claims-she-was-sexually-assaulted/",
     "https://www.eurogamer.net/what-weve-been-playing-vice-city-zelda-world-of-warcraft-forever",
@@ -50,10 +46,13 @@
     "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
     "https://reason.com/volokh/2026/11/12/if-you-commit-a-crime-with-a-gun-you-might-not-want-to-use-a-purple-gun-with-a-blue-laser-sight/",
     "https://www.eurogamer.net/queens-domain-now-playing",
-    "https://www.newyorker.com/culture/the-new-yorker-documentary/after-the-war-they-turned-the-cameras-on-themselves-in-allies-in-exile"
+    "https://www.newyorker.com/culture/the-new-yorker-documentary/after-the-war-they-turned-the-cameras-on-themselves-in-allies-in-exile",
+    "https://reason.com/volokh/2026/11/11/why-not-seek-the-win-win/",
+    "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/",
+    "https://www.wired.com/story/adidas-promo-code/",
+    "https://www.newyorker.com/humor/shouts-murmurs/my-coffee-with-billy-evans"
   ],
   "categoryLog": [
-    "law",
     "gaming",
     "tech",
     "law",
@@ -66,7 +65,8 @@
     "fun",
     "fun",
     "tech",
-    "tech"
+    "tech",
+    "law"
   ],
   "failures": {}
 }
