@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.wired.com/story/wired-world-fair-2026-ben-collins-the-onion/",
-    "https://www.rockpapershotgun.com/the-elder-scrolls-6-sentinel-teaser-all-but-confirms-hammerfell-setting-and-means-we-can-finally-stop-using-that-eight-year-old-header-image-with-the-hills",
-    "https://longreads.com/2026/10/27/anderson-speedway-indianas-data-centers/",
-    "https://reason.com/volokh/2026/11/07/arkansas-bar-official-allegedly-transferred-points-from-some-bar-examinees-to-others/",
     "https://www.eurogamer.net/tenebris-somnia-horror-game-fmv-live-action-faith",
     "https://www.wired.com/story/can-a-radar-equipped-ac-actually-cut-your-power-bill/",
     "https://www.newyorker.com/culture/critics-notebook/wicker-and-what-straight-women-want",
@@ -50,10 +46,13 @@
     "https://www.eurogamer.net/mass-effect-5-save-cost-200m-bioware-co-founder-trent-oster",
     "https://www.newyorker.com/culture/photo-booth/living-in-normaltown-and-feeling-anything-but",
     "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-    "https://reason.com/volokh/2026/11/10/school-districts-negligence-and-nuisance-claims-against-social-media-companies-rejected-by-california-court-of-appeal/"
+    "https://reason.com/volokh/2026/11/10/school-districts-negligence-and-nuisance-claims-against-social-media-companies-rejected-by-california-court-of-appeal/",
+    "https://www.newyorker.com/culture/the-lede/the-afterlife-of-dianas-revenge-dress",
+    "https://www.scotusblog.com/2026/11/justices-consider-when-a-constitutional-rule-is-previously-unavailable-to-prisoner/",
+    "https://www.eurogamer.net/what-weve-been-playing-sass-all-over-town-link-ocarina",
+    "https://www.wired.com/story/canon-promo-code/"
   ],
   "categoryLog": [
-    "tech",
     "law",
     "law",
     "fun",
@@ -66,7 +65,8 @@
     "tech",
     "tech",
     "law",
-    "gaming"
+    "gaming",
+    "fun"
   ],
   "failures": {}
 }
