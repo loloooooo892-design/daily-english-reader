@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://www.newyorker.com/books/what-were-reading/three-novels-that-stuck-with-chad-harbach",
-    "https://reason.com/volokh/2026/11/04/fifth-circuit-on-pseudonymity-of-libel-defendant-who-claims-she-was-sexually-assaulted/",
-    "https://www.eurogamer.net/what-weve-been-playing-vice-city-zelda-world-of-warcraft-forever",
-    "https://www.scotusblog.com/2026/11/justices-consider-when-a-constitutional-rule-is-previously-unavailable-to-prisoner/",
     "https://www.wired.com/story/wired-world-fair-2026-ben-collins-the-onion/",
     "https://www.rockpapershotgun.com/the-elder-scrolls-6-sentinel-teaser-all-but-confirms-hammerfell-setting-and-means-we-can-finally-stop-using-that-eight-year-old-header-image-with-the-hills",
     "https://longreads.com/2026/10/27/anderson-speedway-indianas-data-centers/",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/11/11/why-not-seek-the-win-win/",
     "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/",
     "https://www.wired.com/story/adidas-promo-code/",
-    "https://www.newyorker.com/humor/shouts-murmurs/my-coffee-with-billy-evans"
+    "https://www.newyorker.com/humor/shouts-murmurs/my-coffee-with-billy-evans",
+    "https://www.eurogamer.net/mass-effect-5-save-cost-200m-bioware-co-founder-trent-oster",
+    "https://www.newyorker.com/culture/photo-booth/living-in-normaltown-and-feeling-anything-but",
+    "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+    "https://reason.com/volokh/2026/11/10/school-districts-negligence-and-nuisance-claims-against-social-media-companies-rejected-by-california-court-of-appeal/"
   ],
   "categoryLog": [
-    "gaming",
     "tech",
     "law",
     "law",
@@ -66,7 +65,8 @@
     "fun",
     "tech",
     "tech",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }

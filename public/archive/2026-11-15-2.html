@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Living in Normaltown and Feeling Anything But — Daily Reader</title>
+<style>
+:root {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #191C22;
+    --text: #CDD1DA;
+    --text-secondary: #8890A0;
+    --text-faint: #555D6E;
+    --accent: #7BA0D0;
+    --accent-light: #252D3A;
+    --border: #2A2F3A;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #191C22;
+  --text: #CDD1DA;
+  --text-secondary: #8890A0;
+  --text-faint: #555D6E;
+  --accent: #7BA0D0;
+  --accent-light: #252D3A;
+  --border: #2A2F3A;
+}
+
+:root[data-theme="light"] {
+  --bg: #F7F8FA;
+  --text: #2B2F38;
+  --text-secondary: #7E8594;
+  --text-faint: #A3A9B5;
+  --accent: #4B6B9A;
+  --accent-light: #E8EDF4;
+  --border: #E2E5EB;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+.meta .sep { margin: 0 0.4em; color: var(--text-faint); }
+
+.category-tag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 0.15em 0.55em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text);
+}
+
+.article-body p { margin-bottom: 1.25em; }
+.article-body h2, .article-body h3, .article-body h4 { font-weight: 700; line-height: 1.35; margin: 2em 0 0.75em; }
+.article-body h2 { font-size: 1.375rem; }
+.article-body h3 { font-size: 1.175rem; }
+.article-body h4 { font-size: 1.05rem; }
+.article-body blockquote { border-left: 3px solid var(--border); padding-left: 1.25em; margin: 1.5em 0; color: var(--text-secondary); font-style: italic; }
+.article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+.article-body li { margin-bottom: 0.4em; }
+.article-body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article-body a:hover { text-decoration-thickness: 2px; }
+.article-body em { font-style: italic; }
+.article-body strong { font-weight: 700; }
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+.archive-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.archive-link a { color: var(--accent); text-decoration: none; }
+.archive-link a:hover { text-decoration: underline; }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; }
+  .container { padding: 2rem 0 3rem; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="meta">
+    <span class="category-tag">Interesting Reads</span>
+    <span>The New Yorker</span>
+    <span class="sep">·</span><span>@NewYorker</span>
+    <span class="sep">·</span>
+    <span>879 words</span>
+    <span class="sep">·</span>
+    <span>5 min read</span>
+  </div>
+
+  <h1>Living in Normaltown and Feeling Anything But</h1>
+
+  <article class="article-body">
+    <p>The photographer Tim Davis spent his early childhood, in the nineteen-seventies, in a bohemian community in Saratoga Springs, New York. “You could go into a giant Victorian mansion with no running water, and there were hippies and their kids living in there and welding a statue of a giant pterodactyl inside,” he recalled recently when I sat down with him in his studio, in upstate New York. His parents were beatniks who’d served in the Peace Corps, and the family had previously lived in Malawi and, briefly, in a hippie commune in Oregon. Then, when Davis was seven, his parents split up, and his mother took him and his younger sister south, to the unfamiliar city of Athens, Georgia, leaving their father behind. Davis recalls the period as “full of personal pain and tragedy.” Ironically, he found himself living in a neighborhood called Normaltown.</p><p>The town’s name serves as the title of Davis’s <a href="https://falllinepress.com/products/normaltown-by-tim-davis" target="_blank" rel="noopener">newest book</a>, which collects pictures taken in Normaltown and elsewhere in Georgia between 2019 and 2024. (He had not been back since his family left, in 1980.) In the course of a twenty-five-year career, Davis has never approached his work so autobiographically. “It was never about my inner world,” he told me. “It was always about what was out there, and ideas.” Indeed, with the exception of a few seminal projects—including “<a href="https://www.amazon.com/Permanent-Collection-Tim-Davis/dp/1590051300" target="_blank" rel="noopener">Permanent Collection</a>,” in which sections of the glossy surfaces of old paintings are obliterated by reflected light, and “<a href="https://www.ohthattimdavis.com/retail" target="_blank" rel="noopener">Retail</a>,” a group of nighttime pictures that show corporate signage reflected in the windows of suburban houses and apartment blocks—Davis has always been part of the peripatetic breed of picture-makers who find inspiration simply by walking out the door with a camera, and seeing what happens. “The best day in my life,” he told me, “is a day when I can photograph all day, from the second I wake up.”</p><p>For the Normaltown project, Davis didn’t jettison his exploratory shooting style, which he compares to “foraging.” In 2017, he switched from a cumbersome four-by-five-inch view camera to a more nimble digital 35-mm., and if anything he has become more freewheeling. (Sometimes this can be to his disadvantage—the book, which runs to nearly two hundred images, might have benefitted from a harsher editor’s hand.) But whereas comparable recent work, such as Davis’s 2021 <a href="https://www.amazon.com/dp/1597114987" target="_blank" rel="noopener">book</a> of pictures from Los Angeles, had a surreal, cinematic, gee-whiz quality, the pictures in “Normaltown” are more sombre, lonesome, even haunted. In one image, the rusted-out body of a car hangs miraculously from the top branches of a leafless tree, as if Davis had arrived in the aftermath of a Biblical deluge. In another, a jellyfish-like blob of melted ice cream leaks onto the sidewalk in the raking light of sunset. A row of uniformed boys stands on a baseball field, their shadows stretching long across the turf like the tines of a pitchfork. That picture is taken from the high-bleachers vantage of an outsider, a sort of camera-wielding ghost.</p><p>By many metrics, Davis didn’t have it too hard in Normaltown. His family was poor, but they had a semblance of a support system. He got his first camera—a Mickey Mouse Instamatic—on a post-divorce trip to Disney World that was facilitated by some friends of his mother’s who worked in the park. In school Davis was well-liked, a class clown, though he noted when we talked that his humor, like his camera, was a sly way to engage with people while keeping his distance. Some of this reticence stemmed from his disconnect with the people of Normaltown, who seemed trapped inside what he described as a “cartilage of politeness,” which he experienced as a kind of acute culture shock. He and his family were, in his memory, the only Jewish people for miles. He was never, in his memory, the target of antisemitism, but in other ways Normaltown was where he first met America proper, in all of its troubled contradictions. He had little awareness of racism, for instance, before the move. In Normaltown, he began noticing that Black people’s world “was different from mine (just as I was feeling differently).” His pictures favor a kind of ramshackle egalitarianism, in which all of his subjects, both Black and white, are forced to make the best of their relatively bleak surroundings.</p><p>Here and there, moments of connection and compassion sneak through Davis’s photos: a doting mother smiles at her stunned-looking baby as his drool runs in twin rivulets over her arm; a boy hoists a girl into his arms and gazes into her eyes with goofy glee. You can’t help but feel that some of the children pictured might be stand-ins for Davis himself, or for some fantasy of a life he did not live: a kid with a splinter in his palm captured as his father gently plucks it from his flesh; a boy on a miniature motorbike posted up beside a church, his face tilted skyward as if he were awaiting a revelation. Like many outsider observers of America before him—<a href="https://www.newyorker.com/culture/photo-booth/the-shock-of-robert-franks-the-americans" target="_blank" rel="noopener">Robert Frank</a>, for example—Davis simultaneously captures the American everyday and bends it around the poetic armature of his inner life. His pictures are documents not only of his own childhood struggle but of our collective disquiet.</p>
+  </article>
+
+  <footer class="footer">
+    <span>Sunday, November 15, 2026</span>
+    <a href="https://www.newyorker.com/culture/photo-booth/living-in-normaltown-and-feeling-anything-but" target="_blank" rel="noopener">Read original ↗</a>
+  </footer>
+
+  <div class="archive-link">
+    <a href="../archive.html">Archive</a>
+  </div>
+</main>
+</body>
+</html>
