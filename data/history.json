@@ -1,9 +1,5 @@
 {
   "recent": [
-    "https://reason.com/volokh/2026/11/10/disability-discrimination-and-allegations-of-ai-use-in-students-university-of-michigan-course-papers/",
-    "https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/",
-    "https://www.newyorker.com/magazine/2026/11/16/josh-homme-likes-to-satan",
-    "https://www.scotusblog.com/2026/11/trump-administration-brings-white-house-ballroom-battle-back-to-supreme-court/",
     "https://nautil.us/do-we-think-in-pictures-words-or-code-1286476/",
     "https://www.polygon.com/the-odyssey-christopher-nolan-home-release-date/",
     "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/",
@@ -50,10 +46,13 @@
     "https://reason.com/volokh/2026/11/13/short-circuit-an-inexhaustive-weekly-compendium-of-rulings-from-the-federal-courts-of-appeal-84/",
     "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
     "https://www.rockpapershotgun.com/its-a-brave-new-world-gta-6s-pc-port-will-release-sooner-than-you-think-to-avoid-losing-money-to-ai-rip-offs-says-former-rockstar-tech-director",
-    "https://www.newyorker.com/culture/infinite-scroll/the-writers-trying-to-make-news-on-youtube"
+    "https://www.newyorker.com/culture/infinite-scroll/the-writers-trying-to-make-news-on-youtube",
+    "https://www.rockpapershotgun.com/wolfenstein-3-and-new-id-software-game-confirmed-as-xbox-boss-somehow-unrelatedly-shouts-about-one-person-soon-wieldling-capabilities-that-once-required-entire-nations",
+    "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+    "https://www.scotusblog.com/2026/11/tribal-property-and-the-supreme-court/",
+    "https://longreads.com/2026/11/05/the-parakeets-london-invasive-species/"
   ],
   "categoryLog": [
-    "fun",
     "tech",
     "law",
     "gaming",
@@ -66,7 +65,8 @@
     "gaming",
     "fun",
     "fun",
-    "law"
+    "law",
+    "gaming"
   ],
   "failures": {}
 }
